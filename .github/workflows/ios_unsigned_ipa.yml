@@ -1,46 +1,43 @@
-name: iOS Unsigned IPA Build
+name: Build iOS IPA
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-  workflow_dispatch:
+    branches: [ main, master ]
+  workflow_dispatch: # Memungkinkan trigger build secara manual dari tab Actions GitHub
 
 jobs:
-  build-unsigned-ipa:
+  build-ios:
+    name: Build iOS App
     runs-on: macos-latest
 
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-      - name: Set up Flutter
-        uses: subosito/flutter-action@v2
-        with:
-          flutter-version: '3.22.x'
-          channel: 'stable'
+      - name: Clone Flutter SDK
+        run: |
+          git clone https://github.com/flutter/flutter.git -b stable --depth 1
+          echo "$GITHUB_WORKSPACE/flutter/bin" >> $GITHUB_PATH
 
-      - name: Get Dependencies
+      - name: Install Dependencies
         run: |
           cd flutter_app
           flutter pub get
 
-      - name: Build Unsigned iOS App Bundle
+      - name: Build Release iOS App (No Codesign)
         run: |
           cd flutter_app
-          flutter build ios --release --no-codesign
+          flutter build ios --no-codesign --release
 
-      - name: Package App into Unsigned IPA
+      - name: Package into IPA (Unsigned)
         run: |
           cd flutter_app
-          mkdir -p build/ios/iphoneos/Payload
-          cp -r build/ios/iphoneos/Runner.app build/ios/iphoneos/Payload/
-          cd build/ios/iphoneos
-          zip -r MusicStemStudio_unsigned.ipa Payload
+          mkdir -p Payload
+          mv build/ios/iphoneos/Runner.app Payload/
+          zip -r MusicStemStudio.ipa Payload
 
-      - name: Upload Unsigned IPA Artifact
-        uses: actions/upload-artifact@v3
+      - name: Upload IPA Artifact
+        uses: actions/upload-artifact@v4
         with:
-          name: MusicStemStudio_unsigned_ipa
-          path: flutter_app/build/ios/iphoneos/MusicStemStudio_unsigned.ipa
+          name: music-stem-studio-ios-ipa
+          path: flutter_app/MusicStemStudio.ipa
