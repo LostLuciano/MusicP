@@ -1,0 +1,1301 @@
+{
+    "match": true,
+    "version": "1.0.0_rc9",
+    "language": "english",
+    "aligned": false,
+    "transcript": [
+        {
+            "start": 0,
+            "end": 11.76,
+            "noSpeechProb": 0.25317383,
+            "words": [
+                {
+                    "end": 0.62,
+                    "text": "Let ",
+                    "probability": 0.19128418,
+                    "start": 0
+                },
+                {
+                    "end": 0.92,
+                    "text": "them ",
+                    "probability": 0.4399414,
+                    "start": 0.62
+                },
+                {
+                    "end": 2.14,
+                    "text": "know, ",
+                    "probability": 0.7348633,
+                    "start": 0.92
+                },
+                {
+                    "end": 4.5,
+                    "text": "let ",
+                    "probability": 0.75634766,
+                    "start": 3.94
+                },
+                {
+                    "end": 4.76,
+                    "text": "them ",
+                    "probability": 0.7290039,
+                    "start": 4.5
+                },
+                {
+                    "end": 6.5,
+                    "text": "know, ",
+                    "probability": 0.7910156,
+                    "start": 4.76
+                },
+                {
+                    "end": 7.26,
+                    "text": "shawty ",
+                    "probability": 0.49442545,
+                    "start": 6.8
+                },
+                {
+                    "end": 7.62,
+                    "text": "from ",
+                    "probability": 0.77197266,
+                    "start": 7.26
+                },
+                {
+                    "end": 7.84,
+                    "text": "the ",
+                    "probability": 0.81640625,
+                    "start": 7.62
+                },
+                {
+                    "end": 9.68,
+                    "text": "rooftops, ",
+                    "probability": 0.6982422,
+                    "start": 7.84
+                },
+                {
+                    "end": 10.3,
+                    "text": "they ",
+                    "probability": 0.6333008,
+                    "start": 9.94
+                },
+                {
+                    "end": 10.6,
+                    "text": "must ",
+                    "probability": 0.8144531,
+                    "start": 10.3
+                },
+                {
+                    "end": 11.76,
+                    "text": "know",
+                    "probability": 0.7885742,
+                    "start": 10.6
+                }
+            ],
+            "text": "Let them know, let them know, shawty from the rooftops, they must know",
+            "avgLogProb": -0.44419643
+        },
+        {
+            "start": 11.76,
+            "end": 22.4,
+            "noSpeechProb": 0.25317383,
+            "words": [
+                {
+                    "end": 13.7,
+                    "text": "Let ",
+                    "probability": 0.2010498,
+                    "start": 11.76
+                },
+                {
+                    "end": 17.45,
+                    "text": "them ",
+                    "probability": 0.70410156,
+                    "start": 16.97
+                },
+                {
+                    "end": 17.79,
+                    "text": "know ",
+                    "probability": 0.8208008,
+                    "start": 17.45
+                },
+                {
+                    "end": 18.18,
+                    "text": "of ",
+                    "probability": 0.86621094,
+                    "start": 17.79
+                },
+                {
+                    "end": 18.43,
+                    "text": "the ",
+                    "probability": 0.82128906,
+                    "start": 18.18
+                },
+                {
+                    "end": 18.81,
+                    "text": "week ",
+                    "probability": 0.46704102,
+                    "start": 18.43
+                },
+                {
+                    "end": 19.16,
+                    "text": "and ",
+                    "probability": 0.8696289,
+                    "start": 18.81
+                },
+                {
+                    "end": 19.47,
+                    "text": "the ",
+                    "probability": 0.80859375,
+                    "start": 19.16
+                },
+                {
+                    "end": 19.88,
+                    "text": "weather, ",
+                    "probability": 0.8354492,
+                    "start": 19.47
+                },
+                {
+                    "end": 21.06,
+                    "text": "let ",
+                    "probability": 0.8183594,
+                    "start": 20.45
+                },
+                {
+                    "end": 21.32,
+                    "text": "them ",
+                    "probability": 0.70751953,
+                    "start": 21.06
+                },
+                {
+                    "end": 22.4,
+                    "text": "know,",
+                    "probability": 0.7836914,
+                    "start": 21.32
+                }
+            ],
+            "text": "Let them know of the week and the weather, let them know,",
+            "avgLogProb": -0.44419643
+        },
+        {
+            "start": 22.51,
+            "end": 26.32,
+            "noSpeechProb": 0.25317383,
+            "words": [
+                {
+                    "end": 22.98,
+                    "text": "Let ",
+                    "probability": 0.7993164,
+                    "start": 22.51
+                },
+                {
+                    "end": 23.24,
+                    "text": "them ",
+                    "probability": 0.71875,
+                    "start": 22.98
+                },
+                {
+                    "end": 23.58,
+                    "text": "fly ",
+                    "probability": 0.85498047,
+                    "start": 23.24
+                },
+                {
+                    "end": 23.88,
+                    "text": "to ",
+                    "probability": 0.63134766,
+                    "start": 23.58
+                },
+                {
+                    "end": 24.26,
+                    "text": "the ",
+                    "probability": 0.81152344,
+                    "start": 23.88
+                },
+                {
+                    "end": 24.65,
+                    "text": "flight ",
+                    "probability": 0.7558594,
+                    "start": 24.26
+                },
+                {
+                    "end": 24.98,
+                    "text": "of ",
+                    "probability": 0.88964844,
+                    "start": 24.65
+                },
+                {
+                    "end": 25.24,
+                    "text": "the ",
+                    "probability": 0.7607422,
+                    "start": 24.98
+                },
+                {
+                    "end": 26.32,
+                    "text": "feathered",
+                    "probability": 0.61083984,
+                    "start": 25.24
+                }
+            ],
+            "text": "Let them fly to the flight of the feathered",
+            "avgLogProb": -0.44419643
+        },
+        {
+            "start": 26.32,
+            "end": 38.2,
+            "noSpeechProb": 0.15002441,
+            "words": [
+                {
+                    "end": 26.85,
+                    "text": "Let ",
+                    "probability": 0.25878906,
+                    "start": 26.32
+                },
+                {
+                    "end": 27.15,
+                    "text": "them ",
+                    "probability": 0.58447266,
+                    "start": 26.85
+                },
+                {
+                    "end": 27.92,
+                    "text": "know, ",
+                    "probability": 0.5654297,
+                    "start": 27.15
+                },
+                {
+                    "end": 30.58,
+                    "text": "let ",
+                    "probability": 0.37353516,
+                    "start": 30.24
+                },
+                {
+                    "end": 31.1,
+                    "text": "them ",
+                    "probability": 0.71875,
+                    "start": 30.58
+                },
+                {
+                    "end": 31.42,
+                    "text": "know ",
+                    "probability": 0.7446289,
+                    "start": 31.1
+                },
+                {
+                    "end": 31.8,
+                    "text": "of ",
+                    "probability": 0.64453125,
+                    "start": 31.42
+                },
+                {
+                    "end": 31.99,
+                    "text": "the ",
+                    "probability": 0.8071289,
+                    "start": 31.8
+                },
+                {
+                    "end": 32.62,
+                    "text": "beauty ",
+                    "probability": 0.74902344,
+                    "start": 31.99
+                },
+                {
+                    "end": 33.34,
+                    "text": "you ",
+                    "probability": 0.85498047,
+                    "start": 32.62
+                },
+                {
+                    "end": 33.9,
+                    "text": "can ",
+                    "probability": 0.8930664,
+                    "start": 33.34
+                },
+                {
+                    "end": 34.72,
+                    "text": "see, ",
+                    "probability": 0.8183594,
+                    "start": 33.9
+                },
+                {
+                    "end": 35.57,
+                    "text": "when ",
+                    "probability": 0.7294922,
+                    "start": 35.02
+                },
+                {
+                    "end": 35.89,
+                    "text": "your ",
+                    "probability": 0.7993164,
+                    "start": 35.57
+                },
+                {
+                    "end": 36.53,
+                    "text": "eyes ",
+                    "probability": 0.82128906,
+                    "start": 35.89
+                },
+                {
+                    "end": 36.96,
+                    "text": "are ",
+                    "probability": 0.87109375,
+                    "start": 36.53
+                },
+                {
+                    "end": 37.71,
+                    "text": "reborn ",
+                    "probability": 0.9741211,
+                    "start": 36.96
+                },
+                {
+                    "end": 38.2,
+                    "text": "green",
+                    "probability": 0.86035156,
+                    "start": 37.71
+                }
+            ],
+            "text": "Let them know, let them know of the beauty you can see, when your eyes are reborn green",
+            "avgLogProb": -0.22673233
+        },
+        {
+            "start": 38.2,
+            "end": 50.34,
+            "noSpeechProb": 0.15002441,
+            "words": [
+                {
+                    "end": 38.6,
+                    "text": "Let ",
+                    "probability": 0.095581055,
+                    "start": 38.2
+                },
+                {
+                    "end": 38.88,
+                    "text": "them ",
+                    "probability": 0.7167969,
+                    "start": 38.6
+                },
+                {
+                    "end": 39.21,
+                    "text": "know ",
+                    "probability": 0.8208008,
+                    "start": 38.88
+                },
+                {
+                    "end": 39.57,
+                    "text": "of ",
+                    "probability": 0.8588867,
+                    "start": 39.21
+                },
+                {
+                    "end": 39.88,
+                    "text": "the ",
+                    "probability": 0.7861328,
+                    "start": 39.57
+                },
+                {
+                    "end": 40.78,
+                    "text": "majesty, ",
+                    "probability": 0.7319336,
+                    "start": 39.88
+                },
+                {
+                    "end": 41.46,
+                    "text": "let ",
+                    "probability": 0.85839844,
+                    "start": 41.24
+                },
+                {
+                    "end": 41.72,
+                    "text": "them ",
+                    "probability": 0.7211914,
+                    "start": 41.46
+                },
+                {
+                    "end": 42.34,
+                    "text": "know, ",
+                    "probability": 0.8203125,
+                    "start": 41.72
+                },
+                {
+                    "end": 44.18,
+                    "text": "let ",
+                    "probability": 0.76171875,
+                    "start": 43.02
+                },
+                {
+                    "end": 46.66,
+                    "text": "them ",
+                    "probability": 0.7314453,
+                    "start": 46.38
+                },
+                {
+                    "end": 46.98,
+                    "text": "know ",
+                    "probability": 0.8256836,
+                    "start": 46.66
+                },
+                {
+                    "end": 47.38,
+                    "text": "of ",
+                    "probability": 0.82470703,
+                    "start": 46.98
+                },
+                {
+                    "end": 47.66,
+                    "text": "the ",
+                    "probability": 0.81347656,
+                    "start": 47.38
+                },
+                {
+                    "end": 48.3,
+                    "text": "mountains ",
+                    "probability": 0.8388672,
+                    "start": 47.66
+                },
+                {
+                    "end": 48.9,
+                    "text": "you ",
+                    "probability": 0.8847656,
+                    "start": 48.3
+                },
+                {
+                    "end": 49.48,
+                    "text": "have ",
+                    "probability": 0.8769531,
+                    "start": 48.9
+                },
+                {
+                    "end": 50.34,
+                    "text": "climbed",
+                    "probability": 0.91748047,
+                    "start": 49.48
+                }
+            ],
+            "text": "Let them know of the majesty, let them know, let them know of the mountains you have climbed",
+            "avgLogProb": -0.22673233
+        },
+        {
+            "start": 50.34,
+            "end": 58.38,
+            "noSpeechProb": 0.14257812,
+            "words": [
+                {
+                    "end": 51.1,
+                    "text": "And ",
+                    "probability": 0.08782959,
+                    "start": 50.34
+                },
+                {
+                    "end": 51.5,
+                    "text": "the ",
+                    "probability": 0.5654297,
+                    "start": 51.1
+                },
+                {
+                    "end": 52.04,
+                    "text": "roads ",
+                    "probability": 0.25146484,
+                    "start": 51.5
+                },
+                {
+                    "end": 52.4,
+                    "text": "you ",
+                    "probability": 0.8745117,
+                    "start": 52.04
+                },
+                {
+                    "end": 53,
+                    "text": "left ",
+                    "probability": 0.86083984,
+                    "start": 52.4
+                },
+                {
+                    "end": 53.56,
+                    "text": "behind, ",
+                    "probability": 0.8105469,
+                    "start": 53
+                },
+                {
+                    "end": 54.16,
+                    "text": "let ",
+                    "probability": 0.53222656,
+                    "start": 53.94
+                },
+                {
+                    "end": 54.46,
+                    "text": "them ",
+                    "probability": 0.7270508,
+                    "start": 54.16
+                },
+                {
+                    "end": 54.76,
+                    "text": "know ",
+                    "probability": 0.80078125,
+                    "start": 54.46
+                },
+                {
+                    "end": 55.12,
+                    "text": "with ",
+                    "probability": 0.2866211,
+                    "start": 54.76
+                },
+                {
+                    "end": 55.4,
+                    "text": "your ",
+                    "probability": 0.78271484,
+                    "start": 55.12
+                },
+                {
+                    "end": 55.8,
+                    "text": "arms ",
+                    "probability": 0.78515625,
+                    "start": 55.4
+                },
+                {
+                    "end": 56.18,
+                    "text": "open ",
+                    "probability": 0.8364258,
+                    "start": 55.8
+                },
+                {
+                    "end": 56.68,
+                    "text": "wide, ",
+                    "probability": 0.8408203,
+                    "start": 56.18
+                },
+                {
+                    "end": 57.04,
+                    "text": "let ",
+                    "probability": 0.88134766,
+                    "start": 56.68
+                },
+                {
+                    "end": 57.32,
+                    "text": "them ",
+                    "probability": 0.72802734,
+                    "start": 57.04
+                },
+                {
+                    "end": 58.38,
+                    "text": "know",
+                    "probability": 0.8120117,
+                    "start": 57.32
+                }
+            ],
+            "text": "And the roads you left behind, let them know with your arms open wide, let them know",
+            "avgLogProb": -0.27196345
+        },
+        {
+            "start": 58.38,
+            "end": 68.64,
+            "noSpeechProb": 0.14257812,
+            "words": [
+                {
+                    "text": "Let ",
+                    "probability": 0.25219727,
+                    "start": 58.38,
+                    "end": 59.64
+                },
+                {
+                    "text": "them ",
+                    "probability": 0.7236328,
+                    "start": 60.86,
+                    "end": 61.24
+                },
+                {
+                    "text": "know, ",
+                    "probability": 0.7836914,
+                    "start": 61.24,
+                    "end": 62.94
+                },
+                {
+                    "text": "shouting ",
+                    "probability": 0.5395508,
+                    "start": 63.26,
+                    "end": 63.6
+                },
+                {
+                    "text": "from ",
+                    "probability": 0.81396484,
+                    "start": 63.6,
+                    "end": 64.04
+                },
+                {
+                    "text": "the ",
+                    "probability": 0.78515625,
+                    "start": 64.04,
+                    "end": 64.3
+                },
+                {
+                    "text": "rooftops, ",
+                    "probability": 0.98339844,
+                    "start": 64.3,
+                    "end": 66.18
+                },
+                {
+                    "text": "they ",
+                    "probability": 0.68310547,
+                    "start": 66.42,
+                    "end": 66.76
+                },
+                {
+                    "text": "must ",
+                    "probability": 0.83935547,
+                    "start": 66.76,
+                    "end": 67.04
+                },
+                {
+                    "text": "know",
+                    "probability": 0.7817383,
+                    "start": 67.04,
+                    "end": 68.64
+                }
+            ],
+            "text": "Let them know, shouting from the rooftops, they must know",
+            "avgLogProb": -0.27196345
+        },
+        {
+            "start": 68.64,
+            "end": 81.18,
+            "noSpeechProb": 0.14257812,
+            "words": [
+                {
+                    "text": "Let ",
+                    "probability": 0.51220703,
+                    "start": 68.64,
+                    "end": 69.52
+                },
+                {
+                    "text": "them ",
+                    "probability": 0.68408203,
+                    "start": 69.52,
+                    "end": 70.48
+                },
+                {
+                    "text": "know, ",
+                    "probability": 0.8173828,
+                    "start": 70.48,
+                    "end": 71.6
+                },
+                {
+                    "text": "let ",
+                    "probability": 0.64160156,
+                    "start": 72.94,
+                    "end": 73.1
+                },
+                {
+                    "text": "them ",
+                    "probability": 0.7236328,
+                    "start": 73.1,
+                    "end": 77.66
+                },
+                {
+                    "text": "know ",
+                    "probability": 0.82421875,
+                    "start": 77.66,
+                    "end": 79.08
+                },
+                {
+                    "text": "of ",
+                    "probability": 0.20593262,
+                    "start": 79.08,
+                    "end": 79.42
+                },
+                {
+                    "text": "the ",
+                    "probability": 0.8076172,
+                    "start": 79.42,
+                    "end": 79.7
+                },
+                {
+                    "text": "secret, ",
+                    "probability": 0.7026367,
+                    "start": 79.7,
+                    "end": 80.18
+                },
+                {
+                    "text": "the ",
+                    "probability": 0.8051758,
+                    "start": 80.44,
+                    "end": 80.66
+                },
+                {
+                    "text": "secret",
+                    "probability": 0.796875,
+                    "start": 80.66,
+                    "end": 81.18
+                }
+            ],
+            "text": "Let them know, let them know of the secret, the secret",
+            "avgLogProb": -0.27196345
+        },
+        {
+            "start": 81.18,
+            "end": 89.6,
+            "noSpeechProb": 0.034362793,
+            "words": [
+                {
+                    "text": "Let ",
+                    "probability": 0.19189453,
+                    "start": 81.18,
+                    "end": 82.28
+                },
+                {
+                    "text": "them ",
+                    "probability": 0.4873047,
+                    "start": 82.28,
+                    "end": 82.58
+                },
+                {
+                    "text": "know, ",
+                    "probability": 0.7583008,
+                    "start": 82.58,
+                    "end": 83.16
+                },
+                {
+                    "text": "let ",
+                    "probability": 0.4194336,
+                    "start": 83.72,
+                    "end": 84.3
+                },
+                {
+                    "text": "the ",
+                    "probability": 0.34448242,
+                    "start": 84.3,
+                    "end": 84.48
+                },
+                {
+                    "text": "seeds ",
+                    "probability": 0.7001953,
+                    "start": 84.48,
+                    "end": 84.98
+                },
+                {
+                    "text": "of ",
+                    "probability": 0.8955078,
+                    "start": 84.98,
+                    "end": 85.28
+                },
+                {
+                    "text": "the ",
+                    "probability": 0.8076172,
+                    "start": 85.28,
+                    "end": 85.58
+                },
+                {
+                    "text": "future ",
+                    "probability": 0.9370117,
+                    "start": 85.58,
+                    "end": 86.08
+                },
+                {
+                    "text": "and ",
+                    "probability": 0.5996094,
+                    "start": 86.08,
+                    "end": 86.58
+                },
+                {
+                    "text": "rebed, ",
+                    "probability": 0.43322754,
+                    "start": 86.58,
+                    "end": 87.42
+                },
+                {
+                    "text": "let ",
+                    "probability": 0.80322266,
+                    "start": 87.6,
+                    "end": 88.16
+                },
+                {
+                    "text": "them ",
+                    "probability": 0.7265625,
+                    "start": 88.16,
+                    "end": 88.46
+                },
+                {
+                    "text": "grow",
+                    "probability": 0.72265625,
+                    "start": 88.46,
+                    "end": 89.6
+                }
+            ],
+            "text": "Let them know, let the seeds of the future and rebed, let them grow",
+            "avgLogProb": -0.24831493
+        },
+        {
+            "start": 89.6,
+            "end": 99.5,
+            "noSpeechProb": 0.034362793,
+            "words": [
+                {
+                    "text": "Let ",
+                    "probability": 0.15979004,
+                    "start": 89.6,
+                    "end": 91.9
+                },
+                {
+                    "text": "them ",
+                    "probability": 0.71533203,
+                    "start": 91.9,
+                    "end": 92.4
+                },
+                {
+                    "text": "know ",
+                    "probability": 0.81591797,
+                    "start": 92.4,
+                    "end": 92.72
+                },
+                {
+                    "text": "of ",
+                    "probability": 0.8183594,
+                    "start": 92.72,
+                    "end": 93.1
+                },
+                {
+                    "text": "the ",
+                    "probability": 0.8183594,
+                    "start": 93.1,
+                    "end": 93.34
+                },
+                {
+                    "text": "beauty ",
+                    "probability": 0.80615234,
+                    "start": 93.34,
+                    "end": 93.96
+                },
+                {
+                    "text": "you ",
+                    "probability": 0.859375,
+                    "start": 93.96,
+                    "end": 94.64
+                },
+                {
+                    "text": "can ",
+                    "probability": 0.8964844,
+                    "start": 94.64,
+                    "end": 95.2
+                },
+                {
+                    "text": "see, ",
+                    "probability": 0.8173828,
+                    "start": 95.2,
+                    "end": 95.88
+                },
+                {
+                    "text": "when ",
+                    "probability": 0.76464844,
+                    "start": 96.34,
+                    "end": 96.86
+                },
+                {
+                    "text": "your ",
+                    "probability": 0.79785156,
+                    "start": 96.86,
+                    "end": 97.2
+                },
+                {
+                    "text": "eyes ",
+                    "probability": 0.8232422,
+                    "start": 97.2,
+                    "end": 97.82
+                },
+                {
+                    "text": "are ",
+                    "probability": 0.87939453,
+                    "start": 97.82,
+                    "end": 98.28
+                },
+                {
+                    "text": "reborn ",
+                    "probability": 0.9472656,
+                    "start": 98.28,
+                    "end": 99.06
+                },
+                {
+                    "text": "green",
+                    "probability": 0.87402344,
+                    "start": 99.06,
+                    "end": 99.5
+                }
+            ],
+            "text": "Let them know of the beauty you can see, when your eyes are reborn green",
+            "avgLogProb": -0.24831493
+        },
+        {
+            "start": 99.5,
+            "end": 103.98,
+            "noSpeechProb": 0.034362793,
+            "words": [
+                {
+                    "end": 99.92,
+                    "text": "Let ",
+                    "probability": 0.5991211,
+                    "start": 99.5
+                },
+                {
+                    "end": 100.2,
+                    "text": "them ",
+                    "probability": 0.71875,
+                    "start": 99.92
+                },
+                {
+                    "end": 100.5,
+                    "text": "know ",
+                    "probability": 0.8208008,
+                    "start": 100.2
+                },
+                {
+                    "end": 100.86,
+                    "text": "of ",
+                    "probability": 0.87402344,
+                    "start": 100.5
+                },
+                {
+                    "end": 101.16,
+                    "text": "the ",
+                    "probability": 0.7993164,
+                    "start": 100.86
+                },
+                {
+                    "end": 102.1,
+                    "text": "majesty, ",
+                    "probability": 0.77490234,
+                    "start": 101.16
+                },
+                {
+                    "end": 102.76,
+                    "text": "let ",
+                    "probability": 0.859375,
+                    "start": 102.52
+                },
+                {
+                    "end": 103.02,
+                    "text": "them ",
+                    "probability": 0.7246094,
+                    "start": 102.76
+                },
+                {
+                    "end": 103.98,
+                    "text": "know",
+                    "probability": 0.8183594,
+                    "start": 103.02
+                }
+            ],
+            "text": "Let them know of the majesty, let them know",
+            "avgLogProb": -0.24831493
+        },
+        {
+            "start": 103.98,
+            "end": 115.02,
+            "noSpeechProb": 0.2541504,
+            "words": [
+                {
+                    "end": 105.04,
+                    "text": "Let ",
+                    "probability": 0.068359375,
+                    "start": 103.98
+                },
+                {
+                    "end": 106.02,
+                    "text": "them ",
+                    "probability": 0.6118164,
+                    "start": 105.62
+                },
+                {
+                    "end": 108.28,
+                    "text": "know ",
+                    "probability": 0.7680664,
+                    "start": 106.02
+                },
+                {
+                    "end": 108.66,
+                    "text": "of ",
+                    "probability": 0.29248047,
+                    "start": 108.28
+                },
+                {
+                    "end": 108.92,
+                    "text": "the ",
+                    "probability": 0.7939453,
+                    "start": 108.66
+                },
+                {
+                    "end": 109.64,
+                    "text": "mountains ",
+                    "probability": 0.7885742,
+                    "start": 108.92
+                },
+                {
+                    "end": 110.18,
+                    "text": "you ",
+                    "probability": 0.87158203,
+                    "start": 109.64
+                },
+                {
+                    "end": 110.76,
+                    "text": "have ",
+                    "probability": 0.87353516,
+                    "start": 110.18
+                },
+                {
+                    "end": 111.64,
+                    "text": "climbed, ",
+                    "probability": 0.8876953,
+                    "start": 110.76
+                },
+                {
+                    "end": 112.48,
+                    "text": "and ",
+                    "probability": 0.6508789,
+                    "start": 111.82
+                },
+                {
+                    "end": 112.86,
+                    "text": "the ",
+                    "probability": 0.80371094,
+                    "start": 112.48
+                },
+                {
+                    "end": 113.34,
+                    "text": "roads ",
+                    "probability": 0.48535156,
+                    "start": 112.86
+                },
+                {
+                    "end": 113.7,
+                    "text": "you ",
+                    "probability": 0.88183594,
+                    "start": 113.34
+                },
+                {
+                    "end": 114.3,
+                    "text": "left ",
+                    "probability": 0.7104492,
+                    "start": 113.7
+                },
+                {
+                    "end": 115.02,
+                    "text": "behind",
+                    "probability": 0.8779297,
+                    "start": 114.3
+                }
+            ],
+            "text": "Let them know of the mountains you have climbed, and the roads you left behind",
+            "avgLogProb": -0.2647059
+        },
+        {
+            "start": 115.02,
+            "end": 121.65,
+            "noSpeechProb": 0.2541504,
+            "words": [
+                {
+                    "start": 115.02,
+                    "end": 115.42,
+                    "text": "Let ",
+                    "probability": 0.110839844
+                },
+                {
+                    "start": 115.42,
+                    "end": 115.74,
+                    "text": "them ",
+                    "probability": 0.72998047
+                },
+                {
+                    "start": 115.74,
+                    "end": 116.1,
+                    "text": "know ",
+                    "probability": 0.80859375
+                },
+                {
+                    "start": 116.1,
+                    "end": 116.4,
+                    "text": "with ",
+                    "probability": 0.6855469
+                },
+                {
+                    "start": 116.4,
+                    "end": 116.68,
+                    "text": "your ",
+                    "probability": 0.7626953
+                },
+                {
+                    "start": 116.68,
+                    "end": 117.08,
+                    "text": "arms ",
+                    "probability": 0.78271484
+                },
+                {
+                    "start": 117.08,
+                    "end": 117.64,
+                    "text": "open ",
+                    "probability": 0.8027344
+                },
+                {
+                    "start": 117.64,
+                    "end": 118,
+                    "text": "wide, ",
+                    "probability": 0.8671875
+                },
+                {
+                    "start": 118.02,
+                    "end": 118.34,
+                    "text": "let ",
+                    "probability": 0.8334961
+                },
+                {
+                    "start": 118.34,
+                    "end": 118.62,
+                    "text": "them ",
+                    "probability": 0.72753906
+                },
+                {
+                    "start": 118.62,
+                    "end": 120.38,
+                    "text": "know",
+                    "probability": 0.81152344
+                }
+            ],
+            "text": "Let them know with your arms open wide, let them know",
+            "avgLogProb": -0.2647059
+        },
+        {
+            "start": 121.65,
+            "end": 144.74,
+            "noSpeechProb": 0.3100586,
+            "words": [
+                {
+                    "start": 121.65,
+                    "end": 122.23,
+                    "text": "Let ",
+                    "probability": 0.1418457
+                },
+                {
+                    "start": 122.23,
+                    "end": 122.53,
+                    "text": "them ",
+                    "probability": 0.7001953
+                },
+                {
+                    "start": 122.53,
+                    "end": 124.23,
+                    "text": "know, ",
+                    "probability": 0.7597656
+                },
+                {
+                    "start": 124.57,
+                    "end": 124.89,
+                    "text": "shouting ",
+                    "probability": 0.09039307
+                },
+                {
+                    "start": 124.89,
+                    "end": 125.33,
+                    "text": "from ",
+                    "probability": 0.8198242
+                },
+                {
+                    "start": 125.33,
+                    "end": 125.57,
+                    "text": "the ",
+                    "probability": 0.7885742
+                },
+                {
+                    "start": 125.57,
+                    "end": 127.51,
+                    "text": "rooftops, ",
+                    "probability": 0.9382324
+                },
+                {
+                    "start": 127.77,
+                    "end": 128.03,
+                    "text": "they ",
+                    "probability": 0.42749023
+                },
+                {
+                    "start": 128.03,
+                    "end": 128.33,
+                    "text": "must ",
+                    "probability": 0.81347656
+                },
+                {
+                    "start": 128.33,
+                    "end": 142.39,
+                    "text": "know",
+                    "probability": 0.83496094
+                }
+            ],
+            "text": "Let them know, shouting from the rooftops, they must know",
+            "avgLogProb": -0.35891545
+        },
+        {
+            "start": 144.74,
+            "end": 157.64,
+            "noSpeechProb": 0.48583984,
+            "words": [
+                {
+                    "start": 144.74,
+                    "end": 146.48,
+                    "text": "They ",
+                    "probability": 0.2310791
+                },
+                {
+                    "start": 147.18,
+                    "end": 147.52,
+                    "text": "must ",
+                    "probability": 0.6801758
+                },
+                {
+                    "start": 147.52,
+                    "end": 148.14,
+                    "text": "know, ",
+                    "probability": 0.765625
+                },
+                {
+                    "start": 149.92,
+                    "end": 150.34,
+                    "text": "they ",
+                    "probability": 0.61035156
+                },
+                {
+                    "start": 150.34,
+                    "end": 151.34,
+                    "text": "must ",
+                    "probability": 0.81347656
+                },
+                {
+                    "start": 151.34,
+                    "end": 152.18,
+                    "text": "know, ",
+                    "probability": 0.765625
+                },
+                {
+                    "start": 152.72,
+                    "end": 152.96,
+                    "text": "they ",
+                    "probability": 0.6982422
+                },
+                {
+                    "start": 152.96,
+                    "end": 153.38,
+                    "text": "must ",
+                    "probability": 0.82128906
+                },
+                {
+                    "start": 153.38,
+                    "end": 153.96,
+                    "text": "know, ",
+                    "probability": 0.72021484
+                },
+                {
+                    "start": 154.2,
+                    "end": 156.2,
+                    "text": "they ",
+                    "probability": 0.7060547
+                },
+                {
+                    "start": 156.2,
+                    "end": 157.64,
+                    "text": "must",
+                    "probability": 0.82910156
+                }
+            ],
+            "text": "They must know, they must know, they must know, they must",
+            "avgLogProb": -0.40349266
+        }
+    ]
+}

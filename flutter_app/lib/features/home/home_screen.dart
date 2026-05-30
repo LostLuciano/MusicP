@@ -7,6 +7,7 @@ import '../../state/project_controller.dart';
 import '../../services/audio_import_service.dart';
 import '../../models/audio_project.dart';
 import '../stem_mixer/stem_mixer_screen.dart';
+import '../stem_setup/stem_setup_screen.dart';
 import '../chord_viewer/chord_viewer_screen.dart';
 import '../beat_tempo/beat_tempo_screen.dart';
 import '../project_library/project_library_screen.dart';
@@ -51,6 +52,57 @@ class _HomeScreenState extends State<HomeScreen> {
         Navigator.push(
           context,
           MaterialPageRoute(
+            builder: (context) => const StemSetupScreen(),
+          ),
+        );
+      }
+    } catch (e) {
+      if (!context.mounted) return;
+      Navigator.pop(context); // close loader
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Gagal mengimpor file: $e')),
+      );
+    }
+  }
+
+  Future<void> _handleImportVideo(BuildContext context) async {
+    final controller = Provider.of<ProjectController>(context, listen: false);
+    final File? file = await AudioImportService().pickVideoFile();
+    if (!context.mounted) return;
+    if (file == null) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Batal memilih video.')),
+      );
+      return;
+    }
+
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (context) => const Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            CircularProgressIndicator(color: Color(0xFFFF8C37)),
+            SizedBox(height: 16),
+            Text(
+              'Mengekstrak audio dari video...',
+              style: TextStyle(color: Colors.white70, fontSize: 13),
+            ),
+          ],
+        ),
+      ),
+    );
+
+    try {
+      await controller.importVideoAsProject(file);
+      if (!context.mounted) return;
+      Navigator.pop(context); // close loader
+
+      if (controller.activeProject != null) {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
             builder: (context) => ProjectDetailScreen(
               title: controller.activeProject!.title,
             ),
@@ -61,7 +113,7 @@ class _HomeScreenState extends State<HomeScreen> {
       if (!context.mounted) return;
       Navigator.pop(context); // close loader
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Gagal mengimpor file: $e')),
+        SnackBar(content: Text('Gagal mengekstrak audio dari video: $e')),
       );
     }
   }
@@ -210,20 +262,46 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                     const SizedBox(height: 16),
-                    ElevatedButton.icon(
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: const Color(0xFFFF2E93),
-                        foregroundColor: Colors.white,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(12),
+                    Row(
+                      children: [
+                        Expanded(
+                          child: ElevatedButton.icon(
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: const Color(0xFFFF2E93),
+                              foregroundColor: Colors.white,
+                              padding: const EdgeInsets.symmetric(vertical: 12),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(12),
+                              ),
+                            ),
+                            onPressed: () => _handleImportAudio(context),
+                            icon: const Icon(Icons.audio_file_rounded, size: 15),
+                            label: const Text(
+                              'Import Audio',
+                              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 12),
+                            ),
+                          ),
                         ),
-                      ),
-                      onPressed: () => _handleImportAudio(context),
-                      icon: const Icon(Icons.upload_file_rounded, size: 16),
-                      label: const Text(
-                        'Import Audio',
-                        style: TextStyle(fontWeight: FontWeight.bold),
-                      ),
+                        const SizedBox(width: 10),
+                        Expanded(
+                          child: ElevatedButton.icon(
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: const Color(0xFFFF8C37),
+                              foregroundColor: Colors.white,
+                              padding: const EdgeInsets.symmetric(vertical: 12),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(12),
+                              ),
+                            ),
+                            onPressed: () => _handleImportVideo(context),
+                            icon: const Icon(Icons.video_file_rounded, size: 15),
+                            label: const Text(
+                              'Import Video',
+                              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 12),
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
                   ],
                 ),

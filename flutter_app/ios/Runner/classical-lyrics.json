@@ -1,0 +1,560 @@
+{
+    "version": "1.0.0_rc9",
+    "language": "latin",
+    "match": true,
+    "transcript": [
+        {
+            "start": 2.1,
+            "avgLogProb": -0.67089844,
+            "text": "Мне сердце пустое, хмельное,",
+            "words": [
+                {
+                    "text": "Мне ",
+                    "end": 2.68,
+                    "probability": 0.5498047,
+                    "start": 2.1
+                },
+                {
+                    "text": "сердце ",
+                    "end": 5.1,
+                    "probability": 0.4935913,
+                    "start": 2.68
+                },
+                {
+                    "text": "пустое, ",
+                    "end": 7.84,
+                    "probability": 0.7060547,
+                    "start": 5.1
+                },
+                {
+                    "text": "хмельное,",
+                    "end": 11.52,
+                    "probability": 0.70703125,
+                    "start": 7.94
+                }
+            ],
+            "end": 11.52,
+            "noSpeechProb": 0.018753052
+        },
+        {
+            "start": 12.86,
+            "avgLogProb": -0.67089844,
+            "text": "Шагни ви, где я мой фили?",
+            "words": [
+                {
+                    "text": "Шагни ",
+                    "end": 14.58,
+                    "probability": 0.555013,
+                    "start": 12.86
+                },
+                {
+                    "text": "ви, ",
+                    "end": 16,
+                    "probability": 0.45906577,
+                    "start": 15.3
+                },
+                {
+                    "text": "где ",
+                    "end": 16.84,
+                    "probability": 0.765625,
+                    "start": 16.3
+                },
+                {
+                    "text": "я ",
+                    "end": 18.84,
+                    "probability": 0.7446289,
+                    "start": 16.84
+                },
+                {
+                    "text": "мой ",
+                    "end": 21.54,
+                    "probability": 0.3786621,
+                    "start": 18.84
+                },
+                {
+                    "text": "фили?",
+                    "end": 23.04,
+                    "probability": 0.51867676,
+                    "start": 21.54
+                }
+            ],
+            "end": 23.04,
+            "noSpeechProb": 0.018753052
+        },
+        {
+            "start": 23.04,
+            "avgLogProb": -0.5666118,
+            "text": "Mně hladko moj, kvíli mi,",
+            "words": [
+                {
+                    "text": "Mně ",
+                    "end": 25.14,
+                    "probability": 0.2786255,
+                    "start": 23.04
+                },
+                {
+                    "text": "hladko ",
+                    "end": 27.82,
+                    "probability": 0.31856284,
+                    "start": 25.7
+                },
+                {
+                    "text": "moj, ",
+                    "end": 29.76,
+                    "probability": 0.33642578,
+                    "start": 27.82
+                },
+                {
+                    "text": "kvíli ",
+                    "end": 33.25,
+                    "probability": 0.4781494,
+                    "start": 29.96
+                },
+                {
+                    "text": "mi,",
+                    "end": 35.1,
+                    "probability": 0.62939453,
+                    "start": 33.25
+                }
+            ],
+            "end": 35.1,
+            "noSpeechProb": 0.9091797
+        },
+        {
+            "start": 36.12,
+            "avgLogProb": -0.5666118,
+            "text": "Šagni vi, šagni, kde je můj filí?",
+            "words": [
+                {
+                    "text": "Šagni ",
+                    "end": 37.83,
+                    "probability": 0.2736725,
+                    "start": 36.12
+                },
+                {
+                    "text": "vi, ",
+                    "end": 38.42,
+                    "probability": 0.06384277,
+                    "start": 37.83
+                },
+                {
+                    "text": "šagni, ",
+                    "end": 40.3,
+                    "probability": 0.9322917,
+                    "start": 38.98
+                },
+                {
+                    "text": "kde ",
+                    "end": 41.2,
+                    "probability": 0.7871094,
+                    "start": 40.83
+                },
+                {
+                    "text": "je ",
+                    "end": 41.72,
+                    "probability": 0.90722656,
+                    "start": 41.2
+                },
+                {
+                    "text": "můj ",
+                    "end": 44.64,
+                    "probability": 0.9267578,
+                    "start": 41.72
+                },
+                {
+                    "text": "filí?",
+                    "end": 46.62,
+                    "probability": 0.11176258,
+                    "start": 44.64
+                }
+            ],
+            "end": 46.62,
+            "noSpeechProb": 0.9091797
+        },
+        {
+            "start": 46.62,
+            "avgLogProb": -0.59586143,
+            "text": "Pěkný pustříkni mi měsíčku,",
+            "words": [
+                {
+                    "text": "Pěkný ",
+                    "end": 49.46,
+                    "probability": 0.38815308,
+                    "start": 46.62
+                },
+                {
+                    "text": "pustříkni ",
+                    "end": 57.66,
+                    "probability": 0.6113078,
+                    "start": 54.62
+                },
+                {
+                    "text": "mi ",
+                    "end": 58,
+                    "probability": 0.3046875,
+                    "start": 57.66
+                },
+                {
+                    "text": "měsíčku,",
+                    "end": 62.14,
+                    "probability": 0.9191081,
+                    "start": 58
+                }
+            ],
+            "end": 62.14,
+            "noSpeechProb": 0.6953125
+        },
+        {
+            "start": 63.72,
+            "avgLogProb": -0.59586143,
+            "text": "Beženěj objímá ráma,",
+            "words": [
+                {
+                    "text": "Beženěj ",
+                    "end": 66.18,
+                    "probability": 0.65134585,
+                    "start": 63.72
+                },
+                {
+                    "text": "objímá ",
+                    "end": 68.66,
+                    "probability": 0.40267944,
+                    "start": 66.18
+                },
+                {
+                    "text": "ráma,",
+                    "end": 72,
+                    "probability": 0.53670245,
+                    "start": 68.66
+                }
+            ],
+            "end": 74.66,
+            "noSpeechProb": 0.6953125
+        },
+        {
+            "start": 74.66,
+            "avgLogProb": -0.40201825,
+            "text": "Aby si aleskoň chvíličku",
+            "words": [
+                {
+                    "text": "Aby ",
+                    "end": 75.86,
+                    "probability": 0.602417,
+                    "start": 74.66
+                },
+                {
+                    "text": "si ",
+                    "end": 76.88,
+                    "probability": 0.7265625,
+                    "start": 75.86
+                },
+                {
+                    "text": "aleskoň ",
+                    "end": 79.42,
+                    "probability": 0.5279053,
+                    "start": 76.88
+                },
+                {
+                    "text": "chvíličku",
+                    "end": 83.54,
+                    "probability": 0.6753133,
+                    "start": 79.42
+                }
+            ],
+            "end": 83.54,
+            "noSpeechProb": 0.14465332
+        },
+        {
+            "start": 83.54,
+            "avgLogProb": -0.40201825,
+            "text": "Zpomenul mi snížka mne.",
+            "words": [
+                {
+                    "text": "Zpomenul ",
+                    "end": 87.9,
+                    "probability": 0.5478363,
+                    "start": 83.54
+                },
+                {
+                    "text": "mi ",
+                    "end": 90.02,
+                    "probability": 0.09649658,
+                    "start": 89.24
+                },
+                {
+                    "text": "snížka ",
+                    "end": 93.56,
+                    "probability": 0.17797089,
+                    "start": 90.02
+                },
+                {
+                    "text": "mne.",
+                    "end": 94.86,
+                    "probability": 0.7897949,
+                    "start": 93.56
+                }
+            ],
+            "end": 94.86,
+            "noSpeechProb": 0.14465332
+        },
+        {
+            "start": 98.59,
+            "avgLogProb": -0.40201825,
+            "text": "Aby si aleskoň chvíličku",
+            "words": [
+                {
+                    "text": "Aby ",
+                    "end": 99.95,
+                    "probability": 0.7817383,
+                    "start": 98.59
+                },
+                {
+                    "text": "si ",
+                    "end": 100.79,
+                    "probability": 0.9111328,
+                    "start": 99.95
+                },
+                {
+                    "text": "aleskoň ",
+                    "end": 103.39,
+                    "probability": 0.9121094,
+                    "start": 100.79
+                },
+                {
+                    "text": "chvíličku",
+                    "end": 107.29,
+                    "probability": 0.97298175,
+                    "start": 103.39
+                }
+            ],
+            "end": 111.02,
+            "noSpeechProb": 0.14465332
+        },
+        {
+            "start": 111.02,
+            "avgLogProb": -0.24861392,
+            "text": "Zpomenul mi snížka mne.",
+            "words": [
+                {
+                    "text": "Zpomenul ",
+                    "end": 114.08,
+                    "probability": 0.04319787,
+                    "start": 111.02
+                },
+                {
+                    "text": "mi ",
+                    "end": 115.2,
+                    "probability": 0.00881958,
+                    "start": 114.08
+                },
+                {
+                    "text": "snížka ",
+                    "end": 122.66,
+                    "probability": 0.010819316,
+                    "start": 115.2
+                },
+                {
+                    "text": "mne.",
+                    "end": 123.98,
+                    "probability": 0.55908203,
+                    "start": 122.66
+                }
+            ],
+            "end": 123.98,
+            "noSpeechProb": 0.003025055
+        },
+        {
+            "start": 127.4,
+            "avgLogProb": -0.24861392,
+            "text": "Za svítmu to daleka, za svítmu.",
+            "words": [
+                {
+                    "text": "Za ",
+                    "end": 128.26,
+                    "probability": 0.11993408,
+                    "start": 127.4
+                },
+                {
+                    "text": "svítmu ",
+                    "end": 129.72,
+                    "probability": 0.4012858,
+                    "start": 128.26
+                },
+                {
+                    "text": "to ",
+                    "end": 130.7,
+                    "probability": 0.28955078,
+                    "start": 129.72
+                },
+                {
+                    "text": "daleka, ",
+                    "end": 132.14,
+                    "probability": 0.45013428,
+                    "start": 130.7
+                },
+                {
+                    "text": "za ",
+                    "end": 133.78,
+                    "probability": 0.8515625,
+                    "start": 133.34
+                },
+                {
+                    "text": "svítmu.",
+                    "end": 137.96,
+                    "probability": 0.96272784,
+                    "start": 133.78
+                }
+            ],
+            "end": 137.96,
+            "noSpeechProb": 0.003025055
+        },
+        {
+            "start": 137.96,
+            "avgLogProb": -0.21319902,
+            "text": "Pekni mu, žekni, kdo tu naň čeka.",
+            "words": [
+                {
+                    "text": "Pekni ",
+                    "end": 139.44,
+                    "probability": 0.57454425,
+                    "start": 137.96
+                },
+                {
+                    "text": "mu, ",
+                    "end": 141.56,
+                    "probability": 0.89208984,
+                    "start": 140.34
+                },
+                {
+                    "text": "žekni, ",
+                    "end": 142.86,
+                    "probability": 0.75982666,
+                    "start": 141.68
+                },
+                {
+                    "text": "kdo ",
+                    "end": 143.8,
+                    "probability": 0.45959473,
+                    "start": 143.34
+                },
+                {
+                    "text": "tu ",
+                    "end": 144.3,
+                    "probability": 0.8520508,
+                    "start": 143.8
+                },
+                {
+                    "text": "naň ",
+                    "end": 147.08,
+                    "probability": 0.5752767,
+                    "start": 144.3
+                },
+                {
+                    "text": "čeka.",
+                    "end": 148.32,
+                    "probability": 0.8691406,
+                    "start": 147.08
+                }
+            ],
+            "end": 148.32,
+            "noSpeechProb": 0.1616211
+        },
+        {
+            "start": 150.34,
+            "avgLogProb": -0.21319902,
+            "text": "Za svítmu to daleka, za svítmu.",
+            "words": [
+                {
+                    "text": "Za ",
+                    "end": 151.1,
+                    "probability": 0.5629883,
+                    "start": 150.34
+                },
+                {
+                    "text": "svítmu ",
+                    "end": 152.78,
+                    "probability": 0.21833801,
+                    "start": 151.1
+                },
+                {
+                    "text": "to ",
+                    "end": 153.64,
+                    "probability": 0.09887695,
+                    "start": 152.78
+                },
+                {
+                    "text": "daleka, ",
+                    "end": 154.72,
+                    "probability": 0.16778564,
+                    "start": 153.64
+                },
+                {
+                    "text": "za ",
+                    "end": 156.46,
+                    "probability": 0.9448242,
+                    "start": 156.1
+                },
+                {
+                    "text": "svítmu.",
+                    "end": 159.72,
+                    "probability": 0.9189453,
+                    "start": 156.46
+                }
+            ],
+            "end": 159.72,
+            "noSpeechProb": 0.1616211
+        },
+        {
+            "start": 159.72,
+            "avgLogProb": -0.118252836,
+            "text": "Pekni mu, žekni, kdo tu naň čeka.",
+            "words": [
+                {
+                    "text": "Pekni ",
+                    "end": 162.74,
+                    "probability": 0.5090332,
+                    "start": 159.72
+                },
+                {
+                    "text": "mu, ",
+                    "end": 164.7,
+                    "probability": 0.84033203,
+                    "start": 163.74
+                },
+                {
+                    "text": "žekni, ",
+                    "end": 166.16,
+                    "probability": 0.5823517,
+                    "start": 164.94
+                },
+                {
+                    "text": "kdo ",
+                    "end": 167.18,
+                    "probability": 0.8251953,
+                    "start": 166.64
+                },
+                {
+                    "text": "tu ",
+                    "end": 167.58,
+                    "probability": 0.8388672,
+                    "start": 167.18
+                },
+                {
+                    "text": "naň ",
+                    "end": 170.54,
+                    "probability": 0.7652995,
+                    "start": 167.58
+                },
+                {
+                    "text": "čeka.",
+                    "end": 171.84,
+                    "probability": 0.7392578,
+                    "start": 170.54
+                }
+            ],
+            "end": 171.84,
+            "noSpeechProb": 0.91748047
+        }
+    ],
+    "aligned": false
+}

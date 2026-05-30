@@ -99,6 +99,22 @@ class NativeIosAudioService {
     }
   }
 
+  Future<void> pauseStemMix() async {
+    try {
+      await _channel.invokeMethod('pauseStemMix');
+    } catch (e) {
+      debugPrint('Native pauseStemMix unavailable, using web fallback: $e');
+    }
+  }
+
+  Future<void> stopStemMix() async {
+    try {
+      await _channel.invokeMethod('stopStemMix');
+    } catch (e) {
+      debugPrint('Native stopStemMix unavailable, using web fallback: $e');
+    }
+  }
+
   Future<void> setStemVolume(String stemName, double volume) async {
     try {
       await _channel.invokeMethod('setStemVolume', {
@@ -126,6 +142,127 @@ class NativeIosAudioService {
       await _channel.invokeMethod('soloStem', {'stemName': stemName});
     } catch (e) {
       debugPrint('Native soloStem unavailable, using web fallback: $e');
+    }
+  }
+
+  Future<void> setPlaybackSpeed(double speed) async {
+    try {
+      await _channel.invokeMethod('setPlaybackSpeed', {'speed': speed});
+    } catch (e) {
+      debugPrint('Native setPlaybackSpeed unavailable, using web fallback: $e');
+    }
+  }
+
+  Future<String?> extractAudioFromVideo(String videoPath, String outputPath) async {
+    try {
+      final String? path = await _channel.invokeMethod<String>('extractAudioFromVideo', {
+        'videoPath': videoPath,
+        'outputPath': outputPath,
+      });
+      return path;
+    } catch (e) {
+      debugPrint('Native extractAudioFromVideo failed: $e');
+      return null;
+    }
+  }
+
+  Future<String?> mixAudioFiles(String file1Path, String file2Path, String outputPath) async {
+    try {
+      final String? path = await _channel.invokeMethod<String>('mixAudioFiles', {
+        'file1Path': file1Path,
+        'file2Path': file2Path,
+        'outputPath': outputPath,
+      });
+      return path;
+    } catch (e) {
+      debugPrint('Native mixAudioFiles failed: $e');
+      return null;
+    }
+  }
+
+  Future<void> shareFile(String filePath) async {
+    try {
+      await _channel.invokeMethod('shareFile', {'filePath': filePath});
+    } catch (e) {
+      debugPrint('Native shareFile failed: $e');
+    }
+  }
+
+  // --- Metronome ---
+
+  Future<void> startMetronome({
+    double bpm = 120.0,
+    int beatsPerBar = 4,
+    int subdivisions = 1,
+  }) async {
+    try {
+      await _channel.invokeMethod('startMetronome', {
+        'bpm': bpm,
+        'beatsPerBar': beatsPerBar,
+        'subdivisions': subdivisions,
+      });
+    } catch (e) {
+      debugPrint('Native startMetronome failed: $e');
+    }
+  }
+
+  Future<void> stopMetronome() async {
+    try {
+      await _channel.invokeMethod('stopMetronome');
+    } catch (e) {
+      debugPrint('Native stopMetronome failed: $e');
+    }
+  }
+
+  Future<void> updateMetronomeBPM(double bpm) async {
+    try {
+      await _channel.invokeMethod('updateMetronomeBPM', {'bpm': bpm});
+    } catch (e) {
+      debugPrint('Native updateMetronomeBPM failed: $e');
+    }
+  }
+
+  // --- Lyrics ---
+
+  Future<List<Map<String, dynamic>>> loadLyrics(String songName) async {
+    try {
+      final List? result = await _channel.invokeMethod<List>(
+        'loadLyrics',
+        {'songName': songName},
+      );
+      if (result != null) {
+        return result.map((e) => Map<String, dynamic>.from(e as Map)).toList();
+      }
+      return [];
+    } catch (e) {
+      debugPrint('Native loadLyrics failed: $e');
+      return [];
+    }
+  }
+
+  Future<Map<String, dynamic>?> getLyricAt(double timeSeconds) async {
+    try {
+      final Map? result = await _channel.invokeMethod<Map>(
+        'getLyricAt',
+        {'time': timeSeconds},
+      );
+      return result != null ? Map<String, dynamic>.from(result) : null;
+    } catch (e) {
+      debugPrint('Native getLyricAt failed: $e');
+      return null;
+    }
+  }
+
+  Future<List<Map<String, dynamic>>> getAllLyrics() async {
+    try {
+      final List? result = await _channel.invokeMethod<List>('getAllLyrics');
+      if (result != null) {
+        return result.map((e) => Map<String, dynamic>.from(e as Map)).toList();
+      }
+      return [];
+    } catch (e) {
+      debugPrint('Native getAllLyrics failed: $e');
+      return [];
     }
   }
 

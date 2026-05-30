@@ -7,6 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9B1B18F5D68B6014D10CFAF /* MetronomeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BCF1D7EDA4C416D82EC355 /* MetronomeManager.swift */; };
+		E9B983F86CE4E91D0CC657BB /* LyricsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8A770F1D9448C074A1BEC /* LyricsManager.swift */; };
+		E9BFE849A48070349552661B /* country.caf in Resources */ = {isa = PBXBuildFile; fileRef = E9B54FFA3B664DF6ADA11A57 /* country.caf */; };
+		E9B2DBF76B4714FEA42AEF74 /* drumNBass.caf in Resources */ = {isa = PBXBuildFile; fileRef = E9B91C51548081DF546A0FE9 /* drumNBass.caf */; };
+		E9B537606D9C9924CDEC14CF /* dubstep.caf in Resources */ = {isa = PBXBuildFile; fileRef = E9BE443A7E69FDB71FA41265 /* dubstep.caf */; };
+		E9B251FFC59274555D9ED812 /* folkRock.caf in Resources */ = {isa = PBXBuildFile; fileRef = E9B149C385475E78F6A1E3D9 /* folkRock.caf */; };
+		E9B9F609F398BC165E10FAE1 /* latino.caf in Resources */ = {isa = PBXBuildFile; fileRef = E9BCB6F7162D6FD6057CE4F6 /* latino.caf */; };
+		E9B092552F1633C47F8A507F /* metal.caf in Resources */ = {isa = PBXBuildFile; fileRef = E9BA13E76520FB2492E5F996 /* metal.caf */; };
+		E9BA309E7BFE8AE7F1B4002A /* reggaeton.caf in Resources */ = {isa = PBXBuildFile; fileRef = E9B47C2A58C0CD70967C43E4 /* reggaeton.caf */; };
+		E9B7EA8BEDB220BAED011FF3 /* rnb.caf in Resources */ = {isa = PBXBuildFile; fileRef = E9B1287651778189FE3DE8FB /* rnb.caf */; };
+		E9BC067BAF55200E3B4E911F /* classical-lyrics.json in Resources */ = {isa = PBXBuildFile; fileRef = E9B606F6256BFEC42CA592DE /* classical-lyrics.json */; };
+		E9BDBD8FBAA396F9B7089ACC /* country-lyrics.json in Resources */ = {isa = PBXBuildFile; fileRef = E9BAC5EFB1F769D5E86327A7 /* country-lyrics.json */; };
+		E9B23CF63B79504393CADA1B /* drumNBass-lyrics.json in Resources */ = {isa = PBXBuildFile; fileRef = E9B9AD8AFE3C43B720FA69E3 /* drumNBass-lyrics.json */; };
+		E9BB3B53A6806ABBF034172F /* dubstep-lyrics.json in Resources */ = {isa = PBXBuildFile; fileRef = E9B9EC4DA149DF9C95985F23 /* dubstep-lyrics.json */; };
+		E9BB8314EA211ACAC684BC28 /* edm-lyrics.json in Resources */ = {isa = PBXBuildFile; fileRef = E9BE3627AD70CE07C39A7AA4 /* edm-lyrics.json */; };
+		E9B15E7AC37786BD7F88004D /* folkRock-lyrics.json in Resources */ = {isa = PBXBuildFile; fileRef = E9B818D8E87888E9B8032D38 /* folkRock-lyrics.json */; };
+		E9B51A0552796A28B8BD7FD1 /* latino-lyrics.json in Resources */ = {isa = PBXBuildFile; fileRef = E9B112D835A2C6E548EF551D /* latino-lyrics.json */; };
+		E9B2863E89DD0B96EADCC0BC /* metal-lyrics.json in Resources */ = {isa = PBXBuildFile; fileRef = E9B704D870FE519073E1746C /* metal-lyrics.json */; };
+		E9B4B34B8A700708776B92F0 /* reggaeton-lyrics.json in Resources */ = {isa = PBXBuildFile; fileRef = E9B111991DA3F80C77A61FA2 /* reggaeton-lyrics.json */; };
+		E9B531B770944A2F32DA5BAE /* rnb-lyrics.json in Resources */ = {isa = PBXBuildFile; fileRef = E9B9EB33F27DC3DDFF5225F0 /* rnb-lyrics.json */; };
+		E9B0A38CA678DB4C70784CF2 /* trap-lyrics.json in Resources */ = {isa = PBXBuildFile; fileRef = E9BE000D94F01B728F3BF1CF /* trap-lyrics.json */; };
+		E9B01ABB22F17A692F1BAFAA /* country-analysis-data.json in Resources */ = {isa = PBXBuildFile; fileRef = E9B57591B00B6A6C5AE11B8D /* country-analysis-data.json */; };
+		E9B4898159A7BBB9E2976246 /* drumNBass-analysis-data.json in Resources */ = {isa = PBXBuildFile; fileRef = E9B45E10EB153781DDA373D5 /* drumNBass-analysis-data.json */; };
+		E9B7731351D20CC8AE30995B /* dubstep-analysis-data.json in Resources */ = {isa = PBXBuildFile; fileRef = E9B881617706C14282E889E0 /* dubstep-analysis-data.json */; };
+		E9B2F3A5E8E6079885DDFD07 /* folkRock-analysis-data.json in Resources */ = {isa = PBXBuildFile; fileRef = E9BB5E5F9EC8A0F4106BBE74 /* folkRock-analysis-data.json */; };
+		E9B6A658BFA029352B1F0DA8 /* latino-analysis-data.json in Resources */ = {isa = PBXBuildFile; fileRef = E9B080D607253760D9E235FE /* latino-analysis-data.json */; };
+		E9B423CB767BF341AB411B7E /* metal-analysis-data.json in Resources */ = {isa = PBXBuildFile; fileRef = E9BF913C0357BF1D4C606187 /* metal-analysis-data.json */; };
+		E9BD0001FBBAE8DE119CCC0F /* reggaeton-analysis-data.json in Resources */ = {isa = PBXBuildFile; fileRef = E9BB07ED5793E072385FE79B /* reggaeton-analysis-data.json */; };
+		E9BAFB677069E117E972DF99 /* rnb-analysis-data.json in Resources */ = {isa = PBXBuildFile; fileRef = E9B773C4405B3C17FB9AA7CA /* rnb-analysis-data.json */; };
+		E9B86987CE781BE203D12722 /* click-downbeat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E9B4CE269145A335C03C684A /* click-downbeat.m4a */; };
+		E9B95C7883AA2D64B757A25F /* click-upbeat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E9B6E634CA651776EDEB284C /* click-upbeat.m4a */; };
+		E9BED6C629A1BCB4CBB4294B /* click-subbeat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E9BADB51EE3324EA995500CA /* click-subbeat.m4a */; };
+		E9A335F2F9AF61E2D75D7C6F /* AudioEngineManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A5EC08123E26DE43A07572 /* AudioEngineManager.swift */; };
+		E9A19F90CD138FBBCC3EC5EA /* AudioFeatureExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AA84FD37C57A436EF159F8 /* AudioFeatureExtractor.swift */; };
+		E9ADA0050CC1B3DE99870446 /* BeatDetectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A9B35E4B189C357BA798CA /* BeatDetectionManager.swift */; };
+		E9AC2E8C4A1F8977C6665F21 /* ChordDetectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A4D489A8228108CFF7AEA1 /* ChordDetectionManager.swift */; };
+		E9A37049C039559402BDFFFA /* CoreMLStemSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A141164607CAE032198FB4 /* CoreMLStemSeparator.swift */; };
+		E9A3790A11C8E44543D84CD8 /* FlutterMethodChannelBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A2D65C4E1D48679272514D /* FlutterMethodChannelBridge.swift */; };
+		E9A263F4CAE53D06CAD5A708 /* StemMixerChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A7A771603BF9F07F2D5047 /* StemMixerChannel.swift */; };
+		E9A24BD2EE83FE3C14D1D8D5 /* dun_tfc_tdf_b9_l3_w_6stems_32_fp32_v2.0.1.mlmodelc in Resources */ = {isa = PBXBuildFile; fileRef = E9AFF4B791520A6A39325AD4 /* dun_tfc_tdf_b9_l3_w_6stems_32_fp32_v2.0.1.mlmodelc */; };
+		E9AB638DE37AE389B22FB698 /* dunlight_tfc_tdf_b9_l3_w_subv1_cirm_6stems_64_fp16_v2.0.0.mlmodelc in Resources */ = {isa = PBXBuildFile; fileRef = E9A14538E8A838B746512516 /* dunlight_tfc_tdf_b9_l3_w_subv1_cirm_6stems_64_fp16_v2.0.0.mlmodelc */; };
+		E9A0B1403190EA3BA006562E /* Chordcrnn.mlmodelc in Resources */ = {isa = PBXBuildFile; fileRef = E9A552DD850358E5E46DFB5A /* Chordcrnn.mlmodelc */; };
+		E9A4663A48FA111C49DD10B9 /* convtcn20_2048_fp16.mlmodelc in Resources */ = {isa = PBXBuildFile; fileRef = E9AAD1D5F69384B800926287 /* convtcn20_2048_fp16.mlmodelc */; };
+		E9ACEAC21A83282E2A2D7EFD /* Vocals.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E9A01ECC1BFC130BC621C39F /* Vocals.m4a */; };
+		E9A5F5E46CDD3DFE66532DE3 /* Drums.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E9AE13D69897A732508D63FB /* Drums.m4a */; };
+		E9AEDB23E1EC57C1D6716D8C /* Guitar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E9A9015DA4096910E93A7F00 /* Guitar.m4a */; };
+		E9A6013B174ACB8105791AFC /* Others.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E9AC4598916124E45960C0BB /* Others.m4a */; };
+		E9A91AD97A2C6DD6D5E6380B /* classical.caf in Resources */ = {isa = PBXBuildFile; fileRef = E9AFC995D6FA1A52268C27AD /* classical.caf */; };
+		E9A6109D7711F2A90B82C0EF /* classical-analysis-data.json in Resources */ = {isa = PBXBuildFile; fileRef = E9A208F3D1162F7CE9D27BC5 /* classical-analysis-data.json */; };
+		E9A10DBE75EC99ABF8F3EE35 /* trap.caf in Resources */ = {isa = PBXBuildFile; fileRef = E9A03113CA6610FB5502A484 /* trap.caf */; };
+		E9A98EC43E2BFDD0B427F9ED /* trap-analysis-data.json in Resources */ = {isa = PBXBuildFile; fileRef = E9A549B86BA18249CAA460F1 /* trap-analysis-data.json */; };
+		E9AEE24808A28DFA97FC92B6 /* edm.caf in Resources */ = {isa = PBXBuildFile; fileRef = E9A994E86E1B78284FA0E164 /* edm.caf */; };
+		E9ABFE4D0F2885CE8111237A /* edm-analysis-data.json in Resources */ = {isa = PBXBuildFile; fileRef = E9A27A17194AC7EF8BE6290D /* edm-analysis-data.json */; };
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
@@ -41,6 +94,59 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E9BCF1D7EDA4C416D82EC355 /* MetronomeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetronomeManager.swift; sourceTree = "<group>"; };
+		E9B8A770F1D9448C074A1BEC /* LyricsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyricsManager.swift; sourceTree = "<group>"; };
+		E9B54FFA3B664DF6ADA11A57 /* country.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = country.caf; sourceTree = "<group>"; };
+		E9B91C51548081DF546A0FE9 /* drumNBass.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = drumNBass.caf; sourceTree = "<group>"; };
+		E9BE443A7E69FDB71FA41265 /* dubstep.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = dubstep.caf; sourceTree = "<group>"; };
+		E9B149C385475E78F6A1E3D9 /* folkRock.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = folkRock.caf; sourceTree = "<group>"; };
+		E9BCB6F7162D6FD6057CE4F6 /* latino.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = latino.caf; sourceTree = "<group>"; };
+		E9BA13E76520FB2492E5F996 /* metal.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = metal.caf; sourceTree = "<group>"; };
+		E9B47C2A58C0CD70967C43E4 /* reggaeton.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = reggaeton.caf; sourceTree = "<group>"; };
+		E9B1287651778189FE3DE8FB /* rnb.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = rnb.caf; sourceTree = "<group>"; };
+		E9B606F6256BFEC42CA592DE /* classical-lyrics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = classical-lyrics.json; sourceTree = "<group>"; };
+		E9BAC5EFB1F769D5E86327A7 /* country-lyrics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = country-lyrics.json; sourceTree = "<group>"; };
+		E9B9AD8AFE3C43B720FA69E3 /* drumNBass-lyrics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = drumNBass-lyrics.json; sourceTree = "<group>"; };
+		E9B9EC4DA149DF9C95985F23 /* dubstep-lyrics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dubstep-lyrics.json; sourceTree = "<group>"; };
+		E9BE3627AD70CE07C39A7AA4 /* edm-lyrics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = edm-lyrics.json; sourceTree = "<group>"; };
+		E9B818D8E87888E9B8032D38 /* folkRock-lyrics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = folkRock-lyrics.json; sourceTree = "<group>"; };
+		E9B112D835A2C6E548EF551D /* latino-lyrics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = latino-lyrics.json; sourceTree = "<group>"; };
+		E9B704D870FE519073E1746C /* metal-lyrics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metal-lyrics.json; sourceTree = "<group>"; };
+		E9B111991DA3F80C77A61FA2 /* reggaeton-lyrics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = reggaeton-lyrics.json; sourceTree = "<group>"; };
+		E9B9EB33F27DC3DDFF5225F0 /* rnb-lyrics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = rnb-lyrics.json; sourceTree = "<group>"; };
+		E9BE000D94F01B728F3BF1CF /* trap-lyrics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trap-lyrics.json; sourceTree = "<group>"; };
+		E9B57591B00B6A6C5AE11B8D /* country-analysis-data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = country-analysis-data.json; sourceTree = "<group>"; };
+		E9B45E10EB153781DDA373D5 /* drumNBass-analysis-data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = drumNBass-analysis-data.json; sourceTree = "<group>"; };
+		E9B881617706C14282E889E0 /* dubstep-analysis-data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dubstep-analysis-data.json; sourceTree = "<group>"; };
+		E9BB5E5F9EC8A0F4106BBE74 /* folkRock-analysis-data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = folkRock-analysis-data.json; sourceTree = "<group>"; };
+		E9B080D607253760D9E235FE /* latino-analysis-data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = latino-analysis-data.json; sourceTree = "<group>"; };
+		E9BF913C0357BF1D4C606187 /* metal-analysis-data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = metal-analysis-data.json; sourceTree = "<group>"; };
+		E9BB07ED5793E072385FE79B /* reggaeton-analysis-data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = reggaeton-analysis-data.json; sourceTree = "<group>"; };
+		E9B773C4405B3C17FB9AA7CA /* rnb-analysis-data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = rnb-analysis-data.json; sourceTree = "<group>"; };
+		E9B4CE269145A335C03C684A /* click-downbeat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = click-downbeat.m4a; sourceTree = "<group>"; };
+		E9B6E634CA651776EDEB284C /* click-upbeat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = click-upbeat.m4a; sourceTree = "<group>"; };
+		E9BADB51EE3324EA995500CA /* click-subbeat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = click-subbeat.m4a; sourceTree = "<group>"; };
+		E9A5EC08123E26DE43A07572 /* AudioEngineManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioEngineManager.swift; sourceTree = "<group>"; };
+		E9AA84FD37C57A436EF159F8 /* AudioFeatureExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioFeatureExtractor.swift; sourceTree = "<group>"; };
+		E9A9B35E4B189C357BA798CA /* BeatDetectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeatDetectionManager.swift; sourceTree = "<group>"; };
+		E9A4D489A8228108CFF7AEA1 /* ChordDetectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChordDetectionManager.swift; sourceTree = "<group>"; };
+		E9A141164607CAE032198FB4 /* CoreMLStemSeparator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreMLStemSeparator.swift; sourceTree = "<group>"; };
+		E9A2D65C4E1D48679272514D /* FlutterMethodChannelBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlutterMethodChannelBridge.swift; sourceTree = "<group>"; };
+		E9A7A771603BF9F07F2D5047 /* StemMixerChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StemMixerChannel.swift; sourceTree = "<group>"; };
+		E9AFF4B791520A6A39325AD4 /* dun_tfc_tdf_b9_l3_w_6stems_32_fp32_v2.0.1.mlmodelc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dun_tfc_tdf_b9_l3_w_6stems_32_fp32_v2.0.1.mlmodelc; sourceTree = "<group>"; };
+		E9A14538E8A838B746512516 /* dunlight_tfc_tdf_b9_l3_w_subv1_cirm_6stems_64_fp16_v2.0.0.mlmodelc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dunlight_tfc_tdf_b9_l3_w_subv1_cirm_6stems_64_fp16_v2.0.0.mlmodelc; sourceTree = "<group>"; };
+		E9A552DD850358E5E46DFB5A /* Chordcrnn.mlmodelc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chordcrnn.mlmodelc; sourceTree = "<group>"; };
+		E9AAD1D5F69384B800926287 /* convtcn20_2048_fp16.mlmodelc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = convtcn20_2048_fp16.mlmodelc; sourceTree = "<group>"; };
+		E9A01ECC1BFC130BC621C39F /* Vocals.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Vocals.m4a; sourceTree = "<group>"; };
+		E9AE13D69897A732508D63FB /* Drums.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Drums.m4a; sourceTree = "<group>"; };
+		E9A9015DA4096910E93A7F00 /* Guitar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Guitar.m4a; sourceTree = "<group>"; };
+		E9AC4598916124E45960C0BB /* Others.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Others.m4a; sourceTree = "<group>"; };
+		E9AFC995D6FA1A52268C27AD /* classical.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = classical.caf; sourceTree = "<group>"; };
+		E9A208F3D1162F7CE9D27BC5 /* classical-analysis-data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = classical-analysis-data.json; sourceTree = "<group>"; };
+		E9A03113CA6610FB5502A484 /* trap.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = trap.caf; sourceTree = "<group>"; };
+		E9A549B86BA18249CAA460F1 /* trap-analysis-data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = trap-analysis-data.json; sourceTree = "<group>"; };
+		E9A994E86E1B78284FA0E164 /* edm.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = edm.caf; sourceTree = "<group>"; };
+		E9A27A17194AC7EF8BE6290D /* edm-analysis-data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = edm-analysis-data.json; sourceTree = "<group>"; };
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		331C807B294A618700263BE5 /* RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerTests.swift; sourceTree = "<group>"; };
@@ -111,7 +217,60 @@
 		97C146F01CF9000F007C117D /* Runner */ = {
 			isa = PBXGroup;
 			children = (
-				97C146FA1CF9000F007C117D /* Main.storyboard */,
+				
+				
+				E9BCF1D7EDA4C416D82EC355 /* MetronomeManager.swift */,
+				E9B8A770F1D9448C074A1BEC /* LyricsManager.swift */,
+				E9B54FFA3B664DF6ADA11A57 /* country.caf */,
+				E9B91C51548081DF546A0FE9 /* drumNBass.caf */,
+				E9BE443A7E69FDB71FA41265 /* dubstep.caf */,
+				E9B149C385475E78F6A1E3D9 /* folkRock.caf */,
+				E9BCB6F7162D6FD6057CE4F6 /* latino.caf */,
+				E9BA13E76520FB2492E5F996 /* metal.caf */,
+				E9B47C2A58C0CD70967C43E4 /* reggaeton.caf */,
+				E9B1287651778189FE3DE8FB /* rnb.caf */,
+				E9B606F6256BFEC42CA592DE /* classical-lyrics.json */,
+				E9BAC5EFB1F769D5E86327A7 /* country-lyrics.json */,
+				E9B9AD8AFE3C43B720FA69E3 /* drumNBass-lyrics.json */,
+				E9B9EC4DA149DF9C95985F23 /* dubstep-lyrics.json */,
+				E9BE3627AD70CE07C39A7AA4 /* edm-lyrics.json */,
+				E9B818D8E87888E9B8032D38 /* folkRock-lyrics.json */,
+				E9B112D835A2C6E548EF551D /* latino-lyrics.json */,
+				E9B704D870FE519073E1746C /* metal-lyrics.json */,
+				E9B111991DA3F80C77A61FA2 /* reggaeton-lyrics.json */,
+				E9B9EB33F27DC3DDFF5225F0 /* rnb-lyrics.json */,
+				E9BE000D94F01B728F3BF1CF /* trap-lyrics.json */,
+				E9B57591B00B6A6C5AE11B8D /* country-analysis-data.json */,
+				E9B45E10EB153781DDA373D5 /* drumNBass-analysis-data.json */,
+				E9B881617706C14282E889E0 /* dubstep-analysis-data.json */,
+				E9BB5E5F9EC8A0F4106BBE74 /* folkRock-analysis-data.json */,
+				E9B080D607253760D9E235FE /* latino-analysis-data.json */,
+				E9BF913C0357BF1D4C606187 /* metal-analysis-data.json */,
+				E9BB07ED5793E072385FE79B /* reggaeton-analysis-data.json */,
+				E9B773C4405B3C17FB9AA7CA /* rnb-analysis-data.json */,
+				E9B4CE269145A335C03C684A /* click-downbeat.m4a */,
+				E9B6E634CA651776EDEB284C /* click-upbeat.m4a */,
+				E9BADB51EE3324EA995500CA /* click-subbeat.m4a */,E9A5EC08123E26DE43A07572 /* AudioEngineManager.swift */,
+				E9AA84FD37C57A436EF159F8 /* AudioFeatureExtractor.swift */,
+				E9A9B35E4B189C357BA798CA /* BeatDetectionManager.swift */,
+				E9A4D489A8228108CFF7AEA1 /* ChordDetectionManager.swift */,
+				E9A141164607CAE032198FB4 /* CoreMLStemSeparator.swift */,
+				E9A2D65C4E1D48679272514D /* FlutterMethodChannelBridge.swift */,
+				E9A7A771603BF9F07F2D5047 /* StemMixerChannel.swift */,
+				E9AFF4B791520A6A39325AD4 /* dun_tfc_tdf_b9_l3_w_6stems_32_fp32_v2.0.1.mlmodelc */,
+				E9A14538E8A838B746512516 /* dunlight_tfc_tdf_b9_l3_w_subv1_cirm_6stems_64_fp16_v2.0.0.mlmodelc */,
+				E9A552DD850358E5E46DFB5A /* Chordcrnn.mlmodelc */,
+				E9AAD1D5F69384B800926287 /* convtcn20_2048_fp16.mlmodelc */,
+				E9A01ECC1BFC130BC621C39F /* Vocals.m4a */,
+				E9AE13D69897A732508D63FB /* Drums.m4a */,
+				E9A9015DA4096910E93A7F00 /* Guitar.m4a */,
+				E9AC4598916124E45960C0BB /* Others.m4a */,
+				E9AFC995D6FA1A52268C27AD /* classical.caf */,
+				E9A208F3D1162F7CE9D27BC5 /* classical-analysis-data.json */,
+				E9A03113CA6610FB5502A484 /* trap.caf */,
+				E9A549B86BA18249CAA460F1 /* trap-analysis-data.json */,
+				E9A994E86E1B78284FA0E164 /* edm.caf */,
+				E9A27A17194AC7EF8BE6290D /* edm-analysis-data.json */,97C146FA1CF9000F007C117D /* Main.storyboard */,
 				97C146FD1CF9000F007C117D /* Assets.xcassets */,
 				97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */,
 				97C147021CF9000F007C117D /* Info.plist */,
@@ -215,7 +374,51 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
+				
+				
+				E9BFE849A48070349552661B /* country.caf in Resources */,
+				E9B2DBF76B4714FEA42AEF74 /* drumNBass.caf in Resources */,
+				E9B537606D9C9924CDEC14CF /* dubstep.caf in Resources */,
+				E9B251FFC59274555D9ED812 /* folkRock.caf in Resources */,
+				E9B9F609F398BC165E10FAE1 /* latino.caf in Resources */,
+				E9B092552F1633C47F8A507F /* metal.caf in Resources */,
+				E9BA309E7BFE8AE7F1B4002A /* reggaeton.caf in Resources */,
+				E9B7EA8BEDB220BAED011FF3 /* rnb.caf in Resources */,
+				E9BC067BAF55200E3B4E911F /* classical-lyrics.json in Resources */,
+				E9BDBD8FBAA396F9B7089ACC /* country-lyrics.json in Resources */,
+				E9B23CF63B79504393CADA1B /* drumNBass-lyrics.json in Resources */,
+				E9BB3B53A6806ABBF034172F /* dubstep-lyrics.json in Resources */,
+				E9BB8314EA211ACAC684BC28 /* edm-lyrics.json in Resources */,
+				E9B15E7AC37786BD7F88004D /* folkRock-lyrics.json in Resources */,
+				E9B51A0552796A28B8BD7FD1 /* latino-lyrics.json in Resources */,
+				E9B2863E89DD0B96EADCC0BC /* metal-lyrics.json in Resources */,
+				E9B4B34B8A700708776B92F0 /* reggaeton-lyrics.json in Resources */,
+				E9B531B770944A2F32DA5BAE /* rnb-lyrics.json in Resources */,
+				E9B0A38CA678DB4C70784CF2 /* trap-lyrics.json in Resources */,
+				E9B01ABB22F17A692F1BAFAA /* country-analysis-data.json in Resources */,
+				E9B4898159A7BBB9E2976246 /* drumNBass-analysis-data.json in Resources */,
+				E9B7731351D20CC8AE30995B /* dubstep-analysis-data.json in Resources */,
+				E9B2F3A5E8E6079885DDFD07 /* folkRock-analysis-data.json in Resources */,
+				E9B6A658BFA029352B1F0DA8 /* latino-analysis-data.json in Resources */,
+				E9B423CB767BF341AB411B7E /* metal-analysis-data.json in Resources */,
+				E9BD0001FBBAE8DE119CCC0F /* reggaeton-analysis-data.json in Resources */,
+				E9BAFB677069E117E972DF99 /* rnb-analysis-data.json in Resources */,
+				E9B86987CE781BE203D12722 /* click-downbeat.m4a in Resources */,
+				E9B95C7883AA2D64B757A25F /* click-upbeat.m4a in Resources */,
+				E9BED6C629A1BCB4CBB4294B /* click-subbeat.m4a in Resources */,E9A24BD2EE83FE3C14D1D8D5 /* dun_tfc_tdf_b9_l3_w_6stems_32_fp32_v2.0.1.mlmodelc in Resources */,
+				E9AB638DE37AE389B22FB698 /* dunlight_tfc_tdf_b9_l3_w_subv1_cirm_6stems_64_fp16_v2.0.0.mlmodelc in Resources */,
+				E9A0B1403190EA3BA006562E /* Chordcrnn.mlmodelc in Resources */,
+				E9A4663A48FA111C49DD10B9 /* convtcn20_2048_fp16.mlmodelc in Resources */,
+				E9ACEAC21A83282E2A2D7EFD /* Vocals.m4a in Resources */,
+				E9A5F5E46CDD3DFE66532DE3 /* Drums.m4a in Resources */,
+				E9AEDB23E1EC57C1D6716D8C /* Guitar.m4a in Resources */,
+				E9A6013B174ACB8105791AFC /* Others.m4a in Resources */,
+				E9A91AD97A2C6DD6D5E6380B /* classical.caf in Resources */,
+				E9A6109D7711F2A90B82C0EF /* classical-analysis-data.json in Resources */,
+				E9A10DBE75EC99ABF8F3EE35 /* trap.caf in Resources */,
+				E9A98EC43E2BFDD0B427F9ED /* trap-analysis-data.json in Resources */,
+				E9AEE24808A28DFA97FC92B6 /* edm.caf in Resources */,
+				E9ABFE4D0F2885CE8111237A /* edm-analysis-data.json in Resources */,97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
@@ -271,7 +474,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
+				
+				
+				E9B1B18F5D68B6014D10CFAF /* MetronomeManager.swift in Sources */,
+				E9B983F86CE4E91D0CC657BB /* LyricsManager.swift in Sources */,E9A335F2F9AF61E2D75D7C6F /* AudioEngineManager.swift in Sources */,
+				E9A19F90CD138FBBCC3EC5EA /* AudioFeatureExtractor.swift in Sources */,
+				E9ADA0050CC1B3DE99870446 /* BeatDetectionManager.swift in Sources */,
+				E9AC2E8C4A1F8977C6665F21 /* ChordDetectionManager.swift in Sources */,
+				E9A37049C039559402BDFFFA /* CoreMLStemSeparator.swift in Sources */,
+				E9A3790A11C8E44543D84CD8 /* FlutterMethodChannelBridge.swift in Sources */,
+				E9A263F4CAE53D06CAD5A708 /* StemMixerChannel.swift in Sources */,74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */,
 				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,
 				7884E8682EC3CC0700C636F2 /* SceneDelegate.swift in Sources */,
 			);

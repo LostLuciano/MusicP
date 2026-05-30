@@ -1,0 +1,2468 @@
+{
+    "version": "1.0.0_rc9",
+    "transcript": [
+        {
+            "start": 4.2,
+            "noSpeechProb": 0.5419922,
+            "text": "Back to love",
+            "end": 5.58,
+            "avgLogProb": -0.23197116,
+            "words": [
+                {
+                    "probability": 0.16345215,
+                    "start": 4.2,
+                    "text": "Back ",
+                    "end": 4.74
+                },
+                {
+                    "probability": 0.8769531,
+                    "start": 4.74,
+                    "text": "to ",
+                    "end": 4.96
+                },
+                {
+                    "probability": 0.81640625,
+                    "start": 4.96,
+                    "text": "love",
+                    "end": 5.58
+                }
+            ]
+        },
+        {
+            "start": 5.58,
+            "noSpeechProb": 0.5419922,
+            "text": "Thought that I would never",
+            "end": 11.5,
+            "avgLogProb": -0.23197116,
+            "words": [
+                {
+                    "probability": 0.1430664,
+                    "start": 5.58,
+                    "text": "Thought ",
+                    "end": 6.34
+                },
+                {
+                    "probability": 0.8544922,
+                    "start": 9.72,
+                    "text": "that ",
+                    "end": 10.1
+                },
+                {
+                    "probability": 0.9760742,
+                    "start": 10.1,
+                    "text": "I ",
+                    "end": 10.34
+                },
+                {
+                    "probability": 0.8305664,
+                    "start": 10.34,
+                    "text": "would ",
+                    "end": 10.58
+                },
+                {
+                    "probability": 0.8569336,
+                    "start": 10.58,
+                    "text": "never",
+                    "end": 11.5
+                }
+            ]
+        },
+        {
+            "start": 11.5,
+            "noSpeechProb": 0.5419922,
+            "text": "Get over us",
+            "end": 14.74,
+            "avgLogProb": -0.23197116,
+            "words": [
+                {
+                    "probability": 0.46044922,
+                    "start": 11.5,
+                    "text": "Get ",
+                    "end": 13.14
+                },
+                {
+                    "probability": 0.88427734,
+                    "start": 13.76,
+                    "text": "over ",
+                    "end": 14.32
+                },
+                {
+                    "probability": 0.89208984,
+                    "start": 14.32,
+                    "text": "us",
+                    "end": 14.74
+                }
+            ]
+        },
+        {
+            "start": 14.74,
+            "noSpeechProb": 0.5419922,
+            "text": "Cause we were",
+            "end": 17.01,
+            "avgLogProb": -0.23197116,
+            "words": [
+                {
+                    "probability": 0.013626099,
+                    "start": 14.74,
+                    "text": "Cause ",
+                    "end": 14.98
+                },
+                {
+                    "probability": 0.89208984,
+                    "start": 14.98,
+                    "text": "we ",
+                    "end": 15.48
+                },
+                {
+                    "probability": 0.86865234,
+                    "start": 15.48,
+                    "text": "were",
+                    "end": 16.78
+                }
+            ]
+        },
+        {
+            "start": 17.01,
+            "noSpeechProb": 0.5419922,
+            "text": "So in love",
+            "end": 19.24,
+            "avgLogProb": -0.23197116,
+            "words": [
+                {
+                    "probability": 0.6953125,
+                    "start": 17.01,
+                    "text": "So ",
+                    "end": 17.96
+                },
+                {
+                    "probability": 0.88916016,
+                    "start": 18.64,
+                    "text": "in ",
+                    "end": 18.92
+                },
+                {
+                    "probability": 0.87841797,
+                    "start": 18.92,
+                    "text": "love",
+                    "end": 19.24
+                }
+            ]
+        },
+        {
+            "start": 19.24,
+            "noSpeechProb": 0.5419922,
+            "text": "And wanted us forever",
+            "end": 21.26,
+            "avgLogProb": -0.23197116,
+            "words": [
+                {
+                    "probability": 0.07354736,
+                    "start": 19.24,
+                    "text": "And ",
+                    "end": 19.46
+                },
+                {
+                    "probability": 0.31298828,
+                    "start": 19.46,
+                    "text": "wanted ",
+                    "end": 19.9
+                },
+                {
+                    "probability": 0.9038086,
+                    "start": 19.9,
+                    "text": "us ",
+                    "end": 20.3
+                },
+                {
+                    "probability": 0.73583984,
+                    "start": 20.3,
+                    "text": "forever",
+                    "end": 21.26
+                }
+            ]
+        },
+        {
+            "start": 21.26,
+            "noSpeechProb": 0.5419922,
+            "text": "And ever",
+            "end": 22.32,
+            "avgLogProb": -0.23197116,
+            "words": [
+                {
+                    "probability": 0.29370117,
+                    "start": 21.26,
+                    "text": "And ",
+                    "end": 21.74
+                },
+                {
+                    "probability": 0.71484375,
+                    "start": 21.74,
+                    "text": "ever",
+                    "end": 22.32
+                }
+            ]
+        },
+        {
+            "start": 22.32,
+            "noSpeechProb": 0.5419922,
+            "text": "And now we can't even be friends",
+            "end": 24.72,
+            "avgLogProb": -0.23197116,
+            "words": [
+                {
+                    "probability": 0.74902344,
+                    "start": 22.32,
+                    "text": "And ",
+                    "end": 22.82
+                },
+                {
+                    "probability": 0.8925781,
+                    "start": 22.82,
+                    "text": "now ",
+                    "end": 23.1
+                },
+                {
+                    "probability": 0.8808594,
+                    "start": 23.1,
+                    "text": "we ",
+                    "end": 23.34
+                },
+                {
+                    "probability": 0.9238281,
+                    "start": 23.34,
+                    "text": "can't ",
+                    "end": 23.76
+                },
+                {
+                    "probability": 0.80322266,
+                    "start": 23.76,
+                    "text": "even ",
+                    "end": 24.06
+                },
+                {
+                    "probability": 0.8955078,
+                    "start": 24.06,
+                    "text": "be ",
+                    "end": 24.46
+                },
+                {
+                    "probability": 0.5703125,
+                    "start": 24.46,
+                    "text": "friends",
+                    "end": 24.72
+                }
+            ]
+        },
+        {
+            "start": 24.72,
+            "noSpeechProb": 0.5419922,
+            "text": "What is up with that?",
+            "end": 26.76,
+            "avgLogProb": -0.23197116,
+            "words": [
+                {
+                    "probability": 0.7807617,
+                    "start": 24.72,
+                    "text": "What ",
+                    "end": 25.24
+                },
+                {
+                    "probability": 0.89501953,
+                    "start": 25.24,
+                    "text": "is ",
+                    "end": 25.62
+                },
+                {
+                    "probability": 0.90625,
+                    "start": 25.62,
+                    "text": "up ",
+                    "end": 25.86
+                },
+                {
+                    "probability": 0.8027344,
+                    "start": 25.86,
+                    "text": "with ",
+                    "end": 26.18
+                },
+                {
+                    "probability": 0.8540039,
+                    "start": 26.18,
+                    "text": "that?",
+                    "end": 26.76
+                }
+            ]
+        },
+        {
+            "start": 27.02,
+            "noSpeechProb": 0.5419922,
+            "text": "But it's okay",
+            "end": 29.32,
+            "avgLogProb": -0.23197116,
+            "words": [
+                {
+                    "probability": 0.8208008,
+                    "start": 27.02,
+                    "text": "But ",
+                    "end": 28.04
+                },
+                {
+                    "probability": 0.9265137,
+                    "start": 28.36,
+                    "text": "it's ",
+                    "end": 28.7
+                },
+                {
+                    "probability": 0.5732422,
+                    "start": 28.7,
+                    "text": "okay",
+                    "end": 29.32
+                }
+            ]
+        },
+        {
+            "start": 29.32,
+            "noSpeechProb": 0.5419922,
+            "text": "It's okay now I know",
+            "end": 31.52,
+            "avgLogProb": -0.23197116,
+            "words": [
+                {
+                    "probability": 0.67077637,
+                    "start": 29.32,
+                    "text": "It's ",
+                    "end": 29.78
+                },
+                {
+                    "probability": 0.7841797,
+                    "start": 29.78,
+                    "text": "okay ",
+                    "end": 30.4
+                },
+                {
+                    "probability": 0.43798828,
+                    "start": 30.4,
+                    "text": "now ",
+                    "end": 30.85
+                },
+                {
+                    "probability": 0.9404297,
+                    "start": 30.85,
+                    "text": "I ",
+                    "end": 31.1
+                },
+                {
+                    "probability": 0.8100586,
+                    "start": 31.1,
+                    "text": "know",
+                    "end": 31.52
+                }
+            ]
+        },
+        {
+            "start": 31.52,
+            "noSpeechProb": 0.5419922,
+            "text": "That's just how",
+            "end": 33.84,
+            "avgLogProb": -0.23197116,
+            "words": [
+                {
+                    "probability": 0.8947754,
+                    "start": 31.52,
+                    "text": "That's ",
+                    "end": 32.42
+                },
+                {
+                    "probability": 0.88916016,
+                    "start": 33.1,
+                    "text": "just ",
+                    "end": 33.34
+                },
+                {
+                    "probability": 0.89697266,
+                    "start": 33.34,
+                    "text": "how",
+                    "end": 33.84
+                }
+            ]
+        },
+        {
+            "start": 33.84,
+            "noSpeechProb": 0.5419922,
+            "text": "That's just how this life go",
+            "end": 35.96,
+            "avgLogProb": -0.23197116,
+            "words": [
+                {
+                    "probability": 0.82006836,
+                    "start": 33.84,
+                    "text": "That's ",
+                    "end": 34.24
+                },
+                {
+                    "probability": 0.8876953,
+                    "start": 34.24,
+                    "text": "just ",
+                    "end": 34.44
+                },
+                {
+                    "probability": 0.8876953,
+                    "start": 34.44,
+                    "text": "how ",
+                    "end": 34.94
+                },
+                {
+                    "probability": 0.41381836,
+                    "start": 34.94,
+                    "text": "this ",
+                    "end": 35.28
+                },
+                {
+                    "probability": 0.83496094,
+                    "start": 35.28,
+                    "text": "life ",
+                    "end": 35.56
+                },
+                {
+                    "probability": 0.7368164,
+                    "start": 35.56,
+                    "text": "go",
+                    "end": 35.96
+                }
+            ]
+        },
+        {
+            "start": 35.96,
+            "noSpeechProb": 0.5419922,
+            "text": "Yeah we change",
+            "end": 38.64,
+            "avgLogProb": -0.23197116,
+            "words": [
+                {
+                    "probability": 0.8408203,
+                    "start": 35.96,
+                    "text": "Yeah ",
+                    "end": 36.72
+                },
+                {
+                    "probability": 0.71728516,
+                    "start": 37.44,
+                    "text": "we ",
+                    "end": 37.7
+                },
+                {
+                    "probability": 0.8017578,
+                    "start": 37.7,
+                    "text": "change",
+                    "end": 38.64
+                }
+            ]
+        },
+        {
+            "start": 38.64,
+            "noSpeechProb": 0.030639648,
+            "text": "And yeah we grow",
+            "end": 40.4,
+            "avgLogProb": -0.1673177,
+            "words": [
+                {
+                    "probability": 0.09350586,
+                    "start": 38.64,
+                    "text": "And ",
+                    "end": 39.16
+                },
+                {
+                    "probability": 0.24377441,
+                    "start": 39.47,
+                    "text": "yeah ",
+                    "end": 39.72
+                },
+                {
+                    "probability": 0.3088379,
+                    "start": 39.72,
+                    "text": "we ",
+                    "end": 39.92
+                },
+                {
+                    "probability": 0.84716797,
+                    "start": 39.92,
+                    "text": "grow",
+                    "end": 40.4
+                }
+            ]
+        },
+        {
+            "start": 40.4,
+            "noSpeechProb": 0.030639648,
+            "text": "And now I'm stronger than I ever was before",
+            "end": 44.76,
+            "avgLogProb": -0.1673177,
+            "words": [
+                {
+                    "probability": 0.13500977,
+                    "start": 40.4,
+                    "text": "And ",
+                    "end": 41.18
+                },
+                {
+                    "probability": 0.8779297,
+                    "start": 41.68,
+                    "text": "now ",
+                    "end": 42.02
+                },
+                {
+                    "probability": 0.9465332,
+                    "start": 42.02,
+                    "text": "I'm ",
+                    "end": 42.18
+                },
+                {
+                    "probability": 0.73535156,
+                    "start": 42.18,
+                    "text": "stronger ",
+                    "end": 42.62
+                },
+                {
+                    "probability": 0.81689453,
+                    "start": 42.62,
+                    "text": "than ",
+                    "end": 43.08
+                },
+                {
+                    "probability": 0.98535156,
+                    "start": 43.08,
+                    "text": "I ",
+                    "end": 43.4
+                },
+                {
+                    "probability": 0.8017578,
+                    "start": 43.4,
+                    "text": "ever ",
+                    "end": 43.74
+                },
+                {
+                    "probability": 0.8959961,
+                    "start": 43.74,
+                    "text": "was ",
+                    "end": 44.2
+                },
+                {
+                    "probability": 0.7998047,
+                    "start": 44.2,
+                    "text": "before",
+                    "end": 44.76
+                }
+            ]
+        },
+        {
+            "start": 44.76,
+            "noSpeechProb": 0.030639648,
+            "text": "And runnin'",
+            "end": 45.74,
+            "avgLogProb": -0.1673177,
+            "words": [
+                {
+                    "probability": 0.5415039,
+                    "start": 44.76,
+                    "text": "And ",
+                    "end": 44.98
+                },
+                {
+                    "probability": 0.66430664,
+                    "start": 44.98,
+                    "text": "runnin'",
+                    "end": 45.74
+                }
+            ]
+        },
+        {
+            "start": 45.9,
+            "noSpeechProb": 0.030639648,
+            "text": "Runnin'",
+            "end": 47.1,
+            "avgLogProb": -0.1673177,
+            "words": [
+                {
+                    "probability": 0.7310791,
+                    "start": 45.9,
+                    "text": "Runnin'",
+                    "end": 47.1
+                }
+            ]
+        },
+        {
+            "start": 47.26,
+            "noSpeechProb": 0.030639648,
+            "text": "Runnin'",
+            "end": 47.92,
+            "avgLogProb": -0.1673177,
+            "words": [
+                {
+                    "probability": 0.83862305,
+                    "start": 47.26,
+                    "text": "Runnin'",
+                    "end": 47.92
+                }
+            ]
+        },
+        {
+            "start": 48.24,
+            "noSpeechProb": 0.030639648,
+            "text": "Back to love",
+            "end": 49.96,
+            "avgLogProb": -0.1673177,
+            "words": [
+                {
+                    "probability": 0.62402344,
+                    "start": 48.24,
+                    "text": "Back ",
+                    "end": 49.14
+                },
+                {
+                    "probability": 0.91503906,
+                    "start": 49.14,
+                    "text": "to ",
+                    "end": 49.34
+                },
+                {
+                    "probability": 0.54833984,
+                    "start": 49.34,
+                    "text": "love",
+                    "end": 49.96
+                }
+            ]
+        },
+        {
+            "start": 49.96,
+            "noSpeechProb": 0.030639648,
+            "text": "Back to love",
+            "end": 52.22,
+            "avgLogProb": -0.1673177,
+            "words": [
+                {
+                    "probability": 0.8149414,
+                    "start": 49.96,
+                    "text": "Back ",
+                    "end": 51.36
+                },
+                {
+                    "probability": 0.9135742,
+                    "start": 51.36,
+                    "text": "to ",
+                    "end": 51.56
+                },
+                {
+                    "probability": 0.8930664,
+                    "start": 51.56,
+                    "text": "love",
+                    "end": 52.22
+                }
+            ]
+        },
+        {
+            "start": 52.22,
+            "noSpeechProb": 0.030639648,
+            "text": "I'm runnin'",
+            "end": 54.61,
+            "avgLogProb": -0.1673177,
+            "words": [
+                {
+                    "probability": 0.9628906,
+                    "start": 52.22,
+                    "text": "I'm ",
+                    "end": 52.98
+                },
+                {
+                    "probability": 0.90893555,
+                    "start": 53.91,
+                    "text": "runnin'",
+                    "end": 54.61
+                }
+            ]
+        },
+        {
+            "start": 54.93,
+            "noSpeechProb": 0.030639648,
+            "text": "I'm runnin'",
+            "end": 56.79,
+            "avgLogProb": -0.1673177,
+            "words": [
+                {
+                    "probability": 0.53019714,
+                    "start": 54.93,
+                    "text": "I'm ",
+                    "end": 56.15
+                },
+                {
+                    "probability": 0.9375,
+                    "start": 56.15,
+                    "text": "runnin'",
+                    "end": 56.79
+                }
+            ]
+        },
+        {
+            "start": 57.17,
+            "noSpeechProb": 0.030639648,
+            "text": "Back to love",
+            "end": 58.89,
+            "avgLogProb": -0.1673177,
+            "words": [
+                {
+                    "probability": 0.78808594,
+                    "start": 57.17,
+                    "text": "Back ",
+                    "end": 57.99
+                },
+                {
+                    "probability": 0.9140625,
+                    "start": 57.99,
+                    "text": "to ",
+                    "end": 58.27
+                },
+                {
+                    "probability": 0.8847656,
+                    "start": 58.27,
+                    "text": "love",
+                    "end": 58.89
+                }
+            ]
+        },
+        {
+            "start": 58.89,
+            "noSpeechProb": 0.030639648,
+            "text": "Back to lovin' me",
+            "end": 61.71,
+            "avgLogProb": -0.1673177,
+            "words": [
+                {
+                    "probability": 0.8310547,
+                    "start": 58.89,
+                    "text": "Back ",
+                    "end": 59.83
+                },
+                {
+                    "probability": 0.9145508,
+                    "start": 59.83,
+                    "text": "to ",
+                    "end": 60.17
+                },
+                {
+                    "probability": 0.810791,
+                    "start": 60.17,
+                    "text": "lovin' ",
+                    "end": 60.97
+                },
+                {
+                    "probability": 0.8911133,
+                    "start": 61.17,
+                    "text": "me",
+                    "end": 61.71
+                }
+            ]
+        },
+        {
+            "start": 61.71,
+            "noSpeechProb": 0.030639648,
+            "text": "Almost gave up on my life",
+            "end": 65.01,
+            "avgLogProb": -0.1673177,
+            "words": [
+                {
+                    "probability": 0.5703125,
+                    "start": 61.71,
+                    "text": "Almost ",
+                    "end": 63.17
+                },
+                {
+                    "probability": 0.8203125,
+                    "start": 63.17,
+                    "text": "gave ",
+                    "end": 63.71
+                },
+                {
+                    "probability": 0.91552734,
+                    "start": 63.71,
+                    "text": "up ",
+                    "end": 63.93
+                },
+                {
+                    "probability": 0.6904297,
+                    "start": 63.93,
+                    "text": "on ",
+                    "end": 64.23
+                },
+                {
+                    "probability": 0.88964844,
+                    "start": 64.23,
+                    "text": "my ",
+                    "end": 64.47
+                },
+                {
+                    "probability": 0.82910156,
+                    "start": 64.47,
+                    "text": "life",
+                    "end": 65.01
+                }
+            ]
+        },
+        {
+            "start": 65.01,
+            "noSpeechProb": 0.030639648,
+            "text": "Was willin'",
+            "end": 66.66,
+            "avgLogProb": -0.1673177,
+            "words": [
+                {
+                    "probability": 0.76660156,
+                    "start": 65.01,
+                    "text": "Was ",
+                    "end": 65.65
+                },
+                {
+                    "probability": 0.5969238,
+                    "start": 66.1,
+                    "text": "willin'",
+                    "end": 66.66
+                }
+            ]
+        },
+        {
+            "start": 66.74,
+            "noSpeechProb": 0.030639648,
+            "text": "Till the happiness just passed me by",
+            "end": 69.38,
+            "avgLogProb": -0.1673177,
+            "words": [
+                {
+                    "probability": 0.0057258606,
+                    "start": 66.74,
+                    "text": "Till ",
+                    "end": 67
+                },
+                {
+                    "probability": 0.65185547,
+                    "start": 67,
+                    "text": "the ",
+                    "end": 67.24
+                },
+                {
+                    "probability": 0.88623047,
+                    "start": 67.24,
+                    "text": "happiness ",
+                    "end": 67.84
+                },
+                {
+                    "probability": 0.7890625,
+                    "start": 67.84,
+                    "text": "just ",
+                    "end": 68.32
+                },
+                {
+                    "probability": 0.7167969,
+                    "start": 68.32,
+                    "text": "passed ",
+                    "end": 68.74
+                },
+                {
+                    "probability": 0.90283203,
+                    "start": 68.74,
+                    "text": "me ",
+                    "end": 68.96
+                },
+                {
+                    "probability": 0.9038086,
+                    "start": 68.96,
+                    "text": "by",
+                    "end": 69.38
+                }
+            ]
+        },
+        {
+            "start": 69.38,
+            "noSpeechProb": 0.019592285,
+            "text": "Was so wrapped up in",
+            "end": 71.72,
+            "avgLogProb": -0.16382088,
+            "words": [
+                {
+                    "probability": 0.012428284,
+                    "start": 69.38,
+                    "text": "Was ",
+                    "end": 70.42
+                },
+                {
+                    "probability": 0.82666016,
+                    "start": 70.42,
+                    "text": "so ",
+                    "end": 70.86
+                },
+                {
+                    "probability": 0.81884766,
+                    "start": 70.86,
+                    "text": "wrapped ",
+                    "end": 71.18
+                },
+                {
+                    "probability": 0.9003906,
+                    "start": 71.18,
+                    "text": "up ",
+                    "end": 71.44
+                },
+                {
+                    "probability": 0.88720703,
+                    "start": 71.44,
+                    "text": "in",
+                    "end": 71.72
+                }
+            ]
+        },
+        {
+            "start": 71.72,
+            "noSpeechProb": 0.019592285,
+            "text": "All these pretty painful lies",
+            "end": 74.14,
+            "avgLogProb": -0.16382088,
+            "words": [
+                {
+                    "probability": 0.006286621,
+                    "start": 71.72,
+                    "text": "All ",
+                    "end": 72.08
+                },
+                {
+                    "probability": 0.64941406,
+                    "start": 72.08,
+                    "text": "these ",
+                    "end": 72.34
+                },
+                {
+                    "probability": 0.83984375,
+                    "start": 72.34,
+                    "text": "pretty ",
+                    "end": 72.76
+                },
+                {
+                    "probability": 0.6899414,
+                    "start": 72.76,
+                    "text": "painful ",
+                    "end": 73.34
+                },
+                {
+                    "probability": 0.54589844,
+                    "start": 73.34,
+                    "text": "lies",
+                    "end": 74.14
+                }
+            ]
+        },
+        {
+            "start": 74.14,
+            "noSpeechProb": 0.019592285,
+            "text": "It's crazy how",
+            "end": 75.84,
+            "avgLogProb": -0.16382088,
+            "words": [
+                {
+                    "probability": 0.7963867,
+                    "start": 74.14,
+                    "text": "It's ",
+                    "end": 74.98
+                },
+                {
+                    "probability": 0.8671875,
+                    "start": 74.98,
+                    "text": "crazy ",
+                    "end": 75.54
+                },
+                {
+                    "probability": 0.8828125,
+                    "start": 75.54,
+                    "text": "how",
+                    "end": 75.84
+                }
+            ]
+        },
+        {
+            "start": 75.84,
+            "noSpeechProb": 0.019592285,
+            "text": "One thing can make you lose",
+            "end": 77.66,
+            "avgLogProb": -0.16382088,
+            "words": [
+                {
+                    "probability": 0.10144043,
+                    "start": 75.84,
+                    "text": "One ",
+                    "end": 76.16
+                },
+                {
+                    "probability": 0.79345703,
+                    "start": 76.16,
+                    "text": "thing ",
+                    "end": 76.56
+                },
+                {
+                    "probability": 0.6953125,
+                    "start": 76.56,
+                    "text": "can ",
+                    "end": 76.76
+                },
+                {
+                    "probability": 0.66796875,
+                    "start": 76.76,
+                    "text": "make ",
+                    "end": 77.04
+                },
+                {
+                    "probability": 0.85058594,
+                    "start": 77.04,
+                    "text": "you ",
+                    "end": 77.24
+                },
+                {
+                    "probability": 0.59765625,
+                    "start": 77.24,
+                    "text": "lose",
+                    "end": 77.66
+                }
+            ]
+        },
+        {
+            "start": 77.66,
+            "noSpeechProb": 0.019592285,
+            "text": "Your mind",
+            "end": 79.8,
+            "avgLogProb": -0.16382088,
+            "words": [
+                {
+                    "probability": 0.072387695,
+                    "start": 77.66,
+                    "text": "Your ",
+                    "end": 78.02
+                },
+                {
+                    "probability": 0.7578125,
+                    "start": 78.02,
+                    "text": "mind",
+                    "end": 79.8
+                }
+            ]
+        },
+        {
+            "start": 79.8,
+            "noSpeechProb": 0.019592285,
+            "text": "But it's",
+            "end": 82.02,
+            "avgLogProb": -0.16382088,
+            "words": [
+                {
+                    "probability": 0.82666016,
+                    "start": 79.8,
+                    "text": "But ",
+                    "end": 81.32
+                },
+                {
+                    "probability": 0.9362793,
+                    "start": 81.74,
+                    "text": "it's",
+                    "end": 82.02
+                }
+            ]
+        },
+        {
+            "start": 82.02,
+            "noSpeechProb": 0.019592285,
+            "text": "Okay, it's okay",
+            "end": 83.64,
+            "avgLogProb": -0.16382088,
+            "words": [
+                {
+                    "probability": 0.014579773,
+                    "start": 82.02,
+                    "text": "Okay, ",
+                    "end": 82.42
+                },
+                {
+                    "probability": 0.8613281,
+                    "start": 82.78,
+                    "text": "it's ",
+                    "end": 83.14
+                },
+                {
+                    "probability": 0.24157715,
+                    "start": 83.14,
+                    "text": "okay",
+                    "end": 83.64
+                }
+            ]
+        },
+        {
+            "start": 83.64,
+            "noSpeechProb": 0.019592285,
+            "text": "Now I know",
+            "end": 84.76,
+            "avgLogProb": -0.16382088,
+            "words": [
+                {
+                    "probability": 0.44384766,
+                    "start": 83.64,
+                    "text": "Now ",
+                    "end": 84.16
+                },
+                {
+                    "probability": 0.94677734,
+                    "start": 84.16,
+                    "text": "I ",
+                    "end": 84.42
+                },
+                {
+                    "probability": 0.8100586,
+                    "start": 84.42,
+                    "text": "know",
+                    "end": 84.76
+                }
+            ]
+        },
+        {
+            "start": 84.76,
+            "noSpeechProb": 0.019592285,
+            "text": "That's just how, that's just how",
+            "end": 88.22,
+            "avgLogProb": -0.16382088,
+            "words": [
+                {
+                    "probability": 0.85961914,
+                    "start": 84.76,
+                    "text": "That's ",
+                    "end": 85.64
+                },
+                {
+                    "probability": 0.88134766,
+                    "start": 86.44,
+                    "text": "just ",
+                    "end": 86.68
+                },
+                {
+                    "probability": 0.8803711,
+                    "start": 86.68,
+                    "text": "how, ",
+                    "end": 87.18
+                },
+                {
+                    "probability": 0.8317871,
+                    "start": 87.3,
+                    "text": "that's ",
+                    "end": 87.54
+                },
+                {
+                    "probability": 0.8613281,
+                    "start": 87.54,
+                    "text": "just ",
+                    "end": 87.74
+                },
+                {
+                    "probability": 0.8339844,
+                    "start": 87.74,
+                    "text": "how",
+                    "end": 88.22
+                }
+            ]
+        },
+        {
+            "start": 88.22,
+            "noSpeechProb": 0.019592285,
+            "text": "This life goes",
+            "end": 89.44,
+            "avgLogProb": -0.16382088,
+            "words": [
+                {
+                    "probability": 0.70703125,
+                    "start": 88.22,
+                    "text": "This ",
+                    "end": 88.58
+                },
+                {
+                    "probability": 0.8232422,
+                    "start": 88.58,
+                    "text": "life ",
+                    "end": 88.86
+                },
+                {
+                    "probability": 0.8574219,
+                    "start": 88.86,
+                    "text": "goes",
+                    "end": 89.44
+                }
+            ]
+        },
+        {
+            "start": 89.44,
+            "noSpeechProb": 0.019592285,
+            "text": "And yeah we change",
+            "end": 91.7,
+            "avgLogProb": -0.16382088,
+            "words": [
+                {
+                    "probability": 0.7055664,
+                    "start": 89.44,
+                    "text": "And ",
+                    "end": 90.04
+                },
+                {
+                    "probability": 0.8203125,
+                    "start": 90.62,
+                    "text": "yeah ",
+                    "end": 90.82
+                },
+                {
+                    "probability": 0.54248047,
+                    "start": 90.82,
+                    "text": "we ",
+                    "end": 91.04
+                },
+                {
+                    "probability": 0.6220703,
+                    "start": 91.04,
+                    "text": "change",
+                    "end": 91.7
+                }
+            ]
+        },
+        {
+            "start": 91.7,
+            "noSpeechProb": 0.019592285,
+            "text": "And yeah we grow",
+            "end": 93.9,
+            "avgLogProb": -0.16382088,
+            "words": [
+                {
+                    "probability": 0.50683594,
+                    "start": 91.7,
+                    "text": "And ",
+                    "end": 92.82
+                },
+                {
+                    "probability": 0.9199219,
+                    "start": 92.82,
+                    "text": "yeah ",
+                    "end": 93.04
+                },
+                {
+                    "probability": 0.90234375,
+                    "start": 93.04,
+                    "text": "we ",
+                    "end": 93.3
+                },
+                {
+                    "probability": 0.82373047,
+                    "start": 93.3,
+                    "text": "grow",
+                    "end": 93.9
+                }
+            ]
+        },
+        {
+            "start": 93.9,
+            "noSpeechProb": 0.019592285,
+            "text": "And now I'm stronger than I ever was before",
+            "end": 98.06,
+            "avgLogProb": -0.16382088,
+            "words": [
+                {
+                    "probability": 0.79589844,
+                    "start": 93.9,
+                    "text": "And ",
+                    "end": 95.04
+                },
+                {
+                    "probability": 0.8779297,
+                    "start": 95.04,
+                    "text": "now ",
+                    "end": 95.34
+                },
+                {
+                    "probability": 0.98168945,
+                    "start": 95.34,
+                    "text": "I'm ",
+                    "end": 95.52
+                },
+                {
+                    "probability": 0.7368164,
+                    "start": 95.52,
+                    "text": "stronger ",
+                    "end": 95.94
+                },
+                {
+                    "probability": 0.5288086,
+                    "start": 95.94,
+                    "text": "than ",
+                    "end": 96.42
+                },
+                {
+                    "probability": 0.9946289,
+                    "start": 96.42,
+                    "text": "I ",
+                    "end": 96.76
+                },
+                {
+                    "probability": 0.73291016,
+                    "start": 96.76,
+                    "text": "ever ",
+                    "end": 97.08
+                },
+                {
+                    "probability": 0.83496094,
+                    "start": 97.08,
+                    "text": "was ",
+                    "end": 97.5
+                },
+                {
+                    "probability": 0.7607422,
+                    "start": 97.5,
+                    "text": "before",
+                    "end": 98.06
+                }
+            ]
+        },
+        {
+            "start": 98.06,
+            "noSpeechProb": 0.019592285,
+            "text": "And runnin'",
+            "end": 100.28,
+            "avgLogProb": -0.16382088,
+            "words": [
+                {
+                    "probability": 0.765625,
+                    "start": 98.06,
+                    "text": "And ",
+                    "end": 98.32
+                },
+                {
+                    "probability": 0.60821533,
+                    "start": 98.32,
+                    "text": "runnin'",
+                    "end": 100.28
+                }
+            ]
+        },
+        {
+            "start": 100.28,
+            "noSpeechProb": 0.32128906,
+            "text": "I'm runnin'",
+            "end": 101.28,
+            "avgLogProb": -0.06513799,
+            "words": [
+                {
+                    "probability": 0.5834961,
+                    "start": 100.28,
+                    "text": "I'm ",
+                    "end": 100.56
+                },
+                {
+                    "probability": 0.5165405,
+                    "start": 100.56,
+                    "text": "runnin'",
+                    "end": 101.28
+                }
+            ]
+        },
+        {
+            "start": 101.42,
+            "noSpeechProb": 0.32128906,
+            "text": "Back to love",
+            "end": 103.36,
+            "avgLogProb": -0.06513799,
+            "words": [
+                {
+                    "probability": 0.19116211,
+                    "start": 101.42,
+                    "text": "Back ",
+                    "end": 102.48
+                },
+                {
+                    "probability": 0.9091797,
+                    "start": 102.48,
+                    "text": "to ",
+                    "end": 102.7
+                },
+                {
+                    "probability": 0.83251953,
+                    "start": 102.7,
+                    "text": "love",
+                    "end": 103.36
+                }
+            ]
+        },
+        {
+            "start": 103.36,
+            "noSpeechProb": 0.32128906,
+            "text": "Back to love",
+            "end": 105.58,
+            "avgLogProb": -0.06513799,
+            "words": [
+                {
+                    "probability": 0.60302734,
+                    "start": 103.36,
+                    "text": "Back ",
+                    "end": 104.68
+                },
+                {
+                    "probability": 0.91308594,
+                    "start": 104.68,
+                    "text": "to ",
+                    "end": 104.88
+                },
+                {
+                    "probability": 0.89941406,
+                    "start": 104.88,
+                    "text": "love",
+                    "end": 105.58
+                }
+            ]
+        },
+        {
+            "start": 105.58,
+            "noSpeechProb": 0.32128906,
+            "text": "I'm runnin'",
+            "end": 107.94,
+            "avgLogProb": -0.06513799,
+            "words": [
+                {
+                    "probability": 0.90063477,
+                    "start": 105.58,
+                    "text": "I'm ",
+                    "end": 106.3
+                },
+                {
+                    "probability": 0.89941406,
+                    "start": 107.2,
+                    "text": "runnin'",
+                    "end": 107.94
+                }
+            ]
+        },
+        {
+            "start": 109.16,
+            "noSpeechProb": 0.32128906,
+            "text": "I'm runnin'",
+            "end": 110.16,
+            "avgLogProb": -0.06513799,
+            "words": [
+                {
+                    "probability": 0.8876953,
+                    "start": 109.16,
+                    "text": "I'm ",
+                    "end": 109.46
+                },
+                {
+                    "probability": 0.9267578,
+                    "start": 109.46,
+                    "text": "runnin'",
+                    "end": 110.16
+                }
+            ]
+        },
+        {
+            "start": 110.56,
+            "noSpeechProb": 0.32128906,
+            "text": "Back to love",
+            "end": 112.24,
+            "avgLogProb": -0.06513799,
+            "words": [
+                {
+                    "probability": 0.91748047,
+                    "start": 110.56,
+                    "text": "Back ",
+                    "end": 111.36
+                },
+                {
+                    "probability": 0.9116211,
+                    "start": 111.36,
+                    "text": "to ",
+                    "end": 111.6
+                },
+                {
+                    "probability": 0.8959961,
+                    "start": 111.6,
+                    "text": "love",
+                    "end": 112.24
+                }
+            ]
+        },
+        {
+            "start": 112.24,
+            "noSpeechProb": 0.32128906,
+            "text": "Back to love",
+            "end": 114.46,
+            "avgLogProb": -0.06513799,
+            "words": [
+                {
+                    "probability": 0.9223633,
+                    "start": 112.24,
+                    "text": "Back ",
+                    "end": 113.6
+                },
+                {
+                    "probability": 0.9121094,
+                    "start": 113.6,
+                    "text": "to ",
+                    "end": 113.8
+                },
+                {
+                    "probability": 0.8979492,
+                    "start": 113.8,
+                    "text": "love",
+                    "end": 114.46
+                }
+            ]
+        },
+        {
+            "start": 114.46,
+            "noSpeechProb": 0.32128906,
+            "text": "Oh",
+            "end": 115.02,
+            "avgLogProb": -0.06513799,
+            "words": [
+                {
+                    "probability": 0.10925293,
+                    "start": 114.46,
+                    "text": "Oh",
+                    "end": 115.02
+                }
+            ]
+        },
+        {
+            "start": 115.02,
+            "noSpeechProb": 0.32128906,
+            "text": "Runnin'",
+            "end": 118.28,
+            "avgLogProb": -0.06513799,
+            "words": [
+                {
+                    "probability": 0.5128937,
+                    "start": 115.02,
+                    "text": "Runnin'",
+                    "end": 117.5
+                }
+            ]
+        },
+        {
+            "start": 119.46,
+            "noSpeechProb": 0.32128906,
+            "text": "Runnin'",
+            "end": 120.68,
+            "avgLogProb": -0.06513799,
+            "words": [
+                {
+                    "probability": 0.9147949,
+                    "start": 119.46,
+                    "text": "Runnin'",
+                    "end": 120.68
+                }
+            ]
+        },
+        {
+            "start": 126.04,
+            "noSpeechProb": 0.32128906,
+            "text": "Runnin'",
+            "end": 127.9,
+            "avgLogProb": -0.06513799,
+            "words": [
+                {
+                    "probability": 0.93969727,
+                    "start": 126.04,
+                    "text": "Runnin'",
+                    "end": 127.9
+                }
+            ]
+        },
+        {
+            "start": 128.38,
+            "noSpeechProb": 0.32128906,
+            "text": "Runnin'",
+            "end": 130.67,
+            "avgLogProb": -0.06513799,
+            "words": [
+                {
+                    "probability": 0.92871094,
+                    "start": 128.38,
+                    "text": "Runnin'",
+                    "end": 130.67
+                }
+            ]
+        },
+        {
+            "start": 134.6,
+            "noSpeechProb": 0.32128906,
+            "text": "Runnin'",
+            "end": 135.06,
+            "avgLogProb": -0.06513799,
+            "words": [
+                {
+                    "probability": 0.5157013,
+                    "start": 134.6,
+                    "text": "Runnin'",
+                    "end": 135.06
+                }
+            ]
+        },
+        {
+            "start": 135.06,
+            "noSpeechProb": 0.32128906,
+            "text": "But it's okay",
+            "end": 135.94,
+            "avgLogProb": -0.06513799,
+            "words": [
+                {
+                    "probability": 0.6948242,
+                    "start": 135.06,
+                    "text": "But ",
+                    "end": 135.11
+                },
+                {
+                    "probability": 0.94555664,
+                    "start": 135.11,
+                    "text": "it's ",
+                    "end": 135.38
+                },
+                {
+                    "probability": 0.65234375,
+                    "start": 135.38,
+                    "text": "okay",
+                    "end": 135.94
+                }
+            ]
+        },
+        {
+            "start": 135.94,
+            "noSpeechProb": 0.06713867,
+            "text": "It's okay, now I know",
+            "end": 138.08,
+            "avgLogProb": -0.13713431,
+            "words": [
+                {
+                    "probability": 0.5632324,
+                    "start": 135.94,
+                    "text": "It's ",
+                    "end": 136.44
+                },
+                {
+                    "probability": 0.6591797,
+                    "start": 136.44,
+                    "text": "okay, ",
+                    "end": 136.86
+                },
+                {
+                    "probability": 0.5415039,
+                    "start": 137.44,
+                    "text": "now ",
+                    "end": 137.5
+                },
+                {
+                    "probability": 0.97021484,
+                    "start": 137.5,
+                    "text": "I ",
+                    "end": 137.78
+                },
+                {
+                    "probability": 0.8178711,
+                    "start": 137.78,
+                    "text": "know",
+                    "end": 138.08
+                }
+            ]
+        },
+        {
+            "start": 138.08,
+            "noSpeechProb": 0.06713867,
+            "text": "Now I know",
+            "end": 138.68,
+            "avgLogProb": -0.13713431,
+            "words": [
+                {
+                    "probability": 0.0037899017,
+                    "start": 138.08,
+                    "text": "Now ",
+                    "end": 138.28
+                },
+                {
+                    "probability": 0.9165039,
+                    "start": 138.28,
+                    "text": "I ",
+                    "end": 138.33
+                },
+                {
+                    "probability": 0.7993164,
+                    "start": 138.33,
+                    "text": "know",
+                    "end": 138.68
+                }
+            ]
+        },
+        {
+            "start": 138.68,
+            "noSpeechProb": 0.06713867,
+            "text": "That's just how, that's just how",
+            "end": 141.6,
+            "avgLogProb": -0.13713431,
+            "words": [
+                {
+                    "probability": 0.7890625,
+                    "start": 138.68,
+                    "text": "That's ",
+                    "end": 139.76
+                },
+                {
+                    "probability": 0.88916016,
+                    "start": 139.76,
+                    "text": "just ",
+                    "end": 140.04
+                },
+                {
+                    "probability": 0.8979492,
+                    "start": 140.04,
+                    "text": "how, ",
+                    "end": 140.54
+                },
+                {
+                    "probability": 0.90405273,
+                    "start": 140.62,
+                    "text": "that's ",
+                    "end": 140.9
+                },
+                {
+                    "probability": 0.88720703,
+                    "start": 140.9,
+                    "text": "just ",
+                    "end": 141.1
+                },
+                {
+                    "probability": 0.8901367,
+                    "start": 141.1,
+                    "text": "how",
+                    "end": 141.6
+                }
+            ]
+        },
+        {
+            "start": 141.6,
+            "noSpeechProb": 0.06713867,
+            "text": "This life goes",
+            "end": 142.84,
+            "avgLogProb": -0.13713431,
+            "words": [
+                {
+                    "probability": 0.12915039,
+                    "start": 141.6,
+                    "text": "This ",
+                    "end": 141.94
+                },
+                {
+                    "probability": 0.8051758,
+                    "start": 141.94,
+                    "text": "life ",
+                    "end": 142.2
+                },
+                {
+                    "probability": 0.85839844,
+                    "start": 142.2,
+                    "text": "goes",
+                    "end": 142.84
+                }
+            ]
+        },
+        {
+            "start": 142.84,
+            "noSpeechProb": 0.06713867,
+            "text": "Yeah we change",
+            "end": 145.02,
+            "avgLogProb": -0.13713431,
+            "words": [
+                {
+                    "probability": 0.28076172,
+                    "start": 142.84,
+                    "text": "Yeah ",
+                    "end": 144.02
+                },
+                {
+                    "probability": 0.4868164,
+                    "start": 144.02,
+                    "text": "we ",
+                    "end": 144.36
+                },
+                {
+                    "probability": 0.7783203,
+                    "start": 144.36,
+                    "text": "change",
+                    "end": 145.02
+                }
+            ]
+        },
+        {
+            "start": 145.02,
+            "noSpeechProb": 0.06713867,
+            "text": "Yeah we grow",
+            "end": 147.14,
+            "avgLogProb": -0.13713431,
+            "words": [
+                {
+                    "probability": 0.5527344,
+                    "start": 145.02,
+                    "text": "Yeah ",
+                    "end": 146.28
+                },
+                {
+                    "probability": 0.8935547,
+                    "start": 146.28,
+                    "text": "we ",
+                    "end": 146.6
+                },
+                {
+                    "probability": 0.82666016,
+                    "start": 146.6,
+                    "text": "grow",
+                    "end": 147.14
+                }
+            ]
+        },
+        {
+            "start": 147.14,
+            "noSpeechProb": 0.06713867,
+            "text": "And now I'm stronger than",
+            "end": 149.76,
+            "avgLogProb": -0.13713431,
+            "words": [
+                {
+                    "probability": 0.69873047,
+                    "start": 147.14,
+                    "text": "And ",
+                    "end": 148.36
+                },
+                {
+                    "probability": 0.88183594,
+                    "start": 148.36,
+                    "text": "now ",
+                    "end": 148.68
+                },
+                {
+                    "probability": 0.98779297,
+                    "start": 148.68,
+                    "text": "I'm ",
+                    "end": 148.86
+                },
+                {
+                    "probability": 0.7661133,
+                    "start": 148.86,
+                    "text": "stronger ",
+                    "end": 149.28
+                },
+                {
+                    "probability": 0.81396484,
+                    "start": 149.28,
+                    "text": "than",
+                    "end": 149.76
+                }
+            ]
+        },
+        {
+            "start": 149.76,
+            "noSpeechProb": 0.06713867,
+            "text": "I ever was before",
+            "end": 151.42,
+            "avgLogProb": -0.13713431,
+            "words": [
+                {
+                    "probability": 0.99365234,
+                    "start": 149.76,
+                    "text": "I ",
+                    "end": 150.08
+                },
+                {
+                    "probability": 0.7993164,
+                    "start": 150.08,
+                    "text": "ever ",
+                    "end": 150.42
+                },
+                {
+                    "probability": 0.8911133,
+                    "start": 150.42,
+                    "text": "was ",
+                    "end": 150.82
+                },
+                {
+                    "probability": 0.81152344,
+                    "start": 150.82,
+                    "text": "before",
+                    "end": 151.42
+                }
+            ]
+        },
+        {
+            "start": 151.42,
+            "noSpeechProb": 0.06713867,
+            "text": "I'm runnin'",
+            "end": 152.38,
+            "avgLogProb": -0.13713431,
+            "words": [
+                {
+                    "probability": 0.6320801,
+                    "start": 151.42,
+                    "text": "I'm ",
+                    "end": 151.72
+                },
+                {
+                    "probability": 0.5706787,
+                    "start": 151.72,
+                    "text": "runnin'",
+                    "end": 152.38
+                }
+            ]
+        },
+        {
+            "start": 153.58,
+            "noSpeechProb": 0.06713867,
+            "text": "I'm runnin'",
+            "end": 154.56,
+            "avgLogProb": -0.13713431,
+            "words": [
+                {
+                    "probability": 0.87231445,
+                    "start": 153.58,
+                    "text": "I'm ",
+                    "end": 153.88
+                },
+                {
+                    "probability": 0.8959961,
+                    "start": 153.88,
+                    "text": "runnin'",
+                    "end": 154.56
+                }
+            ]
+        },
+        {
+            "start": 154.76,
+            "noSpeechProb": 0.06713867,
+            "text": "Back to love",
+            "end": 156.66,
+            "avgLogProb": -0.13713431,
+            "words": [
+                {
+                    "probability": 0.7895508,
+                    "start": 154.76,
+                    "text": "Back ",
+                    "end": 155.84
+                },
+                {
+                    "probability": 0.90478516,
+                    "start": 155.84,
+                    "text": "to ",
+                    "end": 156.06
+                },
+                {
+                    "probability": 0.8886719,
+                    "start": 156.06,
+                    "text": "love",
+                    "end": 156.66
+                }
+            ]
+        },
+        {
+            "start": 156.66,
+            "noSpeechProb": 0.06713867,
+            "text": "Back to love",
+            "end": 158.86,
+            "avgLogProb": -0.13713431,
+            "words": [
+                {
+                    "probability": 0.6621094,
+                    "start": 156.66,
+                    "text": "Back ",
+                    "end": 158.04
+                },
+                {
+                    "probability": 0.90966797,
+                    "start": 158.04,
+                    "text": "to ",
+                    "end": 158.26
+                },
+                {
+                    "probability": 0.88671875,
+                    "start": 158.26,
+                    "text": "love",
+                    "end": 158.86
+                }
+            ]
+        },
+        {
+            "start": 158.86,
+            "noSpeechProb": 0.06713867,
+            "text": "I'm runnin'",
+            "end": 161.26,
+            "avgLogProb": -0.13713431,
+            "words": [
+                {
+                    "probability": 0.98168945,
+                    "start": 158.86,
+                    "text": "I'm ",
+                    "end": 160.58
+                },
+                {
+                    "probability": 0.91381836,
+                    "start": 160.58,
+                    "text": "runnin'",
+                    "end": 161.26
+                }
+            ]
+        },
+        {
+            "start": 162.52,
+            "noSpeechProb": 0.06713867,
+            "text": "I'm runnin'",
+            "end": 163.42,
+            "avgLogProb": -0.13713431,
+            "words": [
+                {
+                    "probability": 0.9934082,
+                    "start": 162.52,
+                    "text": "I'm ",
+                    "end": 162.84
+                },
+                {
+                    "probability": 0.9313965,
+                    "start": 162.84,
+                    "text": "runnin'",
+                    "end": 163.42
+                }
+            ]
+        },
+        {
+            "start": 163.42,
+            "noSpeechProb": 0.024993896,
+            "text": "Back to love",
+            "end": 165.52,
+            "avgLogProb": -0.33515698,
+            "words": [
+                {
+                    "probability": 0.19714355,
+                    "start": 163.42,
+                    "text": "Back ",
+                    "end": 164.66
+                },
+                {
+                    "probability": 0.8964844,
+                    "start": 164.66,
+                    "text": "to ",
+                    "end": 164.88
+                },
+                {
+                    "probability": 0.7919922,
+                    "start": 164.88,
+                    "text": "love",
+                    "end": 165.52
+                }
+            ]
+        },
+        {
+            "start": 165.52,
+            "noSpeechProb": 0.024993896,
+            "text": "Back to love",
+            "end": 167.78,
+            "avgLogProb": -0.33515698,
+            "words": [
+                {
+                    "probability": 0.27490234,
+                    "start": 165.52,
+                    "text": "Back ",
+                    "end": 165.9
+                },
+                {
+                    "probability": 0.90527344,
+                    "start": 165.9,
+                    "text": "to ",
+                    "end": 167.12
+                },
+                {
+                    "probability": 0.5020447,
+                    "start": 167.12,
+                    "text": "love",
+                    "end": 167.78
+                }
+            ]
+        },
+        {
+            "start": 167.78,
+            "noSpeechProb": 0.024993896,
+            "text": "Lovin' me, lovin' me, now I'm fine",
+            "end": 171.57000000000002,
+            "avgLogProb": -0.33515698,
+            "words": [
+                {
+                    "probability": 0.28537178,
+                    "start": 167.78,
+                    "text": "Lovin' ",
+                    "end": 169.72
+                },
+                {
+                    "probability": 0.84765625,
+                    "start": 169.82,
+                    "text": "me, ",
+                    "end": 169.98
+                },
+                {
+                    "probability": 0.64927167,
+                    "start": 170.14,
+                    "text": "lovin' ",
+                    "end": 170.52
+                },
+                {
+                    "probability": 0.5503845,
+                    "start": 170.64,
+                    "text": "me, ",
+                    "end": 170.78
+                },
+                {
+                    "probability": 0.66259766,
+                    "start": 171.08,
+                    "text": "now ",
+                    "end": 171.13000000000002
+                },
+                {
+                    "probability": 0.49450684,
+                    "start": 171.13000000000002,
+                    "text": "I'm ",
+                    "end": 171.52
+                },
+                {
+                    "probability": 0.7397461,
+                    "start": 171.52,
+                    "text": "fine",
+                    "end": 171.57000000000002
+                }
+            ]
+        },
+        {
+            "start": 171.57000000000002,
+            "noSpeechProb": 0.024993896,
+            "text": "Lovin' me, lovin' me",
+            "end": 173.1,
+            "avgLogProb": -0.33515698,
+            "words": [
+                {
+                    "probability": 0.7705078,
+                    "start": 171.57000000000002,
+                    "text": "Lovin' ",
+                    "end": 171.94
+                },
+                {
+                    "probability": 0.89453125,
+                    "start": 172.04,
+                    "text": "me, ",
+                    "end": 172.22
+                },
+                {
+                    "probability": 0.89453125,
+                    "start": 172.3,
+                    "text": "lovin' ",
+                    "end": 172.76
+                },
+                {
+                    "probability": 0.8955078,
+                    "start": 172.88,
+                    "text": "me",
+                    "end": 173.1
+                }
+            ]
+        },
+        {
+            "start": 173.1,
+            "noSpeechProb": 0.024993896,
+            "text": "Lovin' me, lovin' me, now I'm fine",
+            "end": 176,
+            "avgLogProb": -0.33515698,
+            "words": [
+                {
+                    "probability": 0.7359619,
+                    "start": 173.1,
+                    "text": "Lovin' ",
+                    "end": 174.18
+                },
+                {
+                    "probability": 0.89746094,
+                    "start": 174.28,
+                    "text": "me, ",
+                    "end": 174.44
+                },
+                {
+                    "probability": 0.6564738,
+                    "start": 174.74,
+                    "text": "lovin' ",
+                    "end": 174.98
+                },
+                {
+                    "probability": 0.8955078,
+                    "start": 175.06,
+                    "text": "me, ",
+                    "end": 175.22
+                },
+                {
+                    "probability": 0.8886719,
+                    "start": 175.34,
+                    "text": "now ",
+                    "end": 175.48
+                },
+                {
+                    "probability": 0.99560547,
+                    "start": 175.48,
+                    "text": "I'm ",
+                    "end": 175.62
+                },
+                {
+                    "probability": 0.88623047,
+                    "start": 175.62,
+                    "text": "fine",
+                    "end": 176
+                }
+            ]
+        },
+        {
+            "start": 176,
+            "noSpeechProb": 0.024993896,
+            "text": "Lovin' me, lovin' me",
+            "end": 177.56,
+            "avgLogProb": -0.33515698,
+            "words": [
+                {
+                    "probability": 0.8586426,
+                    "start": 176,
+                    "text": "Lovin' ",
+                    "end": 176.4
+                },
+                {
+                    "probability": 0.8959961,
+                    "start": 176.5,
+                    "text": "me, ",
+                    "end": 176.64
+                },
+                {
+                    "probability": 0.90771484,
+                    "start": 176.94,
+                    "text": "lovin' ",
+                    "end": 177.22
+                },
+                {
+                    "probability": 0.8989258,
+                    "start": 177.34,
+                    "text": "me",
+                    "end": 177.56
+                }
+            ]
+        },
+        {
+            "start": 177.56,
+            "noSpeechProb": 0.024993896,
+            "text": "I'm lovin' me, lovin' me, now I'm fine",
+            "end": 180.42,
+            "avgLogProb": -0.33515698,
+            "words": [
+                {
+                    "probability": 0.7285156,
+                    "start": 177.56,
+                    "text": "I'm ",
+                    "end": 178.38
+                },
+                {
+                    "probability": 0.44429016,
+                    "start": 178.38,
+                    "text": "lovin' ",
+                    "end": 178.6
+                },
+                {
+                    "probability": 0.88916016,
+                    "start": 178.72,
+                    "text": "me, ",
+                    "end": 178.94
+                },
+                {
+                    "probability": 0.90527344,
+                    "start": 179.24,
+                    "text": "lovin' ",
+                    "end": 179.42
+                },
+                {
+                    "probability": 0.8911133,
+                    "start": 179.5,
+                    "text": "me, ",
+                    "end": 179.68
+                },
+                {
+                    "probability": 0.890625,
+                    "start": 179.86,
+                    "text": "now ",
+                    "end": 179.94
+                },
+                {
+                    "probability": 0.9941406,
+                    "start": 179.94,
+                    "text": "I'm ",
+                    "end": 180.1
+                },
+                {
+                    "probability": 0.8935547,
+                    "start": 180.1,
+                    "text": "fine",
+                    "end": 180.42
+                }
+            ]
+        },
+        {
+            "start": 180.42,
+            "noSpeechProb": 0.024993896,
+            "text": "Lovin' me, lovin' me",
+            "end": 182.14,
+            "avgLogProb": -0.33515698,
+            "words": [
+                {
+                    "probability": 0.85913086,
+                    "start": 180.42,
+                    "text": "Lovin' ",
+                    "end": 180.82
+                },
+                {
+                    "probability": 0.55184937,
+                    "start": 180.96,
+                    "text": "me, ",
+                    "end": 181.1
+                },
+                {
+                    "probability": 0.65427655,
+                    "start": 181.26,
+                    "text": "lovin' ",
+                    "end": 181.68
+                },
+                {
+                    "probability": 0.8989258,
+                    "start": 181.78,
+                    "text": "me",
+                    "end": 182.14
+                }
+            ]
+        },
+        {
+            "start": 182.14,
+            "noSpeechProb": 0.024993896,
+            "text": "Lovin' me",
+            "end": 183.86,
+            "avgLogProb": -0.33515698,
+            "words": [
+                {
+                    "probability": 0.5599365,
+                    "start": 182.14,
+                    "text": "Lovin' ",
+                    "end": 183.22
+                },
+                {
+                    "probability": 0.8964844,
+                    "start": 183.44,
+                    "text": "me",
+                    "end": 183.86
+                }
+            ]
+        },
+        {
+            "start": 183.86,
+            "noSpeechProb": 0.024993896,
+            "text": "Back to lovin' me",
+            "end": 186.84,
+            "avgLogProb": -0.33515698,
+            "words": [
+                {
+                    "probability": 0.57421875,
+                    "start": 183.86,
+                    "text": "Back ",
+                    "end": 184.24
+                },
+                {
+                    "probability": 0.91503906,
+                    "start": 184.24,
+                    "text": "to ",
+                    "end": 184.6
+                },
+                {
+                    "probability": 0.8964844,
+                    "start": 184.6,
+                    "text": "lovin' ",
+                    "end": 185.4
+                },
+                {
+                    "probability": 0.88720703,
+                    "start": 185.64,
+                    "text": "me",
+                    "end": 186.84
+                }
+            ]
+        },
+        {
+            "start": 186.84,
+            "noSpeechProb": 0.024993896,
+            "text": "Back to love",
+            "end": 192.26,
+            "avgLogProb": -0.33515698,
+            "words": [
+                {
+                    "probability": 0.7441406,
+                    "start": 186.84,
+                    "text": "Back ",
+                    "end": 188.88
+                },
+                {
+                    "probability": 0.9116211,
+                    "start": 191.38,
+                    "text": "to ",
+                    "end": 191.62
+                },
+                {
+                    "probability": 0.87939453,
+                    "start": 191.62,
+                    "text": "love",
+                    "end": 192.26
+                }
+            ]
+        },
+        {
+            "start": 192.26,
+            "noSpeechProb": 0.7685547,
+            "text": "Mm, mm, mm, mm",
+            "end": 195.99,
+            "avgLogProb": -0.44023436,
+            "words": [
+                {
+                    "probability": 0.015548706,
+                    "start": 192.26,
+                    "text": "Mm, ",
+                    "end": 193.08
+                },
+                {
+                    "probability": 0.8515625,
+                    "start": 194.81,
+                    "text": "mm, ",
+                    "end": 195.09
+                },
+                {
+                    "probability": 0.88427734,
+                    "start": 195.37,
+                    "text": "mm, ",
+                    "end": 195.61
+                },
+                {
+                    "probability": 0.84521484,
+                    "start": 195.67,
+                    "text": "mm",
+                    "end": 195.99
+                }
+            ]
+        }
+    ],
+    "language": "english",
+    "match": true,
+    "aligned": false
+}

@@ -1,0 +1,350 @@
+{
+    "match": true,
+    "transcript": [
+        {
+            "words": [
+                {
+                    "end": 72.37,
+                    "text": "By ",
+                    "probability": 0.00013029575,
+                    "start": 57.02
+                },
+                {
+                    "end": 76.46,
+                    "text": "the ",
+                    "probability": 0.23413086,
+                    "start": 72.54
+                },
+                {
+                    "end": 76.68,
+                    "text": "people ",
+                    "probability": 0.0038776398,
+                    "start": 76.46
+                },
+                {
+                    "end": 77.32,
+                    "text": "of ",
+                    "probability": 0.22619629,
+                    "start": 76.68
+                },
+                {
+                    "end": 77.58,
+                    "text": "this ",
+                    "probability": 0.02520752,
+                    "start": 77.32
+                },
+                {
+                    "end": 77.84,
+                    "text": "land.",
+                    "probability": 0.18908691,
+                    "start": 77.58
+                }
+            ],
+            "noSpeechProb": 0.6503906,
+            "avgLogProb": -0.9386066,
+            "start": 57.02,
+            "text": "By the people of this land.",
+            "end": 77.84
+        },
+        {
+            "words": [
+                {
+                    "end": 91.89,
+                    "text": "And ",
+                    "probability": 0.01071167,
+                    "start": 91.84
+                },
+                {
+                    "end": 93.48,
+                    "text": "I ",
+                    "probability": 0.15625,
+                    "start": 91.89
+                },
+                {
+                    "end": 93.71,
+                    "text": "hope ",
+                    "probability": 0.01838684,
+                    "start": 93.48
+                },
+                {
+                    "end": 95.82,
+                    "text": "this ",
+                    "probability": 0.01966858,
+                    "start": 95.4
+                },
+                {
+                    "end": 95.82124999999999,
+                    "text": "song ",
+                    "probability": 0.08428955,
+                    "start": 95.82
+                },
+                {
+                    "end": 95.82249999999999,
+                    "text": "will ",
+                    "probability": 0.50922394,
+                    "start": 95.82124999999999
+                },
+                {
+                    "end": 95.82374999999999,
+                    "text": "inspire ",
+                    "probability": 0.10656738,
+                    "start": 95.82249999999999
+                },
+                {
+                    "end": 95.82499999999999,
+                    "text": "you.",
+                    "probability": 0.52490234,
+                    "start": 95.82374999999999
+                }
+            ],
+            "noSpeechProb": 0.6503906,
+            "avgLogProb": -0.9386066,
+            "start": 91.84,
+            "text": "And I hope this song will inspire you.",
+            "end": 95.82499999999999
+        },
+        {
+            "words": [
+                {
+                    "end": 95.84,
+                    "text": "So, ",
+                    "probability": 0.03845215,
+                    "start": 95.82499999999999
+                },
+                {
+                    "end": 95.8425,
+                    "text": "let ",
+                    "probability": 0.11175537,
+                    "start": 95.84
+                },
+                {
+                    "end": 95.845,
+                    "text": "me ",
+                    "probability": 0.097351074,
+                    "start": 95.8425
+                },
+                {
+                    "end": 95.86,
+                    "text": "know ",
+                    "probability": 0.019577026,
+                    "start": 95.845
+                },
+                {
+                    "end": 95.98,
+                    "text": "what ",
+                    "probability": 0.20922852,
+                    "start": 95.86
+                },
+                {
+                    "end": 96.06,
+                    "text": "you ",
+                    "probability": 0.73779297,
+                    "start": 95.98
+                },
+                {
+                    "end": 96.08500000000001,
+                    "text": "think.",
+                    "probability": 0.6069336,
+                    "start": 96.06
+                }
+            ],
+            "noSpeechProb": 0.6503906,
+            "avgLogProb": -0.9386066,
+            "start": 95.82499999999999,
+            "text": "So, let me know what you think.",
+            "end": 96.08500000000001
+        },
+        {
+            "words": [
+                {
+                    "end": 96.11,
+                    "text": "Thank ",
+                    "probability": 0.119018555,
+                    "start": 96.08500000000001
+                },
+                {
+                    "end": 113.56,
+                    "text": "you.",
+                    "probability": 0.89160156,
+                    "start": 110.74
+                }
+            ],
+            "noSpeechProb": 0.6503906,
+            "avgLogProb": -0.9386066,
+            "start": 96.08500000000001,
+            "text": "Thank you.",
+            "end": 118.74
+        },
+        {
+            "words": [
+                {
+                    "end": 119.14,
+                    "text": "Thank ",
+                    "probability": 0.46018982,
+                    "start": 118.96
+                },
+                {
+                    "end": 119.16499999999999,
+                    "text": "you.",
+                    "probability": 0.89208984,
+                    "start": 119.14
+                }
+            ],
+            "noSpeechProb": 0.6503906,
+            "avgLogProb": -0.9386066,
+            "start": 118.96,
+            "text": "Thank you.",
+            "end": 119.16499999999999
+        },
+        {
+            "words": [
+                {
+                    "end": 119.19,
+                    "text": "Thank ",
+                    "probability": 0.25,
+                    "start": 119.16499999999999
+                },
+                {
+                    "end": 120.2,
+                    "text": "you.",
+                    "probability": 0.89453125,
+                    "start": 120.16
+                }
+            ],
+            "noSpeechProb": 0.6503906,
+            "avgLogProb": -0.9386066,
+            "start": 119.16499999999999,
+            "text": "Thank you.",
+            "end": 120.2
+        },
+        {
+            "words": [
+                {
+                    "end": 120.215,
+                    "text": "Thank ",
+                    "probability": 0.49316406,
+                    "start": 120.2
+                },
+                {
+                    "end": 120.26,
+                    "text": "you.",
+                    "probability": 0.4985962,
+                    "start": 120.215
+                }
+            ],
+            "noSpeechProb": 0.6503906,
+            "avgLogProb": -0.9386066,
+            "start": 120.2,
+            "text": "Thank you.",
+            "end": 120.26
+        },
+        {
+            "words": [
+                {
+                    "end": 120.265,
+                    "text": "Thank ",
+                    "probability": 0.7192383,
+                    "start": 120.26
+                },
+                {
+                    "end": 120.28,
+                    "text": "you.",
+                    "probability": 0.8935547,
+                    "start": 120.265
+                }
+            ],
+            "noSpeechProb": 0.6503906,
+            "avgLogProb": -0.9386066,
+            "start": 120.26,
+            "text": "Thank you.",
+            "end": 120.28
+        },
+        {
+            "words": [
+                {
+                    "end": 143.92,
+                    "text": "Thank ",
+                    "probability": 0.41439372,
+                    "start": 120.28
+                },
+                {
+                    "end": 149.82,
+                    "text": "you.",
+                    "probability": 0.8383789,
+                    "start": 147.86
+                }
+            ],
+            "noSpeechProb": 0.057281494,
+            "avgLogProb": -0.3211411,
+            "start": 120.28,
+            "text": "Thank you.",
+            "end": 152.82
+        },
+        {
+            "words": [
+                {
+                    "end": 152.87,
+                    "text": "Thank ",
+                    "probability": 0.07727051,
+                    "start": 152.82
+                },
+                {
+                    "end": 153.74,
+                    "text": "you.",
+                    "probability": 0.8881836,
+                    "start": 152.87
+                }
+            ],
+            "noSpeechProb": 0.057281494,
+            "avgLogProb": -0.3211411,
+            "start": 152.82,
+            "text": "Thank you.",
+            "end": 153.74
+        },
+        {
+            "words": [
+                {
+                    "end": 153.91000000000003,
+                    "text": "Thank ",
+                    "probability": 0.18835449,
+                    "start": 153.86
+                },
+                {
+                    "end": 155.36,
+                    "text": "you.",
+                    "probability": 0.88720703,
+                    "start": 153.91000000000003
+                }
+            ],
+            "noSpeechProb": 0.057281494,
+            "avgLogProb": -0.3211411,
+            "start": 153.86,
+            "text": "Thank you.",
+            "end": 155.36
+        },
+        {
+            "words": [
+                {
+                    "end": 157.5,
+                    "text": "Thank ",
+                    "probability": 0.11187744,
+                    "start": 157.45
+                },
+                {
+                    "end": 159.22,
+                    "text": "you.",
+                    "probability": 0.90234375,
+                    "start": 157.5
+                }
+            ],
+            "noSpeechProb": 0.060546875,
+            "avgLogProb": -0.43217328,
+            "start": 157.45,
+            "text": "Thank you.",
+            "end": 170.19
+        }
+    ],
+    "aligned": false,
+    "version": "1.0.0_rc9",
+    "language": "english"
+}

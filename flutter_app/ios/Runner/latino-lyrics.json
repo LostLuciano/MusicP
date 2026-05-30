@@ -1,0 +1,890 @@
+{
+    "match": true,
+    "transcript": [
+        {
+            "words": [
+                {
+                    "text": "Espera, ",
+                    "probability": 0.5040817,
+                    "start": 2.5,
+                    "end": 3.28
+                },
+                {
+                    "text": "si ",
+                    "probability": 0.77783203,
+                    "start": 3.28,
+                    "end": 3.4
+                },
+                {
+                    "text": "espera, ",
+                    "probability": 0.5839844,
+                    "start": 3.4,
+                    "end": 3.94
+                },
+                {
+                    "text": "no ",
+                    "probability": 0.8984375,
+                    "start": 4.1,
+                    "end": 4.18
+                },
+                {
+                    "text": "espera, ",
+                    "probability": 0.6508789,
+                    "start": 4.18,
+                    "end": 4.52
+                },
+                {
+                    "text": "siempre ",
+                    "probability": 0.7607422,
+                    "start": 4.7,
+                    "end": 5.16
+                },
+                {
+                    "text": "espera, ",
+                    "probability": 0.70166016,
+                    "start": 5.16,
+                    "end": 6.16
+                },
+                {
+                    "text": "a ",
+                    "probability": 0.88134766,
+                    "start": 6.52,
+                    "end": 6.96
+                },
+                {
+                    "text": "lo ",
+                    "probability": 0.90722656,
+                    "start": 6.96,
+                    "end": 7.12
+                },
+                {
+                    "text": "largo ",
+                    "probability": 0.87402344,
+                    "start": 7.12,
+                    "end": 7.38
+                },
+                {
+                    "text": "de ",
+                    "probability": 0.89453125,
+                    "start": 7.38,
+                    "end": 7.68
+                },
+                {
+                    "text": "la ",
+                    "probability": 0.89404297,
+                    "start": 7.68,
+                    "end": 7.9
+                },
+                {
+                    "text": "noche",
+                    "probability": 0.88964844,
+                    "start": 7.9,
+                    "end": 8.4
+                }
+            ],
+            "avgLogProb": -0.288125,
+            "text": "Espera, si espera, no espera, siempre espera, a lo largo de la noche",
+            "noSpeechProb": 0.60253906,
+            "start": 2.5,
+            "end": 8.4
+        },
+        {
+            "words": [
+                {
+                    "text": "Sé ",
+                    "probability": 0.14025879,
+                    "start": 8.4,
+                    "end": 9.76
+                },
+                {
+                    "text": "que ",
+                    "probability": 0.83203125,
+                    "start": 9.76,
+                    "end": 9.96
+                },
+                {
+                    "text": "te ",
+                    "probability": 0.88671875,
+                    "start": 9.96,
+                    "end": 10.22
+                },
+                {
+                    "text": "mueres ",
+                    "probability": 0.90063477,
+                    "start": 10.22,
+                    "end": 10.56
+                },
+                {
+                    "text": "de ",
+                    "probability": 0.9042969,
+                    "start": 10.56,
+                    "end": 10.84
+                },
+                {
+                    "text": "ganas ",
+                    "probability": 0.8859863,
+                    "start": 10.84,
+                    "end": 11.5
+                },
+                {
+                    "text": "por ",
+                    "probability": 0.62939453,
+                    "start": 11.5,
+                    "end": 12.16
+                },
+                {
+                    "text": "tenerme ",
+                    "probability": 0.87524414,
+                    "start": 12.16,
+                    "end": 12.86
+                },
+                {
+                    "text": "en ",
+                    "probability": 0.8823242,
+                    "start": 12.86,
+                    "end": 13.72
+                },
+                {
+                    "text": "tus ",
+                    "probability": 0.90527344,
+                    "start": 13.72,
+                    "end": 13.96
+                },
+                {
+                    "text": "brazos",
+                    "probability": 0.88964844,
+                    "start": 13.96,
+                    "end": 14.56
+                }
+            ],
+            "avgLogProb": -0.288125,
+            "text": "Sé que te mueres de ganas por tenerme en tus brazos",
+            "noSpeechProb": 0.60253906,
+            "start": 8.4,
+            "end": 14.56
+        },
+        {
+            "words": [
+                {
+                    "text": "Espera, ",
+                    "probability": 0.7734375,
+                    "start": 14.56,
+                    "end": 15.54
+                },
+                {
+                    "text": "si ",
+                    "probability": 0.9169922,
+                    "start": 15.58,
+                    "end": 15.7
+                },
+                {
+                    "text": "espera, ",
+                    "probability": 0.7402344,
+                    "start": 15.7,
+                    "end": 16.24
+                },
+                {
+                    "text": "no ",
+                    "probability": 0.9033203,
+                    "start": 16.38,
+                    "end": 16.5
+                },
+                {
+                    "text": "espera, ",
+                    "probability": 0.6845703,
+                    "start": 16.5,
+                    "end": 16.74
+                },
+                {
+                    "text": "siempre ",
+                    "probability": 0.81396484,
+                    "start": 16.98,
+                    "end": 17.42
+                },
+                {
+                    "text": "espera, ",
+                    "probability": 0.7138672,
+                    "start": 17.42,
+                    "end": 18.46
+                },
+                {
+                    "text": "a ",
+                    "probability": 0.98828125,
+                    "start": 18.76,
+                    "end": 19.26
+                },
+                {
+                    "text": "lo ",
+                    "probability": 0.87939453,
+                    "start": 19.26,
+                    "end": 19.4
+                },
+                {
+                    "text": "largo ",
+                    "probability": 0.9008789,
+                    "start": 19.4,
+                    "end": 19.66
+                },
+                {
+                    "text": "de ",
+                    "probability": 0.9038086,
+                    "start": 19.66,
+                    "end": 20
+                },
+                {
+                    "text": "la ",
+                    "probability": 0.9008789,
+                    "start": 20,
+                    "end": 20.18
+                },
+                {
+                    "text": "noche",
+                    "probability": 0.90771484,
+                    "start": 20.18,
+                    "end": 20.72
+                }
+            ],
+            "avgLogProb": -0.288125,
+            "text": "Espera, si espera, no espera, siempre espera, a lo largo de la noche",
+            "noSpeechProb": 0.60253906,
+            "start": 14.56,
+            "end": 20.72
+        },
+        {
+            "words": [
+                {
+                    "text": "No ",
+                    "probability": 0.84228516,
+                    "start": 20.72,
+                    "end": 22.08
+                },
+                {
+                    "text": "puedo ",
+                    "probability": 0.6953125,
+                    "start": 22.08,
+                    "end": 22.4
+                },
+                {
+                    "text": "más ",
+                    "probability": 0.7949219,
+                    "start": 22.4,
+                    "end": 22.72
+                },
+                {
+                    "text": "apurarme, ",
+                    "probability": 0.85009766,
+                    "start": 22.72,
+                    "end": 23.78
+                },
+                {
+                    "text": "pero ",
+                    "probability": 0.7573242,
+                    "start": 24.26,
+                    "end": 24.52
+                },
+                {
+                    "text": "llego, ",
+                    "probability": 0.77612305,
+                    "start": 24.52,
+                    "end": 25.16
+                },
+                {
+                    "text": "llego ",
+                    "probability": 0.75341797,
+                    "start": 25.78,
+                    "end": 26.06
+                },
+                {
+                    "text": "siempre",
+                    "probability": 0.7661133,
+                    "start": 26.06,
+                    "end": 26.74
+                }
+            ],
+            "avgLogProb": -0.288125,
+            "text": "No puedo más apurarme, pero llego, llego siempre",
+            "noSpeechProb": 0.60253906,
+            "start": 20.72,
+            "end": 26.74
+        },
+        {
+            "words": [
+                {
+                    "text": "Espera, ",
+                    "probability": 0.49658966,
+                    "start": 26.74,
+                    "end": 28.42
+                },
+                {
+                    "text": "si ",
+                    "probability": 0.26220703,
+                    "start": 40.3,
+                    "end": 40.32
+                },
+                {
+                    "text": "espera, ",
+                    "probability": 0.60791016,
+                    "start": 40.32,
+                    "end": 40.88
+                },
+                {
+                    "text": "no ",
+                    "probability": 0.89453125,
+                    "start": 41,
+                    "end": 41.08
+                },
+                {
+                    "text": "espera, ",
+                    "probability": 0.63671875,
+                    "start": 41.08,
+                    "end": 41.42
+                },
+                {
+                    "text": "siempre ",
+                    "probability": 0.79003906,
+                    "start": 41.6,
+                    "end": 42.02
+                },
+                {
+                    "text": "espera, ",
+                    "probability": 0.6816406,
+                    "start": 42.02,
+                    "end": 43.04
+                },
+                {
+                    "text": "a ",
+                    "probability": 0.8833008,
+                    "start": 43.44,
+                    "end": 43.88
+                },
+                {
+                    "text": "lo ",
+                    "probability": 0.9038086,
+                    "start": 43.88,
+                    "end": 44.04
+                },
+                {
+                    "text": "largo ",
+                    "probability": 0.86572266,
+                    "start": 44.04,
+                    "end": 44.32
+                },
+                {
+                    "text": "de ",
+                    "probability": 0.890625,
+                    "start": 44.32,
+                    "end": 44.62
+                },
+                {
+                    "text": "la ",
+                    "probability": 0.89453125,
+                    "start": 44.62,
+                    "end": 44.82
+                },
+                {
+                    "text": "noche",
+                    "probability": 0.88916016,
+                    "start": 44.82,
+                    "end": 45.34
+                }
+            ],
+            "avgLogProb": -0.1371875,
+            "text": "Espera, si espera, no espera, siempre espera, a lo largo de la noche",
+            "noSpeechProb": 0.5854492,
+            "start": 26.74,
+            "end": 45.34
+        },
+        {
+            "words": [
+                {
+                    "text": "Sé ",
+                    "probability": 0.1439209,
+                    "start": 45.34,
+                    "end": 46.68
+                },
+                {
+                    "text": "que ",
+                    "probability": 0.82910156,
+                    "start": 46.68,
+                    "end": 46.9
+                },
+                {
+                    "text": "te ",
+                    "probability": 0.8876953,
+                    "start": 46.9,
+                    "end": 47.12
+                },
+                {
+                    "text": "mueres ",
+                    "probability": 0.90649414,
+                    "start": 47.12,
+                    "end": 47.44
+                },
+                {
+                    "text": "de ",
+                    "probability": 0.9067383,
+                    "start": 47.44,
+                    "end": 47.74
+                },
+                {
+                    "text": "ganas ",
+                    "probability": 0.8881836,
+                    "start": 47.74,
+                    "end": 48.42
+                },
+                {
+                    "text": "por ",
+                    "probability": 0.60791016,
+                    "start": 48.42,
+                    "end": 49.08
+                },
+                {
+                    "text": "tenerme ",
+                    "probability": 0.8745117,
+                    "start": 49.08,
+                    "end": 49.76
+                },
+                {
+                    "text": "nuevamente",
+                    "probability": 0.8613281,
+                    "start": 49.76,
+                    "end": 51.26
+                }
+            ],
+            "avgLogProb": -0.1371875,
+            "text": "Sé que te mueres de ganas por tenerme nuevamente",
+            "noSpeechProb": 0.5854492,
+            "start": 45.34,
+            "end": 51.26
+        },
+        {
+            "words": [
+                {
+                    "text": "Espera, ",
+                    "probability": 0.74938965,
+                    "start": 51.26,
+                    "end": 52.5
+                },
+                {
+                    "text": "si ",
+                    "probability": 0.9111328,
+                    "start": 52.52,
+                    "end": 52.64
+                },
+                {
+                    "text": "espera, ",
+                    "probability": 0.734375,
+                    "start": 52.64,
+                    "end": 53.18
+                },
+                {
+                    "text": "no ",
+                    "probability": 0.9033203,
+                    "start": 53.32,
+                    "end": 53.44
+                },
+                {
+                    "text": "espera, ",
+                    "probability": 0.7001953,
+                    "start": 53.44,
+                    "end": 53.72
+                },
+                {
+                    "text": "siempre ",
+                    "probability": 0.8095703,
+                    "start": 53.94,
+                    "end": 54.32
+                },
+                {
+                    "text": "espera, ",
+                    "probability": 0.7163086,
+                    "start": 54.32,
+                    "end": 55.38
+                },
+                {
+                    "text": "a ",
+                    "probability": 0.98779297,
+                    "start": 55.76,
+                    "end": 56.2
+                },
+                {
+                    "text": "lo ",
+                    "probability": 0.87939453,
+                    "start": 56.2,
+                    "end": 56.32
+                },
+                {
+                    "text": "largo ",
+                    "probability": 0.89697266,
+                    "start": 56.32,
+                    "end": 56.58
+                },
+                {
+                    "text": "de ",
+                    "probability": 0.9038086,
+                    "start": 56.58,
+                    "end": 56.9
+                },
+                {
+                    "text": "la ",
+                    "probability": 0.89501953,
+                    "start": 56.9,
+                    "end": 57.1
+                },
+                {
+                    "text": "noche",
+                    "probability": 0.90283203,
+                    "start": 57.1,
+                    "end": 57.64
+                }
+            ],
+            "avgLogProb": -0.1371875,
+            "text": "Espera, si espera, no espera, siempre espera, a lo largo de la noche",
+            "noSpeechProb": 0.5854492,
+            "start": 51.26,
+            "end": 57.64
+        },
+        {
+            "words": [
+                {
+                    "text": "No ",
+                    "probability": 0.85791016,
+                    "start": 57.64,
+                    "end": 58.68
+                },
+                {
+                    "text": "puedo ",
+                    "probability": 0.6879883,
+                    "start": 59,
+                    "end": 59.32
+                },
+                {
+                    "text": "más ",
+                    "probability": 0.8041992,
+                    "start": 59.32,
+                    "end": 59.62
+                },
+                {
+                    "text": "apurarme, ",
+                    "probability": 0.85286456,
+                    "start": 59.62,
+                    "end": 60.66
+                },
+                {
+                    "text": "pero ",
+                    "probability": 0.7583008,
+                    "start": 61.14,
+                    "end": 61.42
+                },
+                {
+                    "text": "llego, ",
+                    "probability": 0.78881836,
+                    "start": 61.42,
+                    "end": 62.02
+                },
+                {
+                    "text": "aunque ",
+                    "probability": 0.89941406,
+                    "start": 62.36,
+                    "end": 62.68
+                },
+                {
+                    "text": "tarde ",
+                    "probability": 0.72021484,
+                    "start": 62.68,
+                    "end": 63.22
+                },
+                {
+                    "text": "llego",
+                    "probability": 0.72314453,
+                    "start": 63.22,
+                    "end": 63.98
+                }
+            ],
+            "avgLogProb": -0.1371875,
+            "text": "No puedo más apurarme, pero llego, aunque tarde llego",
+            "noSpeechProb": 0.5854492,
+            "start": 57.64,
+            "end": 63.98
+        },
+        {
+            "words": [
+                {
+                    "text": "Espera, ",
+                    "probability": 0.6000366,
+                    "start": 63.98,
+                    "end": 65.68
+                },
+                {
+                    "text": "espera, ",
+                    "probability": 0.76708984,
+                    "start": 72.36,
+                    "end": 73.06
+                },
+                {
+                    "text": "a ",
+                    "probability": 0.96191406,
+                    "start": 73.7,
+                    "end": 74.48
+                },
+                {
+                    "text": "lo ",
+                    "probability": 0.9067383,
+                    "start": 74.48,
+                    "end": 74.66
+                },
+                {
+                    "text": "largo ",
+                    "probability": 0.86865234,
+                    "start": 74.66,
+                    "end": 75.02
+                },
+                {
+                    "text": "de ",
+                    "probability": 0.890625,
+                    "start": 75.02,
+                    "end": 75.36
+                },
+                {
+                    "text": "la ",
+                    "probability": 0.88916016,
+                    "start": 75.36,
+                    "end": 75.58
+                },
+                {
+                    "text": "noche",
+                    "probability": 0.9140625,
+                    "start": 75.58,
+                    "end": 76.12
+                }
+            ],
+            "avgLogProb": -0.18263134,
+            "text": "Espera, espera, a lo largo de la noche",
+            "noSpeechProb": 0.12512207,
+            "start": 63.98,
+            "end": 76.12
+        },
+        {
+            "words": [
+                {
+                    "text": "Me ",
+                    "probability": 0.33618164,
+                    "start": 76.12,
+                    "end": 77.42
+                },
+                {
+                    "text": "imagino ",
+                    "probability": 0.94555664,
+                    "start": 77.42,
+                    "end": 78.14
+                },
+                {
+                    "text": "lo ",
+                    "probability": 0.88378906,
+                    "start": 78.14,
+                    "end": 78.54
+                },
+                {
+                    "text": "que ",
+                    "probability": 0.8208008,
+                    "start": 78.54,
+                    "end": 78.76
+                },
+                {
+                    "text": "haces, ",
+                    "probability": 0.842041,
+                    "start": 78.76,
+                    "end": 79.14
+                },
+                {
+                    "text": "pero ",
+                    "probability": 0.7871094,
+                    "start": 79.26,
+                    "end": 79.64
+                },
+                {
+                    "text": "yo ",
+                    "probability": 0.88427734,
+                    "start": 79.64,
+                    "end": 79.96
+                },
+                {
+                    "text": "llego, ",
+                    "probability": 0.84643555,
+                    "start": 79.96,
+                    "end": 80.6
+                },
+                {
+                    "text": "llego ",
+                    "probability": 0.77075195,
+                    "start": 81.16,
+                    "end": 81.48
+                },
+                {
+                    "text": "siempre",
+                    "probability": 0.79589844,
+                    "start": 81.48,
+                    "end": 82.02
+                }
+            ],
+            "avgLogProb": -0.18263134,
+            "text": "Me imagino lo que haces, pero yo llego, llego siempre",
+            "noSpeechProb": 0.12512207,
+            "start": 76.12,
+            "end": 82.02
+        },
+        {
+            "words": [
+                {
+                    "text": "Espera, ",
+                    "probability": 0.7895508,
+                    "start": 82.02,
+                    "end": 83.2
+                },
+                {
+                    "text": "espera, ",
+                    "probability": 0.7373047,
+                    "start": 83.56,
+                    "end": 84.16
+                },
+                {
+                    "text": "espera ",
+                    "probability": 0.7182617,
+                    "start": 84.66,
+                    "end": 85.02
+                },
+                {
+                    "text": "esta ",
+                    "probability": 0.58154297,
+                    "start": 85.02,
+                    "end": 85.26
+                },
+                {
+                    "text": "noche, ",
+                    "probability": 0.9042969,
+                    "start": 85.26,
+                    "end": 85.8
+                },
+                {
+                    "text": "espera, ",
+                    "probability": 0.66748047,
+                    "start": 85.96,
+                    "end": 86.32
+                },
+                {
+                    "text": "a ",
+                    "probability": 0.92578125,
+                    "start": 86.64,
+                    "end": 86.78
+                },
+                {
+                    "text": "lo ",
+                    "probability": 0.90527344,
+                    "start": 86.78,
+                    "end": 86.94
+                },
+                {
+                    "text": "largo ",
+                    "probability": 0.9067383,
+                    "start": 86.94,
+                    "end": 87.3
+                },
+                {
+                    "text": "de ",
+                    "probability": 0.90234375,
+                    "start": 87.3,
+                    "end": 87.66
+                },
+                {
+                    "text": "toda ",
+                    "probability": 0.7270508,
+                    "start": 87.66,
+                    "end": 87.88
+                },
+                {
+                    "text": "la ",
+                    "probability": 0.89404297,
+                    "start": 87.88,
+                    "end": 88.08
+                },
+                {
+                    "text": "noche",
+                    "probability": 0.90478516,
+                    "start": 88.08,
+                    "end": 88.5
+                }
+            ],
+            "avgLogProb": -0.18263134,
+            "text": "Espera, espera, espera esta noche, espera, a lo largo de toda la noche",
+            "noSpeechProb": 0.12512207,
+            "start": 82.02,
+            "end": 88.5
+        },
+        {
+            "words": [
+                {
+                    "text": "No ",
+                    "probability": 0.83691406,
+                    "start": 88.5,
+                    "end": 89.5
+                },
+                {
+                    "text": "puedo ",
+                    "probability": 0.7558594,
+                    "start": 89.78,
+                    "end": 90.12
+                },
+                {
+                    "text": "más ",
+                    "probability": 0.703125,
+                    "start": 90.12,
+                    "end": 90.42
+                },
+                {
+                    "text": "apurarme, ",
+                    "probability": 0.8610026,
+                    "start": 90.42,
+                    "end": 91.35
+                },
+                {
+                    "text": "pero ",
+                    "probability": 0.76953125,
+                    "start": 91.56,
+                    "end": 91.9
+                },
+                {
+                    "text": "yo ",
+                    "probability": 0.8769531,
+                    "start": 91.9,
+                    "end": 92.23
+                },
+                {
+                    "text": "llego, ",
+                    "probability": 0.8317871,
+                    "start": 92.23,
+                    "end": 92.88
+                },
+                {
+                    "text": "llego ",
+                    "probability": 0.81225586,
+                    "start": 93.5,
+                    "end": 93.79
+                },
+                {
+                    "text": "siempre",
+                    "probability": 0.8227539,
+                    "start": 93.79,
+                    "end": 94.38
+                }
+            ],
+            "avgLogProb": -0.18263134,
+            "text": "No puedo más apurarme, pero yo llego, llego siempre",
+            "noSpeechProb": 0.12512207,
+            "start": 88.5,
+            "end": 94.38
+        }
+    ],
+    "language": "spanish",
+    "version": "1.0.0_rc9",
+    "aligned": false
+}

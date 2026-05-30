@@ -1,0 +1,1295 @@
+{
+    "match": true,
+    "version": "1.0.0_rc9",
+    "aligned": false,
+    "transcript": [
+        {
+            "words": [
+                {
+                    "end": 12.25,
+                    "text": "Take ",
+                    "probability": 0.78808594,
+                    "start": 11.65
+                },
+                {
+                    "end": 12.51,
+                    "text": "this ",
+                    "probability": 0.7944336,
+                    "start": 12.25
+                },
+                {
+                    "end": 12.99,
+                    "text": "feeling ",
+                    "probability": 0.7036133,
+                    "start": 12.51
+                },
+                {
+                    "end": 13.61,
+                    "text": "with ",
+                    "probability": 0.8125,
+                    "start": 12.99
+                },
+                {
+                    "end": 14.01,
+                    "text": "you ",
+                    "probability": 0.89746094,
+                    "start": 13.61
+                },
+                {
+                    "end": 15.13,
+                    "text": "keep ",
+                    "probability": 0.43725586,
+                    "start": 14.01
+                },
+                {
+                    "end": 15.39,
+                    "text": "it ",
+                    "probability": 0.8911133,
+                    "start": 15.13
+                },
+                {
+                    "end": 15.63,
+                    "text": "in ",
+                    "probability": 0.89697266,
+                    "start": 15.39
+                },
+                {
+                    "end": 16.01,
+                    "text": "your ",
+                    "probability": 0.8027344,
+                    "start": 15.63
+                },
+                {
+                    "end": 16.63,
+                    "text": "heart",
+                    "probability": 0.75634766,
+                    "start": 16.01
+                }
+            ],
+            "noSpeechProb": 0.41357422,
+            "avgLogProb": -0.47456396,
+            "start": 11.65,
+            "text": "Take this feeling with you keep it in your heart",
+            "end": 16.63
+        },
+        {
+            "words": [
+                {
+                    "end": 17.73,
+                    "text": "No, ",
+                    "probability": 0.33789062,
+                    "start": 16.63
+                },
+                {
+                    "end": 17.99,
+                    "text": "we ",
+                    "probability": 0.5698242,
+                    "start": 17.81
+                },
+                {
+                    "end": 18.37,
+                    "text": "have ",
+                    "probability": 0.8808594,
+                    "start": 17.99
+                },
+                {
+                    "end": 18.67,
+                    "text": "the ",
+                    "probability": 0.80908203,
+                    "start": 18.37
+                },
+                {
+                    "end": 19.39,
+                    "text": "answer",
+                    "probability": 0.84765625,
+                    "start": 18.67
+                }
+            ],
+            "noSpeechProb": 0.41357422,
+            "avgLogProb": -0.47456396,
+            "start": 16.63,
+            "text": "No, we have the answer",
+            "end": 19.39
+        },
+        {
+            "words": [
+                {
+                    "end": 20.61,
+                    "text": "When ",
+                    "probability": 0.5024414,
+                    "start": 19.39
+                },
+                {
+                    "end": 20.87,
+                    "text": "we ",
+                    "probability": 0.9116211,
+                    "start": 20.61
+                },
+                {
+                    "end": 21.25,
+                    "text": "are ",
+                    "probability": 0.9057617,
+                    "start": 20.87
+                },
+                {
+                    "end": 22.13,
+                    "text": "apart",
+                    "probability": 0.7265625,
+                    "start": 21.25
+                }
+            ],
+            "noSpeechProb": 0.41357422,
+            "avgLogProb": -0.47456396,
+            "start": 19.39,
+            "text": "When we are apart",
+            "end": 22.13
+        },
+        {
+            "words": [
+                {
+                    "end": 23.07,
+                    "text": "So ",
+                    "probability": 0.5439453,
+                    "start": 22.13
+                },
+                {
+                    "end": 23.51,
+                    "text": "gaze ",
+                    "probability": 0.62353516,
+                    "start": 23.07
+                },
+                {
+                    "end": 23.69,
+                    "text": "up ",
+                    "probability": 0.8720703,
+                    "start": 23.51
+                },
+                {
+                    "end": 23.97,
+                    "text": "to ",
+                    "probability": 0.7871094,
+                    "start": 23.69
+                },
+                {
+                    "end": 24.33,
+                    "text": "the ",
+                    "probability": 0.78125,
+                    "start": 23.97
+                },
+                {
+                    "end": 24.83,
+                    "text": "fading",
+                    "probability": 0.8652344,
+                    "start": 24.33
+                }
+            ],
+            "noSpeechProb": 0.41357422,
+            "avgLogProb": -0.47456396,
+            "start": 22.13,
+            "text": "So gaze up to the fading",
+            "end": 24.83
+        },
+        {
+            "words": [
+                {
+                    "end": 27.03,
+                    "text": "Lights ",
+                    "probability": 0.0063934326,
+                    "start": 24.83
+                },
+                {
+                    "end": 28.63,
+                    "text": "the ",
+                    "probability": 0.5185547,
+                    "start": 27.03
+                },
+                {
+                    "end": 29.05,
+                    "text": "fire ",
+                    "probability": 0.85058594,
+                    "start": 28.63
+                },
+                {
+                    "end": 29.55,
+                    "text": "inside ",
+                    "probability": 0.71728516,
+                    "start": 29.05
+                },
+                {
+                    "end": 29.89,
+                    "text": "you ",
+                    "probability": 0.8461914,
+                    "start": 29.55
+                },
+                {
+                    "end": 30.25,
+                    "text": "will",
+                    "probability": 0.7241211,
+                    "start": 29.89
+                }
+            ],
+            "noSpeechProb": 0.41357422,
+            "avgLogProb": -0.47456396,
+            "start": 24.83,
+            "text": "Lights the fire inside you will",
+            "end": 30.25
+        },
+        {
+            "words": [
+                {
+                    "end": 42.21,
+                    "text": "Over ",
+                    "probability": 0.044036865,
+                    "start": 41.65
+                },
+                {
+                    "end": 45.85,
+                    "text": "over ",
+                    "probability": 0.16833496,
+                    "start": 42.21
+                },
+                {
+                    "end": 46.69,
+                    "text": "over, ",
+                    "probability": 0.56884766,
+                    "start": 45.85
+                },
+                {
+                    "end": 46.93,
+                    "text": "I ",
+                    "probability": 0.62158203,
+                    "start": 46.75
+                },
+                {
+                    "end": 47.31,
+                    "text": "am ",
+                    "probability": 0.84033203,
+                    "start": 46.93
+                },
+                {
+                    "end": 47.81,
+                    "text": "free",
+                    "probability": 0.84814453,
+                    "start": 47.31
+                }
+            ],
+            "noSpeechProb": 0.061767578,
+            "avgLogProb": -0.77699614,
+            "start": 41.65,
+            "text": "Over over over, I am free",
+            "end": 47.81
+        },
+        {
+            "words": [
+                {
+                    "end": 49.15,
+                    "text": "We're ",
+                    "probability": 0.68066406,
+                    "start": 47.81
+                },
+                {
+                    "end": 49.82,
+                    "text": "just ",
+                    "probability": 0.89746094,
+                    "start": 49.62
+                },
+                {
+                    "end": 50.12,
+                    "text": "getting ",
+                    "probability": 0.8989258,
+                    "start": 49.82
+                },
+                {
+                    "end": 50.66,
+                    "text": "closer, ",
+                    "probability": 0.76171875,
+                    "start": 50.12
+                },
+                {
+                    "end": 51.4,
+                    "text": "closer, ",
+                    "probability": 0.85839844,
+                    "start": 50.88
+                },
+                {
+                    "end": 52.02,
+                    "text": "closer ",
+                    "probability": 0.8647461,
+                    "start": 51.56
+                },
+                {
+                    "end": 52.42,
+                    "text": "so ",
+                    "probability": 0.18310547,
+                    "start": 52.02
+                },
+                {
+                    "end": 52.74,
+                    "text": "trust ",
+                    "probability": 0.6503906,
+                    "start": 52.42
+                },
+                {
+                    "end": 53,
+                    "text": "in ",
+                    "probability": 0.8930664,
+                    "start": 52.74
+                },
+                {
+                    "end": 53.84,
+                    "text": "me",
+                    "probability": 0.9033203,
+                    "start": 53
+                }
+            ],
+            "noSpeechProb": 0.061767578,
+            "avgLogProb": -0.77699614,
+            "start": 47.81,
+            "text": "We're just getting closer, closer, closer so trust in me",
+            "end": 53.84
+        },
+        {
+            "words": [
+                {
+                    "end": 54.48,
+                    "text": "I'm ",
+                    "probability": 0.6550293,
+                    "start": 53.84
+                },
+                {
+                    "end": 55.44,
+                    "text": "just ",
+                    "probability": 0.48754883,
+                    "start": 55.24
+                },
+                {
+                    "end": 55.66,
+                    "text": "taking ",
+                    "probability": 0.68603516,
+                    "start": 55.44
+                },
+                {
+                    "end": 56.24,
+                    "text": "over, ",
+                    "probability": 0.87402344,
+                    "start": 55.66
+                },
+                {
+                    "end": 57,
+                    "text": "over, ",
+                    "probability": 0.8754883,
+                    "start": 56.52
+                },
+                {
+                    "end": 57.62,
+                    "text": "over, ",
+                    "probability": 0.87353516,
+                    "start": 57.2
+                },
+                {
+                    "end": 58.2,
+                    "text": "I ",
+                    "probability": 0.93652344,
+                    "start": 57.9
+                },
+                {
+                    "end": 58.5,
+                    "text": "am ",
+                    "probability": 0.90478516,
+                    "start": 58.2
+                },
+                {
+                    "end": 59.66,
+                    "text": "free",
+                    "probability": 0.5413208,
+                    "start": 58.5
+                }
+            ],
+            "noSpeechProb": 0.061767578,
+            "avgLogProb": -0.77699614,
+            "start": 53.84,
+            "text": "I'm just taking over, over, over, I am free",
+            "end": 59.66
+        },
+        {
+            "words": [
+                {
+                    "end": 60.36,
+                    "text": "We're ",
+                    "probability": 0.89941406,
+                    "start": 59.66
+                },
+                {
+                    "end": 61.03,
+                    "text": "just ",
+                    "probability": 0.89746094,
+                    "start": 60.83
+                },
+                {
+                    "end": 61.31,
+                    "text": "getting ",
+                    "probability": 0.9067383,
+                    "start": 61.03
+                },
+                {
+                    "end": 61.85,
+                    "text": "closer, ",
+                    "probability": 0.7993164,
+                    "start": 61.31
+                },
+                {
+                    "end": 62.49,
+                    "text": "closer, ",
+                    "probability": 0.81347656,
+                    "start": 62.07
+                },
+                {
+                    "end": 63.17,
+                    "text": "closer ",
+                    "probability": 0.8276367,
+                    "start": 62.77
+                },
+                {
+                    "end": 63.61,
+                    "text": "so ",
+                    "probability": 0.6479492,
+                    "start": 63.17
+                },
+                {
+                    "end": 63.93,
+                    "text": "trust ",
+                    "probability": 0.8183594,
+                    "start": 63.61
+                },
+                {
+                    "end": 64.17,
+                    "text": "in ",
+                    "probability": 0.89746094,
+                    "start": 63.93
+                },
+                {
+                    "end": 65.01,
+                    "text": "me",
+                    "probability": 0.9086914,
+                    "start": 64.17
+                }
+            ],
+            "noSpeechProb": 0.061767578,
+            "avgLogProb": -0.77699614,
+            "start": 59.66,
+            "text": "We're just getting closer, closer, closer so trust in me",
+            "end": 65.01
+        },
+        {
+            "words": [
+                {
+                    "end": 66.01,
+                    "text": "Trust ",
+                    "probability": 0.72265625,
+                    "start": 65.01
+                },
+                {
+                    "end": 66.97,
+                    "text": "in ",
+                    "probability": 0.8989258,
+                    "start": 66.74
+                },
+                {
+                    "end": 67.46,
+                    "text": "me",
+                    "probability": 0.8984375,
+                    "start": 66.97
+                }
+            ],
+            "noSpeechProb": 0.061767578,
+            "avgLogProb": -0.77699614,
+            "start": 65.01,
+            "text": "Trust in me",
+            "end": 67.46
+        },
+        {
+            "words": [
+                {
+                    "end": 72.28,
+                    "text": "Trust ",
+                    "probability": 0.18737793,
+                    "start": 67.46
+                },
+                {
+                    "end": 72.55,
+                    "text": "in ",
+                    "probability": 0.83935547,
+                    "start": 72.28
+                },
+                {
+                    "end": 73.26,
+                    "text": "me",
+                    "probability": 0.8598633,
+                    "start": 72.55
+                }
+            ],
+            "noSpeechProb": 0.062286377,
+            "avgLogProb": -0.39694148,
+            "start": 67.46,
+            "text": "Trust in me",
+            "end": 73.26
+        },
+        {
+            "words": [
+                {
+                    "end": 73.76,
+                    "text": "Trust ",
+                    "probability": 0.00009006262,
+                    "start": 73.26
+                },
+                {
+                    "end": 73.86,
+                    "text": "in ",
+                    "probability": 0.85595703,
+                    "start": 73.76
+                },
+                {
+                    "end": 74.36,
+                    "text": "me",
+                    "probability": 0.90234375,
+                    "start": 73.86
+                }
+            ],
+            "noSpeechProb": 0.062286377,
+            "avgLogProb": -0.39694148,
+            "start": 73.26,
+            "text": "Trust in me",
+            "end": 74.36
+        },
+        {
+            "words": [
+                {
+                    "end": 75.14,
+                    "text": "Trust ",
+                    "probability": 0.07312012,
+                    "start": 74.36
+                },
+                {
+                    "end": 75.32,
+                    "text": "in ",
+                    "probability": 0.8828125,
+                    "start": 75.14
+                },
+                {
+                    "end": 75.92,
+                    "text": "me",
+                    "probability": 0.91259766,
+                    "start": 75.32
+                }
+            ],
+            "noSpeechProb": 0.062286377,
+            "avgLogProb": -0.39694148,
+            "start": 74.36,
+            "text": "Trust in me",
+            "end": 75.92
+        },
+        {
+            "words": [
+                {
+                    "end": 76.4,
+                    "text": "Trust ",
+                    "probability": 0.25195312,
+                    "start": 75.92
+                },
+                {
+                    "end": 76.76,
+                    "text": "in ",
+                    "probability": 0.89208984,
+                    "start": 76.4
+                },
+                {
+                    "end": 76.83,
+                    "text": "me",
+                    "probability": 0.9140625,
+                    "start": 76.76
+                }
+            ],
+            "noSpeechProb": 0.062286377,
+            "avgLogProb": -0.39694148,
+            "start": 75.92,
+            "text": "Trust in me",
+            "end": 76.83
+        },
+        {
+            "words": [
+                {
+                    "end": 76.85499999999999,
+                    "text": "Trust ",
+                    "probability": 0.34375,
+                    "start": 76.83
+                },
+                {
+                    "end": 76.88,
+                    "text": "in ",
+                    "probability": 0.8911133,
+                    "start": 76.85499999999999
+                },
+                {
+                    "end": 77.28,
+                    "text": "me",
+                    "probability": 0.9140625,
+                    "start": 76.88
+                }
+            ],
+            "noSpeechProb": 0.062286377,
+            "avgLogProb": -0.39694148,
+            "start": 76.83,
+            "text": "Trust in me",
+            "end": 77.28
+        },
+        {
+            "words": [
+                {
+                    "end": 78.46,
+                    "text": "Reach ",
+                    "probability": 0.20166016,
+                    "start": 77.28
+                },
+                {
+                    "end": 79.56,
+                    "text": "deep ",
+                    "probability": 0.92333984,
+                    "start": 78.46
+                },
+                {
+                    "end": 80.36,
+                    "text": "down ",
+                    "probability": 0.7993164,
+                    "start": 79.56
+                },
+                {
+                    "end": 81.64,
+                    "text": "inside",
+                    "probability": 0.8613281,
+                    "start": 80.36
+                }
+            ],
+            "noSpeechProb": 0.062286377,
+            "avgLogProb": -0.39694148,
+            "start": 77.28,
+            "text": "Reach deep down inside",
+            "end": 81.64
+        },
+        {
+            "words": [
+                {
+                    "end": 83.44,
+                    "text": "Your ",
+                    "probability": 0.69433594,
+                    "start": 81.64
+                },
+                {
+                    "end": 84.6,
+                    "text": "power ",
+                    "probability": 0.81640625,
+                    "start": 83.76
+                },
+                {
+                    "end": 86.54,
+                    "text": "multiply",
+                    "probability": 0.45629883,
+                    "start": 84.6
+                }
+            ],
+            "noSpeechProb": 0.062286377,
+            "avgLogProb": -0.39694148,
+            "start": 81.64,
+            "text": "Your power multiply",
+            "end": 86.54
+        },
+        {
+            "words": [
+                {
+                    "end": 88.34,
+                    "text": "So ",
+                    "probability": 0.88671875,
+                    "start": 86.54
+                },
+                {
+                    "end": 90.48,
+                    "text": "gaze ",
+                    "probability": 0.72216797,
+                    "start": 90.04
+                },
+                {
+                    "end": 90.66,
+                    "text": "up ",
+                    "probability": 0.9008789,
+                    "start": 90.48
+                },
+                {
+                    "end": 90.98,
+                    "text": "to ",
+                    "probability": 0.90527344,
+                    "start": 90.66
+                },
+                {
+                    "end": 91.34,
+                    "text": "the ",
+                    "probability": 0.7998047,
+                    "start": 90.98
+                },
+                {
+                    "end": 91.92,
+                    "text": "fading ",
+                    "probability": 0.8852539,
+                    "start": 91.34
+                },
+                {
+                    "end": 93.52,
+                    "text": "moonlight",
+                    "probability": 0.58691406,
+                    "start": 91.92
+                }
+            ],
+            "noSpeechProb": 0.062286377,
+            "avgLogProb": -0.39694148,
+            "start": 86.54,
+            "text": "So gaze up to the fading moonlight",
+            "end": 93.52
+        },
+        {
+            "words": [
+                {
+                    "end": 95.56,
+                    "text": "The ",
+                    "probability": 0.16223145,
+                    "start": 93.52
+                },
+                {
+                    "end": 96,
+                    "text": "fire ",
+                    "probability": 0.82470703,
+                    "start": 95.56
+                },
+                {
+                    "end": 96.54,
+                    "text": "inside ",
+                    "probability": 0.61035156,
+                    "start": 96
+                },
+                {
+                    "end": 96.86,
+                    "text": "you ",
+                    "probability": 0.8066406,
+                    "start": 96.54
+                },
+                {
+                    "end": 97.2,
+                    "text": "will ",
+                    "probability": 0.6821289,
+                    "start": 96.86
+                },
+                {
+                    "end": 99.46,
+                    "text": "reignite",
+                    "probability": 0.8425293,
+                    "start": 97.2
+                }
+            ],
+            "noSpeechProb": 0.1484375,
+            "avgLogProb": -0.23719618,
+            "start": 93.52,
+            "text": "The fire inside you will reignite",
+            "end": 99.46
+        },
+        {
+            "words": [
+                {
+                    "end": 99.86,
+                    "text": "My ",
+                    "probability": 0.1817627,
+                    "start": 99.46
+                },
+                {
+                    "end": 100.12,
+                    "text": "love's ",
+                    "probability": 0.8547363,
+                    "start": 99.86
+                },
+                {
+                    "end": 100.34,
+                    "text": "taking ",
+                    "probability": 0.61279297,
+                    "start": 100.12
+                },
+                {
+                    "end": 111.92,
+                    "text": "over",
+                    "probability": 0.8911133,
+                    "start": 100.34
+                }
+            ],
+            "noSpeechProb": 0.1484375,
+            "avgLogProb": -0.23719618,
+            "start": 99.46,
+            "text": "My love's taking over",
+            "end": 112.12
+        },
+        {
+            "words": [
+                {
+                    "end": 113.78,
+                    "text": "I ",
+                    "probability": 0.21582031,
+                    "start": 112.12
+                },
+                {
+                    "end": 114.22,
+                    "text": "am ",
+                    "probability": 0.5332031,
+                    "start": 113.78
+                },
+                {
+                    "end": 114.74,
+                    "text": "free",
+                    "probability": 0.86621094,
+                    "start": 114.22
+                }
+            ],
+            "noSpeechProb": 0.1484375,
+            "avgLogProb": -0.23719618,
+            "start": 112.12,
+            "text": "I am free",
+            "end": 114.74
+        },
+        {
+            "words": [
+                {
+                    "end": 116.6,
+                    "text": "We're ",
+                    "probability": 0.81640625,
+                    "start": 114.74
+                },
+                {
+                    "end": 116.8,
+                    "text": "just ",
+                    "probability": 0.8935547,
+                    "start": 116.6
+                },
+                {
+                    "end": 117.1,
+                    "text": "getting ",
+                    "probability": 0.9013672,
+                    "start": 116.8
+                },
+                {
+                    "end": 117.68,
+                    "text": "closer",
+                    "probability": 0.78222656,
+                    "start": 117.1
+                }
+            ],
+            "noSpeechProb": 0.1484375,
+            "avgLogProb": -0.23719618,
+            "start": 114.74,
+            "text": "We're just getting closer",
+            "end": 117.68
+        },
+        {
+            "words": [
+                {
+                    "end": 119.34,
+                    "text": "So ",
+                    "probability": 0.4987793,
+                    "start": 117.68
+                },
+                {
+                    "end": 119.7,
+                    "text": "trust ",
+                    "probability": 0.7895508,
+                    "start": 119.34
+                },
+                {
+                    "end": 119.98,
+                    "text": "in ",
+                    "probability": 0.9003906,
+                    "start": 119.7
+                },
+                {
+                    "end": 121.94,
+                    "text": "me",
+                    "probability": 0.9086914,
+                    "start": 119.98
+                }
+            ],
+            "noSpeechProb": 0.1484375,
+            "avgLogProb": -0.23719618,
+            "start": 117.68,
+            "text": "So trust in me",
+            "end": 121.94
+        },
+        {
+            "words": [
+                {
+                    "end": 122.2,
+                    "text": "My ",
+                    "probability": 0.035125732,
+                    "start": 121.94
+                },
+                {
+                    "end": 122.42,
+                    "text": "love's ",
+                    "probability": 0.8269043,
+                    "start": 122.2
+                },
+                {
+                    "end": 122.62,
+                    "text": "taking ",
+                    "probability": 0.40698242,
+                    "start": 122.42
+                },
+                {
+                    "end": 123.2,
+                    "text": "over",
+                    "probability": 0.88623047,
+                    "start": 122.62
+                }
+            ],
+            "noSpeechProb": 0.52783203,
+            "avgLogProb": -0.18776041,
+            "start": 121.94,
+            "text": "My love's taking over",
+            "end": 123.2
+        },
+        {
+            "words": [
+                {
+                    "end": 124.94,
+                    "text": "I ",
+                    "probability": 0.015945435,
+                    "start": 123.2
+                },
+                {
+                    "end": 125.48,
+                    "text": "am ",
+                    "probability": 0.91015625,
+                    "start": 124.94
+                },
+                {
+                    "end": 125.96,
+                    "text": "free",
+                    "probability": 0.8666992,
+                    "start": 125.48
+                }
+            ],
+            "noSpeechProb": 0.52783203,
+            "avgLogProb": -0.18776041,
+            "start": 123.2,
+            "text": "I am free",
+            "end": 125.96
+        },
+        {
+            "words": [
+                {
+                    "end": 127.84,
+                    "text": "We're ",
+                    "probability": 0.8166504,
+                    "start": 125.96
+                },
+                {
+                    "end": 128.02,
+                    "text": "just ",
+                    "probability": 0.89453125,
+                    "start": 127.84
+                },
+                {
+                    "end": 128.26,
+                    "text": "getting ",
+                    "probability": 0.8833008,
+                    "start": 128.02
+                },
+                {
+                    "end": 128.78,
+                    "text": "closer",
+                    "probability": 0.75683594,
+                    "start": 128.26
+                }
+            ],
+            "noSpeechProb": 0.52783203,
+            "avgLogProb": -0.18776041,
+            "start": 125.96,
+            "text": "We're just getting closer",
+            "end": 128.78
+        },
+        {
+            "words": [
+                {
+                    "end": 130.5,
+                    "text": "So ",
+                    "probability": 0.2626953,
+                    "start": 128.78
+                },
+                {
+                    "end": 130.9,
+                    "text": "trust ",
+                    "probability": 0.7753906,
+                    "start": 130.5
+                },
+                {
+                    "end": 131.16,
+                    "text": "in ",
+                    "probability": 0.89746094,
+                    "start": 130.9
+                },
+                {
+                    "end": 132.18,
+                    "text": "me",
+                    "probability": 0.89746094,
+                    "start": 131.16
+                }
+            ],
+            "noSpeechProb": 0.52783203,
+            "avgLogProb": -0.18776041,
+            "start": 128.78,
+            "text": "So trust in me",
+            "end": 132.18
+        },
+        {
+            "words": [
+                {
+                    "end": 132.72,
+                    "text": "My ",
+                    "probability": 0.85595703,
+                    "start": 132.18
+                },
+                {
+                    "end": 133.6,
+                    "text": "love's ",
+                    "probability": 0.9069824,
+                    "start": 133.32
+                },
+                {
+                    "end": 133.82,
+                    "text": "taking ",
+                    "probability": 0.7729492,
+                    "start": 133.6
+                },
+                {
+                    "end": 134.66,
+                    "text": "over",
+                    "probability": 0.88916016,
+                    "start": 133.82
+                }
+            ],
+            "noSpeechProb": 0.52783203,
+            "avgLogProb": -0.18776041,
+            "start": 132.18,
+            "text": "My love's taking over",
+            "end": 134.66
+        },
+        {
+            "words": [
+                {
+                    "end": 138.98,
+                    "text": "We're ",
+                    "probability": 0.6017456,
+                    "start": 134.66
+                },
+                {
+                    "end": 139.18,
+                    "text": "just ",
+                    "probability": 0.89746094,
+                    "start": 138.98
+                },
+                {
+                    "end": 139.46,
+                    "text": "getting ",
+                    "probability": 0.8989258,
+                    "start": 139.18
+                },
+                {
+                    "end": 142.14,
+                    "text": "closer",
+                    "probability": 0.78808594,
+                    "start": 139.46
+                }
+            ],
+            "noSpeechProb": 0.52783203,
+            "avgLogProb": -0.18776041,
+            "start": 134.66,
+            "text": "We're just getting closer",
+            "end": 142.14
+        },
+        {
+            "words": [
+                {
+                    "end": 144,
+                    "text": "My ",
+                    "probability": 0.0060768127,
+                    "start": 142.14
+                },
+                {
+                    "end": 144.76,
+                    "text": "love's ",
+                    "probability": 0.9416504,
+                    "start": 144
+                },
+                {
+                    "end": 145,
+                    "text": "taking ",
+                    "probability": 0.8154297,
+                    "start": 144.76
+                },
+                {
+                    "end": 145.84,
+                    "text": "over",
+                    "probability": 0.8779297,
+                    "start": 145
+                }
+            ],
+            "noSpeechProb": 0.52783203,
+            "avgLogProb": -0.18776041,
+            "start": 142.14,
+            "text": "My love's taking over",
+            "end": 145.84
+        },
+        {
+            "words": [
+                {
+                    "end": 147.46,
+                    "text": "I ",
+                    "probability": 0.90625,
+                    "start": 145.84
+                },
+                {
+                    "end": 147.82,
+                    "text": "am ",
+                    "probability": 0.92041016,
+                    "start": 147.46
+                },
+                {
+                    "end": 148.28,
+                    "text": "free",
+                    "probability": 0.87646484,
+                    "start": 147.82
+                }
+            ],
+            "noSpeechProb": 0.52783203,
+            "avgLogProb": -0.18776041,
+            "start": 145.84,
+            "text": "I am free",
+            "end": 148.28
+        },
+        {
+            "words": [
+                {
+                    "end": 149.44,
+                    "text": "We're ",
+                    "probability": 0.9265137,
+                    "start": 148.28
+                },
+                {
+                    "end": 150.34,
+                    "text": "just ",
+                    "probability": 0.89697266,
+                    "start": 150.14
+                },
+                {
+                    "end": 150.66,
+                    "text": "getting ",
+                    "probability": 0.9038086,
+                    "start": 150.34
+                },
+                {
+                    "end": 151.2,
+                    "text": "closer",
+                    "probability": 0.7939453,
+                    "start": 150.66
+                }
+            ],
+            "noSpeechProb": 0.52783203,
+            "avgLogProb": -0.18776041,
+            "start": 148.28,
+            "text": "We're just getting closer",
+            "end": 151.2
+        },
+        {
+            "words": [
+                {
+                    "end": 151.9,
+                    "text": "Closer, ",
+                    "probability": 0.47468376,
+                    "start": 151.2
+                },
+                {
+                    "end": 152.5,
+                    "text": "closer",
+                    "probability": 0.8125,
+                    "start": 152.1
+                }
+            ],
+            "noSpeechProb": 0.26049805,
+            "avgLogProb": -0.2467448,
+            "start": 151.2,
+            "text": "Closer, closer",
+            "end": 152.5
+        },
+        {
+            "words": [
+                {
+                    "end": 152.94,
+                    "text": "So ",
+                    "probability": 0.020385742,
+                    "start": 152.5
+                },
+                {
+                    "end": 153.28,
+                    "text": "trust ",
+                    "probability": 0.23498535,
+                    "start": 152.94
+                },
+                {
+                    "end": 153.5,
+                    "text": "in ",
+                    "probability": 0.89453125,
+                    "start": 153.28
+                },
+                {
+                    "end": 154.2,
+                    "text": "me",
+                    "probability": 0.890625,
+                    "start": 153.5
+                }
+            ],
+            "noSpeechProb": 0.26049805,
+            "avgLogProb": -0.2467448,
+            "start": 152.5,
+            "text": "So trust in me",
+            "end": 154.2
+        },
+        {
+            "words": [
+                {
+                    "end": 155.24,
+                    "text": "Trust ",
+                    "probability": 0.37841797,
+                    "start": 154.2
+                },
+                {
+                    "end": 156.34,
+                    "text": "in ",
+                    "probability": 0.88671875,
+                    "start": 156.06
+                },
+                {
+                    "end": 156.77,
+                    "text": "me",
+                    "probability": 0.8491211,
+                    "start": 156.34
+                }
+            ],
+            "noSpeechProb": 0.26049805,
+            "avgLogProb": -0.2467448,
+            "start": 154.2,
+            "text": "Trust in me",
+            "end": 156.77
+        }
+    ],
+    "language": "english"
+}

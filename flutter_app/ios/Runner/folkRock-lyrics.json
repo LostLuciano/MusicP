@@ -1,0 +1,1760 @@
+{
+    "match": true,
+    "aligned": false,
+    "version": "1.0.0_rc9",
+    "language": "english",
+    "transcript": [
+        {
+            "noSpeechProb": 0.4658203,
+            "avgLogProb": -0.3705357,
+            "start": 19.08,
+            "words": [
+                {
+                    "probability": 0.5004883,
+                    "start": 19.08,
+                    "end": 19.74,
+                    "text": "Lady "
+                },
+                {
+                    "probability": 0.7651367,
+                    "start": 19.74,
+                    "end": 20.04,
+                    "text": "blue "
+                },
+                {
+                    "probability": 0.7758789,
+                    "start": 20.04,
+                    "end": 20.76,
+                    "text": "eyes "
+                },
+                {
+                    "probability": 0.76953125,
+                    "start": 20.76,
+                    "end": 21.16,
+                    "text": "when "
+                },
+                {
+                    "probability": 0.9926758,
+                    "start": 21.16,
+                    "end": 21.38,
+                    "text": "I "
+                },
+                {
+                    "probability": 0.7919922,
+                    "start": 21.38,
+                    "end": 21.78,
+                    "text": "see "
+                },
+                {
+                    "probability": 0.8671875,
+                    "start": 21.78,
+                    "end": 22.14,
+                    "text": "you, "
+                },
+                {
+                    "probability": 0.85253906,
+                    "start": 22.44,
+                    "end": 22.48,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.8149414,
+                    "start": 22.48,
+                    "end": 22.68,
+                    "text": "know, "
+                },
+                {
+                    "probability": 0.99365234,
+                    "start": 22.76,
+                    "end": 22.88,
+                    "text": "I "
+                },
+                {
+                    "probability": 0.9243164,
+                    "start": 22.88,
+                    "end": 23.2,
+                    "text": "feel "
+                },
+                {
+                    "probability": 0.42919922,
+                    "start": 23.2,
+                    "end": 23.56,
+                    "text": "all "
+                },
+                {
+                    "probability": 0.8720703,
+                    "start": 23.56,
+                    "end": 24.17,
+                    "text": "right"
+                }
+            ],
+            "end": 24.17,
+            "text": "Lady blue eyes when I see you, you know, I feel all right"
+        },
+        {
+            "noSpeechProb": 0.4658203,
+            "avgLogProb": -0.3705357,
+            "start": 24.17,
+            "words": [
+                {
+                    "probability": 0.9033203,
+                    "start": 24.17,
+                    "end": 25.08,
+                    "text": "It's "
+                },
+                {
+                    "probability": 0.86816406,
+                    "start": 26.38,
+                    "end": 26.8,
+                    "text": "like "
+                },
+                {
+                    "probability": 0.4645996,
+                    "start": 26.8,
+                    "end": 27.02,
+                    "text": "the "
+                },
+                {
+                    "probability": 0.90234375,
+                    "start": 27.02,
+                    "end": 27.44,
+                    "text": "day "
+                },
+                {
+                    "probability": 0.67041016,
+                    "start": 27.44,
+                    "end": 27.8,
+                    "text": "we "
+                },
+                {
+                    "probability": 0.8901367,
+                    "start": 27.8,
+                    "end": 28.3,
+                    "text": "met "
+                },
+                {
+                    "probability": 0.8598633,
+                    "start": 28.3,
+                    "end": 28.6,
+                    "text": "when "
+                },
+                {
+                    "probability": 0.99902344,
+                    "start": 28.6,
+                    "end": 28.78,
+                    "text": "I "
+                },
+                {
+                    "probability": 0.53808594,
+                    "start": 28.78,
+                    "end": 29.16,
+                    "text": "drink "
+                },
+                {
+                    "probability": 0.85791016,
+                    "start": 29.16,
+                    "end": 29.6,
+                    "text": "this "
+                },
+                {
+                    "probability": 0.8076172,
+                    "start": 29.6,
+                    "end": 30.12,
+                    "text": "glass "
+                },
+                {
+                    "probability": 0.84033203,
+                    "start": 30.12,
+                    "end": 30.58,
+                    "text": "of "
+                },
+                {
+                    "probability": 0.87402344,
+                    "start": 30.58,
+                    "end": 31.14,
+                    "text": "wine. "
+                },
+                {
+                    "probability": 0.9970703,
+                    "start": 31.28,
+                    "end": 32.22,
+                    "text": "I"
+                }
+            ],
+            "end": 33.32,
+            "text": "It's like the day we met when I drink this glass of wine. I"
+        },
+        {
+            "noSpeechProb": 0.4658203,
+            "avgLogProb": -0.3705357,
+            "start": 33.32,
+            "words": [
+                {
+                    "probability": 0.8671875,
+                    "start": 33.32,
+                    "end": 33.64,
+                    "text": "Gave "
+                },
+                {
+                    "probability": 0.89208984,
+                    "start": 33.64,
+                    "end": 33.78,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.9033203,
+                    "start": 33.78,
+                    "end": 34.04,
+                    "text": "my "
+                },
+                {
+                    "probability": 0.81591797,
+                    "start": 34.04,
+                    "end": 34.5,
+                    "text": "soul "
+                },
+                {
+                    "probability": 0.69677734,
+                    "start": 34.5,
+                    "end": 34.74,
+                    "text": "in "
+                },
+                {
+                    "probability": 0.8852539,
+                    "start": 34.74,
+                    "end": 34.96,
+                    "text": "my "
+                },
+                {
+                    "probability": 0.55029297,
+                    "start": 34.96,
+                    "end": 35.6,
+                    "text": "hand "
+                },
+                {
+                    "probability": 0.72998047,
+                    "start": 35.6,
+                    "end": 36.22,
+                    "text": "for "
+                },
+                {
+                    "probability": 0.79296875,
+                    "start": 36.22,
+                    "end": 36.58,
+                    "text": "the "
+                },
+                {
+                    "probability": 0.71728516,
+                    "start": 36.58,
+                    "end": 37.56,
+                    "text": "night"
+                }
+            ],
+            "end": 37.56,
+            "text": "Gave you my soul in my hand for the night"
+        },
+        {
+            "noSpeechProb": 0.4658203,
+            "avgLogProb": -0.3705357,
+            "start": 37.56,
+            "words": [
+                {
+                    "probability": 0.73583984,
+                    "start": 37.56,
+                    "end": 39.42,
+                    "text": "Please "
+                },
+                {
+                    "probability": 0.7792969,
+                    "start": 41.02,
+                    "end": 41.42,
+                    "text": "tell "
+                },
+                {
+                    "probability": 0.91308594,
+                    "start": 41.42,
+                    "end": 41.84,
+                    "text": "me "
+                },
+                {
+                    "probability": 0.90112305,
+                    "start": 41.84,
+                    "end": 42.4,
+                    "text": "you'll "
+                },
+                {
+                    "probability": 0.8979492,
+                    "start": 42.4,
+                    "end": 42.68,
+                    "text": "be "
+                },
+                {
+                    "probability": 0.7832031,
+                    "start": 42.68,
+                    "end": 43.18,
+                    "text": "by "
+                },
+                {
+                    "probability": 0.8886719,
+                    "start": 43.18,
+                    "end": 43.56,
+                    "text": "my "
+                },
+                {
+                    "probability": 0.7734375,
+                    "start": 43.56,
+                    "end": 44.28,
+                    "text": "side"
+                }
+            ],
+            "end": 44.28,
+            "text": "Please tell me you'll be by my side"
+        },
+        {
+            "noSpeechProb": 0.4658203,
+            "avgLogProb": -0.3705357,
+            "start": 44.28,
+            "words": [
+                {
+                    "probability": 0.39941406,
+                    "start": 44.28,
+                    "end": 45.42,
+                    "text": "Just "
+                },
+                {
+                    "probability": 0.6220703,
+                    "start": 47.39,
+                    "end": 47.77,
+                    "text": "every "
+                },
+                {
+                    "probability": 0.8261719,
+                    "start": 47.77,
+                    "end": 48.11,
+                    "text": "time "
+                },
+                {
+                    "probability": 0.9711914,
+                    "start": 48.11,
+                    "end": 48.29,
+                    "text": "I "
+                },
+                {
+                    "probability": 0.81103516,
+                    "start": 48.29,
+                    "end": 48.55,
+                    "text": "see "
+                },
+                {
+                    "probability": 0.85595703,
+                    "start": 48.55,
+                    "end": 48.79,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.84521484,
+                    "start": 48.79,
+                    "end": 49.31,
+                    "text": "around "
+                },
+                {
+                    "probability": 0.6948242,
+                    "start": 49.31,
+                    "end": 49.79,
+                    "text": "town. "
+                },
+                {
+                    "probability": 0.8979492,
+                    "start": 49.83,
+                    "end": 50.01,
+                    "text": "It "
+                },
+                {
+                    "probability": 0.73046875,
+                    "start": 50.01,
+                    "end": 50.25,
+                    "text": "makes "
+                },
+                {
+                    "probability": 0.85498047,
+                    "start": 50.25,
+                    "end": 50.41,
+                    "text": "me "
+                },
+                {
+                    "probability": 0.9453125,
+                    "start": 50.41,
+                    "end": 50.67,
+                    "text": "feel "
+                },
+                {
+                    "probability": 0.7861328,
+                    "start": 50.67,
+                    "end": 51.21,
+                    "text": "fine"
+                }
+            ],
+            "end": 51.21,
+            "text": "Just every time I see you around town. It makes me feel fine"
+        },
+        {
+            "noSpeechProb": 0.03201294,
+            "avgLogProb": -0.5265899,
+            "start": 51.21,
+            "words": [
+                {
+                    "probability": 0.21643066,
+                    "start": 51.21,
+                    "end": 52.51,
+                    "text": "And "
+                },
+                {
+                    "probability": 0.83984375,
+                    "start": 54.36,
+                    "end": 54.62,
+                    "text": "now "
+                },
+                {
+                    "probability": 0.7963867,
+                    "start": 54.62,
+                    "end": 54.8,
+                    "text": "that "
+                },
+                {
+                    "probability": 0.90600586,
+                    "start": 54.8,
+                    "end": 55.02,
+                    "text": "we're "
+                },
+                {
+                    "probability": 0.76123047,
+                    "start": 55.02,
+                    "end": 55.6,
+                    "text": "together "
+                },
+                {
+                    "probability": 0.8535156,
+                    "start": 55.6,
+                    "end": 56.18,
+                    "text": "again, "
+                },
+                {
+                    "probability": 0.97998047,
+                    "start": 56.44,
+                    "end": 56.62,
+                    "text": "I "
+                },
+                {
+                    "probability": 0.35595703,
+                    "start": 56.62,
+                    "end": 56.86,
+                    "text": "want "
+                },
+                {
+                    "probability": 0.90478516,
+                    "start": 56.86,
+                    "end": 57.02,
+                    "text": "to "
+                },
+                {
+                    "probability": 0.8823242,
+                    "start": 57.02,
+                    "end": 57.28,
+                    "text": "make "
+                },
+                {
+                    "probability": 0.8911133,
+                    "start": 57.28,
+                    "end": 57.44,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.90625,
+                    "start": 57.44,
+                    "end": 57.68,
+                    "text": "feel "
+                },
+                {
+                    "probability": 0.80810547,
+                    "start": 57.68,
+                    "end": 58.32,
+                    "text": "right"
+                }
+            ],
+            "end": 58.32,
+            "text": "And now that we're together again, I want to make you feel right"
+        },
+        {
+            "noSpeechProb": 0.03201294,
+            "avgLogProb": -0.5265899,
+            "start": 58.32,
+            "words": [
+                {
+                    "probability": 0.6196289,
+                    "start": 58.32,
+                    "end": 60.72,
+                    "text": "I'm "
+                },
+                {
+                    "probability": 0.6904297,
+                    "start": 83.34,
+                    "end": 83.68,
+                    "text": "gonna "
+                },
+                {
+                    "probability": 0.77441406,
+                    "start": 83.68,
+                    "end": 84.46,
+                    "text": "love "
+                },
+                {
+                    "probability": 0.8745117,
+                    "start": 84.46,
+                    "end": 84.84,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.49951172,
+                    "start": 84.84,
+                    "end": 85.3,
+                    "text": "when "
+                },
+                {
+                    "probability": 0.89208984,
+                    "start": 85.3,
+                    "end": 85.56,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.82177734,
+                    "start": 85.56,
+                    "end": 86.42,
+                    "text": "smile"
+                }
+            ],
+            "end": 86.42,
+            "text": "I'm gonna love you when you smile"
+        },
+        {
+            "noSpeechProb": 0.03201294,
+            "avgLogProb": -0.5265899,
+            "start": 86.42,
+            "words": [
+                {
+                    "probability": 0.8000488,
+                    "start": 86.42,
+                    "end": 90.3,
+                    "text": "I'm "
+                },
+                {
+                    "probability": 0.7919922,
+                    "start": 90.3,
+                    "end": 90.62,
+                    "text": "gonna "
+                },
+                {
+                    "probability": 0.83203125,
+                    "start": 90.62,
+                    "end": 91.46,
+                    "text": "love "
+                },
+                {
+                    "probability": 0.8774414,
+                    "start": 91.46,
+                    "end": 91.8,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.25268555,
+                    "start": 91.8,
+                    "end": 92.26,
+                    "text": "when "
+                },
+                {
+                    "probability": 0.8911133,
+                    "start": 92.26,
+                    "end": 92.6,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.80126953,
+                    "start": 92.6,
+                    "end": 93.48,
+                    "text": "cry"
+                }
+            ],
+            "end": 93.48,
+            "text": "I'm gonna love you when you cry"
+        },
+        {
+            "noSpeechProb": 0.03201294,
+            "avgLogProb": -0.5265899,
+            "start": 93.48,
+            "words": [
+                {
+                    "probability": 0.8569336,
+                    "start": 93.48,
+                    "end": 97.32,
+                    "text": "I'm "
+                },
+                {
+                    "probability": 0.7836914,
+                    "start": 97.32,
+                    "end": 97.64,
+                    "text": "gonna "
+                },
+                {
+                    "probability": 0.8754883,
+                    "start": 97.64,
+                    "end": 98.48,
+                    "text": "love "
+                },
+                {
+                    "probability": 0.87939453,
+                    "start": 98.48,
+                    "end": 98.68,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.546875,
+                    "start": 98.68,
+                    "end": 99.1,
+                    "text": "even "
+                },
+                {
+                    "probability": 0.86083984,
+                    "start": 99.1,
+                    "end": 99.36,
+                    "text": "if "
+                },
+                {
+                    "probability": 0.89990234,
+                    "start": 99.36,
+                    "end": 99.64,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.62060547,
+                    "start": 99.64,
+                    "end": 101.3,
+                    "text": "lie"
+                }
+            ],
+            "end": 101.3,
+            "text": "I'm gonna love you even if you lie"
+        },
+        {
+            "noSpeechProb": 0.03201294,
+            "avgLogProb": -0.5265899,
+            "start": 101.3,
+            "words": [
+                {
+                    "probability": 0.5053711,
+                    "start": 101.3,
+                    "end": 103.08,
+                    "text": "And "
+                },
+                {
+                    "probability": 0.98706055,
+                    "start": 103.51,
+                    "end": 103.95,
+                    "text": "I'm "
+                },
+                {
+                    "probability": 0.8100586,
+                    "start": 103.95,
+                    "end": 104.21,
+                    "text": "gonna "
+                },
+                {
+                    "probability": 0.88671875,
+                    "start": 104.21,
+                    "end": 104.65,
+                    "text": "love "
+                },
+                {
+                    "probability": 0.8935547,
+                    "start": 104.65,
+                    "end": 104.99,
+                    "text": "you"
+                }
+            ],
+            "end": 104.99,
+            "text": "And I'm gonna love you"
+        },
+        {
+            "noSpeechProb": 0.009300232,
+            "avgLogProb": -0.5735577,
+            "start": 106.11,
+            "words": [
+                {
+                    "probability": 0.00041913986,
+                    "start": 106.11,
+                    "end": 106.16,
+                    "text": "Even "
+                },
+                {
+                    "probability": 0.55126953,
+                    "start": 106.16,
+                    "end": 106.39,
+                    "text": "if "
+                },
+                {
+                    "probability": 0.9116211,
+                    "start": 106.39,
+                    "end": 106.79,
+                    "text": "I "
+                },
+                {
+                    "probability": 0.69140625,
+                    "start": 106.79,
+                    "end": 108.53,
+                    "text": "die"
+                }
+            ],
+            "end": 108.53,
+            "text": "Even if I die"
+        },
+        {
+            "noSpeechProb": 0.009300232,
+            "avgLogProb": -0.5735577,
+            "start": 108.53,
+            "words": [
+                {
+                    "probability": 0.071899414,
+                    "start": 108.53,
+                    "end": 109.99,
+                    "text": "Cuz "
+                },
+                {
+                    "probability": 0.8227539,
+                    "start": 110.42,
+                    "end": 110.85,
+                    "text": "now "
+                },
+                {
+                    "probability": 0.6904297,
+                    "start": 110.85,
+                    "end": 111.16,
+                    "text": "that "
+                },
+                {
+                    "probability": 0.62841797,
+                    "start": 111.16,
+                    "end": 111.35,
+                    "text": "I "
+                },
+                {
+                    "probability": 0.24963379,
+                    "start": 111.35,
+                    "end": 111.54,
+                    "text": "owe "
+                },
+                {
+                    "probability": 0.8959961,
+                    "start": 111.54,
+                    "end": 111.85,
+                    "text": "my "
+                },
+                {
+                    "probability": 0.8046875,
+                    "start": 111.85,
+                    "end": 112.54,
+                    "text": "baby"
+                }
+            ],
+            "end": 112.54,
+            "text": "Cuz now that I owe my baby"
+        },
+        {
+            "noSpeechProb": 0.009300232,
+            "avgLogProb": -0.5735577,
+            "start": 112.54,
+            "words": [
+                {
+                    "probability": 0.69970703,
+                    "start": 112.54,
+                    "end": 113.92,
+                    "text": "And "
+                },
+                {
+                    "probability": 0.8779297,
+                    "start": 113.92,
+                    "end": 114.32,
+                    "text": "now "
+                },
+                {
+                    "probability": 0.6582031,
+                    "start": 114.32,
+                    "end": 114.62,
+                    "text": "that "
+                },
+                {
+                    "probability": 0.47729492,
+                    "start": 114.62,
+                    "end": 115.14,
+                    "text": "together "
+                },
+                {
+                    "probability": 0.9013672,
+                    "start": 115.14,
+                    "end": 115.8,
+                    "text": "again, "
+                },
+                {
+                    "probability": 0.98291016,
+                    "start": 116.04,
+                    "end": 116.18,
+                    "text": "I "
+                },
+                {
+                    "probability": 0.20092773,
+                    "start": 116.18,
+                    "end": 116.46,
+                    "text": "want "
+                },
+                {
+                    "probability": 0.88720703,
+                    "start": 116.46,
+                    "end": 116.58,
+                    "text": "to "
+                },
+                {
+                    "probability": 0.8754883,
+                    "start": 116.58,
+                    "end": 116.84,
+                    "text": "make "
+                },
+                {
+                    "probability": 0.62060547,
+                    "start": 116.84,
+                    "end": 116.98,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.91748047,
+                    "start": 116.98,
+                    "end": 117.26,
+                    "text": "feel "
+                },
+                {
+                    "probability": 0.8305664,
+                    "start": 117.26,
+                    "end": 117.74,
+                    "text": "right"
+                }
+            ],
+            "end": 117.74,
+            "text": "And now that together again, I want to make you feel right"
+        },
+        {
+            "noSpeechProb": 0.009300232,
+            "avgLogProb": -0.5735577,
+            "start": 117.74,
+            "words": [
+                {
+                    "probability": 0.71240234,
+                    "start": 117.74,
+                    "end": 119.22,
+                    "text": "Fly"
+                }
+            ],
+            "end": 123.04,
+            "text": "Fly"
+        },
+        {
+            "noSpeechProb": 0.009300232,
+            "avgLogProb": -0.5735577,
+            "start": 123.04,
+            "words": [
+                {
+                    "probability": 0.16845703,
+                    "start": 123.04,
+                    "end": 124.52,
+                    "text": "Fly "
+                },
+                {
+                    "probability": 0.3203125,
+                    "start": 124.74,
+                    "end": 125.3,
+                    "text": "fly "
+                },
+                {
+                    "probability": 0.6738281,
+                    "start": 125.3,
+                    "end": 125.72,
+                    "text": "my "
+                },
+                {
+                    "probability": 0.79248047,
+                    "start": 125.72,
+                    "end": 126.12,
+                    "text": "little "
+                },
+                {
+                    "probability": 0.7944336,
+                    "start": 126.12,
+                    "end": 126.8,
+                    "text": "bird "
+                },
+                {
+                    "probability": 0.10083008,
+                    "start": 126.8,
+                    "end": 127.9,
+                    "text": "and "
+                },
+                {
+                    "probability": 0.8208008,
+                    "start": 127.9,
+                    "end": 128.3,
+                    "text": "sing "
+                },
+                {
+                    "probability": 0.91796875,
+                    "start": 128.3,
+                    "end": 129,
+                    "text": "again"
+                }
+            ],
+            "end": 129,
+            "text": "Fly fly my little bird and sing again"
+        },
+        {
+            "noSpeechProb": 0.009300232,
+            "avgLogProb": -0.5735577,
+            "start": 129,
+            "words": [
+                {
+                    "probability": 0.64453125,
+                    "start": 129,
+                    "end": 130.62,
+                    "text": "Sing "
+                },
+                {
+                    "probability": 0.91308594,
+                    "start": 131.85,
+                    "end": 132.43,
+                    "text": "again "
+                },
+                {
+                    "probability": 0.88134766,
+                    "start": 132.43,
+                    "end": 132.79,
+                    "text": "for "
+                },
+                {
+                    "probability": 0.9008789,
+                    "start": 132.79,
+                    "end": 133.55,
+                    "text": "me. "
+                },
+                {
+                    "probability": 0.98583984,
+                    "start": 134.05,
+                    "end": 135.19,
+                    "text": "I"
+                }
+            ],
+            "end": 136.89,
+            "text": "Sing again for me. I"
+        },
+        {
+            "noSpeechProb": 0.009300232,
+            "avgLogProb": -0.5735577,
+            "start": 136.89,
+            "words": [
+                {
+                    "probability": 0.12060547,
+                    "start": 136.89,
+                    "end": 137.11,
+                    "text": "Want "
+                },
+                {
+                    "probability": 0.9145508,
+                    "start": 137.11,
+                    "end": 137.23,
+                    "text": "to "
+                },
+                {
+                    "probability": 0.82714844,
+                    "start": 137.23,
+                    "end": 137.63,
+                    "text": "see "
+                },
+                {
+                    "probability": 0.88671875,
+                    "start": 137.63,
+                    "end": 137.99,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.83691406,
+                    "start": 137.99,
+                    "end": 138.19,
+                    "text": "in "
+                },
+                {
+                    "probability": 0.765625,
+                    "start": 138.19,
+                    "end": 138.39,
+                    "text": "the "
+                },
+                {
+                    "probability": 0.5932617,
+                    "start": 138.39,
+                    "end": 138.77,
+                    "text": "velvet "
+                },
+                {
+                    "probability": 0.8066406,
+                    "start": 138.77,
+                    "end": 139.51,
+                    "text": "light "
+                },
+                {
+                    "probability": 0.87158203,
+                    "start": 139.51,
+                    "end": 139.85,
+                    "text": "of "
+                },
+                {
+                    "probability": 0.68066406,
+                    "start": 139.85,
+                    "end": 140.53,
+                    "text": "morning"
+                }
+            ],
+            "end": 140.53,
+            "text": "Want to see you in the velvet light of morning"
+        },
+        {
+            "noSpeechProb": 0.005821228,
+            "avgLogProb": -0.6136068,
+            "start": 140.53,
+            "words": [
+                {
+                    "probability": 0.2712809,
+                    "start": 140.53,
+                    "end": 142.53,
+                    "text": "Drifting "
+                },
+                {
+                    "probability": 0.7783203,
+                    "start": 144.16,
+                    "end": 144.66,
+                    "text": "away "
+                },
+                {
+                    "probability": 0.64941406,
+                    "start": 144.66,
+                    "end": 145.04,
+                    "text": "with "
+                },
+                {
+                    "probability": 0.12646484,
+                    "start": 145.04,
+                    "end": 145.22,
+                    "text": "the "
+                },
+                {
+                    "probability": 0.81640625,
+                    "start": 145.22,
+                    "end": 145.72,
+                    "text": "people "
+                },
+                {
+                    "probability": 0.8183594,
+                    "start": 145.72,
+                    "end": 146.1,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.77001953,
+                    "start": 146.1,
+                    "end": 146.48,
+                    "text": "want "
+                },
+                {
+                    "probability": 0.9116211,
+                    "start": 146.48,
+                    "end": 146.82,
+                    "text": "to "
+                },
+                {
+                    "probability": 0.8203125,
+                    "start": 146.82,
+                    "end": 147.62,
+                    "text": "see "
+                },
+                {
+                    "probability": 0.50927734,
+                    "start": 147.62,
+                    "end": 148.6,
+                    "text": "my "
+                },
+                {
+                    "probability": 0.5517578,
+                    "start": 148.6,
+                    "end": 150.2,
+                    "text": "love"
+                }
+            ],
+            "end": 150.2,
+            "text": "Drifting away with the people you want to see my love"
+        },
+        {
+            "noSpeechProb": 0.005821228,
+            "avgLogProb": -0.6136068,
+            "start": 150.2,
+            "words": [
+                {
+                    "probability": 0.58325195,
+                    "start": 150.2,
+                    "end": 151.56,
+                    "text": "I'm "
+                },
+                {
+                    "probability": 0.69921875,
+                    "start": 151.56,
+                    "end": 151.88,
+                    "text": "gonna "
+                },
+                {
+                    "probability": 0.81103516,
+                    "start": 151.88,
+                    "end": 152.68,
+                    "text": "love "
+                },
+                {
+                    "probability": 0.8642578,
+                    "start": 152.68,
+                    "end": 152.94,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.4873047,
+                    "start": 152.94,
+                    "end": 153.5,
+                    "text": "when "
+                },
+                {
+                    "probability": 0.89160156,
+                    "start": 153.5,
+                    "end": 153.78,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.7451172,
+                    "start": 153.78,
+                    "end": 154.68,
+                    "text": "smile"
+                }
+            ],
+            "end": 154.68,
+            "text": "I'm gonna love you when you smile"
+        },
+        {
+            "noSpeechProb": 0.005821228,
+            "avgLogProb": -0.6136068,
+            "start": 154.68,
+            "words": [
+                {
+                    "probability": 0.6090088,
+                    "start": 154.68,
+                    "end": 158.54,
+                    "text": "I'm "
+                },
+                {
+                    "probability": 0.7739258,
+                    "start": 158.54,
+                    "end": 158.85,
+                    "text": "gonna "
+                },
+                {
+                    "probability": 0.85302734,
+                    "start": 158.85,
+                    "end": 159.7,
+                    "text": "love "
+                },
+                {
+                    "probability": 0.8671875,
+                    "start": 159.7,
+                    "end": 160.02,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.4494629,
+                    "start": 160.02,
+                    "end": 160.35,
+                    "text": "when "
+                },
+                {
+                    "probability": 0.89208984,
+                    "start": 160.35,
+                    "end": 160.79,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.8208008,
+                    "start": 160.79,
+                    "end": 161.6,
+                    "text": "cry"
+                }
+            ],
+            "end": 161.6,
+            "text": "I'm gonna love you when you cry"
+        },
+        {
+            "noSpeechProb": 0.005821228,
+            "avgLogProb": -0.6136068,
+            "start": 161.6,
+            "words": [
+                {
+                    "probability": 0.91748047,
+                    "start": 161.6,
+                    "end": 165.54,
+                    "text": "I'm "
+                },
+                {
+                    "probability": 0.79589844,
+                    "start": 165.54,
+                    "end": 165.84,
+                    "text": "gonna "
+                },
+                {
+                    "probability": 0.8857422,
+                    "start": 165.84,
+                    "end": 166.68,
+                    "text": "love "
+                },
+                {
+                    "probability": 0.8930664,
+                    "start": 166.68,
+                    "end": 166.88,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.7138672,
+                    "start": 166.88,
+                    "end": 167.34,
+                    "text": "even "
+                },
+                {
+                    "probability": 0.8486328,
+                    "start": 167.34,
+                    "end": 167.58,
+                    "text": "if "
+                },
+                {
+                    "probability": 0.8955078,
+                    "start": 167.58,
+                    "end": 167.86,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.7084961,
+                    "start": 167.86,
+                    "end": 169.7,
+                    "text": "lie"
+                }
+            ],
+            "end": 169.7,
+            "text": "I'm gonna love you even if you lie"
+        },
+        {
+            "noSpeechProb": 0.050231934,
+            "avgLogProb": -0.26336804,
+            "start": 169.7,
+            "words": [
+                {
+                    "probability": 0.021850586,
+                    "start": 169.7,
+                    "end": 171.46,
+                    "text": "And "
+                },
+                {
+                    "probability": 0.81347656,
+                    "start": 171.68,
+                    "end": 172.56,
+                    "text": "I'm "
+                },
+                {
+                    "probability": 0.71533203,
+                    "start": 172.56,
+                    "end": 172.88,
+                    "text": "gonna "
+                },
+                {
+                    "probability": 0.88427734,
+                    "start": 172.88,
+                    "end": 173.66,
+                    "text": "love "
+                },
+                {
+                    "probability": 0.8774414,
+                    "start": 173.66,
+                    "end": 173.92,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.484375,
+                    "start": 173.92,
+                    "end": 174.36,
+                    "text": "even "
+                },
+                {
+                    "probability": 0.84277344,
+                    "start": 174.36,
+                    "end": 174.56,
+                    "text": "if "
+                },
+                {
+                    "probability": 0.9013672,
+                    "start": 174.56,
+                    "end": 174.9,
+                    "text": "I "
+                },
+                {
+                    "probability": 0.84814453,
+                    "start": 174.9,
+                    "end": 175.84,
+                    "text": "die"
+                }
+            ],
+            "end": 175.84,
+            "text": "And I'm gonna love you even if I die"
+        },
+        {
+            "noSpeechProb": 0.050231934,
+            "avgLogProb": -0.26336804,
+            "start": 175.84,
+            "words": [
+                {
+                    "probability": 0.58483887,
+                    "start": 175.84,
+                    "end": 179.58,
+                    "text": "I'm "
+                },
+                {
+                    "probability": 0.8129883,
+                    "start": 179.58,
+                    "end": 179.84,
+                    "text": "gonna "
+                },
+                {
+                    "probability": 0.89746094,
+                    "start": 179.84,
+                    "end": 180.72,
+                    "text": "love "
+                },
+                {
+                    "probability": 0.8964844,
+                    "start": 180.72,
+                    "end": 181.06,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.7285156,
+                    "start": 181.06,
+                    "end": 181.56,
+                    "text": "when "
+                },
+                {
+                    "probability": 0.8959961,
+                    "start": 181.56,
+                    "end": 181.8,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.80126953,
+                    "start": 181.8,
+                    "end": 182.76,
+                    "text": "smile"
+                }
+            ],
+            "end": 182.76,
+            "text": "I'm gonna love you when you smile"
+        },
+        {
+            "noSpeechProb": 0.050231934,
+            "avgLogProb": -0.26336804,
+            "start": 182.76,
+            "words": [
+                {
+                    "probability": 0.9272461,
+                    "start": 182.76,
+                    "end": 186.58,
+                    "text": "I'm "
+                },
+                {
+                    "probability": 0.81884766,
+                    "start": 186.58,
+                    "end": 186.86,
+                    "text": "gonna "
+                },
+                {
+                    "probability": 0.8930664,
+                    "start": 186.86,
+                    "end": 187.7,
+                    "text": "love "
+                },
+                {
+                    "probability": 0.8979492,
+                    "start": 187.7,
+                    "end": 188,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.58154297,
+                    "start": 188,
+                    "end": 188.5,
+                    "text": "when "
+                },
+                {
+                    "probability": 0.89501953,
+                    "start": 188.5,
+                    "end": 188.86,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.84033203,
+                    "start": 188.86,
+                    "end": 189.76,
+                    "text": "cry"
+                }
+            ],
+            "end": 189.76,
+            "text": "I'm gonna love you when you cry"
+        },
+        {
+            "noSpeechProb": 0.050231934,
+            "avgLogProb": -0.26336804,
+            "start": 189.76,
+            "words": [
+                {
+                    "probability": 0.97802734,
+                    "start": 189.76,
+                    "end": 193.6,
+                    "text": "I'm "
+                },
+                {
+                    "probability": 0.8198242,
+                    "start": 193.6,
+                    "end": 193.86,
+                    "text": "gonna "
+                },
+                {
+                    "probability": 0.8930664,
+                    "start": 193.86,
+                    "end": 194.7,
+                    "text": "love "
+                },
+                {
+                    "probability": 0.8955078,
+                    "start": 194.7,
+                    "end": 194.92,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.79833984,
+                    "start": 194.92,
+                    "end": 195.36,
+                    "text": "even "
+                },
+                {
+                    "probability": 0.88134766,
+                    "start": 195.36,
+                    "end": 195.58,
+                    "text": "if "
+                },
+                {
+                    "probability": 0.89697266,
+                    "start": 195.58,
+                    "end": 195.94,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.76220703,
+                    "start": 195.94,
+                    "end": 197.46,
+                    "text": "lie"
+                }
+            ],
+            "end": 197.46,
+            "text": "I'm gonna love you even if you lie"
+        },
+        {
+            "noSpeechProb": 0.3232422,
+            "avgLogProb": -0.17080966,
+            "start": 197.46,
+            "words": [
+                {
+                    "probability": 0.011451721,
+                    "start": 197.46,
+                    "end": 199.7,
+                    "text": "And "
+                },
+                {
+                    "probability": 0.83081055,
+                    "start": 199.7,
+                    "end": 200.22,
+                    "text": "I'm "
+                },
+                {
+                    "probability": 0.69873047,
+                    "start": 200.22,
+                    "end": 200.46,
+                    "text": "gonna "
+                },
+                {
+                    "probability": 0.8833008,
+                    "start": 200.46,
+                    "end": 200.9,
+                    "text": "love "
+                },
+                {
+                    "probability": 0.8857422,
+                    "start": 200.9,
+                    "end": 201.2,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.6743164,
+                    "start": 201.2,
+                    "end": 201.84,
+                    "text": "even "
+                },
+                {
+                    "probability": 0.8496094,
+                    "start": 201.84,
+                    "end": 202.56,
+                    "text": "if "
+                },
+                {
+                    "probability": 0.9609375,
+                    "start": 202.56,
+                    "end": 203.14,
+                    "text": "I "
+                },
+                {
+                    "probability": 0.875,
+                    "start": 203.14,
+                    "end": 205.06,
+                    "text": "die"
+                }
+            ],
+            "end": 205.06,
+            "text": "And I'm gonna love you even if I die"
+        },
+        {
+            "noSpeechProb": 0.3232422,
+            "avgLogProb": -0.17080966,
+            "start": 205.06,
+            "words": [
+                {
+                    "probability": 0.76123047,
+                    "start": 205.06,
+                    "end": 207.6,
+                    "text": "I'm "
+                },
+                {
+                    "probability": 0.8120117,
+                    "start": 207.6,
+                    "end": 207.9,
+                    "text": "gonna "
+                },
+                {
+                    "probability": 0.8925781,
+                    "start": 207.9,
+                    "end": 208.72,
+                    "text": "love "
+                },
+                {
+                    "probability": 0.89746094,
+                    "start": 208.72,
+                    "end": 209.1,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.8461914,
+                    "start": 209.1,
+                    "end": 209.58,
+                    "text": "when "
+                },
+                {
+                    "probability": 0.8964844,
+                    "start": 209.58,
+                    "end": 209.82,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.78759766,
+                    "start": 209.82,
+                    "end": 210.76,
+                    "text": "smile"
+                }
+            ],
+            "end": 210.76,
+            "text": "I'm gonna love you when you smile"
+        },
+        {
+            "noSpeechProb": 0.3232422,
+            "avgLogProb": -0.17080966,
+            "start": 210.76,
+            "words": [
+                {
+                    "probability": 0.60668945,
+                    "start": 210.76,
+                    "end": 214.58,
+                    "text": "I'm "
+                },
+                {
+                    "probability": 0.82470703,
+                    "start": 214.58,
+                    "end": 214.86,
+                    "text": "gonna "
+                },
+                {
+                    "probability": 0.8930664,
+                    "start": 214.86,
+                    "end": 215.68,
+                    "text": "love "
+                },
+                {
+                    "probability": 0.89501953,
+                    "start": 215.68,
+                    "end": 216.02,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.8432617,
+                    "start": 216.02,
+                    "end": 216.52,
+                    "text": "when "
+                },
+                {
+                    "probability": 0.89941406,
+                    "start": 216.52,
+                    "end": 216.8,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.90625,
+                    "start": 216.8,
+                    "end": 217.76,
+                    "text": "cry"
+                }
+            ],
+            "end": 217.76,
+            "text": "I'm gonna love you when you cry"
+        },
+        {
+            "noSpeechProb": 0.3232422,
+            "avgLogProb": -0.17080966,
+            "start": 217.76,
+            "words": [
+                {
+                    "probability": 0.9680176,
+                    "start": 217.76,
+                    "end": 221.6,
+                    "text": "I'm "
+                },
+                {
+                    "probability": 0.8256836,
+                    "start": 221.6,
+                    "end": 221.88,
+                    "text": "gonna "
+                },
+                {
+                    "probability": 0.8901367,
+                    "start": 221.88,
+                    "end": 222.72,
+                    "text": "love "
+                },
+                {
+                    "probability": 0.8930664,
+                    "start": 222.72,
+                    "end": 222.92,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.7832031,
+                    "start": 222.92,
+                    "end": 223.36,
+                    "text": "even "
+                },
+                {
+                    "probability": 0.88623047,
+                    "start": 223.36,
+                    "end": 223.58,
+                    "text": "if "
+                },
+                {
+                    "probability": 0.8613281,
+                    "start": 223.58,
+                    "end": 223.88,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.7421875,
+                    "start": 223.88,
+                    "end": 224.8,
+                    "text": "lie"
+                }
+            ],
+            "end": 224.8,
+            "text": "I'm gonna love you even if you lie"
+        },
+        {
+            "noSpeechProb": 0.9135742,
+            "avgLogProb": -0.5401279,
+            "start": 227.46,
+            "words": [
+                {
+                    "probability": 0.15628052,
+                    "start": 227.46,
+                    "end": 227.82,
+                    "text": "I'm "
+                },
+                {
+                    "probability": 0.017364502,
+                    "start": 227.82,
+                    "end": 227.94,
+                    "text": "gonna "
+                },
+                {
+                    "probability": 0.0046844482,
+                    "start": 227.94,
+                    "end": 228.1,
+                    "text": "love "
+                },
+                {
+                    "probability": 0.49829102,
+                    "start": 228.1,
+                    "end": 228.15,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.0017976761,
+                    "start": 228.15,
+                    "end": 228.34,
+                    "text": "when "
+                },
+                {
+                    "probability": 0.51708984,
+                    "start": 228.34,
+                    "end": 228.365,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.010070801,
+                    "start": 228.365,
+                    "end": 228.39000000000001,
+                    "text": "cry"
+                }
+            ],
+            "end": 228.39000000000001,
+            "text": "I'm gonna love you when you cry"
+        }
+    ]
+}

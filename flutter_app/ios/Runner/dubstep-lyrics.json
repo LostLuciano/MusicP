@@ -1,0 +1,1502 @@
+{
+    "transcript": [
+        {
+            "words": [
+                {
+                    "probability": 0.009963989,
+                    "start": 0.08,
+                    "text": "Few ",
+                    "end": 0.82
+                },
+                {
+                    "probability": 0.79541016,
+                    "start": 0.82,
+                    "text": "will ",
+                    "end": 1.06
+                },
+                {
+                    "probability": 0.89697266,
+                    "start": 1.06,
+                    "text": "rise ",
+                    "end": 1.36
+                },
+                {
+                    "probability": 0.86816406,
+                    "start": 1.36,
+                    "text": "and ",
+                    "end": 1.52
+                },
+                {
+                    "probability": 0.77978516,
+                    "start": 1.52,
+                    "text": "many ",
+                    "end": 1.74
+                },
+                {
+                    "probability": 0.70214844,
+                    "start": 1.74,
+                    "text": "shall ",
+                    "end": 2.04
+                },
+                {
+                    "probability": 0.8046875,
+                    "start": 2.04,
+                    "text": "fall, ",
+                    "end": 2.52
+                },
+                {
+                    "probability": 0.6621094,
+                    "start": 2.62,
+                    "text": "but ",
+                    "end": 2.88
+                },
+                {
+                    "probability": 0.671875,
+                    "start": 2.88,
+                    "text": "a ",
+                    "end": 3.02
+                },
+                {
+                    "probability": 0.90722656,
+                    "start": 3.02,
+                    "text": "real ",
+                    "end": 3.2
+                },
+                {
+                    "probability": 0.8391113,
+                    "start": 3.2,
+                    "text": "conqueror ",
+                    "end": 3.68
+                },
+                {
+                    "probability": 0.81640625,
+                    "start": 3.68,
+                    "text": "will ",
+                    "end": 3.84
+                },
+                {
+                    "probability": 0.8100586,
+                    "start": 3.84,
+                    "text": "stand ",
+                    "end": 4.01
+                },
+                {
+                    "probability": 0.91308594,
+                    "start": 4.01,
+                    "text": "tall ",
+                    "end": 4.28
+                },
+                {
+                    "probability": 0.87353516,
+                    "start": 4.28,
+                    "text": "amongst ",
+                    "end": 4.64
+                },
+                {
+                    "probability": 0.68408203,
+                    "start": 4.64,
+                    "text": "them ",
+                    "end": 4.88
+                },
+                {
+                    "probability": 0.89453125,
+                    "start": 4.88,
+                    "text": "all.",
+                    "end": 5.32
+                }
+            ],
+            "start": 0.08,
+            "end": 5.32,
+            "avgLogProb": -0.36237982,
+            "text": "Few will rise and many shall fall, but a real conqueror will stand tall amongst them all.",
+            "noSpeechProb": 0.28588867
+        },
+        {
+            "words": [
+                {
+                    "start": 5.62,
+                    "probability": 0.29223633,
+                    "end": 6.32,
+                    "text": "Put "
+                },
+                {
+                    "start": 6.32,
+                    "probability": 0.77246094,
+                    "end": 7.2,
+                    "text": "your "
+                },
+                {
+                    "start": 7.2,
+                    "probability": 0.8227539,
+                    "end": 7.64,
+                    "text": "lighters "
+                },
+                {
+                    "start": 7.64,
+                    "probability": 0.91503906,
+                    "end": 7.86,
+                    "text": "up, "
+                },
+                {
+                    "start": 8.06,
+                    "probability": 0.6894531,
+                    "end": 8.46,
+                    "text": "represent "
+                },
+                {
+                    "start": 8.46,
+                    "probability": 0.8022461,
+                    "end": 8.8,
+                    "text": "it "
+                },
+                {
+                    "start": 8.8,
+                    "probability": 0.8046875,
+                    "end": 8.99,
+                    "text": "where "
+                },
+                {
+                    "start": 8.99,
+                    "probability": 0.85546875,
+                    "end": 9.17,
+                    "text": "you're "
+                },
+                {
+                    "start": 9.17,
+                    "probability": 0.8129883,
+                    "end": 9.46,
+                    "text": "from."
+                }
+            ],
+            "start": 5.62,
+            "end": 9.46,
+            "avgLogProb": -0.36237982,
+            "text": "Put your lighters up, represent it where you're from.",
+            "noSpeechProb": 0.28588867
+        },
+        {
+            "start": 9.59,
+            "avgLogProb": -0.36237982,
+            "noSpeechProb": 0.28588867,
+            "end": 12.6,
+            "words": [
+                {
+                    "text": "If ",
+                    "probability": 0.76220703,
+                    "end": 9.77,
+                    "start": 9.59
+                },
+                {
+                    "text": "you're ",
+                    "probability": 0.79541016,
+                    "end": 9.91,
+                    "start": 9.77
+                },
+                {
+                    "text": "a ",
+                    "probability": 0.93359375,
+                    "end": 10.01,
+                    "start": 9.91
+                },
+                {
+                    "text": "child ",
+                    "probability": 0.80029297,
+                    "end": 10.19,
+                    "start": 10.01
+                },
+                {
+                    "text": "of ",
+                    "probability": 0.89208984,
+                    "end": 10.42,
+                    "start": 10.19
+                },
+                {
+                    "text": "Zion, ",
+                    "probability": 0.76464844,
+                    "end": 10.66,
+                    "start": 10.42
+                },
+                {
+                    "text": "marching ",
+                    "probability": 0.5854492,
+                    "end": 11.11,
+                    "start": 10.85
+                },
+                {
+                    "text": "forward ",
+                    "probability": 0.83154297,
+                    "end": 11.46,
+                    "start": 11.11
+                },
+                {
+                    "text": "till ",
+                    "probability": 0.3671875,
+                    "end": 11.82,
+                    "start": 11.46
+                },
+                {
+                    "text": "thy ",
+                    "probability": 0.85009766,
+                    "end": 12.01,
+                    "start": 11.82
+                },
+                {
+                    "text": "kingdom ",
+                    "probability": 0.8520508,
+                    "end": 12.24,
+                    "start": 12.01
+                },
+                {
+                    "text": "come.",
+                    "probability": 0.7973633,
+                    "end": 12.6,
+                    "start": 12.24
+                }
+            ],
+            "text": "If you're a child of Zion, marching forward till thy kingdom come."
+        },
+        {
+            "start": 12.82,
+            "avgLogProb": -0.36237982,
+            "noSpeechProb": 0.28588867,
+            "end": 15.58,
+            "words": [
+                {
+                    "text": "To ",
+                    "probability": 0.67333984,
+                    "end": 12.93,
+                    "start": 12.82
+                },
+                {
+                    "text": "all ",
+                    "probability": 0.7841797,
+                    "end": 13.1,
+                    "start": 12.93
+                },
+                {
+                    "text": "the ",
+                    "probability": 0.76904297,
+                    "end": 13.22,
+                    "start": 13.1
+                },
+                {
+                    "text": "old ",
+                    "probability": 0.83935547,
+                    "end": 13.38,
+                    "start": 13.22
+                },
+                {
+                    "text": "and ",
+                    "probability": 0.8808594,
+                    "end": 13.5,
+                    "start": 13.38
+                },
+                {
+                    "text": "the ",
+                    "probability": 0.79248047,
+                    "end": 13.61,
+                    "start": 13.5
+                },
+                {
+                    "text": "young ",
+                    "probability": 0.8564453,
+                    "end": 13.85,
+                    "start": 13.61
+                },
+                {
+                    "text": "stars, ",
+                    "probability": 0.27929688,
+                    "end": 14.1,
+                    "start": 13.85
+                },
+                {
+                    "text": "if ",
+                    "probability": 0.8544922,
+                    "end": 14.43,
+                    "start": 14.3
+                },
+                {
+                    "text": "nobody ",
+                    "probability": 0.7441406,
+                    "end": 14.74,
+                    "start": 14.43
+                },
+                {
+                    "text": "can ",
+                    "probability": 0.82910156,
+                    "end": 14.98,
+                    "start": 14.74
+                },
+                {
+                    "text": "put ",
+                    "probability": 0.84375,
+                    "end": 15.11,
+                    "start": 14.98
+                },
+                {
+                    "text": "you ",
+                    "probability": 0.8823242,
+                    "end": 15.26,
+                    "start": 15.11
+                },
+                {
+                    "text": "under.",
+                    "probability": 0.70947266,
+                    "end": 15.58,
+                    "start": 15.26
+                }
+            ],
+            "text": "To all the old and the young stars, if nobody can put you under."
+        },
+        {
+            "start": 15.9,
+            "avgLogProb": -0.36237982,
+            "noSpeechProb": 0.28588867,
+            "end": 18.81,
+            "words": [
+                {
+                    "text": "Stand ",
+                    "probability": 0.8540039,
+                    "end": 16.18,
+                    "start": 15.9
+                },
+                {
+                    "text": "up ",
+                    "probability": 0.89404297,
+                    "end": 16.29,
+                    "start": 16.18
+                },
+                {
+                    "text": "then ",
+                    "probability": 0.4230957,
+                    "end": 16.43,
+                    "start": 16.29
+                },
+                {
+                    "text": "if ",
+                    "probability": 0.7392578,
+                    "end": 16.58,
+                    "start": 16.43
+                },
+                {
+                    "text": "you's ",
+                    "probability": 0.64990234,
+                    "end": 16.74,
+                    "start": 16.58
+                },
+                {
+                    "text": "a ",
+                    "probability": 0.99121094,
+                    "end": 16.81,
+                    "start": 16.74
+                },
+                {
+                    "text": "fighter, ",
+                    "probability": 0.7324219,
+                    "end": 17.15,
+                    "start": 16.81
+                },
+                {
+                    "text": "show ",
+                    "probability": 0.8066406,
+                    "end": 17.77,
+                    "start": 17.56
+                },
+                {
+                    "text": "them ",
+                    "probability": 0.70166016,
+                    "end": 17.92,
+                    "start": 17.77
+                },
+                {
+                    "text": "you're ",
+                    "probability": 0.734375,
+                    "end": 18.06,
+                    "start": 17.92
+                },
+                {
+                    "text": "ready ",
+                    "probability": 0.765625,
+                    "end": 18.22,
+                    "start": 18.06
+                },
+                {
+                    "text": "to ",
+                    "probability": 0.71728516,
+                    "end": 18.36,
+                    "start": 18.22
+                },
+                {
+                    "text": "conquer.",
+                    "probability": 0.86035156,
+                    "end": 18.81,
+                    "start": 18.36
+                }
+            ],
+            "text": "Stand up then if you's a fighter, show them you're ready to conquer."
+        },
+        {
+            "start": 19.29,
+            "avgLogProb": -0.36237982,
+            "noSpeechProb": 0.28588867,
+            "end": 25.56,
+            "words": [
+                {
+                    "text": "Make ",
+                    "probability": 0.42773438,
+                    "end": 23.82,
+                    "start": 19.29
+                },
+                {
+                    "text": "them ",
+                    "probability": 0.7055664,
+                    "end": 24.04,
+                    "start": 23.82
+                },
+                {
+                    "text": "know ",
+                    "probability": 0.75097656,
+                    "end": 24.22,
+                    "start": 24.04
+                },
+                {
+                    "text": "that ",
+                    "probability": 0.85009766,
+                    "end": 24.46,
+                    "start": 24.22
+                },
+                {
+                    "text": "you're ",
+                    "probability": 0.5982666,
+                    "end": 24.74,
+                    "start": 24.46
+                },
+                {
+                    "text": "a ",
+                    "probability": 0.90185547,
+                    "end": 24.84,
+                    "start": 24.74
+                },
+                {
+                    "text": "conqueror.",
+                    "probability": 0.8979492,
+                    "end": 25.56,
+                    "start": 24.84
+                }
+            ],
+            "text": "Make them know that you're a conqueror."
+        },
+        {
+            "start": 33.25,
+            "avgLogProb": -0.15354568,
+            "noSpeechProb": 0.33544922,
+            "end": 37.97,
+            "words": [
+                {
+                    "text": "Stand ",
+                    "probability": 0.00079107285,
+                    "end": 34.91,
+                    "start": 33.25
+                },
+                {
+                    "text": "up ",
+                    "probability": 0.875,
+                    "end": 35.52,
+                    "start": 35.34
+                },
+                {
+                    "text": "then ",
+                    "probability": 0.00007665157,
+                    "end": 35.62,
+                    "start": 35.52
+                },
+                {
+                    "text": "if ",
+                    "probability": 0.04663086,
+                    "end": 35.79,
+                    "start": 35.62
+                },
+                {
+                    "text": "you's ",
+                    "probability": 0.26245117,
+                    "end": 35.97,
+                    "start": 35.79
+                },
+                {
+                    "text": "a ",
+                    "probability": 0.96875,
+                    "end": 36.03,
+                    "start": 35.97
+                },
+                {
+                    "text": "fighter, ",
+                    "probability": 0.7133789,
+                    "end": 36.43,
+                    "start": 36.03
+                },
+                {
+                    "text": "show ",
+                    "probability": 0.37426758,
+                    "end": 36.97,
+                    "start": 36.78
+                },
+                {
+                    "text": "them ",
+                    "probability": 0.6386719,
+                    "end": 37.07,
+                    "start": 36.97
+                },
+                {
+                    "text": "you're ",
+                    "probability": 0.65600586,
+                    "end": 37.24,
+                    "start": 37.07
+                },
+                {
+                    "text": "ready ",
+                    "probability": 0.8154297,
+                    "end": 37.42,
+                    "start": 37.24
+                },
+                {
+                    "text": "to ",
+                    "probability": 0.70410156,
+                    "end": 37.57,
+                    "start": 37.42
+                },
+                {
+                    "text": "conquer.",
+                    "probability": 0.83691406,
+                    "end": 37.97,
+                    "start": 37.57
+                }
+            ],
+            "text": "Stand up then if you's a fighter, show them you're ready to conquer."
+        },
+        {
+            "start": 40.2,
+            "avgLogProb": -0.15354568,
+            "noSpeechProb": 0.33544922,
+            "end": 50.74,
+            "words": [
+                {
+                    "text": "Stand ",
+                    "probability": 0.5625,
+                    "end": 48.15,
+                    "start": 40.2
+                },
+                {
+                    "text": "up ",
+                    "probability": 0.91552734,
+                    "end": 48.36,
+                    "start": 48.15
+                },
+                {
+                    "text": "then ",
+                    "probability": 0.46972656,
+                    "end": 48.56,
+                    "start": 48.36
+                },
+                {
+                    "text": "if ",
+                    "probability": 0.86572266,
+                    "end": 48.595,
+                    "start": 48.56
+                },
+                {
+                    "text": "you's ",
+                    "probability": 0.94311523,
+                    "end": 48.7,
+                    "start": 48.595
+                },
+                {
+                    "text": "a ",
+                    "probability": 0.9975586,
+                    "end": 48.83,
+                    "start": 48.7
+                },
+                {
+                    "text": "fighter, ",
+                    "probability": 0.75,
+                    "end": 49.18,
+                    "start": 48.83
+                },
+                {
+                    "text": "show ",
+                    "probability": 0.8286133,
+                    "end": 49.74,
+                    "start": 49.56
+                },
+                {
+                    "text": "them ",
+                    "probability": 0.73828125,
+                    "end": 49.9,
+                    "start": 49.74
+                },
+                {
+                    "text": "you're ",
+                    "probability": 0.9189453,
+                    "end": 50.08,
+                    "start": 49.9
+                },
+                {
+                    "text": "ready ",
+                    "probability": 0.82470703,
+                    "end": 50.2,
+                    "start": 50.08
+                },
+                {
+                    "text": "to ",
+                    "probability": 0.9057617,
+                    "end": 50.42,
+                    "start": 50.2
+                },
+                {
+                    "text": "conquer.",
+                    "probability": 0.86572266,
+                    "end": 50.74,
+                    "start": 50.42
+                }
+            ],
+            "text": "Stand up then if you's a fighter, show them you're ready to conquer."
+        },
+        {
+            "start": 66.82,
+            "avgLogProb": -0.33544302,
+            "noSpeechProb": 0.19848633,
+            "end": 76.63,
+            "words": [
+                {
+                    "text": "Stand ",
+                    "probability": 0.00027251244,
+                    "end": 66.83666666666666,
+                    "start": 66.82
+                },
+                {
+                    "text": "up ",
+                    "probability": 0.05407715,
+                    "end": 66.85333333333332,
+                    "start": 66.83666666666666
+                },
+                {
+                    "text": "then ",
+                    "probability": 0.00001692772,
+                    "end": 66.86999999999999,
+                    "start": 66.85333333333332
+                },
+                {
+                    "text": "if ",
+                    "probability": 0.0005965233,
+                    "end": 70.46,
+                    "start": 66.86999999999999
+                },
+                {
+                    "text": "you's ",
+                    "probability": 0.3347719,
+                    "end": 73.51,
+                    "start": 72.69
+                },
+                {
+                    "text": "a ",
+                    "probability": 0.3293457,
+                    "end": 73.75,
+                    "start": 73.51
+                },
+                {
+                    "text": "fighter, ",
+                    "probability": 0.51220703,
+                    "end": 74.85,
+                    "start": 73.75
+                },
+                {
+                    "text": "show ",
+                    "probability": 0.009002686,
+                    "end": 75.39,
+                    "start": 75.11
+                },
+                {
+                    "text": "them ",
+                    "probability": 0.5986328,
+                    "end": 75.51,
+                    "start": 75.39
+                },
+                {
+                    "text": "you're ",
+                    "probability": 0.5317383,
+                    "end": 75.63,
+                    "start": 75.51
+                },
+                {
+                    "text": "ready ",
+                    "probability": 0.79248047,
+                    "end": 75.81,
+                    "start": 75.63
+                },
+                {
+                    "text": "to ",
+                    "probability": 0.87060547,
+                    "end": 75.99,
+                    "start": 75.81
+                },
+                {
+                    "text": "conquer.",
+                    "probability": 0.8232422,
+                    "end": 76.63,
+                    "start": 75.99
+                }
+            ],
+            "text": "Stand up then if you's a fighter, show them you're ready to conquer."
+        },
+        {
+            "start": 76.87,
+            "avgLogProb": -0.33544302,
+            "noSpeechProb": 0.19848633,
+            "end": 77.41,
+            "words": [
+                {
+                    "text": "Stand ",
+                    "probability": 0.006038666,
+                    "end": 76.89,
+                    "start": 76.87
+                },
+                {
+                    "text": "up ",
+                    "probability": 0.8173828,
+                    "end": 76.895,
+                    "start": 76.89
+                },
+                {
+                    "text": "then ",
+                    "probability": 0.5263672,
+                    "end": 76.9,
+                    "start": 76.895
+                },
+                {
+                    "text": "if ",
+                    "probability": 0.8852539,
+                    "end": 76.905,
+                    "start": 76.9
+                },
+                {
+                    "text": "you's ",
+                    "probability": 0.93310547,
+                    "end": 76.95,
+                    "start": 76.905
+                },
+                {
+                    "text": "a ",
+                    "probability": 0.9892578,
+                    "end": 76.9625,
+                    "start": 76.95
+                },
+                {
+                    "text": "fighter, ",
+                    "probability": 0.68603516,
+                    "end": 76.975,
+                    "start": 76.9625
+                },
+                {
+                    "text": "show ",
+                    "probability": 0.8261719,
+                    "end": 76.9875,
+                    "start": 76.975
+                },
+                {
+                    "text": "them ",
+                    "probability": 0.74072266,
+                    "end": 77,
+                    "start": 76.9875
+                },
+                {
+                    "text": "you're ",
+                    "probability": 0.9248047,
+                    "end": 77.17,
+                    "start": 77
+                },
+                {
+                    "text": "ready ",
+                    "probability": 0.8027344,
+                    "end": 77.195,
+                    "start": 77.17
+                },
+                {
+                    "text": "to ",
+                    "probability": 0.90722656,
+                    "end": 77.22,
+                    "start": 77.195
+                },
+                {
+                    "text": "conquer.",
+                    "probability": 0.86816406,
+                    "end": 77.41,
+                    "start": 77.22
+                }
+            ],
+            "text": "Stand up then if you's a fighter, show them you're ready to conquer."
+        },
+        {
+            "start": 78.91,
+            "avgLogProb": -0.33544302,
+            "noSpeechProb": 0.19848633,
+            "end": 80.67,
+            "words": [
+                {
+                    "text": "Say ",
+                    "probability": 0.36083984,
+                    "end": 79.67,
+                    "start": 78.91
+                },
+                {
+                    "text": "oh ",
+                    "probability": 0.4814453,
+                    "end": 80.19,
+                    "start": 79.67
+                },
+                {
+                    "text": "yeah!",
+                    "probability": 0.73535156,
+                    "end": 80.67,
+                    "start": 80.19
+                }
+            ],
+            "text": "Say oh yeah!"
+        },
+        {
+            "start": 81.85,
+            "avgLogProb": -0.33544302,
+            "noSpeechProb": 0.19848633,
+            "end": 83.71,
+            "words": [
+                {
+                    "text": "Say ",
+                    "probability": 0.67041016,
+                    "end": 82.85,
+                    "start": 81.85
+                },
+                {
+                    "text": "oh ",
+                    "probability": 0.87158203,
+                    "end": 83.39,
+                    "start": 82.85
+                },
+                {
+                    "text": "yeah!",
+                    "probability": 0.89404297,
+                    "end": 83.71,
+                    "start": 83.39
+                }
+            ],
+            "text": "Say oh yeah!"
+        },
+        {
+            "start": 85.31,
+            "avgLogProb": -0.33544302,
+            "noSpeechProb": 0.19848633,
+            "end": 87.19,
+            "words": [
+                {
+                    "text": "Say ",
+                    "probability": 0.7895508,
+                    "end": 86.11,
+                    "start": 85.31
+                },
+                {
+                    "text": "oh ",
+                    "probability": 0.9042969,
+                    "end": 86.59,
+                    "start": 86.11
+                },
+                {
+                    "text": "yeah!",
+                    "probability": 0.9165039,
+                    "end": 87.19,
+                    "start": 86.59
+                }
+            ],
+            "text": "Say oh yeah!"
+        },
+        {
+            "start": 88.21,
+            "avgLogProb": -0.33544302,
+            "noSpeechProb": 0.19848633,
+            "end": 95.51,
+            "words": [
+                {
+                    "text": "The ",
+                    "probability": 0.15258789,
+                    "end": 89.69,
+                    "start": 88.21
+                },
+                {
+                    "text": "journey ",
+                    "probability": 0.80371094,
+                    "end": 90.69,
+                    "start": 89.69
+                },
+                {
+                    "text": "through ",
+                    "probability": 0.55908203,
+                    "end": 90.99,
+                    "start": 90.69
+                },
+                {
+                    "text": "this ",
+                    "probability": 0.81640625,
+                    "end": 91.23,
+                    "start": 90.99
+                },
+                {
+                    "text": "life ",
+                    "probability": 0.82714844,
+                    "end": 91.49,
+                    "start": 91.23
+                },
+                {
+                    "text": "not ",
+                    "probability": 0.25024414,
+                    "end": 91.79,
+                    "start": 91.49
+                },
+                {
+                    "text": "easy, ",
+                    "probability": 0.79345703,
+                    "end": 92.23,
+                    "start": 91.79
+                },
+                {
+                    "text": "stand ",
+                    "probability": 0.6977539,
+                    "end": 92.67,
+                    "start": 92.23
+                },
+                {
+                    "text": "firm ",
+                    "probability": 0.7885742,
+                    "end": 93.15,
+                    "start": 92.67
+                },
+                {
+                    "text": "like ",
+                    "probability": 0.86083984,
+                    "end": 93.43,
+                    "start": 93.15
+                },
+                {
+                    "text": "a ",
+                    "probability": 0.9873047,
+                    "end": 93.63,
+                    "start": 93.43
+                },
+                {
+                    "text": "soldier ",
+                    "probability": 0.8754883,
+                    "end": 94.15,
+                    "start": 93.63
+                },
+                {
+                    "text": "in ",
+                    "probability": 0.52197266,
+                    "end": 94.63,
+                    "start": 94.15
+                },
+                {
+                    "text": "a ",
+                    "probability": 0.515625,
+                    "end": 94.81,
+                    "start": 94.63
+                },
+                {
+                    "text": "charred ",
+                    "probability": 0.27990723,
+                    "end": 95.13,
+                    "start": 94.81
+                },
+                {
+                    "text": "army.",
+                    "probability": 0.81396484,
+                    "end": 95.51,
+                    "start": 95.13
+                }
+            ],
+            "text": "The journey through this life not easy, stand firm like a soldier in a charred army."
+        },
+        {
+            "start": 95.51,
+            "avgLogProb": -0.30928308,
+            "noSpeechProb": 0.12890625,
+            "end": 101.43,
+            "words": [
+                {
+                    "text": "Ain't ",
+                    "start": 95.51,
+                    "end": 95.53,
+                    "probability": 0.49958134
+                },
+                {
+                    "text": "be ",
+                    "start": 95.53,
+                    "end": 95.79,
+                    "probability": 0.10089111
+                },
+                {
+                    "text": "no ",
+                    "start": 95.79,
+                    "end": 96.03,
+                    "probability": 0.8876953
+                },
+                {
+                    "text": "victim ",
+                    "start": 96.03,
+                    "end": 96.45,
+                    "probability": 0.80029297
+                },
+                {
+                    "text": "to ",
+                    "start": 96.45,
+                    "end": 96.83,
+                    "probability": 0.88964844
+                },
+                {
+                    "text": "mental ",
+                    "start": 96.83,
+                    "end": 97.31,
+                    "probability": 0.65771484
+                },
+                {
+                    "text": "slavery ",
+                    "start": 97.31,
+                    "end": 97.99,
+                    "probability": 0.8105469
+                },
+                {
+                    "text": "now, ",
+                    "start": 97.99,
+                    "end": 98.61,
+                    "probability": 0.64160156
+                },
+                {
+                    "text": "even ",
+                    "start": 98.69,
+                    "end": 99.25,
+                    "probability": 0.6269531
+                },
+                {
+                    "text": "if ",
+                    "start": 99.25,
+                    "end": 99.43,
+                    "probability": 0.8666992
+                },
+                {
+                    "text": "Babylon ",
+                    "start": 99.43,
+                    "end": 99.85,
+                    "probability": 0.9379883
+                },
+                {
+                    "text": "tribe ",
+                    "start": 99.85,
+                    "end": 100.39,
+                    "probability": 0.23925781
+                },
+                {
+                    "text": "is ",
+                    "start": 100.39,
+                    "end": 100.63,
+                    "probability": 0.7739258
+                },
+                {
+                    "text": "stop ",
+                    "start": 100.63,
+                    "end": 101.01,
+                    "probability": 0.18774414
+                },
+                {
+                    "text": "with.",
+                    "start": 101.01,
+                    "end": 101.43,
+                    "probability": 0.40356445
+                }
+            ],
+            "text": "Ain't be no victim to mental slavery now, even if Babylon tribe is stop with."
+        },
+        {
+            "start": 101.83,
+            "avgLogProb": -0.30928308,
+            "noSpeechProb": 0.12890625,
+            "end": 106.05,
+            "words": [
+                {
+                    "probability": 0.71533203,
+                    "start": 101.83,
+                    "end": 102.05,
+                    "text": "You're "
+                },
+                {
+                    "probability": 0.94921875,
+                    "start": 102.05,
+                    "end": 102.23,
+                    "text": "a "
+                },
+                {
+                    "probability": 0.7290039,
+                    "start": 102.23,
+                    "end": 102.75,
+                    "text": "fighter, "
+                },
+                {
+                    "probability": 0.88671875,
+                    "start": 103.33,
+                    "end": 103.65,
+                    "text": "you're "
+                },
+                {
+                    "probability": 0.99560547,
+                    "start": 103.65,
+                    "end": 103.83,
+                    "text": "a "
+                },
+                {
+                    "probability": 0.7416992,
+                    "start": 103.83,
+                    "end": 104.43,
+                    "text": "fighter, "
+                },
+                {
+                    "probability": 0.91308594,
+                    "start": 104.97,
+                    "end": 105.25,
+                    "text": "you're "
+                },
+                {
+                    "probability": 0.9975586,
+                    "start": 105.25,
+                    "end": 105.43,
+                    "text": "a "
+                },
+                {
+                    "probability": 0.73828125,
+                    "start": 105.43,
+                    "end": 106.05,
+                    "text": "fighter."
+                }
+            ],
+            "text": "You're a fighter, you're a fighter, you're a fighter."
+        },
+        {
+            "start": 106.67,
+            "avgLogProb": -0.30928308,
+            "noSpeechProb": 0.12890625,
+            "end": 108.99,
+            "words": [
+                {
+                    "probability": 0.57958984,
+                    "start": 106.67,
+                    "end": 107.05,
+                    "text": "Make "
+                },
+                {
+                    "probability": 0.41015625,
+                    "start": 107.05,
+                    "end": 107.23,
+                    "text": "them "
+                },
+                {
+                    "probability": 0.7470703,
+                    "start": 107.23,
+                    "end": 107.43,
+                    "text": "know "
+                },
+                {
+                    "probability": 0.7685547,
+                    "start": 107.43,
+                    "end": 107.65,
+                    "text": "that "
+                },
+                {
+                    "probability": 0.8022461,
+                    "start": 107.65,
+                    "end": 107.81,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.093444824,
+                    "start": 107.81,
+                    "end": 107.99,
+                    "text": "a "
+                },
+                {
+                    "probability": 0.92822266,
+                    "start": 107.99,
+                    "end": 108.99,
+                    "text": "conqueror."
+                }
+            ],
+            "text": "Make them know that you a conqueror."
+        },
+        {
+            "start": 112.72,
+            "avgLogProb": -0.30928308,
+            "noSpeechProb": 0.12890625,
+            "end": 121.14,
+            "words": [
+                {
+                    "probability": 0.16369629,
+                    "start": 112.72,
+                    "end": 118.24,
+                    "text": "Stand "
+                },
+                {
+                    "probability": 0.87939453,
+                    "start": 118.56,
+                    "end": 118.7,
+                    "text": "up "
+                },
+                {
+                    "probability": 0.0002937317,
+                    "start": 118.7,
+                    "end": 118.84,
+                    "text": "then "
+                },
+                {
+                    "probability": 0.13635254,
+                    "start": 118.84,
+                    "end": 119.02,
+                    "text": "if "
+                },
+                {
+                    "probability": 0.37976074,
+                    "start": 119.02,
+                    "end": 119.2,
+                    "text": "you's "
+                },
+                {
+                    "probability": 0.98535156,
+                    "start": 119.2,
+                    "end": 119.22,
+                    "text": "a "
+                },
+                {
+                    "probability": 0.74365234,
+                    "start": 119.22,
+                    "end": 119.58,
+                    "text": "fighter, "
+                },
+                {
+                    "probability": 0.50634766,
+                    "start": 120,
+                    "end": 120.18,
+                    "text": "show "
+                },
+                {
+                    "probability": 0.6645508,
+                    "start": 120.18,
+                    "end": 120.3,
+                    "text": "them "
+                },
+                {
+                    "probability": 0.3388672,
+                    "start": 120.3,
+                    "end": 120.48,
+                    "text": "you're "
+                },
+                {
+                    "probability": 0.7944336,
+                    "start": 120.48,
+                    "end": 120.64,
+                    "text": "ready "
+                },
+                {
+                    "probability": 0.7055664,
+                    "start": 120.64,
+                    "end": 120.78,
+                    "text": "to "
+                },
+                {
+                    "probability": 0.8623047,
+                    "start": 120.78,
+                    "end": 121.14,
+                    "text": "conquer."
+                }
+            ],
+            "text": "Stand up then if you's a fighter, show them you're ready to conquer."
+        },
+        {
+            "start": 126.16,
+            "avgLogProb": -0.2406994,
+            "noSpeechProb": 0.29418945,
+            "end": 134.06,
+            "words": [
+                {
+                    "probability": 0.00014150143,
+                    "start": 126.16,
+                    "end": 131.34,
+                    "text": "Stand "
+                },
+                {
+                    "probability": 0.7314453,
+                    "start": 131.34,
+                    "end": 131.52,
+                    "text": "up "
+                },
+                {
+                    "probability": 0.000012099743,
+                    "start": 131.52,
+                    "end": 131.9,
+                    "text": "then "
+                },
+                {
+                    "probability": 0.087890625,
+                    "start": 131.9,
+                    "end": 131.91500000000002,
+                    "text": "if "
+                },
+                {
+                    "probability": 0.14880696,
+                    "start": 131.91500000000002,
+                    "end": 131.93,
+                    "text": "you's "
+                },
+                {
+                    "probability": 0.85302734,
+                    "start": 131.93,
+                    "end": 132.02,
+                    "text": "a "
+                },
+                {
+                    "probability": 0.75390625,
+                    "start": 132.02,
+                    "end": 132.42,
+                    "text": "fighter, "
+                },
+                {
+                    "probability": 0.00066900253,
+                    "start": 132.8,
+                    "end": 133,
+                    "text": "show "
+                },
+                {
+                    "probability": 0.5415039,
+                    "start": 133,
+                    "end": 133.1,
+                    "text": "them "
+                },
+                {
+                    "probability": 0.6086426,
+                    "start": 133.1,
+                    "end": 133.22,
+                    "text": "you're "
+                },
+                {
+                    "probability": 0.8017578,
+                    "start": 133.22,
+                    "end": 133.42,
+                    "text": "ready "
+                },
+                {
+                    "probability": 0.45507812,
+                    "start": 133.42,
+                    "end": 133.58,
+                    "text": "to "
+                },
+                {
+                    "probability": 0.83203125,
+                    "start": 133.58,
+                    "end": 134.06,
+                    "text": "conquer."
+                }
+            ],
+            "text": "Stand up then if you's a fighter, show them you're ready to conquer."
+        },
+        {
+            "start": 134.06,
+            "avgLogProb": -0.25664064,
+            "noSpeechProb": 0.119262695,
+            "end": 159.5,
+            "words": [
+                {
+                    "probability": 0.0011148453,
+                    "start": 134.06,
+                    "end": 153.98,
+                    "text": "Stand "
+                },
+                {
+                    "probability": 0.7578125,
+                    "start": 156.96,
+                    "end": 157.12,
+                    "text": "up "
+                },
+                {
+                    "probability": 0.00009262562,
+                    "start": 157.12,
+                    "end": 157.32,
+                    "text": "then "
+                },
+                {
+                    "probability": 0.009162903,
+                    "start": 157.32,
+                    "end": 157.52,
+                    "text": "if "
+                },
+                {
+                    "probability": 0.31884766,
+                    "start": 157.52,
+                    "end": 157.58,
+                    "text": "you's "
+                },
+                {
+                    "probability": 0.9458008,
+                    "start": 157.58,
+                    "end": 157.62,
+                    "text": "a "
+                },
+                {
+                    "probability": 0.7626953,
+                    "start": 157.62,
+                    "end": 158.08,
+                    "text": "fighter, "
+                },
+                {
+                    "probability": 0.0013065338,
+                    "start": 158.38,
+                    "end": 158.58,
+                    "text": "show "
+                },
+                {
+                    "probability": 0.43164062,
+                    "start": 158.58,
+                    "end": 158.7,
+                    "text": "them "
+                },
+                {
+                    "probability": 0.21289062,
+                    "start": 158.7,
+                    "end": 158.86,
+                    "text": "you're "
+                },
+                {
+                    "probability": 0.20166016,
+                    "start": 158.86,
+                    "end": 159.06,
+                    "text": "ready "
+                },
+                {
+                    "probability": 0.13256836,
+                    "start": 159.06,
+                    "end": 159.18,
+                    "text": "to "
+                },
+                {
+                    "probability": 0.5136719,
+                    "start": 159.18,
+                    "end": 159.5,
+                    "text": "conquer."
+                }
+            ],
+            "text": "Stand up then if you's a fighter, show them you're ready to conquer."
+        }
+    ],
+    "match": true,
+    "aligned": false,
+    "version": "1.0.0_rc9",
+    "language": "english"
+}

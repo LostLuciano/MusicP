@@ -6,6 +6,7 @@ import '../../widgets/waveform_placeholder.dart';
 import '../../widgets/transport_controls.dart';
 import '../../state/project_controller.dart';
 import '../../models/audio_project.dart';
+import '../../services/native_ios_audio_service.dart';
 import '../chord_viewer/chord_viewer_screen.dart';
 
 class StemMixerScreen extends StatefulWidget {
@@ -22,13 +23,28 @@ class _StemMixerScreenState extends State<StemMixerScreen> {
   Duration _currentPosition = Duration.zero;
   Duration _totalDuration = Duration.zero;
 
-  // Stems volume
-  double _vocalsVol = 0.0;
-  double _bassVol = 0.0;
-  double _drumsVol = 0.0;
-  double _pianoVol = 0.0;
-  double _guitarVol = 0.0;
-  double _otherVol = 0.0;
+  // Stems volume - default to 1.0 (audible)
+  double _vocalsVol = 1.0;
+  double _bassVol = 1.0;
+  double _drumsVol = 1.0;
+  double _pianoVol = 1.0;
+  double _guitarVol = 1.0;
+  double _otherVol = 1.0;
+
+  // Mute state per stem
+  final Map<String, bool> _muteState = {
+    'vocals': false,
+    'bass': false,
+    'drums': false,
+    'piano': false,
+    'guitar': false,
+    'other': false,
+  };
+
+  // Speed: 0.5x to 2.0x, default 1.0x (normal)
+  double _playbackSpeed = 1.0;
+  static const List<double> _speedPresets = [0.5, 0.75, 1.0, 1.25, 1.5, 2.0];
+  static const List<String> _speedLabels = ['0.5×', '0.75×', '1×', '1.25×', '1.5×', '2×'];
 
   @override
   void initState() {
@@ -159,48 +175,102 @@ class _StemMixerScreenState extends State<StemMixerScreen> {
                             label: 'Vocals',
                             icon: Icons.mic_none_rounded,
                             volume: _vocalsVol,
+                            isMuted: _muteState['vocals']!,
+                            onMuteToggle: isStemsReady ? () {
+                              final muted = !_muteState['vocals']!;
+                              setState(() => _muteState['vocals'] = muted);
+                              NativeIosAudioService().muteStem('vocals', muted);
+                            } : null,
                             onChanged: isStemsReady
-                                ? (val) => setState(() => _vocalsVol = val)
+                                ? (val) {
+                                    setState(() => _vocalsVol = val);
+                                    NativeIosAudioService().setStemVolume('vocals', val);
+                                  }
                                 : (val) {},
                           ),
                           StemVerticalSlider(
                             label: 'Bass',
                             icon: Icons.music_note_rounded,
                             volume: _bassVol,
+                            isMuted: _muteState['bass']!,
+                            onMuteToggle: isStemsReady ? () {
+                              final muted = !_muteState['bass']!;
+                              setState(() => _muteState['bass'] = muted);
+                              NativeIosAudioService().muteStem('bass', muted);
+                            } : null,
                             onChanged: isStemsReady
-                                ? (val) => setState(() => _bassVol = val)
+                                ? (val) {
+                                    setState(() => _bassVol = val);
+                                    NativeIosAudioService().setStemVolume('bass', val);
+                                  }
                                 : (val) {},
                           ),
                           StemVerticalSlider(
                             label: 'Drums',
                             icon: Icons.hearing_rounded,
                             volume: _drumsVol,
+                            isMuted: _muteState['drums']!,
+                            onMuteToggle: isStemsReady ? () {
+                              final muted = !_muteState['drums']!;
+                              setState(() => _muteState['drums'] = muted);
+                              NativeIosAudioService().muteStem('drums', muted);
+                            } : null,
                             onChanged: isStemsReady
-                                ? (val) => setState(() => _drumsVol = val)
+                                ? (val) {
+                                    setState(() => _drumsVol = val);
+                                    NativeIosAudioService().setStemVolume('drums', val);
+                                  }
                                 : (val) {},
                           ),
                           StemVerticalSlider(
                             label: 'Piano',
                             icon: Icons.piano_rounded,
                             volume: _pianoVol,
+                            isMuted: _muteState['piano']!,
+                            onMuteToggle: isStemsReady ? () {
+                              final muted = !_muteState['piano']!;
+                              setState(() => _muteState['piano'] = muted);
+                              NativeIosAudioService().muteStem('piano', muted);
+                            } : null,
                             onChanged: isStemsReady
-                                ? (val) => setState(() => _pianoVol = val)
+                                ? (val) {
+                                    setState(() => _pianoVol = val);
+                                    NativeIosAudioService().setStemVolume('piano', val);
+                                  }
                                 : (val) {},
                           ),
                           StemVerticalSlider(
                             label: 'Guitar',
                             icon: Icons.music_note_rounded,
                             volume: _guitarVol,
+                            isMuted: _muteState['guitar']!,
+                            onMuteToggle: isStemsReady ? () {
+                              final muted = !_muteState['guitar']!;
+                              setState(() => _muteState['guitar'] = muted);
+                              NativeIosAudioService().muteStem('guitar', muted);
+                            } : null,
                             onChanged: isStemsReady
-                                ? (val) => setState(() => _guitarVol = val)
+                                ? (val) {
+                                    setState(() => _guitarVol = val);
+                                    NativeIosAudioService().setStemVolume('guitar', val);
+                                  }
                                 : (val) {},
                           ),
                           StemVerticalSlider(
                             label: 'Other',
                             icon: Icons.blur_on_rounded,
                             volume: _otherVol,
+                            isMuted: _muteState['other']!,
+                            onMuteToggle: isStemsReady ? () {
+                              final muted = !_muteState['other']!;
+                              setState(() => _muteState['other'] = muted);
+                              NativeIosAudioService().muteStem('other', muted);
+                            } : null,
                             onChanged: isStemsReady
-                                ? (val) => setState(() => _otherVol = val)
+                                ? (val) {
+                                    setState(() => _otherVol = val);
+                                    NativeIosAudioService().setStemVolume('other', val);
+                                  }
                                 : (val) {},
                           ),
                         ],
@@ -255,10 +325,21 @@ class _StemMixerScreenState extends State<StemMixerScreen> {
                                   borderRadius: BorderRadius.circular(10),
                                 ),
                               ),
-                              onPressed: null, // Disabled in MVP
-                              child: const Text(
-                                'Siapkan Model',
-                                style: TextStyle(color: Colors.white54),
+                              onPressed: project.stemStatus == AnalysisStatus.processing
+                                  ? null
+                                  : () async {
+                                      ScaffoldMessenger.of(context).showSnackBar(
+                                        const SnackBar(
+                                          content: Text('Memulai Pemisahan Stem & Analisis Musik...'),
+                                        ),
+                                      );
+                                      await controller.runProjectAnalysis();
+                                    },
+                              child: Text(
+                                project.stemStatus == AnalysisStatus.processing
+                                    ? 'Memproses...'
+                                    : 'Siapkan Model',
+                                style: const TextStyle(color: Colors.white),
                               ),
                             ),
                           ],
@@ -292,7 +373,86 @@ class _StemMixerScreenState extends State<StemMixerScreen> {
                 ),
               ],
             ),
-            const SizedBox(height: 16),
+            const SizedBox(height: 12),
+
+            // ── Speed Changer ────────────────────────────────────────────────
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+              decoration: BoxDecoration(
+                color: const Color(0xFF131022),
+                borderRadius: BorderRadius.circular(16),
+                border: Border.all(color: Colors.white.withValues(alpha: 0.06)),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      const Icon(Icons.speed_rounded, color: Color(0xFFFF8C37), size: 16),
+                      const SizedBox(width: 6),
+                      const Text(
+                        'KECEPATAN',
+                        style: TextStyle(
+                          color: Color(0xFFFF8C37),
+                          fontSize: 10,
+                          fontWeight: FontWeight.w800,
+                          letterSpacing: 1.2,
+                        ),
+                      ),
+                      const Spacer(),
+                      Text(
+                        '${_playbackSpeed == _playbackSpeed.truncateToDouble() ? _playbackSpeed.toInt() : _playbackSpeed}×',
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 13,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 8),
+                  // Preset speed buttons
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: List.generate(_speedPresets.length, (i) {
+                      final isSelected = _playbackSpeed == _speedPresets[i];
+                      return GestureDetector(
+                        onTap: () async {
+                          setState(() => _playbackSpeed = _speedPresets[i]);
+                          await NativeIosAudioService().setPlaybackSpeed(_speedPresets[i]);
+                        },
+                        child: AnimatedContainer(
+                          duration: const Duration(milliseconds: 180),
+                          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
+                          decoration: BoxDecoration(
+                            color: isSelected
+                                ? const Color(0xFFFF8C37).withValues(alpha: 0.2)
+                                : Colors.white.withValues(alpha: 0.05),
+                            borderRadius: BorderRadius.circular(8),
+                            border: Border.all(
+                              color: isSelected
+                                  ? const Color(0xFFFF8C37)
+                                  : Colors.transparent,
+                            ),
+                          ),
+                          child: Text(
+                            _speedLabels[i],
+                            style: TextStyle(
+                              color: isSelected
+                                  ? const Color(0xFFFF8C37)
+                                  : Colors.white54,
+                              fontSize: 11,
+                              fontWeight: FontWeight.w700,
+                            ),
+                          ),
+                        ),
+                      );
+                    }),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(height: 12),
 
             // Tabs
             Row(
@@ -303,7 +463,7 @@ class _StemMixerScreenState extends State<StemMixerScreen> {
                 _buildSubTabButton(2, 'Lagi'),
               ],
             ),
-            const SizedBox(height: 28),
+            const SizedBox(height: 16),
 
             // Playback controls
             TransportControls(

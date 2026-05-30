@@ -67,12 +67,19 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Aplikasi membutuhkan mikrofon untuk merekam gitar atau audio.</string>
+	<string>Aplikasi membutuhkan mikrofon untuk merekam audio dan suara.</string>
 	<key>NSCameraUsageDescription</key>
 	<string>Aplikasi membutuhkan kamera untuk merekam video saat bermain musik.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Aplikasi membutuhkan akses galeri untuk memilih media.</string>
+	<string>Aplikasi membutuhkan akses galeri untuk memilih media dan video.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Aplikasi membutuhkan akses untuk menyimpan hasil rekaman.</string>
+	<string>Aplikasi membutuhkan akses untuk menyimpan hasil rekaman ke galeri.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>Aplikasi perlu akses folder untuk mengimpor file audio dari iCloud, Google Drive, atau Dropbox.</string>
+	<!-- Makes app folder visible and accessible in iOS Files.app -->
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
 </dict>
 </plist>

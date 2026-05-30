@@ -7,6 +7,7 @@ import '../services/audio_import_service.dart';
 import '../services/audio_player_service.dart';
 import '../services/audio_recorder_service.dart';
 import '../services/camera_recording_service.dart';
+import '../services/native_ios_audio_service.dart';
 
 class ProjectController with ChangeNotifier {
   final ProjectRepository _repository = ProjectRepository();
@@ -85,6 +86,69 @@ class ProjectController with ChangeNotifier {
       await _playerService.loadProjectAudio(newProj);
     }
 
+    _isLoading = false;
+    notifyListeners();
+  }
+
+  Future<void> importVideoAsProject(File file) async {
+    _isLoading = true;
+    notifyListeners();
+
+    final AudioProject? newProj = await _importService.createProjectFromVideo(file);
+    if (newProj != null) {
+      await _repository.addProject(newProj);
+      _projects.add(newProj);
+      _activeProject = newProj;
+      await _playerService.loadProjectAudio(newProj);
+    }
+
+    _isLoading = false;
+    notifyListeners();
+  }
+
+  Future<void> createMashup(AudioProject projectA, AudioProject projectB) async {
+    if (projectA.originalAudioPath == null || projectB.originalAudioPath == null) return;
+    
+    _isLoading = true;
+    notifyListeners();
+    
+    try {
+      final String id = _uuid.v4();
+      final String dirPath = File(projectA.originalAudioPath!).parent.path;
+      final String targetPath = '$dirPath/project_${id}_mashup.m4a';
+      
+      final nativeService = NativeIosAudioService();
+      final String? resultPath = await nativeService.mixAudioFiles(
+        projectA.originalAudioPath!,
+        projectB.originalAudioPath!,
+        targetPath,
+      );
+      
+      if (resultPath != null) {
+        final now = DateTime.now();
+        final AudioProject mashupProj = AudioProject(
+          id: id,
+          title: 'Mashup: ${projectA.title} & ${projectB.title}',
+          originalAudioPath: resultPath,
+          createdAt: now,
+          updatedAt: now,
+          status: ProjectStatus.imported,
+          stemStatus: AnalysisStatus.unavailable,
+          chordStatus: AnalysisStatus.unavailable,
+          beatStatus: AnalysisStatus.unavailable,
+          stemFiles: const StemFiles(),
+          recordings: const [],
+        );
+        
+        await _repository.addProject(mashupProj);
+        _projects.add(mashupProj);
+        _activeProject = mashupProj;
+        await _playerService.loadProjectAudio(mashupProj);
+      }
+    } catch (e) {
+      debugPrint('Error creating mashup: $e');
+    }
+    
     _isLoading = false;
     notifyListeners();
   }
@@ -230,6 +294,97 @@ class ProjectController with ChangeNotifier {
 
     await _repository.updateProject(updatedProject);
     notifyListeners();
+  }
+
+  Future<void> runProjectAnalysis() async {
+    final project = _activeProject;
+    if (project == null || project.originalAudioPath == null) return;
+
+    _activeProject = project.copyWith(
+      stemStatus: AnalysisStatus.processing,
+      chordStatus: AnalysisStatus.processing,
+      beatStatus: AnalysisStatus.processing,
+    );
+    notifyListeners();
+
+    try {
+      final nativeService = NativeIosAudioService();
+      
+      // 1. Separate stems
+      final stemPaths = await nativeService.separateStems(project.originalAudioPath!);
+      final stemFiles = StemFiles(
+        vocals: stemPaths['vocals'],
+        bass: stemPaths['bass'],
+        drums: stemPaths['drums'],
+        piano: stemPaths['piano'],
+        guitar: stemPaths['guitar'],
+        other: stemPaths['other'],
+      );
+
+      // 2. Analyze chords
+      final chordData = await nativeService.analyzeChords(project.originalAudioPath!);
+      final List<ChordSegment> chordSegments = chordData.map((c) {
+        return ChordSegment(
+          id: _uuid.v4(),
+          chordName: c['name'] as String,
+          startTimeMs: ((c['startTime'] as double) * 1000).toInt(),
+          endTimeMs: ((c['endTime'] as double) * 1000).toInt(),
+        );
+      }).toList();
+
+      // 3. Analyze beats and tempo
+      final beatTempoData = await nativeService.analyzeBeatsAndTempo(project.originalAudioPath!);
+      final double tempo = (beatTempoData['tempo'] as num).toDouble();
+      
+      String keySig = 'C';
+      if (beatTempoData.containsKey('key')) {
+        keySig = _mapPitchClassToKey(beatTempoData['key'] as int);
+      } else {
+        if (chordSegments.isNotEmpty) {
+          keySig = chordSegments.first.chordName.split(':').first;
+        }
+      }
+
+      _activeProject = _activeProject!.copyWith(
+        stemStatus: AnalysisStatus.ready,
+        chordStatus: AnalysisStatus.ready,
+        beatStatus: AnalysisStatus.ready,
+        stemFiles: stemFiles,
+        chordSegments: chordSegments,
+        bpm: tempo,
+        keySignature: keySig,
+        timeSignature: '4/4',
+        status: ProjectStatus.ready,
+        updatedAt: DateTime.now(),
+      );
+
+      // Update project in repository and refresh player loaded project
+      await _repository.updateProject(_activeProject!);
+      final index = _projects.indexWhere((p) => p.id == _activeProject!.id);
+      if (index != -1) {
+        _projects[index] = _activeProject!;
+      }
+      
+      // Reload audio project configuration in player service to reflect stems are ready
+      await _playerService.loadProjectAudio(_activeProject!);
+      notifyListeners();
+    } catch (e) {
+      debugPrint('Separation and analysis failed: $e');
+      _activeProject = project.copyWith(
+        stemStatus: AnalysisStatus.error,
+        chordStatus: AnalysisStatus.error,
+        beatStatus: AnalysisStatus.error,
+      );
+      notifyListeners();
+    }
+  }
+
+  String _mapPitchClassToKey(int keyIndex) {
+    const keys = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
+    if (keyIndex >= 0 && keyIndex < keys.length) {
+      return keys[keyIndex];
+    }
+    return 'C';
   }
 
   @override

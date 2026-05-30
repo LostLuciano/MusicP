@@ -1,0 +1,1730 @@
+{
+    "match": true,
+    "version": "1.0.0_rc9",
+    "transcript": [
+        {
+            "start": 3.05,
+            "avgLogProb": -0.31399828,
+            "noSpeechProb": 0.56347656,
+            "text": "A little bit of something new is better than nothing",
+            "end": 8.23,
+            "words": [
+                {
+                    "text": "A ",
+                    "start": 3.05,
+                    "end": 3.49,
+                    "probability": 0.07824707
+                },
+                {
+                    "text": "little ",
+                    "start": 3.49,
+                    "end": 3.81,
+                    "probability": 0.76220703
+                },
+                {
+                    "text": "bit ",
+                    "start": 3.81,
+                    "end": 4.15,
+                    "probability": 0.8666992
+                },
+                {
+                    "text": "of ",
+                    "start": 4.15,
+                    "end": 4.29,
+                    "probability": 0.8779297
+                },
+                {
+                    "text": "something ",
+                    "start": 4.29,
+                    "end": 4.77,
+                    "probability": 0.66748047
+                },
+                {
+                    "text": "new ",
+                    "start": 4.77,
+                    "end": 6.01,
+                    "probability": 0.75097656
+                },
+                {
+                    "text": "is ",
+                    "start": 6.01,
+                    "end": 6.81,
+                    "probability": 0.38256836
+                },
+                {
+                    "text": "better ",
+                    "start": 6.81,
+                    "end": 7.19,
+                    "probability": 0.8178711
+                },
+                {
+                    "text": "than ",
+                    "start": 7.19,
+                    "end": 7.57,
+                    "probability": 0.86035156
+                },
+                {
+                    "text": "nothing",
+                    "start": 7.57,
+                    "end": 8.23,
+                    "probability": 0.84228516
+                }
+            ]
+        },
+        {
+            "start": 8.23,
+            "avgLogProb": -0.31399828,
+            "noSpeechProb": 0.56347656,
+            "text": "A little bit of hope in your story can never do you no harm",
+            "end": 15.39,
+            "words": [
+                {
+                    "text": "A ",
+                    "start": 8.23,
+                    "end": 10.27,
+                    "probability": 0.51904297
+                },
+                {
+                    "text": "little ",
+                    "start": 10.27,
+                    "end": 10.65,
+                    "probability": 0.8120117
+                },
+                {
+                    "text": "bit ",
+                    "start": 10.65,
+                    "end": 11.01,
+                    "probability": 0.9086914
+                },
+                {
+                    "text": "of ",
+                    "start": 11.01,
+                    "end": 11.17,
+                    "probability": 0.9057617
+                },
+                {
+                    "text": "hope ",
+                    "start": 11.17,
+                    "end": 11.63,
+                    "probability": 0.7548828
+                },
+                {
+                    "text": "in ",
+                    "start": 11.63,
+                    "end": 11.89,
+                    "probability": 0.8881836
+                },
+                {
+                    "text": "your ",
+                    "start": 11.89,
+                    "end": 12.03,
+                    "probability": 0.18127441
+                },
+                {
+                    "text": "story ",
+                    "start": 12.03,
+                    "end": 12.53,
+                    "probability": 0.78027344
+                },
+                {
+                    "text": "can ",
+                    "start": 12.53,
+                    "end": 12.91,
+                    "probability": 0.6411133
+                },
+                {
+                    "text": "never ",
+                    "start": 12.91,
+                    "end": 13.27,
+                    "probability": 0.85546875
+                },
+                {
+                    "text": "do ",
+                    "start": 13.27,
+                    "end": 13.67,
+                    "probability": 0.8730469
+                },
+                {
+                    "text": "you ",
+                    "start": 13.67,
+                    "end": 13.95,
+                    "probability": 0.8911133
+                },
+                {
+                    "text": "no ",
+                    "start": 13.95,
+                    "end": 14.33,
+                    "probability": 0.8803711
+                },
+                {
+                    "text": "harm",
+                    "start": 14.33,
+                    "end": 15.39,
+                    "probability": 0.8413086
+                }
+            ]
+        },
+        {
+            "start": 15.39,
+            "avgLogProb": -0.31399828,
+            "noSpeechProb": 0.56347656,
+            "text": "Cause one of these days you're gonna finally see what you didn't see",
+            "end": 21.71,
+            "words": [
+                {
+                    "text": "Cause ",
+                    "start": 15.39,
+                    "end": 16.71,
+                    "probability": 0.21240234
+                },
+                {
+                    "text": "one ",
+                    "start": 17.11,
+                    "end": 17.45,
+                    "probability": 0.7866211
+                },
+                {
+                    "text": "of ",
+                    "start": 17.45,
+                    "end": 17.59,
+                    "probability": 0.90527344
+                },
+                {
+                    "text": "these ",
+                    "start": 17.59,
+                    "end": 17.89,
+                    "probability": 0.70654297
+                },
+                {
+                    "text": "days ",
+                    "start": 17.89,
+                    "end": 18.29,
+                    "probability": 0.79052734
+                },
+                {
+                    "text": "you're ",
+                    "start": 18.29,
+                    "end": 18.49,
+                    "probability": 0.7854004
+                },
+                {
+                    "text": "gonna ",
+                    "start": 18.49,
+                    "end": 18.73,
+                    "probability": 0.6376953
+                },
+                {
+                    "text": "finally ",
+                    "start": 18.73,
+                    "end": 19.41,
+                    "probability": 0.7519531
+                },
+                {
+                    "text": "see ",
+                    "start": 19.41,
+                    "end": 19.83,
+                    "probability": 0.82128906
+                },
+                {
+                    "text": "what ",
+                    "start": 19.83,
+                    "end": 20.37,
+                    "probability": 0.7392578
+                },
+                {
+                    "text": "you ",
+                    "start": 20.37,
+                    "end": 20.59,
+                    "probability": 0.88623047
+                },
+                {
+                    "text": "didn't ",
+                    "start": 20.59,
+                    "end": 21.01,
+                    "probability": 0.81347656
+                },
+                {
+                    "text": "see",
+                    "start": 21.01,
+                    "end": 21.71,
+                    "probability": 0.76464844
+                }
+            ]
+        },
+        {
+            "start": 21.71,
+            "avgLogProb": -0.31399828,
+            "noSpeechProb": 0.56347656,
+            "text": "You got the world waiting at your feet",
+            "end": 25.13,
+            "words": [
+                {
+                    "text": "You ",
+                    "start": 21.71,
+                    "end": 22.69,
+                    "probability": 0.8027344
+                },
+                {
+                    "text": "got ",
+                    "start": 22.69,
+                    "end": 22.93,
+                    "probability": 0.83984375
+                },
+                {
+                    "text": "the ",
+                    "start": 22.93,
+                    "end": 23.15,
+                    "probability": 0.81396484
+                },
+                {
+                    "text": "world ",
+                    "start": 23.15,
+                    "end": 23.53,
+                    "probability": 0.8720703
+                },
+                {
+                    "text": "waiting ",
+                    "start": 23.53,
+                    "end": 23.95,
+                    "probability": 0.70654297
+                },
+                {
+                    "text": "at ",
+                    "start": 23.95,
+                    "end": 24.27,
+                    "probability": 0.90234375
+                },
+                {
+                    "text": "your ",
+                    "start": 24.27,
+                    "end": 24.51,
+                    "probability": 0.80371094
+                },
+                {
+                    "text": "feet",
+                    "start": 24.51,
+                    "end": 25.13,
+                    "probability": 0.92041016
+                }
+            ]
+        },
+        {
+            "start": 25.13,
+            "avgLogProb": -0.31399828,
+            "noSpeechProb": 0.56347656,
+            "text": "There's a world outside and it's getting tired from waiting on you",
+            "end": 30.55,
+            "words": [
+                {
+                    "text": "There's ",
+                    "start": 25.13,
+                    "end": 25.59,
+                    "probability": 0.74365234
+                },
+                {
+                    "text": "a ",
+                    "start": 25.59,
+                    "end": 25.73,
+                    "probability": 0.93066406
+                },
+                {
+                    "text": "world ",
+                    "start": 25.73,
+                    "end": 26.05,
+                    "probability": 0.8876953
+                },
+                {
+                    "text": "outside ",
+                    "start": 26.05,
+                    "end": 27.07,
+                    "probability": 0.7753906
+                },
+                {
+                    "text": "and ",
+                    "start": 27.07,
+                    "end": 28.17,
+                    "probability": 0.4345703
+                },
+                {
+                    "text": "it's ",
+                    "start": 28.17,
+                    "end": 28.33,
+                    "probability": 0.9345703
+                },
+                {
+                    "text": "getting ",
+                    "start": 28.33,
+                    "end": 28.67,
+                    "probability": 0.8833008
+                },
+                {
+                    "text": "tired ",
+                    "start": 28.67,
+                    "end": 29.01,
+                    "probability": 0.7265625
+                },
+                {
+                    "text": "from ",
+                    "start": 29.01,
+                    "end": 29.21,
+                    "probability": 0.5288086
+                },
+                {
+                    "text": "waiting ",
+                    "start": 29.21,
+                    "end": 29.53,
+                    "probability": 0.8540039
+                },
+                {
+                    "text": "on ",
+                    "start": 29.53,
+                    "end": 29.87,
+                    "probability": 0.89990234
+                },
+                {
+                    "text": "you",
+                    "start": 29.87,
+                    "end": 30.55,
+                    "probability": 0.8959961
+                }
+            ]
+        },
+        {
+            "start": 30.55,
+            "avgLogProb": -0.22295672,
+            "noSpeechProb": 0.027374268,
+            "text": "So get them bags packed and go and see",
+            "end": 34.21,
+            "words": [
+                {
+                    "text": "So ",
+                    "start": 30.55,
+                    "end": 32.09,
+                    "probability": 0.16540527
+                },
+                {
+                    "text": "get ",
+                    "start": 32.09,
+                    "end": 32.39,
+                    "probability": 0.72558594
+                },
+                {
+                    "text": "them ",
+                    "start": 32.39,
+                    "end": 32.57,
+                    "probability": 0.65625
+                },
+                {
+                    "text": "bags ",
+                    "start": 32.57,
+                    "end": 32.95,
+                    "probability": 0.68408203
+                },
+                {
+                    "text": "packed ",
+                    "start": 32.95,
+                    "end": 33.25,
+                    "probability": 0.69970703
+                },
+                {
+                    "text": "and ",
+                    "start": 33.25,
+                    "end": 33.43,
+                    "probability": 0.80322266
+                },
+                {
+                    "text": "go ",
+                    "start": 33.43,
+                    "end": 33.71,
+                    "probability": 0.8881836
+                },
+                {
+                    "text": "and ",
+                    "start": 33.71,
+                    "end": 33.89,
+                    "probability": 0.8183594
+                },
+                {
+                    "text": "see",
+                    "start": 33.89,
+                    "end": 34.21,
+                    "probability": 0.8095703
+                }
+            ]
+        },
+        {
+            "start": 34.21,
+            "avgLogProb": -0.22295672,
+            "noSpeechProb": 0.027374268,
+            "text": "There's so much more than you ever knew",
+            "end": 37.47,
+            "words": [
+                {
+                    "text": "There's ",
+                    "start": 34.21,
+                    "end": 34.83,
+                    "probability": 0.66381836
+                },
+                {
+                    "text": "so ",
+                    "start": 34.83,
+                    "end": 35.03,
+                    "probability": 0.9082031
+                },
+                {
+                    "text": "much ",
+                    "start": 35.03,
+                    "end": 35.33,
+                    "probability": 0.8251953
+                },
+                {
+                    "text": "more ",
+                    "start": 35.33,
+                    "end": 35.71,
+                    "probability": 0.88134766
+                },
+                {
+                    "text": "than ",
+                    "start": 35.71,
+                    "end": 35.91,
+                    "probability": 0.796875
+                },
+                {
+                    "text": "you ",
+                    "start": 35.91,
+                    "end": 36.09,
+                    "probability": 0.8925781
+                },
+                {
+                    "text": "ever ",
+                    "start": 36.09,
+                    "end": 36.57,
+                    "probability": 0.8261719
+                },
+                {
+                    "text": "knew",
+                    "start": 36.57,
+                    "end": 37.47,
+                    "probability": 0.74121094
+                }
+            ]
+        },
+        {
+            "start": 37.47,
+            "avgLogProb": -0.22295672,
+            "noSpeechProb": 0.027374268,
+            "text": "So take the doubts out the back of your mind",
+            "end": 40.87,
+            "words": [
+                {
+                    "text": "So ",
+                    "start": 37.47,
+                    "end": 38.15,
+                    "probability": 0.25219727
+                },
+                {
+                    "text": "take ",
+                    "start": 38.15,
+                    "end": 38.43,
+                    "probability": 0.7236328
+                },
+                {
+                    "text": "the ",
+                    "start": 38.43,
+                    "end": 38.57,
+                    "probability": 0.77490234
+                },
+                {
+                    "text": "doubts ",
+                    "start": 38.57,
+                    "end": 38.99,
+                    "probability": 0.71972656
+                },
+                {
+                    "text": "out ",
+                    "start": 38.99,
+                    "end": 39.29,
+                    "probability": 0.796875
+                },
+                {
+                    "text": "the ",
+                    "start": 39.29,
+                    "end": 39.45,
+                    "probability": 0.7441406
+                },
+                {
+                    "text": "back ",
+                    "start": 39.45,
+                    "end": 39.73,
+                    "probability": 0.8095703
+                },
+                {
+                    "text": "of ",
+                    "start": 39.73,
+                    "end": 39.87,
+                    "probability": 0.90722656
+                },
+                {
+                    "text": "your ",
+                    "start": 39.87,
+                    "end": 40.15,
+                    "probability": 0.80859375
+                },
+                {
+                    "text": "mind",
+                    "start": 40.15,
+                    "end": 40.87,
+                    "probability": 0.8310547
+                }
+            ]
+        },
+        {
+            "start": 40.87,
+            "avgLogProb": -0.22295672,
+            "noSpeechProb": 0.027374268,
+            "text": "And take the fifty-four and a half of the sky",
+            "end": 44.03,
+            "words": [
+                {
+                    "text": "And ",
+                    "start": 40.87,
+                    "end": 41.57,
+                    "probability": 0.74902344
+                },
+                {
+                    "text": "take ",
+                    "start": 41.57,
+                    "end": 41.83,
+                    "probability": 0.75439453
+                },
+                {
+                    "text": "the ",
+                    "start": 41.83,
+                    "end": 41.99,
+                    "probability": 0.7036133
+                },
+                {
+                    "text": "fifty",
+                    "start": 41.99,
+                    "end": 42.33,
+                    "probability": 0.36523438
+                },
+                {
+                    "text": "-four ",
+                    "start": 42.33,
+                    "end": 42.73,
+                    "probability": 0.67041016
+                },
+                {
+                    "text": "and ",
+                    "start": 42.73,
+                    "end": 42.91,
+                    "probability": 0.8330078
+                },
+                {
+                    "text": "a ",
+                    "start": 42.91,
+                    "end": 43.01,
+                    "probability": 0.82910156
+                },
+                {
+                    "text": "half ",
+                    "start": 43.01,
+                    "end": 43.19,
+                    "probability": 0.8051758
+                },
+                {
+                    "text": "of ",
+                    "start": 43.19,
+                    "end": 43.33,
+                    "probability": 0.73291016
+                },
+                {
+                    "text": "the ",
+                    "start": 43.33,
+                    "end": 43.45,
+                    "probability": 0.7988281
+                },
+                {
+                    "text": "sky",
+                    "start": 43.45,
+                    "end": 44.03,
+                    "probability": 0.7319336
+                }
+            ]
+        },
+        {
+            "start": 44.03,
+            "avgLogProb": -0.22295672,
+            "noSpeechProb": 0.027374268,
+            "text": "A little bit of something new is better than nothing",
+            "end": 52.81,
+            "words": [
+                {
+                    "text": "A ",
+                    "start": 44.03,
+                    "end": 46.47,
+                    "probability": 0.64453125
+                },
+                {
+                    "text": "little ",
+                    "start": 48.07,
+                    "end": 48.41,
+                    "probability": 0.82128906
+                },
+                {
+                    "text": "bit ",
+                    "start": 48.41,
+                    "end": 48.73,
+                    "probability": 0.89697266
+                },
+                {
+                    "text": "of ",
+                    "start": 48.73,
+                    "end": 48.87,
+                    "probability": 0.890625
+                },
+                {
+                    "text": "something ",
+                    "start": 48.87,
+                    "end": 49.37,
+                    "probability": 0.6455078
+                },
+                {
+                    "text": "new ",
+                    "start": 49.37,
+                    "end": 50.57,
+                    "probability": 0.75439453
+                },
+                {
+                    "text": "is ",
+                    "start": 50.57,
+                    "end": 51.39,
+                    "probability": 0.21228027
+                },
+                {
+                    "text": "better ",
+                    "start": 51.39,
+                    "end": 51.77,
+                    "probability": 0.8286133
+                },
+                {
+                    "text": "than ",
+                    "start": 51.77,
+                    "end": 52.13,
+                    "probability": 0.87646484
+                },
+                {
+                    "text": "nothing",
+                    "start": 52.13,
+                    "end": 52.81,
+                    "probability": 0.81396484
+                }
+            ]
+        },
+        {
+            "start": 52.81,
+            "avgLogProb": -0.22295672,
+            "noSpeechProb": 0.027374268,
+            "text": "A little bit of hope in your story can never do you no harm",
+            "end": 59.93,
+            "words": [
+                {
+                    "text": "A ",
+                    "start": 52.81,
+                    "end": 54.85,
+                    "probability": 0.9213867
+                },
+                {
+                    "text": "little ",
+                    "start": 54.85,
+                    "end": 55.21,
+                    "probability": 0.8129883
+                },
+                {
+                    "text": "bit ",
+                    "start": 55.21,
+                    "end": 55.59,
+                    "probability": 0.9038086
+                },
+                {
+                    "text": "of ",
+                    "start": 55.59,
+                    "end": 55.77,
+                    "probability": 0.9033203
+                },
+                {
+                    "text": "hope ",
+                    "start": 55.77,
+                    "end": 56.19,
+                    "probability": 0.71533203
+                },
+                {
+                    "text": "in ",
+                    "start": 56.19,
+                    "end": 56.45,
+                    "probability": 0.89160156
+                },
+                {
+                    "text": "your ",
+                    "start": 56.45,
+                    "end": 56.59,
+                    "probability": 0.40576172
+                },
+                {
+                    "text": "story ",
+                    "start": 56.59,
+                    "end": 57.11,
+                    "probability": 0.81884766
+                },
+                {
+                    "text": "can ",
+                    "start": 57.11,
+                    "end": 57.45,
+                    "probability": 0.65722656
+                },
+                {
+                    "text": "never ",
+                    "start": 57.45,
+                    "end": 57.83,
+                    "probability": 0.8535156
+                },
+                {
+                    "text": "do ",
+                    "start": 57.83,
+                    "end": 58.25,
+                    "probability": 0.9013672
+                },
+                {
+                    "text": "you ",
+                    "start": 58.25,
+                    "end": 58.55,
+                    "probability": 0.8959961
+                },
+                {
+                    "text": "no ",
+                    "start": 58.55,
+                    "end": 58.91,
+                    "probability": 0.88623047
+                },
+                {
+                    "text": "harm",
+                    "start": 58.91,
+                    "end": 59.93,
+                    "probability": 0.83691406
+                }
+            ]
+        },
+        {
+            "start": 59.93,
+            "avgLogProb": -0.24371189,
+            "noSpeechProb": 0.07574463,
+            "text": "Cause one of these days you're gonna finally see",
+            "end": 64.35,
+            "words": [
+                {
+                    "text": "Cause ",
+                    "start": 59.93,
+                    "end": 60.45,
+                    "probability": 0.061920166
+                },
+                {
+                    "text": "one ",
+                    "start": 60.45,
+                    "end": 62.03,
+                    "probability": 0.7661133
+                },
+                {
+                    "text": "of ",
+                    "start": 62.03,
+                    "end": 62.17,
+                    "probability": 0.89746094
+                },
+                {
+                    "text": "these ",
+                    "start": 62.17,
+                    "end": 62.47,
+                    "probability": 0.7060547
+                },
+                {
+                    "text": "days ",
+                    "start": 62.47,
+                    "end": 62.87,
+                    "probability": 0.8027344
+                },
+                {
+                    "text": "you're ",
+                    "start": 62.87,
+                    "end": 63.07,
+                    "probability": 0.7150879
+                },
+                {
+                    "text": "gonna ",
+                    "start": 63.07,
+                    "end": 63.31,
+                    "probability": 0.5996094
+                },
+                {
+                    "text": "finally ",
+                    "start": 63.31,
+                    "end": 63.99,
+                    "probability": 0.69921875
+                },
+                {
+                    "text": "see",
+                    "start": 63.99,
+                    "end": 64.35,
+                    "probability": 0.8149414
+                }
+            ]
+        },
+        {
+            "start": 64.35,
+            "avgLogProb": -0.24371189,
+            "noSpeechProb": 0.07574463,
+            "text": "What you need in the sea",
+            "end": 66.39,
+            "words": [
+                {
+                    "text": "What ",
+                    "start": 64.35,
+                    "end": 64.93,
+                    "probability": 0.14855957
+                },
+                {
+                    "text": "you ",
+                    "start": 64.93,
+                    "end": 65.15,
+                    "probability": 0.8725586
+                },
+                {
+                    "text": "need ",
+                    "start": 65.15,
+                    "end": 65.47,
+                    "probability": 0.68359375
+                },
+                {
+                    "text": "in ",
+                    "start": 65.47,
+                    "end": 65.61,
+                    "probability": 0.50390625
+                },
+                {
+                    "text": "the ",
+                    "start": 65.61,
+                    "end": 65.79,
+                    "probability": 0.75634766
+                },
+                {
+                    "text": "sea",
+                    "start": 65.79,
+                    "end": 66.39,
+                    "probability": 0.67529297
+                }
+            ]
+        },
+        {
+            "start": 66.39,
+            "avgLogProb": -0.24371189,
+            "noSpeechProb": 0.07574463,
+            "text": "You got the world in at your feet",
+            "end": 69.91,
+            "words": [
+                {
+                    "text": "You ",
+                    "start": 66.39,
+                    "end": 67.27,
+                    "probability": 0.70166016
+                },
+                {
+                    "text": "got ",
+                    "start": 67.27,
+                    "end": 67.51,
+                    "probability": 0.81884766
+                },
+                {
+                    "text": "the ",
+                    "start": 67.51,
+                    "end": 67.75,
+                    "probability": 0.79785156
+                },
+                {
+                    "text": "world ",
+                    "start": 67.75,
+                    "end": 68.17,
+                    "probability": 0.8227539
+                },
+                {
+                    "text": "in ",
+                    "start": 68.17,
+                    "end": 68.51,
+                    "probability": 0.3461914
+                },
+                {
+                    "text": "at ",
+                    "start": 68.51,
+                    "end": 68.87,
+                    "probability": 0.22387695
+                },
+                {
+                    "text": "your ",
+                    "start": 68.87,
+                    "end": 69.07,
+                    "probability": 0.80322266
+                },
+                {
+                    "text": "feet",
+                    "start": 69.07,
+                    "end": 69.91,
+                    "probability": 0.91552734
+                }
+            ]
+        },
+        {
+            "start": 69.91,
+            "avgLogProb": -0.24371189,
+            "noSpeechProb": 0.07574463,
+            "text": "You feel the wind on the highway",
+            "end": 85.46,
+            "words": [
+                {
+                    "text": "You ",
+                    "start": 69.91,
+                    "end": 71.53,
+                    "probability": 0.27978516
+                },
+                {
+                    "text": "feel ",
+                    "start": 77.53,
+                    "end": 80.63,
+                    "probability": 0.91308594
+                },
+                {
+                    "text": "the ",
+                    "start": 83.78,
+                    "end": 84,
+                    "probability": 0.81640625
+                },
+                {
+                    "text": "wind ",
+                    "start": 84,
+                    "end": 84.46,
+                    "probability": 0.86279297
+                },
+                {
+                    "text": "on ",
+                    "start": 84.46,
+                    "end": 84.72,
+                    "probability": 0.90283203
+                },
+                {
+                    "text": "the ",
+                    "start": 84.72,
+                    "end": 84.84,
+                    "probability": 0.8041992
+                },
+                {
+                    "text": "highway",
+                    "start": 84.84,
+                    "end": 85.46,
+                    "probability": 0.921875
+                }
+            ]
+        },
+        {
+            "start": 85.46,
+            "avgLogProb": -0.24371189,
+            "noSpeechProb": 0.07574463,
+            "text": "And feel the sun shining down on you",
+            "end": 89,
+            "words": [
+                {
+                    "text": "And ",
+                    "start": 85.46,
+                    "end": 86.18,
+                    "probability": 0.27124023
+                },
+                {
+                    "text": "feel ",
+                    "start": 86.18,
+                    "end": 86.42,
+                    "probability": 0.8886719
+                },
+                {
+                    "text": "the ",
+                    "start": 86.42,
+                    "end": 86.6,
+                    "probability": 0.81152344
+                },
+                {
+                    "text": "sun ",
+                    "start": 86.6,
+                    "end": 86.92,
+                    "probability": 0.8515625
+                },
+                {
+                    "text": "shining ",
+                    "start": 86.92,
+                    "end": 87.38,
+                    "probability": 0.7734375
+                },
+                {
+                    "text": "down ",
+                    "start": 87.38,
+                    "end": 87.76,
+                    "probability": 0.7944336
+                },
+                {
+                    "text": "on ",
+                    "start": 87.76,
+                    "end": 88.08,
+                    "probability": 0.90478516
+                },
+                {
+                    "text": "you",
+                    "start": 88.08,
+                    "end": 89,
+                    "probability": 0.89501953
+                }
+            ]
+        },
+        {
+            "start": 89,
+            "avgLogProb": -0.24371189,
+            "noSpeechProb": 0.07574463,
+            "text": "It's your time, go and take it",
+            "end": 91.44,
+            "words": [
+                {
+                    "text": "It's ",
+                    "start": 89,
+                    "end": 89.6,
+                    "probability": 0.9116211
+                },
+                {
+                    "text": "your ",
+                    "start": 89.6,
+                    "end": 89.86,
+                    "probability": 0.78271484
+                },
+                {
+                    "text": "time, ",
+                    "start": 89.86,
+                    "end": 90.46,
+                    "probability": 0.7583008
+                },
+                {
+                    "text": "go ",
+                    "start": 90.54,
+                    "end": 90.72,
+                    "probability": 0.8588867
+                },
+                {
+                    "text": "and ",
+                    "start": 90.72,
+                    "end": 90.88,
+                    "probability": 0.7402344
+                },
+                {
+                    "text": "take ",
+                    "start": 90.88,
+                    "end": 91.2,
+                    "probability": 0.8076172
+                },
+                {
+                    "text": "it",
+                    "start": 91.2,
+                    "end": 91.44,
+                    "probability": 0.89990234
+                }
+            ]
+        },
+        {
+            "start": 91.44,
+            "avgLogProb": -0.24371189,
+            "noSpeechProb": 0.07574463,
+            "text": "And live the life you wanted to",
+            "end": 94.12,
+            "words": [
+                {
+                    "text": "And ",
+                    "start": 91.44,
+                    "end": 91.78,
+                    "probability": 0.7441406
+                },
+                {
+                    "text": "live ",
+                    "start": 91.78,
+                    "end": 92.02,
+                    "probability": 0.8652344
+                },
+                {
+                    "text": "the ",
+                    "start": 92.02,
+                    "end": 92.16,
+                    "probability": 0.8125
+                },
+                {
+                    "text": "life ",
+                    "start": 92.16,
+                    "end": 92.44,
+                    "probability": 0.8256836
+                },
+                {
+                    "text": "you ",
+                    "start": 92.44,
+                    "end": 92.6,
+                    "probability": 0.8925781
+                },
+                {
+                    "text": "wanted ",
+                    "start": 92.6,
+                    "end": 93.12,
+                    "probability": 0.5649414
+                },
+                {
+                    "text": "to",
+                    "start": 93.12,
+                    "end": 94.12,
+                    "probability": 0.8261719
+                }
+            ]
+        },
+        {
+            "start": 94.12,
+            "avgLogProb": -0.24371189,
+            "noSpeechProb": 0.07574463,
+            "text": "So take the doubts out the back of your mind",
+            "end": 99.37,
+            "words": [
+                {
+                    "text": "So ",
+                    "start": 94.12,
+                    "end": 95.78,
+                    "probability": 0.11193848
+                },
+                {
+                    "text": "take ",
+                    "start": 96.43,
+                    "end": 96.69,
+                    "probability": 0.7441406
+                },
+                {
+                    "text": "the ",
+                    "start": 96.69,
+                    "end": 96.87,
+                    "probability": 0.75341797
+                },
+                {
+                    "text": "doubts ",
+                    "start": 96.87,
+                    "end": 97.25,
+                    "probability": 0.81103516
+                },
+                {
+                    "text": "out ",
+                    "start": 97.25,
+                    "end": 97.57,
+                    "probability": 0.80078125
+                },
+                {
+                    "text": "the ",
+                    "start": 97.57,
+                    "end": 97.73,
+                    "probability": 0.7583008
+                },
+                {
+                    "text": "back ",
+                    "start": 97.73,
+                    "end": 98.01,
+                    "probability": 0.81884766
+                },
+                {
+                    "text": "of ",
+                    "start": 98.01,
+                    "end": 98.15,
+                    "probability": 0.9091797
+                },
+                {
+                    "text": "your ",
+                    "start": 98.15,
+                    "end": 98.53,
+                    "probability": 0.8017578
+                },
+                {
+                    "text": "mind",
+                    "start": 98.53,
+                    "end": 99.37,
+                    "probability": 0.81103516
+                }
+            ]
+        },
+        {
+            "start": 99.73,
+            "avgLogProb": -0.23520833,
+            "noSpeechProb": 0.021530151,
+            "text": "Don't you stop until the end of the lane",
+            "end": 103.41,
+            "words": [
+                {
+                    "text": "Don't ",
+                    "start": 99.73,
+                    "end": 100.15,
+                    "probability": 0.6279297
+                },
+                {
+                    "text": "you ",
+                    "start": 100.15,
+                    "end": 100.27,
+                    "probability": 0.7373047
+                },
+                {
+                    "text": "stop ",
+                    "start": 100.27,
+                    "end": 100.59,
+                    "probability": 0.80371094
+                },
+                {
+                    "text": "until ",
+                    "start": 100.59,
+                    "end": 100.93,
+                    "probability": 0.6694336
+                },
+                {
+                    "text": "the ",
+                    "start": 100.93,
+                    "end": 101.21,
+                    "probability": 0.81103516
+                },
+                {
+                    "text": "end ",
+                    "start": 101.21,
+                    "end": 101.57,
+                    "probability": 0.7998047
+                },
+                {
+                    "text": "of ",
+                    "start": 101.57,
+                    "end": 101.69,
+                    "probability": 0.9008789
+                },
+                {
+                    "text": "the ",
+                    "start": 101.69,
+                    "end": 101.95,
+                    "probability": 0.8022461
+                },
+                {
+                    "text": "lane",
+                    "start": 101.95,
+                    "end": 103.41,
+                    "probability": 0.75878906
+                }
+            ]
+        },
+        {
+            "start": 103.41,
+            "avgLogProb": -0.23520833,
+            "noSpeechProb": 0.021530151,
+            "text": "A little bit of something new",
+            "end": 109.29,
+            "words": [
+                {
+                    "text": "A ",
+                    "start": 103.41,
+                    "end": 105.09,
+                    "probability": 0.6586914
+                },
+                {
+                    "text": "little ",
+                    "start": 106.29,
+                    "end": 106.65,
+                    "probability": 0.7993164
+                },
+                {
+                    "text": "bit ",
+                    "start": 106.65,
+                    "end": 106.99,
+                    "probability": 0.8959961
+                },
+                {
+                    "text": "of ",
+                    "start": 106.99,
+                    "end": 107.15,
+                    "probability": 0.8876953
+                },
+                {
+                    "text": "something ",
+                    "start": 107.15,
+                    "end": 107.69,
+                    "probability": 0.6308594
+                },
+                {
+                    "text": "new",
+                    "start": 107.69,
+                    "end": 109.29,
+                    "probability": 0.5371094
+                }
+            ]
+        },
+        {
+            "start": 109.29,
+            "avgLogProb": -0.23520833,
+            "noSpeechProb": 0.021530151,
+            "text": "Is better than nothing",
+            "end": 111.39,
+            "words": [
+                {
+                    "text": "Is ",
+                    "start": 109.29,
+                    "end": 109.69,
+                    "probability": 0.17541504
+                },
+                {
+                    "text": "better ",
+                    "start": 109.69,
+                    "end": 110.05,
+                    "probability": 0.8105469
+                },
+                {
+                    "text": "than ",
+                    "start": 110.05,
+                    "end": 110.45,
+                    "probability": 0.87109375
+                },
+                {
+                    "text": "nothing",
+                    "start": 110.45,
+                    "end": 111.39,
+                    "probability": 0.81884766
+                }
+            ]
+        },
+        {
+            "start": 111.39,
+            "avgLogProb": -0.23520833,
+            "noSpeechProb": 0.021530151,
+            "text": "A little bit of hope in your story",
+            "end": 115.43,
+            "words": [
+                {
+                    "text": "A ",
+                    "start": 111.39,
+                    "end": 113.15,
+                    "probability": 0.85009766
+                },
+                {
+                    "text": "little ",
+                    "start": 113.15,
+                    "end": 113.53,
+                    "probability": 0.81689453
+                },
+                {
+                    "text": "bit ",
+                    "start": 113.53,
+                    "end": 113.87,
+                    "probability": 0.90478516
+                },
+                {
+                    "text": "of ",
+                    "start": 113.87,
+                    "end": 114.09,
+                    "probability": 0.89941406
+                },
+                {
+                    "text": "hope ",
+                    "start": 114.09,
+                    "end": 114.49,
+                    "probability": 0.64990234
+                },
+                {
+                    "text": "in ",
+                    "start": 114.49,
+                    "end": 114.73,
+                    "probability": 0.8720703
+                },
+                {
+                    "text": "your ",
+                    "start": 114.73,
+                    "end": 114.89,
+                    "probability": 0.5961914
+                },
+                {
+                    "text": "story",
+                    "start": 114.89,
+                    "end": 115.43,
+                    "probability": 0.87939453
+                }
+            ]
+        },
+        {
+            "start": 115.43,
+            "avgLogProb": -0.23520833,
+            "noSpeechProb": 0.021530151,
+            "text": "Could never do you no harm",
+            "end": 119.81,
+            "words": [
+                {
+                    "text": "Could ",
+                    "start": 115.43,
+                    "end": 115.75,
+                    "probability": 0.5151367
+                },
+                {
+                    "text": "never ",
+                    "start": 115.75,
+                    "end": 116.13,
+                    "probability": 0.86328125
+                },
+                {
+                    "text": "do ",
+                    "start": 116.13,
+                    "end": 116.47,
+                    "probability": 0.91308594
+                },
+                {
+                    "text": "you ",
+                    "start": 116.47,
+                    "end": 116.87,
+                    "probability": 0.7915039
+                },
+                {
+                    "text": "no ",
+                    "start": 116.87,
+                    "end": 117.23,
+                    "probability": 0.8203125
+                },
+                {
+                    "text": "harm",
+                    "start": 117.23,
+                    "end": 119.61,
+                    "probability": 0.19592285
+                }
+            ]
+        },
+        {
+            "start": 119.81,
+            "avgLogProb": -0.23520833,
+            "noSpeechProb": 0.021530151,
+            "text": "Cause one of these days you're gonna finally see",
+            "end": 122.83,
+            "words": [
+                {
+                    "text": "Cause ",
+                    "start": 119.81,
+                    "end": 120.05,
+                    "probability": 0.006916046
+                },
+                {
+                    "text": "one ",
+                    "start": 120.05,
+                    "end": 120.33,
+                    "probability": 0.7763672
+                },
+                {
+                    "text": "of ",
+                    "start": 120.33,
+                    "end": 120.47,
+                    "probability": 0.89501953
+                },
+                {
+                    "text": "these ",
+                    "start": 120.47,
+                    "end": 120.77,
+                    "probability": 0.72558594
+                },
+                {
+                    "text": "days ",
+                    "start": 120.77,
+                    "end": 121.19,
+                    "probability": 0.8022461
+                },
+                {
+                    "text": "you're ",
+                    "start": 121.19,
+                    "end": 121.57,
+                    "probability": 0.72143555
+                },
+                {
+                    "text": "gonna ",
+                    "start": 121.57,
+                    "end": 121.63,
+                    "probability": 0.64941406
+                },
+                {
+                    "text": "finally ",
+                    "start": 121.63,
+                    "end": 122.27,
+                    "probability": 0.7524414
+                },
+                {
+                    "text": "see",
+                    "start": 122.27,
+                    "end": 122.83,
+                    "probability": 0.81396484
+                }
+            ]
+        },
+        {
+            "start": 122.83,
+            "avgLogProb": -0.23520833,
+            "noSpeechProb": 0.021530151,
+            "text": "What you need in the sea",
+            "end": 124.93,
+            "words": [
+                {
+                    "text": "What ",
+                    "start": 122.83,
+                    "end": 123.29,
+                    "probability": 0.64697266
+                },
+                {
+                    "text": "you ",
+                    "start": 123.29,
+                    "end": 123.45,
+                    "probability": 0.8833008
+                },
+                {
+                    "text": "need ",
+                    "start": 123.45,
+                    "end": 123.79,
+                    "probability": 0.7729492
+                },
+                {
+                    "text": "in ",
+                    "start": 123.79,
+                    "end": 123.91,
+                    "probability": 0.5410156
+                },
+                {
+                    "text": "the ",
+                    "start": 123.91,
+                    "end": 124.11,
+                    "probability": 0.75439453
+                },
+                {
+                    "text": "sea",
+                    "start": 124.11,
+                    "end": 124.93,
+                    "probability": 0.48168945
+                }
+            ]
+        },
+        {
+            "start": 124.93,
+            "avgLogProb": -0.23520833,
+            "noSpeechProb": 0.021530151,
+            "text": "You got the world waiting at your feet",
+            "end": 127.95,
+            "words": [
+                {
+                    "text": "You ",
+                    "start": 124.93,
+                    "end": 125.59,
+                    "probability": 0.39135742
+                },
+                {
+                    "text": "got ",
+                    "start": 125.59,
+                    "end": 125.77,
+                    "probability": 0.79296875
+                },
+                {
+                    "text": "the ",
+                    "start": 125.77,
+                    "end": 125.99,
+                    "probability": 0.81689453
+                },
+                {
+                    "text": "world ",
+                    "start": 125.99,
+                    "end": 126.37,
+                    "probability": 0.86328125
+                },
+                {
+                    "text": "waiting ",
+                    "start": 126.37,
+                    "end": 126.85,
+                    "probability": 0.6459961
+                },
+                {
+                    "text": "at ",
+                    "start": 126.85,
+                    "end": 127.19,
+                    "probability": 0.90234375
+                },
+                {
+                    "text": "your ",
+                    "start": 127.19,
+                    "end": 127.51,
+                    "probability": 0.80566406
+                },
+                {
+                    "text": "feet",
+                    "start": 127.51,
+                    "end": 127.95,
+                    "probability": 0.8930664
+                }
+            ]
+        },
+        {
+            "start": 131.13,
+            "avgLogProb": -0.71271306,
+            "noSpeechProb": 0.08001709,
+            "text": "You got the world waiting at your feet",
+            "end": 145.1,
+            "words": [
+                {
+                    "text": "You ",
+                    "start": 131.13,
+                    "end": 132.25,
+                    "probability": 0.008392334
+                },
+                {
+                    "text": "got ",
+                    "start": 133.78,
+                    "end": 135.78,
+                    "probability": 0.0013933182
+                },
+                {
+                    "text": "the ",
+                    "start": 135.78,
+                    "end": 137.4,
+                    "probability": 0.019439697
+                },
+                {
+                    "text": "world ",
+                    "start": 137.4,
+                    "end": 138.2,
+                    "probability": 0.03970337
+                },
+                {
+                    "text": "waiting ",
+                    "start": 138.2,
+                    "end": 140.44,
+                    "probability": 0.0003528595
+                },
+                {
+                    "text": "at ",
+                    "start": 140.44,
+                    "end": 140.88,
+                    "probability": 0.002878189
+                },
+                {
+                    "text": "your ",
+                    "start": 140.88,
+                    "end": 141.18,
+                    "probability": 0.7128906
+                },
+                {
+                    "text": "feet",
+                    "start": 141.18,
+                    "end": 143.78,
+                    "probability": 0.11773682
+                }
+            ]
+        }
+    ],
+    "language": "english",
+    "aligned": false
+}

@@ -6,15 +6,19 @@ import '../../widgets/input_level_meter.dart';
 import '../../widgets/waveform_placeholder.dart';
 import '../../state/project_controller.dart';
 import '../../models/audio_project.dart';
+import '../../services/audio_recorder_service.dart';
+import '../../services/native_ios_audio_service.dart';
 import '../project_detail/project_detail_screen.dart';
 
 class LiveRecordingScreen extends StatefulWidget {
   final bool recordWithCamera;
+  final bool useFrontCamera;
   final bool isGuitarOnly;
 
   const LiveRecordingScreen({
     super.key,
     required this.recordWithCamera,
+    this.useFrontCamera = false,
     required this.isGuitarOnly,
   });
 
@@ -28,14 +32,17 @@ class _LiveRecordingScreenState extends State<LiveRecordingScreen> {
   bool _isPaused = false;
   bool _cameraInitialized = false;
 
+  // Live VU meter state
+  double _inputLevel = 0.0;
+  String _dbString = '-∞ dB';
+  StreamSubscription<double>? _levelSub;
+
   @override
   void initState() {
     super.initState();
     _startRecordingSession();
     _startTimer();
-    if (widget.recordWithCamera) {
-      _initCamera();
-    }
+    if (widget.recordWithCamera) _initCamera();
   }
 
   Future<void> _startRecordingSession() async {
@@ -46,49 +53,201 @@ class _LiveRecordingScreenState extends State<LiveRecordingScreen> {
         const SnackBar(content: Text('Gagal memulai perekaman audio.')),
       );
       Navigator.pop(context);
+      return;
     }
+
+    // Subscribe to live amplitude from recorder
+    _levelSub = controller.recorderService.levelStream.listen((lvl) {
+      if (mounted) {
+        setState(() {
+          _inputLevel = lvl;
+          _dbString = AudioRecorderService.levelToDB(lvl);
+        });
+      }
+    });
   }
 
   Future<void> _initCamera() async {
     final controller = Provider.of<ProjectController>(context, listen: false);
-    final bool success = await controller.cameraService.initializeCamera();
-    if (mounted) {
-      setState(() {
-        _cameraInitialized = success;
-      });
-    }
-    if (success) {
-      await controller.cameraService.startVideoRecording();
-    }
+    final bool success = await controller.cameraService
+        .initializeCamera(preferFront: widget.useFrontCamera);
+    if (mounted) setState(() => _cameraInitialized = success);
+    if (success) await controller.cameraService.startVideoRecording();
   }
 
   void _startTimer() {
-    _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
-      if (!_isPaused) {
-        setState(() {
-          _seconds++;
-        });
-      }
+    _timer = Timer.periodic(const Duration(seconds: 1), (_) {
+      if (!_isPaused && mounted) setState(() => _seconds++);
     });
   }
 
   @override
   void dispose() {
     _timer?.cancel();
+    _levelSub?.cancel();
     super.dispose();
   }
 
-  String _formatTimer(int totalSecs) {
-    final hrs = (totalSecs ~/ 3600).toString().padLeft(2, '0');
-    final mins = ((totalSecs % 3600) ~/ 60).toString().padLeft(2, '0');
-    final secs = (totalSecs % 60).toString().padLeft(2, '0');
-    return '$hrs:$mins:$secs';
+  String _formatTimer(int s) {
+    final h = (s ~/ 3600).toString().padLeft(2, '0');
+    final m = ((s % 3600) ~/ 60).toString().padLeft(2, '0');
+    final sec = (s % 60).toString().padLeft(2, '0');
+    return '$h:$m:$sec';
+  }
+
+  // ── Export Dialog ──────────────────────────────────────────────────────────
+  Future<void> _showExportDialog({
+    required String? videoPath,
+    required String? audioPath,
+    required ProjectController controller,
+  }) async {
+    if (!mounted) return;
+
+    // Audio-only mode: skip the dialog, just go back
+    if (videoPath == null) {
+      if (!context.mounted) return;
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (_) => ProjectDetailScreen(
+              title: controller.activeProject?.title ?? 'Sesi Rekam'),
+        ),
+      );
+      return;
+    }
+
+    // Both audio + video available: show export choice
+    await showModalBottomSheet(
+      context: context,
+      backgroundColor: const Color(0xFF131022),
+      shape: const RoundedRectangleBorder(
+          borderRadius: BorderRadius.vertical(top: Radius.circular(24))),
+      builder: (ctx) => Padding(
+        padding: const EdgeInsets.fromLTRB(24, 20, 24, 36),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Container(
+                width: 40, height: 4,
+                decoration: BoxDecoration(
+                    color: Colors.white24,
+                    borderRadius: BorderRadius.circular(2))),
+            const SizedBox(height: 20),
+            const Text('Simpan Hasil Rekaman',
+                style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 16,
+                    fontWeight: FontWeight.bold)),
+            const SizedBox(height: 8),
+            const Text('Pilih format output yang ingin disimpan.',
+                style: TextStyle(color: Colors.white38, fontSize: 13)),
+            const SizedBox(height: 24),
+            _exportOption(
+              icon: Icons.audio_file_rounded,
+              color: const Color(0xFFFF2E93),
+              title: 'Audio Saja (.m4a)',
+              subtitle: 'Hanya file suara rekaman tanpa video',
+              onTap: () async {
+                Navigator.pop(ctx);
+                // Share audio only via native share sheet
+                if (audioPath != null && audioPath.isNotEmpty) {
+                  await NativeIosAudioService().shareFile(audioPath);
+                }
+                if (!context.mounted) return;
+                Navigator.pushReplacement(context, MaterialPageRoute(
+                  builder: (_) => ProjectDetailScreen(
+                      title: controller.activeProject?.title ?? 'Sesi Rekam'),
+                ));
+              },
+            ),
+            const SizedBox(height: 12),
+            _exportOption(
+              icon: Icons.video_file_rounded,
+              color: const Color(0xFFFF8C37),
+              title: 'Video Lengkap (.mp4)',
+              subtitle: 'Video + audio rekaman digabungkan',
+              onTap: () async {
+                Navigator.pop(ctx);
+                if (videoPath != null && videoPath.isNotEmpty) {
+                  await NativeIosAudioService().shareFile(videoPath);
+                }
+                if (!context.mounted) return;
+                Navigator.pushReplacement(context, MaterialPageRoute(
+                  builder: (_) => ProjectDetailScreen(
+                      title: controller.activeProject?.title ?? 'Sesi Rekam'),
+                ));
+              },
+            ),
+            const SizedBox(height: 12),
+            _exportOption(
+              icon: Icons.folder_copy_rounded,
+              color: Colors.white38,
+              title: 'Keduanya',
+              subtitle: 'Simpan audio + video ke Files.app',
+              onTap: () async {
+                Navigator.pop(ctx);
+                if (audioPath != null && audioPath.isNotEmpty) {
+                  await NativeIosAudioService().shareFile(audioPath);
+                }
+                if (videoPath != null && videoPath.isNotEmpty && context.mounted) {
+                  await NativeIosAudioService().shareFile(videoPath);
+                }
+                if (!context.mounted) return;
+                Navigator.pushReplacement(context, MaterialPageRoute(
+                  builder: (_) => ProjectDetailScreen(
+                      title: controller.activeProject?.title ?? 'Sesi Rekam'),
+                ));
+              },
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _exportOption({
+    required IconData icon,
+    required Color color,
+    required String title,
+    required String subtitle,
+    required VoidCallback onTap,
+  }) {
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        padding: const EdgeInsets.all(14),
+        decoration: BoxDecoration(
+          color: color.withValues(alpha: 0.1),
+          borderRadius: BorderRadius.circular(14),
+          border: Border.all(color: color.withValues(alpha: 0.3)),
+        ),
+        child: Row(
+          children: [
+            Icon(icon, color: color, size: 26),
+            const SizedBox(width: 14),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(title,
+                    style: const TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 14)),
+                Text(subtitle,
+                    style: const TextStyle(color: Colors.white38, fontSize: 12)),
+              ],
+            ),
+            const Spacer(),
+            Icon(Icons.chevron_right_rounded, color: color),
+          ],
+        ),
+      ),
+    );
   }
 
   @override
   Widget build(BuildContext context) {
     final controller = Provider.of<ProjectController>(context);
-    final activeProject = controller.activeProject;
 
     return Scaffold(
       backgroundColor: const Color(0xFF0F0C1B),
@@ -100,46 +259,52 @@ class _LiveRecordingScreenState extends State<LiveRecordingScreen> {
               width: 8,
               height: 8,
               decoration: const BoxDecoration(
-                color: Colors.redAccent,
-                shape: BoxShape.circle,
-              ),
+                  color: Colors.redAccent, shape: BoxShape.circle),
             ),
             const SizedBox(width: 8),
-            const Text(
-              'Sedang Merekam',
-              style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
-            ),
+            const Text('Sedang Merekam',
+                style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
           ],
         ),
         centerTitle: true,
         automaticallyImplyLeading: false,
+        actions: [
+          // Camera flip button (only shown when camera is active)
+          if (widget.recordWithCamera && _cameraInitialized)
+            IconButton(
+              icon: const Icon(Icons.flip_camera_ios_rounded, color: Colors.white70),
+              tooltip: 'Ganti Kamera',
+              onPressed: () async {
+                await controller.cameraService.switchCamera();
+                if (mounted) setState(() {});
+              },
+            ),
+        ],
       ),
       body: Padding(
-        padding: const EdgeInsets.all(24.0),
+        padding: const EdgeInsets.all(20.0),
         child: Column(
           children: [
-            // Timer Display
+            // ── Timer ─────────────────────────────────────────────────────
             Text(
               _formatTimer(_seconds),
               style: const TextStyle(
                 color: Colors.redAccent,
-                fontSize: 20,
+                fontSize: 22,
                 fontWeight: FontWeight.bold,
-                letterSpacing: 1.5,
+                letterSpacing: 2,
               ),
             ),
-            const SizedBox(height: 24),
+            const SizedBox(height: 16),
 
-            // Video Preview area
+            // ── Camera Preview ─────────────────────────────────────────────
             Expanded(
               child: Container(
                 width: double.infinity,
                 decoration: BoxDecoration(
                   color: const Color(0xFF131022),
                   borderRadius: BorderRadius.circular(24),
-                  border: Border.all(
-                    color: Colors.white.withValues(alpha: 0.08),
-                  ),
+                  border: Border.all(color: Colors.white.withValues(alpha: 0.08)),
                 ),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(24),
@@ -151,54 +316,52 @@ class _LiveRecordingScreenState extends State<LiveRecordingScreen> {
                           controller.cameraService.controller != null)
                         CameraPreview(controller.cameraService.controller!)
                       else
-                        Container(
-                          color: const Color(0xFF131022),
-                          child: Center(
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: [
-                                Icon(
-                                  widget.recordWithCamera
-                                      ? Icons.videocam_off_rounded
-                                      : Icons.mic_rounded,
-                                  color: Colors.white24,
-                                  size: 48,
-                                ),
-                                const SizedBox(height: 12),
-                                Text(
-                                  widget.recordWithCamera
-                                      ? 'Camera preview hanya tersedia di device.'
-                                      : 'Perekaman Audio Saja',
-                                  textAlign: TextAlign.center,
-                                  style: const TextStyle(
-                                    color: Colors.white38,
-                                    fontSize: 13,
-                                  ),
-                                ),
-                              ],
-                            ),
+                        Center(
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Icon(
+                                widget.recordWithCamera
+                                    ? Icons.videocam_off_rounded
+                                    : Icons.mic_rounded,
+                                color: Colors.white24,
+                                size: 56,
+                              ),
+                              const SizedBox(height: 12),
+                              Text(
+                                widget.recordWithCamera
+                                    ? 'Kamera hanya tersedia di device fisik.'
+                                    : 'Mode Perekaman Audio',
+                                textAlign: TextAlign.center,
+                                style: const TextStyle(
+                                    color: Colors.white38, fontSize: 13),
+                              ),
+                            ],
                           ),
                         ),
-                      const Positioned(
-                        top: 16,
-                        left: 16,
-                        child: Row(
-                          children: [
-                            Icon(
-                              Icons.circle,
-                              color: Colors.redAccent,
-                              size: 12,
-                            ),
-                            SizedBox(width: 8),
-                            Text(
-                              'REC • LIVE',
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 10,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                          ],
+                      // REC badge
+                      Positioned(
+                        top: 14,
+                        left: 14,
+                        child: Container(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 10, vertical: 5),
+                          decoration: BoxDecoration(
+                            color: Colors.redAccent.withValues(alpha: 0.85),
+                            borderRadius: BorderRadius.circular(20),
+                          ),
+                          child: const Row(
+                            children: [
+                              Icon(Icons.circle, color: Colors.white, size: 8),
+                              SizedBox(width: 6),
+                              Text('REC',
+                                  style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 10,
+                                      fontWeight: FontWeight.bold,
+                                      letterSpacing: 1)),
+                            ],
+                          ),
                         ),
                       ),
                     ],
@@ -206,9 +369,9 @@ class _LiveRecordingScreenState extends State<LiveRecordingScreen> {
                 ),
               ),
             ),
-            const SizedBox(height: 24),
+            const SizedBox(height: 16),
 
-            // Inputs status
+            // ── Live VU Meter ──────────────────────────────────────────────
             Container(
               padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
@@ -216,77 +379,42 @@ class _LiveRecordingScreenState extends State<LiveRecordingScreen> {
                 borderRadius: BorderRadius.circular(16),
               ),
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Row(
-                    children: [
-                      const Icon(
-                        Icons.cable_rounded,
-                        color: Color(0xFFFF8C37),
-                        size: 18,
-                      ),
-                      const SizedBox(width: 8),
-                      Text(
-                        widget.isGuitarOnly
-                            ? 'Input: Gitar / Mic'
-                            : 'Input: Guitar + Playback Mix',
-                        style: const TextStyle(
-                          color: Colors.white,
-                          fontSize: 13,
-                          fontWeight: FontWeight.w600,
-                        ),
-                      ),
-                      const Spacer(),
-                      const Text(
-                        '-12 dB',
-                        style: TextStyle(color: Colors.white54, fontSize: 12),
-                      ),
-                    ],
-                  ),
+                  InputLevelMeter(level: _inputLevel, dbValue: _dbString),
                   const SizedBox(height: 12),
-                  const InputLevelMeter(level: 0.65, dbValue: '-12 dB'),
-                  const SizedBox(height: 16),
-                  const WaveformPlaceholder(height: 50, isPlaying: true),
+                  WaveformPlaceholder(height: 44, isPlaying: !_isPaused),
                 ],
               ),
             ),
-            const SizedBox(height: 16),
+            const SizedBox(height: 12),
 
-            // Mode Label
+            // ── Mode Label ─────────────────────────────────────────────────
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                const Text(
-                  'Mode Aktif:',
-                  style: TextStyle(color: Colors.white38, fontSize: 13),
-                ),
+                const Text('Mode Aktif:',
+                    style: TextStyle(color: Colors.white38, fontSize: 12)),
                 Text(
-                  widget.isGuitarOnly ? 'Gitar Saja' : 'Rekam Semua',
+                  widget.isGuitarOnly ? 'Audio Saja' : 'Rekam Semua',
                   style: const TextStyle(
-                    color: Color(0xFFFF2E93),
-                    fontWeight: FontWeight.bold,
-                    fontSize: 13,
-                  ),
+                      color: Color(0xFFFF2E93),
+                      fontWeight: FontWeight.bold,
+                      fontSize: 12),
                 ),
               ],
             ),
-            const SizedBox(height: 32),
+            const SizedBox(height: 20),
 
-            // Control Buttons
+            // ── Control Buttons ────────────────────────────────────────────
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                // Pause button
-                _buildRoundButton(
-                  icon: _isPaused
-                      ? Icons.play_arrow_rounded
-                      : Icons.pause_rounded,
-                  label: _isPaused ? 'Mulai' : 'Jeda',
+                // Pause/Resume
+                _roundBtn(
+                  icon: _isPaused ? Icons.play_arrow_rounded : Icons.pause_rounded,
+                  label: _isPaused ? 'Lanjut' : 'Jeda',
                   onTap: () async {
-                    setState(() {
-                      _isPaused = !_isPaused;
-                    });
-                    // Pause/resume recorder service
+                    setState(() => _isPaused = !_isPaused);
                     if (_isPaused) {
                       await controller.recorderService.pause();
                     } else {
@@ -294,18 +422,20 @@ class _LiveRecordingScreenState extends State<LiveRecordingScreen> {
                     }
                   },
                 ),
-                // Stop/Finish recording button
+
+                // STOP button
                 GestureDetector(
                   onTap: () async {
                     _timer?.cancel();
+                    _levelSub?.cancel();
 
                     String? videoPath;
                     if (widget.recordWithCamera && _cameraInitialized) {
-                      videoPath = await controller.cameraService
-                          .stopVideoRecording();
+                      videoPath =
+                          await controller.cameraService.stopVideoRecording();
                     }
 
-                    await controller.stopRecording(
+                    final audioPath = await controller.stopRecording(
                       widget.recordWithCamera
                           ? RecordingType.video
                           : RecordingType.audio,
@@ -314,7 +444,6 @@ class _LiveRecordingScreenState extends State<LiveRecordingScreen> {
                           : RecordingMode.recordAll,
                     );
 
-                    // If a video path exists, add it as a separate take or update
                     if (videoPath != null && mounted) {
                       await controller.addRecordingTake(
                         videoPath,
@@ -325,56 +454,48 @@ class _LiveRecordingScreenState extends State<LiveRecordingScreen> {
                       );
                     }
 
-                    if (!context.mounted) return;
-                    Navigator.pushReplacement(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => ProjectDetailScreen(
-                          title: activeProject?.title ?? 'Proyek Sesi Rekam',
-                        ),
-                      ),
+                    if (!mounted) return;
+                    await _showExportDialog(
+                      videoPath: videoPath,
+                      audioPath: audioPath,
+                      controller: controller,
                     );
                   },
                   child: Column(
                     children: [
                       Container(
-                        width: 72,
-                        height: 72,
+                        width: 70,
+                        height: 70,
                         decoration: const BoxDecoration(
                           shape: BoxShape.circle,
                           color: Colors.redAccent,
                           boxShadow: [
                             BoxShadow(
-                              color: Color(0x33FF0000),
-                              blurRadius: 12,
-                              offset: Offset(0, 4),
-                            ),
+                                color: Color(0x33FF0000),
+                                blurRadius: 12,
+                                offset: Offset(0, 4))
                           ],
                         ),
-                        child: const Icon(
-                          Icons.stop_rounded,
-                          color: Colors.white,
-                          size: 36,
-                        ),
+                        child: const Icon(Icons.stop_rounded,
+                            color: Colors.white, size: 34),
                       ),
                       const SizedBox(height: 8),
-                      const Text(
-                        'Berhenti',
-                        style: TextStyle(
-                          color: Colors.white70,
-                          fontSize: 11,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
+                      const Text('Berhenti',
+                          style: TextStyle(
+                              color: Colors.white70,
+                              fontSize: 11,
+                              fontWeight: FontWeight.bold)),
                     ],
                   ),
                 ),
-                // Cancel/Reset button
-                _buildRoundButton(
+
+                // Cancel
+                _roundBtn(
                   icon: Icons.cancel_outlined,
                   label: 'Batal',
                   onTap: () async {
                     _timer?.cancel();
+                    _levelSub?.cancel();
                     await controller.recorderService.stopGuitarRecording();
                     if (widget.recordWithCamera && _cameraInitialized) {
                       await controller.cameraService.stopVideoRecording();
@@ -391,11 +512,10 @@ class _LiveRecordingScreenState extends State<LiveRecordingScreen> {
     );
   }
 
-  Widget _buildRoundButton({
-    required IconData icon,
-    required String label,
-    required VoidCallback onTap,
-  }) {
+  Widget _roundBtn(
+      {required IconData icon,
+      required String label,
+      required VoidCallback onTap}) {
     return GestureDetector(
       onTap: onTap,
       child: Column(
@@ -411,10 +531,7 @@ class _LiveRecordingScreenState extends State<LiveRecordingScreen> {
             child: Icon(icon, color: Colors.white, size: 22),
           ),
           const SizedBox(height: 8),
-          Text(
-            label,
-            style: const TextStyle(color: Colors.white38, fontSize: 11),
-          ),
+          Text(label, style: const TextStyle(color: Colors.white38, fontSize: 11)),
         ],
       ),
     );

@@ -1,0 +1,90 @@
+name: Build iOS IPA (Unsigned)
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:       # Allows manual trigger from GitHub UI
+
+jobs:
+  build-ios:
+    name: Build Unsigned IPA
+    runs-on: macos-latest
+
+    steps:
+      # ── 1. Checkout ──────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ── 2. Java (needed by Flutter toolchain) ────────────────────────────
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      # ── 3. Flutter SDK ───────────────────────────────────────────────────
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.32.0'   # Match your SDK constraint (^3.11.4+)
+          channel: 'stable'
+          cache: true
+
+      # ── 4. Install dependencies ──────────────────────────────────────────
+      - name: flutter pub get
+        working-directory: flutter_app
+        run: flutter pub get
+
+      # ── 5. Run Dart Analyzer (non-fatal) ─────────────────────────────────
+      - name: flutter analyze
+        working-directory: flutter_app
+        run: flutter analyze --no-fatal-infos || true
+
+      # ── 6. Install CocoaPods ─────────────────────────────────────────────
+      - name: Install CocoaPods
+        working-directory: flutter_app/ios
+        run: |
+          gem install cocoapods --no-document
+          pod install --repo-update
+
+      # ── 7. Build iOS (no signing) ────────────────────────────────────────
+      #   CODE_SIGNING_ALLOWED=NO produces an unsigned .app bundle
+      - name: Build iOS archive (unsigned)
+        working-directory: flutter_app
+        run: |
+          flutter build ios --release --no-codesign \
+            --dart-define=FLUTTER_BUILD_NAME=1.0.0 \
+            --dart-define=FLUTTER_BUILD_NUMBER=${{ github.run_number }}
+
+      # ── 8. Package .app → .ipa ───────────────────────────────────────────
+      #   Wrap the .app in a Payload folder to create a valid (unsigned) IPA
+      - name: Package unsigned IPA
+        run: |
+          set -e
+          APP_PATH="flutter_app/build/ios/iphoneos/Runner.app"
+          PAYLOAD_DIR="Payload"
+          IPA_NAME="MusicStemStudio_unsigned_${{ github.run_number }}.ipa"
+
+          mkdir -p "$PAYLOAD_DIR"
+          cp -r "$APP_PATH" "$PAYLOAD_DIR/"
+          zip -r "$IPA_NAME" "$PAYLOAD_DIR"
+          echo "IPA_NAME=$IPA_NAME" >> $GITHUB_ENV
+
+      # ── 9. Upload IPA as build artifact ──────────────────────────────────
+      - name: Upload IPA artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: MusicStemStudio-IPA-unsigned-${{ github.run_number }}
+          path: ${{ env.IPA_NAME }}
+          retention-days: 30
+
+      # ── 10. Upload dSYMs (for crash symbolication) ───────────────────────
+      - name: Upload dSYMs artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: MusicStemStudio-dSYMs-${{ github.run_number }}
+          path: flutter_app/build/ios/archive/**/*.dSYM
+          retention-days: 30
+          if-no-files-found: ignore

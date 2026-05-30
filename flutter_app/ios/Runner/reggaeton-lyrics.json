@@ -1,0 +1,704 @@
+{
+    "transcript": [
+        {
+            "text": "🎵",
+            "start": 0.05,
+            "end": 13.56,
+            "noSpeechProb": 0.53515625,
+            "words": [
+                {
+                    "text": "🎵",
+                    "probability": 0.52944106,
+                    "start": 0.05,
+                    "end": 13.11
+                }
+            ],
+            "avgLogProb": -0.644925
+        },
+        {
+            "text": "Me and my crew, we're lawless",
+            "start": 13.56,
+            "end": 24.64,
+            "noSpeechProb": 0.53515625,
+            "words": [
+                {
+                    "text": "Me ",
+                    "probability": 0.0016994476,
+                    "start": 13.56,
+                    "end": 13.86
+                },
+                {
+                    "text": "and ",
+                    "probability": 0.64697266,
+                    "start": 13.86,
+                    "end": 23.26
+                },
+                {
+                    "text": "my ",
+                    "probability": 0.7607422,
+                    "start": 23.26,
+                    "end": 23.54
+                },
+                {
+                    "text": "crew, ",
+                    "probability": 0.8774414,
+                    "start": 23.54,
+                    "end": 23.78
+                },
+                {
+                    "text": "we're ",
+                    "probability": 0.579834,
+                    "start": 23.86,
+                    "end": 23.98
+                },
+                {
+                    "text": "lawless",
+                    "probability": 0.7741699,
+                    "start": 23.98,
+                    "end": 24.64
+                }
+            ],
+            "avgLogProb": -0.644925
+        },
+        {
+            "text": "Got them and them thinking that we're flawless",
+            "start": 24.64,
+            "end": 26.8,
+            "noSpeechProb": 0.53515625,
+            "words": [
+                {
+                    "text": "Got ",
+                    "probability": 0.17810059,
+                    "start": 24.64,
+                    "end": 25.06
+                },
+                {
+                    "text": "them ",
+                    "probability": 0.36865234,
+                    "start": 25.06,
+                    "end": 25.28
+                },
+                {
+                    "text": "and ",
+                    "probability": 0.4423828,
+                    "start": 25.28,
+                    "end": 25.54
+                },
+                {
+                    "text": "them ",
+                    "probability": 0.7241211,
+                    "start": 25.54,
+                    "end": 25.74
+                },
+                {
+                    "text": "thinking ",
+                    "probability": 0.50927734,
+                    "start": 25.74,
+                    "end": 26.08
+                },
+                {
+                    "text": "that ",
+                    "probability": 0.60839844,
+                    "start": 26.08,
+                    "end": 26.28
+                },
+                {
+                    "text": "we're ",
+                    "probability": 0.8618164,
+                    "start": 26.28,
+                    "end": 26.38
+                },
+                {
+                    "text": "flawless",
+                    "probability": 0.7939453,
+                    "start": 26.38,
+                    "end": 26.8
+                }
+            ],
+            "avgLogProb": -0.644925
+        },
+        {
+            "text": "Yeah, mama told you that I'm gorgeous",
+            "start": 26.8,
+            "end": 29.22,
+            "noSpeechProb": 0.53515625,
+            "words": [
+                {
+                    "text": "Yeah, ",
+                    "probability": 0.5385742,
+                    "start": 26.8,
+                    "end": 27.44
+                },
+                {
+                    "text": "mama ",
+                    "probability": 0.50927734,
+                    "start": 27.54,
+                    "end": 27.74
+                },
+                {
+                    "text": "told ",
+                    "probability": 0.9213867,
+                    "start": 27.74,
+                    "end": 28.12
+                },
+                {
+                    "text": "you ",
+                    "probability": 0.90283203,
+                    "start": 28.12,
+                    "end": 28.32
+                },
+                {
+                    "text": "that ",
+                    "probability": 0.8491211,
+                    "start": 28.32,
+                    "end": 28.56
+                },
+                {
+                    "text": "I'm ",
+                    "probability": 0.9909668,
+                    "start": 28.56,
+                    "end": 28.7
+                },
+                {
+                    "text": "gorgeous",
+                    "probability": 0.83935547,
+                    "start": 28.7,
+                    "end": 29.22
+                }
+            ],
+            "avgLogProb": -0.644925
+        },
+        {
+            "text": "Got a million tricks, can't deport us",
+            "start": 29.22,
+            "end": 31.64,
+            "noSpeechProb": 0.29223633,
+            "words": [
+                {
+                    "text": "Got ",
+                    "probability": 0.33032227,
+                    "start": 29.22,
+                    "end": 29.66
+                },
+                {
+                    "text": "a ",
+                    "probability": 0.96484375,
+                    "start": 29.66,
+                    "end": 29.86
+                },
+                {
+                    "text": "million ",
+                    "probability": 0.75439453,
+                    "start": 29.86,
+                    "end": 30.18
+                },
+                {
+                    "text": "tricks, ",
+                    "probability": 0.78271484,
+                    "start": 30.18,
+                    "end": 30.66
+                },
+                {
+                    "text": "can't ",
+                    "probability": 0.83569336,
+                    "start": 30.78,
+                    "end": 30.9
+                },
+                {
+                    "text": "deport ",
+                    "probability": 0.7963867,
+                    "start": 30.9,
+                    "end": 31.26
+                },
+                {
+                    "text": "us",
+                    "probability": 0.8979492,
+                    "start": 31.26,
+                    "end": 31.64
+                }
+            ],
+            "avgLogProb": -0.334375
+        },
+        {
+            "text": "I'm a flame and a star, call me guest",
+            "start": 31.64,
+            "end": 33.68,
+            "noSpeechProb": 0.29223633,
+            "words": [
+                {
+                    "text": "I'm ",
+                    "probability": 0.6074219,
+                    "start": 31.64,
+                    "end": 32.06
+                },
+                {
+                    "text": "a ",
+                    "probability": 0.77246094,
+                    "start": 32.06,
+                    "end": 32.18
+                },
+                {
+                    "text": "flame ",
+                    "probability": 0.36938477,
+                    "start": 32.18,
+                    "end": 32.5
+                },
+                {
+                    "text": "and ",
+                    "probability": 0.16088867,
+                    "start": 32.5,
+                    "end": 32.64
+                },
+                {
+                    "text": "a ",
+                    "probability": 0.7915039,
+                    "start": 32.64,
+                    "end": 32.8
+                },
+                {
+                    "text": "star, ",
+                    "probability": 0.7988281,
+                    "start": 32.8,
+                    "end": 33.02
+                },
+                {
+                    "text": "call ",
+                    "probability": 0.4260254,
+                    "start": 33.08,
+                    "end": 33.18
+                },
+                {
+                    "text": "me ",
+                    "probability": 0.8769531,
+                    "start": 33.18,
+                    "end": 33.32
+                },
+                {
+                    "text": "guest",
+                    "probability": 0.7368164,
+                    "start": 33.32,
+                    "end": 33.68
+                }
+            ],
+            "avgLogProb": -0.334375
+        },
+        {
+            "text": "Back foot slide it, I'm slick to the mass",
+            "start": 33.68,
+            "end": 35.96,
+            "noSpeechProb": 0.29223633,
+            "words": [
+                {
+                    "text": "Back ",
+                    "probability": 0.84033203,
+                    "start": 33.68,
+                    "end": 34.16
+                },
+                {
+                    "text": "foot ",
+                    "probability": 0.5751953,
+                    "start": 34.16,
+                    "end": 34.36
+                },
+                {
+                    "text": "slide ",
+                    "probability": 0.6196289,
+                    "start": 34.36,
+                    "end": 34.78
+                },
+                {
+                    "text": "it, ",
+                    "probability": 0.2932129,
+                    "start": 34.78,
+                    "end": 34.92
+                },
+                {
+                    "text": "I'm ",
+                    "probability": 0.5687866,
+                    "start": 34.94,
+                    "end": 35.06
+                },
+                {
+                    "text": "slick ",
+                    "probability": 0.90234375,
+                    "start": 35.06,
+                    "end": 35.3
+                },
+                {
+                    "text": "to ",
+                    "probability": 0.7470703,
+                    "start": 35.3,
+                    "end": 35.5
+                },
+                {
+                    "text": "the ",
+                    "probability": 0.79541016,
+                    "start": 35.5,
+                    "end": 35.68
+                },
+                {
+                    "text": "mass",
+                    "probability": 0.3984375,
+                    "start": 35.68,
+                    "end": 35.96
+                }
+            ],
+            "avgLogProb": -0.334375
+        },
+        {
+            "text": "Calling to the tribe, it's a revolution past",
+            "start": 35.96,
+            "end": 38.28,
+            "noSpeechProb": 0.29223633,
+            "words": [
+                {
+                    "text": "Calling ",
+                    "probability": 0.38427734,
+                    "start": 35.96,
+                    "end": 36.44
+                },
+                {
+                    "text": "to ",
+                    "probability": 0.88623047,
+                    "start": 36.44,
+                    "end": 36.62
+                },
+                {
+                    "text": "the ",
+                    "probability": 0.76416016,
+                    "start": 36.62,
+                    "end": 36.78
+                },
+                {
+                    "text": "tribe, ",
+                    "probability": 0.5751953,
+                    "start": 36.78,
+                    "end": 37.14
+                },
+                {
+                    "text": "it's ",
+                    "probability": 0.93115234,
+                    "start": 37.22,
+                    "end": 37.3
+                },
+                {
+                    "text": "a ",
+                    "probability": 0.92333984,
+                    "start": 37.3,
+                    "end": 37.42
+                },
+                {
+                    "text": "revolution ",
+                    "probability": 0.8378906,
+                    "start": 37.42,
+                    "end": 37.82
+                },
+                {
+                    "text": "past",
+                    "probability": 0.6616211,
+                    "start": 37.82,
+                    "end": 38.28
+                }
+            ],
+            "avgLogProb": -0.334375
+        },
+        {
+            "text": "Present in time, no it can't be masked",
+            "start": 38.28,
+            "end": 40.54,
+            "noSpeechProb": 0.29223633,
+            "words": [
+                {
+                    "text": "Present ",
+                    "probability": 0.55615234,
+                    "start": 38.28,
+                    "end": 38.78
+                },
+                {
+                    "text": "in ",
+                    "probability": 0.8959961,
+                    "start": 38.78,
+                    "end": 39.08
+                },
+                {
+                    "text": "time, ",
+                    "probability": 0.7973633,
+                    "start": 39.08,
+                    "end": 39.34
+                },
+                {
+                    "text": "no ",
+                    "probability": 0.7470703,
+                    "start": 39.46,
+                    "end": 39.58
+                },
+                {
+                    "text": "it ",
+                    "probability": 0.4765625,
+                    "start": 39.58,
+                    "end": 39.72
+                },
+                {
+                    "text": "can't ",
+                    "probability": 0.9465332,
+                    "start": 39.72,
+                    "end": 40.02
+                },
+                {
+                    "text": "be ",
+                    "probability": 0.90625,
+                    "start": 40.02,
+                    "end": 40.2
+                },
+                {
+                    "text": "masked",
+                    "probability": 0.4050293,
+                    "start": 40.2,
+                    "end": 40.54
+                }
+            ],
+            "avgLogProb": -0.334375
+        },
+        {
+            "text": "So you better rise up",
+            "start": 40.54,
+            "end": 41.92,
+            "noSpeechProb": 0.29223633,
+            "words": [
+                {
+                    "text": "So ",
+                    "probability": 0.90234375,
+                    "start": 40.54,
+                    "end": 40.94
+                },
+                {
+                    "text": "you ",
+                    "probability": 0.67822266,
+                    "start": 40.94,
+                    "end": 41.1
+                },
+                {
+                    "text": "better ",
+                    "probability": 0.7680664,
+                    "start": 41.1,
+                    "end": 41.28
+                },
+                {
+                    "text": "rise ",
+                    "probability": 0.46826172,
+                    "start": 41.28,
+                    "end": 41.76
+                },
+                {
+                    "text": "up",
+                    "probability": 0.90722656,
+                    "start": 41.76,
+                    "end": 41.92
+                }
+            ],
+            "avgLogProb": -0.334375
+        },
+        {
+            "text": "Call up, size up, shout out loud",
+            "start": 41.92,
+            "end": 44.14,
+            "noSpeechProb": 0.29223633,
+            "words": [
+                {
+                    "text": "Call ",
+                    "probability": 0.24914551,
+                    "start": 41.92,
+                    "end": 42.28
+                },
+                {
+                    "text": "up, ",
+                    "probability": 0.77246094,
+                    "start": 42.28,
+                    "end": 42.52
+                },
+                {
+                    "text": "size ",
+                    "probability": 0.4885254,
+                    "start": 42.58,
+                    "end": 42.8
+                },
+                {
+                    "text": "up, ",
+                    "probability": 0.90478516,
+                    "start": 42.8,
+                    "end": 43.02
+                },
+                {
+                    "text": "shout ",
+                    "probability": 0.87841797,
+                    "start": 43.16,
+                    "end": 43.38
+                },
+                {
+                    "text": "out ",
+                    "probability": 0.7836914,
+                    "start": 43.38,
+                    "end": 43.68
+                },
+                {
+                    "text": "loud",
+                    "probability": 0.8847656,
+                    "start": 43.68,
+                    "end": 44.14
+                }
+            ],
+            "avgLogProb": -0.334375
+        },
+        {
+            "text": "Number 40 times up",
+            "start": 44.14,
+            "end": 45.32,
+            "noSpeechProb": 0.29223633,
+            "words": [
+                {
+                    "text": "Number ",
+                    "probability": 0.17919922,
+                    "start": 44.14,
+                    "end": 44.54
+                },
+                {
+                    "text": "40 ",
+                    "probability": 0.66552734,
+                    "start": 44.54,
+                    "end": 44.76
+                },
+                {
+                    "text": "times ",
+                    "probability": 0.41064453,
+                    "start": 44.76,
+                    "end": 45.16
+                },
+                {
+                    "text": "up",
+                    "probability": 0.87060547,
+                    "start": 45.16,
+                    "end": 45.32
+                }
+            ],
+            "avgLogProb": -0.334375
+        },
+        {
+            "text": "So we better rise up, call up, size up",
+            "start": 45.32,
+            "end": 47.66,
+            "noSpeechProb": 0.29223633,
+            "words": [
+                {
+                    "text": "So ",
+                    "probability": 0.4404297,
+                    "start": 45.32,
+                    "end": 45.58
+                },
+                {
+                    "text": "we ",
+                    "probability": 0.8496094,
+                    "start": 45.58,
+                    "end": 45.7
+                },
+                {
+                    "text": "better ",
+                    "probability": 0.6743164,
+                    "start": 45.7,
+                    "end": 45.86
+                },
+                {
+                    "text": "rise ",
+                    "probability": 0.8911133,
+                    "start": 45.86,
+                    "end": 46.36
+                },
+                {
+                    "text": "up, ",
+                    "probability": 0.9067383,
+                    "start": 46.36,
+                    "end": 46.64
+                },
+                {
+                    "text": "call ",
+                    "probability": 0.7397461,
+                    "start": 46.66,
+                    "end": 46.88
+                },
+                {
+                    "text": "up, ",
+                    "probability": 0.81933594,
+                    "start": 46.88,
+                    "end": 47.2
+                },
+                {
+                    "text": "size ",
+                    "probability": 0.82373047,
+                    "start": 47.3,
+                    "end": 47.44
+                },
+                {
+                    "text": "up",
+                    "probability": 0.9033203,
+                    "start": 47.44,
+                    "end": 47.66
+                }
+            ],
+            "avgLogProb": -0.334375
+        },
+        {
+            "text": "Shout out loud, number 40 times up",
+            "start": 47.66,
+            "end": 50.02,
+            "noSpeechProb": 0.29223633,
+            "words": [
+                {
+                    "text": "Shout ",
+                    "probability": 0.41088867,
+                    "start": 47.66,
+                    "end": 47.98
+                },
+                {
+                    "text": "out ",
+                    "probability": 0.80371094,
+                    "start": 47.98,
+                    "end": 48.3
+                },
+                {
+                    "text": "loud, ",
+                    "probability": 0.9135742,
+                    "start": 48.3,
+                    "end": 48.78
+                },
+                {
+                    "text": "number ",
+                    "probability": 0.6567383,
+                    "start": 48.94,
+                    "end": 49.14
+                },
+                {
+                    "text": "40 ",
+                    "probability": 0.87353516,
+                    "start": 49.14,
+                    "end": 49.36
+                },
+                {
+                    "text": "times ",
+                    "probability": 0.8222656,
+                    "start": 49.36,
+                    "end": 49.78
+                },
+                {
+                    "text": "up",
+                    "probability": 0.89990234,
+                    "start": 49.78,
+                    "end": 50.02
+                }
+            ],
+            "avgLogProb": -0.334375
+        }
+    ],
+    "match": true,
+    "aligned": false,
+    "version": "1.0.0_rc9",
+    "language": "english"
+}

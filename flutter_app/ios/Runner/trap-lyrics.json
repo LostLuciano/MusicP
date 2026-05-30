@@ -1,0 +1,2663 @@
+{
+    "aligned": false,
+    "transcript": [
+        {
+            "words": [
+                {
+                    "end": 0.59,
+                    "text": "Check ",
+                    "start": 0.05,
+                    "probability": 0.31518555
+                },
+                {
+                    "end": 0.85,
+                    "text": "the ",
+                    "start": 0.59,
+                    "probability": 0.7285156
+                },
+                {
+                    "end": 1.17,
+                    "text": "wrist ",
+                    "start": 0.85,
+                    "probability": 0.2446289
+                },
+                {
+                    "end": 2.29,
+                    "text": "big ",
+                    "start": 1.17,
+                    "probability": 0.38012695
+                },
+                {
+                    "end": 2.85,
+                    "text": "time ",
+                    "start": 2.29,
+                    "probability": 0.55371094
+                },
+                {
+                    "end": 3.95,
+                    "text": "big ",
+                    "start": 2.85,
+                    "probability": 0.49731445
+                },
+                {
+                    "end": 4.39,
+                    "text": "play ",
+                    "start": 3.95,
+                    "probability": 0.7451172
+                },
+                {
+                    "end": 4.75,
+                    "text": "gotta ",
+                    "start": 4.39,
+                    "probability": 0.6748047
+                },
+                {
+                    "end": 5.09,
+                    "text": "hit ",
+                    "start": 4.75,
+                    "probability": 0.89941406
+                },
+                {
+                    "end": 5.29,
+                    "text": "the ",
+                    "start": 5.09,
+                    "probability": 0.78564453
+                },
+                {
+                    "end": 6.07,
+                    "text": "rewind",
+                    "start": 5.29,
+                    "probability": 0.79003906
+                }
+            ],
+            "noSpeechProb": 0.41235352,
+            "text": "Check the wrist big time big play gotta hit the rewind",
+            "avgLogProb": -0.5320313,
+            "end": 6.07,
+            "start": 0.05
+        },
+        {
+            "words": [
+                {
+                    "end": 7.13,
+                    "text": "Who ",
+                    "start": 6.07,
+                    "probability": 0.28271484
+                },
+                {
+                    "end": 7.35,
+                    "text": "you ",
+                    "start": 7.13,
+                    "probability": 0.89453125
+                },
+                {
+                    "end": 7.73,
+                    "text": "got?",
+                    "start": 7.35,
+                    "probability": 0.8535156
+                }
+            ],
+            "noSpeechProb": 0.41235352,
+            "text": "Who you got?",
+            "avgLogProb": -0.5320313,
+            "end": 7.73,
+            "start": 6.07
+        },
+        {
+            "words": [
+                {
+                    "end": 8.83,
+                    "text": "Pick ",
+                    "start": 8.63,
+                    "probability": 0.47875977
+                },
+                {
+                    "end": 9.07,
+                    "text": "a ",
+                    "start": 8.83,
+                    "probability": 0.95947266
+                },
+                {
+                    "end": 9.47,
+                    "text": "size",
+                    "start": 9.07,
+                    "probability": 0.31152344
+                }
+            ],
+            "noSpeechProb": 0.41235352,
+            "text": "Pick a size",
+            "avgLogProb": -0.5320313,
+            "end": 9.47,
+            "start": 8.63
+        },
+        {
+            "words": [
+                {
+                    "end": 10.55,
+                    "text": "Rock ",
+                    "start": 9.47,
+                    "probability": 0.57666016
+                },
+                {
+                    "end": 10.97,
+                    "text": "star ",
+                    "start": 10.55,
+                    "probability": 0.19030762
+                },
+                {
+                    "end": 11.55,
+                    "text": "lifestyle ",
+                    "start": 10.97,
+                    "probability": 0.6879883
+                },
+                {
+                    "end": 12.65,
+                    "text": "certified ",
+                    "start": 11.55,
+                    "probability": 0.64990234
+                },
+                {
+                    "end": 13.15,
+                    "text": "wins ",
+                    "start": 12.65,
+                    "probability": 0.52783203
+                },
+                {
+                    "end": 13.83,
+                    "text": "wins ",
+                    "start": 13.15,
+                    "probability": 0.42260742
+                },
+                {
+                    "end": 14.49,
+                    "text": "wins ",
+                    "start": 13.83,
+                    "probability": 0.54248047
+                },
+                {
+                    "end": 14.89,
+                    "text": "wins ",
+                    "start": 14.49,
+                    "probability": 0.5541992
+                },
+                {
+                    "end": 15.31,
+                    "text": "wins ",
+                    "start": 14.89,
+                    "probability": 0.4633789
+                },
+                {
+                    "end": 15.85,
+                    "text": "all ",
+                    "start": 15.31,
+                    "probability": 0.2668457
+                },
+                {
+                    "end": 16.03,
+                    "text": "I ",
+                    "start": 15.85,
+                    "probability": 0.9477539
+                },
+                {
+                    "end": 16.27,
+                    "text": "know",
+                    "start": 16.03,
+                    "probability": 0.8208008
+                }
+            ],
+            "noSpeechProb": 0.41235352,
+            "text": "Rock star lifestyle certified wins wins wins wins wins all I know",
+            "avgLogProb": -0.5320313,
+            "end": 16.27,
+            "start": 9.47
+        },
+        {
+            "words": [
+                {
+                    "end": 16.99,
+                    "text": "We ",
+                    "start": 16.27,
+                    "probability": 0.4597168
+                },
+                {
+                    "end": 17.21,
+                    "text": "go ",
+                    "start": 16.99,
+                    "probability": 0.6166992
+                },
+                {
+                    "end": 17.47,
+                    "text": "here ",
+                    "start": 17.21,
+                    "probability": 0.19372559
+                },
+                {
+                    "end": 17.61,
+                    "text": "to ",
+                    "start": 17.47,
+                    "probability": 0.3154297
+                },
+                {
+                    "end": 17.83,
+                    "text": "here ",
+                    "start": 17.61,
+                    "probability": 0.63134766
+                },
+                {
+                    "end": 18.07,
+                    "text": "go ",
+                    "start": 17.83,
+                    "probability": 0.64990234
+                },
+                {
+                    "end": 18.29,
+                    "text": "toe ",
+                    "start": 18.07,
+                    "probability": 0.3017578
+                },
+                {
+                    "end": 18.45,
+                    "text": "to ",
+                    "start": 18.29,
+                    "probability": 0.6616211
+                },
+                {
+                    "end": 18.69,
+                    "text": "toe. ",
+                    "start": 18.45,
+                    "probability": 0.7939453
+                },
+                {
+                    "end": 18.93,
+                    "text": "Let's ",
+                    "start": 18.83,
+                    "probability": 0.9460449
+                },
+                {
+                    "end": 19.09,
+                    "text": "see ",
+                    "start": 18.93,
+                    "probability": 0.7910156
+                },
+                {
+                    "end": 19.29,
+                    "text": "who ",
+                    "start": 19.09,
+                    "probability": 0.7939453
+                },
+                {
+                    "end": 19.71,
+                    "text": "wins ",
+                    "start": 19.29,
+                    "probability": 0.80908203
+                },
+                {
+                    "end": 20.55,
+                    "text": "wins ",
+                    "start": 19.71,
+                    "probability": 0.54852295
+                },
+                {
+                    "end": 20.95,
+                    "text": "wins ",
+                    "start": 20.55,
+                    "probability": 0.7753906
+                },
+                {
+                    "end": 21.43,
+                    "text": "wins ",
+                    "start": 20.95,
+                    "probability": 0.79589844
+                },
+                {
+                    "end": 21.83,
+                    "text": "wins ",
+                    "start": 21.43,
+                    "probability": 0.74316406
+                },
+                {
+                    "end": 22.21,
+                    "text": "wins ",
+                    "start": 21.83,
+                    "probability": 0.49975586
+                },
+                {
+                    "end": 22.43,
+                    "text": "all ",
+                    "start": 22.21,
+                    "probability": 0.66748047
+                },
+                {
+                    "end": 22.63,
+                    "text": "I ",
+                    "start": 22.43,
+                    "probability": 0.9921875
+                },
+                {
+                    "end": 22.87,
+                    "text": "know",
+                    "start": 22.63,
+                    "probability": 0.82470703
+                }
+            ],
+            "noSpeechProb": 0.41235352,
+            "text": "We go here to here go toe to toe. Let's see who wins wins wins wins wins wins all I know",
+            "avgLogProb": -0.5320313,
+            "end": 22.87,
+            "start": 16.27
+        },
+        {
+            "words": [
+                {
+                    "end": 23.79,
+                    "text": "You ",
+                    "start": 22.87,
+                    "probability": 0.8100586
+                },
+                {
+                    "end": 24.19,
+                    "text": "looking ",
+                    "start": 23.79,
+                    "probability": 0.70703125
+                },
+                {
+                    "end": 24.47,
+                    "text": "at ",
+                    "start": 24.19,
+                    "probability": 0.91796875
+                },
+                {
+                    "end": 24.63,
+                    "text": "the ",
+                    "start": 24.47,
+                    "probability": 0.8144531
+                },
+                {
+                    "end": 24.87,
+                    "text": "go ",
+                    "start": 24.63,
+                    "probability": 0.43847656
+                },
+                {
+                    "end": 25.13,
+                    "text": "for ",
+                    "start": 24.87,
+                    "probability": 0.55566406
+                },
+                {
+                    "end": 25.33,
+                    "text": "real ",
+                    "start": 25.13,
+                    "probability": 0.87109375
+                },
+                {
+                    "end": 26.37,
+                    "text": "wins ",
+                    "start": 25.33,
+                    "probability": 0.508728
+                },
+                {
+                    "end": 26.85,
+                    "text": "so ",
+                    "start": 26.37,
+                    "probability": 0.43530273
+                },
+                {
+                    "end": 27.03,
+                    "text": "many ",
+                    "start": 26.85,
+                    "probability": 0.7705078
+                },
+                {
+                    "end": 27.37,
+                    "text": "wins",
+                    "start": 27.03,
+                    "probability": 0.68359375
+                }
+            ],
+            "noSpeechProb": 0.41235352,
+            "text": "You looking at the go for real wins so many wins",
+            "avgLogProb": -0.5320313,
+            "end": 27.37,
+            "start": 22.87
+        },
+        {
+            "words": [
+                {
+                    "end": 27.61,
+                    "text": "I ",
+                    "start": 27.37,
+                    "probability": 0.04949951
+                },
+                {
+                    "end": 27.95,
+                    "text": "can't ",
+                    "start": 27.61,
+                    "probability": 0.734375
+                },
+                {
+                    "end": 28.21,
+                    "text": "count ",
+                    "start": 27.95,
+                    "probability": 0.6591797
+                },
+                {
+                    "end": 28.51,
+                    "text": "back ",
+                    "start": 28.21,
+                    "probability": 0.09075928
+                },
+                {
+                    "end": 28.67,
+                    "text": "in ",
+                    "start": 28.51,
+                    "probability": 0.8725586
+                },
+                {
+                    "end": 28.79,
+                    "text": "the ",
+                    "start": 28.67,
+                    "probability": 0.69091797
+                },
+                {
+                    "end": 29.01,
+                    "text": "day ",
+                    "start": 28.79,
+                    "probability": 0.8808594
+                },
+                {
+                    "end": 29.17,
+                    "text": "to ",
+                    "start": 29.01,
+                    "probability": 0.33569336
+                },
+                {
+                    "end": 29.35,
+                    "text": "know ",
+                    "start": 29.17,
+                    "probability": 0.30688477
+                },
+                {
+                    "end": 29.57,
+                    "text": "my ",
+                    "start": 29.35,
+                    "probability": 0.40600586
+                },
+                {
+                    "end": 29.85,
+                    "text": "doubt ",
+                    "start": 29.57,
+                    "probability": 0.28637695
+                },
+                {
+                    "end": 29.99,
+                    "text": "and ",
+                    "start": 29.85,
+                    "probability": 0.30664062
+                },
+                {
+                    "end": 30.31,
+                    "text": "travel ",
+                    "start": 29.99,
+                    "probability": 0.4099121
+                },
+                {
+                    "end": 30.71,
+                    "text": "couldn't ",
+                    "start": 30.31,
+                    "probability": 0.85546875
+                },
+                {
+                    "end": 30.89,
+                    "text": "keep ",
+                    "start": 30.71,
+                    "probability": 0.7910156
+                },
+                {
+                    "end": 31.03,
+                    "text": "the ",
+                    "start": 30.89,
+                    "probability": 0.52685547
+                },
+                {
+                    "end": 31.23,
+                    "text": "kid ",
+                    "start": 31.03,
+                    "probability": 0.94433594
+                },
+                {
+                    "end": 31.53,
+                    "text": "down ",
+                    "start": 31.23,
+                    "probability": 0.79541016
+                },
+                {
+                    "end": 31.83,
+                    "text": "now",
+                    "start": 31.53,
+                    "probability": 0.6958008
+                }
+            ],
+            "noSpeechProb": 0.17297363,
+            "text": "I can't count back in the day to know my doubt and travel couldn't keep the kid down now",
+            "avgLogProb": -0.6136363,
+            "end": 31.83,
+            "start": 27.37
+        },
+        {
+            "words": [
+                {
+                    "end": 32.01,
+                    "text": "It's ",
+                    "start": 31.83,
+                    "probability": 0.8305664
+                },
+                {
+                    "end": 32.11,
+                    "text": "a ",
+                    "start": 32.01,
+                    "probability": 0.60839844
+                },
+                {
+                    "end": 32.31,
+                    "text": "big ",
+                    "start": 32.11,
+                    "probability": 0.8027344
+                },
+                {
+                    "end": 32.57,
+                    "text": "bank ",
+                    "start": 32.31,
+                    "probability": 0.39672852
+                },
+                {
+                    "end": 32.73,
+                    "text": "with ",
+                    "start": 32.57,
+                    "probability": 0.5419922
+                },
+                {
+                    "end": 33.21,
+                    "text": "allowance ",
+                    "start": 32.73,
+                    "probability": 0.45458984
+                },
+                {
+                    "end": 33.45,
+                    "text": "now. ",
+                    "start": 33.21,
+                    "probability": 0.5854492
+                },
+                {
+                    "end": 33.63,
+                    "text": "It's ",
+                    "start": 33.53,
+                    "probability": 0.8984375
+                },
+                {
+                    "end": 33.71,
+                    "text": "a ",
+                    "start": 33.63,
+                    "probability": 0.7050781
+                },
+                {
+                    "end": 33.93,
+                    "text": "Ben ",
+                    "start": 33.71,
+                    "probability": 0.28222656
+                },
+                {
+                    "end": 34.23,
+                    "text": "Frank ",
+                    "start": 33.93,
+                    "probability": 0.51953125
+                },
+                {
+                    "end": 34.37,
+                    "text": "on ",
+                    "start": 34.23,
+                    "probability": 0.79541016
+                },
+                {
+                    "end": 34.53,
+                    "text": "a ",
+                    "start": 34.37,
+                    "probability": 0.9316406
+                },
+                {
+                    "end": 34.81,
+                    "text": "salad ",
+                    "start": 34.53,
+                    "probability": 0.6142578
+                },
+                {
+                    "end": 35.11,
+                    "text": "now",
+                    "start": 34.81,
+                    "probability": 0.5283203
+                }
+            ],
+            "noSpeechProb": 0.17297363,
+            "text": "It's a big bank with allowance now. It's a Ben Frank on a salad now",
+            "avgLogProb": -0.6136363,
+            "end": 35.11,
+            "start": 31.83
+        },
+        {
+            "words": [
+                {
+                    "start": 35.11,
+                    "text": "I'm ",
+                    "end": 35.23,
+                    "probability": 0.9265137
+                },
+                {
+                    "start": 35.23,
+                    "text": "the ",
+                    "end": 35.33,
+                    "probability": 0.7167969
+                },
+                {
+                    "start": 35.33,
+                    "text": "big ",
+                    "end": 35.59,
+                    "probability": 0.8720703
+                },
+                {
+                    "start": 35.59,
+                    "text": "man ",
+                    "end": 35.85,
+                    "probability": 0.88916016
+                },
+                {
+                    "start": 35.85,
+                    "text": "on ",
+                    "end": 36.09,
+                    "probability": 0.86328125
+                },
+                {
+                    "start": 36.09,
+                    "text": "campus ",
+                    "end": 36.59,
+                    "probability": 0.6777344
+                },
+                {
+                    "start": 36.59,
+                    "text": "and ",
+                    "end": 36.81,
+                    "probability": 0.30126953
+                },
+                {
+                    "start": 36.81,
+                    "text": "on ",
+                    "end": 36.99,
+                    "probability": 0.6699219
+                },
+                {
+                    "start": 36.99,
+                    "text": "me ",
+                    "end": 37.17,
+                    "probability": 0.8535156
+                },
+                {
+                    "start": 37.17,
+                    "text": "and ",
+                    "end": 37.27,
+                    "probability": 0.8276367
+                },
+                {
+                    "start": 37.27,
+                    "text": "they ",
+                    "end": 37.39,
+                    "probability": 0.54345703
+                },
+                {
+                    "start": 37.39,
+                    "text": "like ",
+                    "end": 37.55,
+                    "probability": 0.7651367
+                },
+                {
+                    "start": 37.55,
+                    "text": "any ",
+                    "end": 37.71,
+                    "probability": 0.7104492
+                },
+                {
+                    "start": 37.71,
+                    "text": "chances",
+                    "end": 38.27,
+                    "probability": 0.7763672
+                }
+            ],
+            "noSpeechProb": 0.17297363,
+            "text": "I'm the big man on campus and on me and they like any chances",
+            "avgLogProb": -0.6136363,
+            "end": 38.27,
+            "start": 35.11
+        },
+        {
+            "words": [
+                {
+                    "start": 38.27,
+                    "text": "You ",
+                    "end": 38.79,
+                    "probability": 0.12322998
+                },
+                {
+                    "start": 38.79,
+                    "text": "gotta ",
+                    "end": 38.95,
+                    "probability": 0.7285156
+                },
+                {
+                    "start": 38.95,
+                    "text": "give ",
+                    "end": 39.17,
+                    "probability": 0.80615234
+                },
+                {
+                    "start": 39.17,
+                    "text": "them ",
+                    "end": 39.31,
+                    "probability": 0.4921875
+                },
+                {
+                    "start": 39.31,
+                    "text": "no ",
+                    "end": 39.47,
+                    "probability": 0.43798828
+                },
+                {
+                    "start": 39.47,
+                    "text": "work ",
+                    "end": 39.75,
+                    "probability": 0.7285156
+                },
+                {
+                    "start": 39.75,
+                    "text": "on ",
+                    "end": 40.03,
+                    "probability": 0.121154785
+                },
+                {
+                    "start": 40.03,
+                    "text": "a ",
+                    "end": 40.29,
+                    "probability": 0.29296875
+                },
+                {
+                    "start": 40.29,
+                    "text": "fire. ",
+                    "end": 40.55,
+                    "probability": 0.31152344
+                },
+                {
+                    "start": 40.73,
+                    "text": "It ",
+                    "end": 40.765,
+                    "probability": 0.49804688
+                },
+                {
+                    "start": 40.765,
+                    "text": "come ",
+                    "end": 40.87,
+                    "probability": 0.32592773
+                },
+                {
+                    "start": 40.87,
+                    "text": "with ",
+                    "end": 40.99,
+                    "probability": 0.8095703
+                },
+                {
+                    "start": 40.99,
+                    "text": "some ",
+                    "end": 41.13,
+                    "probability": 0.81396484
+                },
+                {
+                    "start": 41.13,
+                    "text": "perks. ",
+                    "end": 41.43,
+                    "probability": 0.3840332
+                },
+                {
+                    "start": 41.59,
+                    "text": "I ",
+                    "end": 41.79,
+                    "probability": 0.37060547
+                },
+                {
+                    "start": 41.79,
+                    "text": "stay ",
+                    "end": 42.43,
+                    "probability": 0.25170898
+                },
+                {
+                    "start": 42.43,
+                    "text": "on ",
+                    "end": 42.59,
+                    "probability": 0.85595703
+                },
+                {
+                    "start": 42.59,
+                    "text": "your ",
+                    "end": 42.71,
+                    "probability": 0.7832031
+                },
+                {
+                    "start": 42.71,
+                    "text": "job",
+                    "end": 43.13,
+                    "probability": 0.89160156
+                }
+            ],
+            "noSpeechProb": 0.17297363,
+            "text": "You gotta give them no work on a fire. It come with some perks. I stay on your job",
+            "avgLogProb": -0.6136363,
+            "end": 43.13,
+            "start": 38.27
+        },
+        {
+            "words": [
+                {
+                    "start": 43.13,
+                    "text": "I'll ",
+                    "end": 43.87,
+                    "probability": 0.7558594
+                },
+                {
+                    "start": 43.87,
+                    "text": "be ",
+                    "end": 43.95,
+                    "probability": 0.9013672
+                },
+                {
+                    "start": 43.95,
+                    "text": "going ",
+                    "end": 44.19,
+                    "probability": 0.8359375
+                },
+                {
+                    "start": 44.19,
+                    "text": "berserk. ",
+                    "end": 44.65,
+                    "probability": 0.744751
+                },
+                {
+                    "start": 44.73,
+                    "text": "It's ",
+                    "end": 44.91,
+                    "probability": 0.7318115
+                },
+                {
+                    "start": 44.91,
+                    "text": "time. ",
+                    "end": 45.07,
+                    "probability": 0.4182129
+                },
+                {
+                    "start": 45.15,
+                    "text": "It's ",
+                    "end": 45.23,
+                    "probability": 0.88427734
+                },
+                {
+                    "start": 45.23,
+                    "text": "my ",
+                    "end": 45.39,
+                    "probability": 0.40576172
+                },
+                {
+                    "start": 45.39,
+                    "text": "gotta ",
+                    "end": 45.59,
+                    "probability": 0.1920166
+                },
+                {
+                    "start": 45.59,
+                    "text": "give ",
+                    "end": 45.79,
+                    "probability": 0.8046875
+                },
+                {
+                    "start": 45.79,
+                    "text": "them ",
+                    "end": 45.89,
+                    "probability": 0.4482422
+                },
+                {
+                    "start": 45.89,
+                    "text": "a ",
+                    "end": 46.07,
+                    "probability": 0.51171875
+                },
+                {
+                    "start": 46.07,
+                    "text": "learn",
+                    "end": 46.47,
+                    "probability": 0.49047852
+                }
+            ],
+            "noSpeechProb": 0.17297363,
+            "text": "I'll be going berserk. It's time. It's my gotta give them a learn",
+            "avgLogProb": -0.6136363,
+            "end": 46.47,
+            "start": 43.13
+        },
+        {
+            "words": [
+                {
+                    "start": 46.47,
+                    "text": "Look ",
+                    "end": 47.31,
+                    "probability": 0.068115234
+                },
+                {
+                    "start": 47.31,
+                    "text": "who ",
+                    "end": 47.51,
+                    "probability": 0.18041992
+                },
+                {
+                    "start": 47.51,
+                    "text": "in ",
+                    "end": 47.65,
+                    "probability": 0.48095703
+                },
+                {
+                    "start": 47.65,
+                    "text": "first. ",
+                    "end": 48.05,
+                    "probability": 0.7919922
+                },
+                {
+                    "start": 48.37,
+                    "text": "Yeah, ",
+                    "end": 48.75,
+                    "probability": 0.35302734
+                },
+                {
+                    "start": 48.91,
+                    "text": "you ",
+                    "end": 48.97,
+                    "probability": 0.75878906
+                },
+                {
+                    "start": 48.97,
+                    "text": "know, ",
+                    "end": 49.09,
+                    "probability": 0.82373047
+                },
+                {
+                    "start": 49.17,
+                    "text": "it's ",
+                    "end": 49.23,
+                    "probability": 0.9499512
+                },
+                {
+                    "start": 49.23,
+                    "text": "a ",
+                    "end": 49.35,
+                    "probability": 0.89453125
+                },
+                {
+                    "start": 49.35,
+                    "text": "team. ",
+                    "end": 49.71,
+                    "probability": 0.8408203
+                },
+                {
+                    "start": 49.79,
+                    "text": "Oh, ",
+                    "end": 50.11,
+                    "probability": 0.4465332
+                },
+                {
+                    "start": 50.31,
+                    "text": "no, ",
+                    "end": 50.33,
+                    "probability": 0.52978516
+                },
+                {
+                    "start": 50.51,
+                    "text": "no ",
+                    "end": 50.559999999999995,
+                    "probability": 0.2446289
+                },
+                {
+                    "start": 50.559999999999995,
+                    "text": "rip ",
+                    "end": 50.71,
+                    "probability": 0.22595215
+                },
+                {
+                    "start": 50.71,
+                    "text": "on ",
+                    "end": 50.81,
+                    "probability": 0.90625
+                },
+                {
+                    "start": 50.81,
+                    "text": "a ",
+                    "end": 50.97,
+                    "probability": 0.58984375
+                },
+                {
+                    "start": 50.97,
+                    "text": "shirt",
+                    "end": 51.25,
+                    "probability": 0.8828125
+                }
+            ],
+            "noSpeechProb": 0.17297363,
+            "text": "Look who in first. Yeah, you know, it's a team. Oh, no, no rip on a shirt",
+            "avgLogProb": -0.6136363,
+            "end": 51.25,
+            "start": 46.47
+        },
+        {
+            "words": [
+                {
+                    "probability": 0.010307312,
+                    "end": 51.35,
+                    "start": 51.25,
+                    "text": "Yeah"
+                }
+            ],
+            "noSpeechProb": 0.008842468,
+            "text": "Yeah",
+            "avgLogProb": -0.71533203,
+            "end": 51.35,
+            "start": 51.25
+        },
+        {
+            "words": [
+                {
+                    "probability": 0.010238647,
+                    "end": 54.17,
+                    "start": 51.35,
+                    "text": "Big "
+                },
+                {
+                    "probability": 0.10308838,
+                    "end": 55.41,
+                    "start": 54.17,
+                    "text": "time "
+                },
+                {
+                    "probability": 0.3076172,
+                    "end": 56.55,
+                    "start": 55.41,
+                    "text": "big "
+                },
+                {
+                    "probability": 0.83740234,
+                    "end": 56.99,
+                    "start": 56.55,
+                    "text": "play "
+                },
+                {
+                    "probability": 0.72265625,
+                    "end": 57.35,
+                    "start": 56.99,
+                    "text": "gotta "
+                },
+                {
+                    "probability": 0.87939453,
+                    "end": 57.69,
+                    "start": 57.35,
+                    "text": "hit "
+                },
+                {
+                    "probability": 0.78515625,
+                    "end": 57.91,
+                    "start": 57.69,
+                    "text": "the "
+                },
+                {
+                    "probability": 0.77978516,
+                    "end": 58.65,
+                    "start": 57.91,
+                    "text": "rewind "
+                },
+                {
+                    "probability": 0.4584961,
+                    "end": 59.71,
+                    "start": 58.65,
+                    "text": "who "
+                },
+                {
+                    "probability": 0.8989258,
+                    "end": 59.97,
+                    "start": 59.71,
+                    "text": "you "
+                },
+                {
+                    "probability": 0.8696289,
+                    "end": 60.33,
+                    "start": 59.97,
+                    "text": "got"
+                }
+            ],
+            "noSpeechProb": 0.008842468,
+            "text": "Big time big play gotta hit the rewind who you got",
+            "avgLogProb": -0.71533203,
+            "end": 60.33,
+            "start": 51.35
+        },
+        {
+            "words": [
+                {
+                    "probability": 0.25854492,
+                    "end": 61.41,
+                    "start": 60.33,
+                    "text": "Pick "
+                },
+                {
+                    "probability": 0.91259766,
+                    "end": 61.67,
+                    "start": 61.41,
+                    "text": "a "
+                },
+                {
+                    "probability": 0.4025879,
+                    "end": 62.03,
+                    "start": 61.67,
+                    "text": "side"
+                }
+            ],
+            "noSpeechProb": 0.008842468,
+            "text": "Pick a side",
+            "avgLogProb": -0.71533203,
+            "end": 62.03,
+            "start": 60.33
+        },
+        {
+            "words": [
+                {
+                    "probability": 0.4807129,
+                    "end": 63.15,
+                    "start": 62.03,
+                    "text": "Rock "
+                },
+                {
+                    "probability": 0.22351074,
+                    "end": 63.59,
+                    "start": 63.15,
+                    "text": "star "
+                },
+                {
+                    "probability": 0.6088867,
+                    "end": 64.25,
+                    "start": 63.59,
+                    "text": "lifestyle "
+                },
+                {
+                    "probability": 0.7988281,
+                    "end": 65.25,
+                    "start": 64.25,
+                    "text": "certified "
+                },
+                {
+                    "probability": 0.5444336,
+                    "end": 65.75,
+                    "start": 65.25,
+                    "text": "wins "
+                },
+                {
+                    "probability": 0.5418091,
+                    "end": 66.59,
+                    "start": 65.75,
+                    "text": "wins "
+                },
+                {
+                    "probability": 0.6118164,
+                    "end": 67.05,
+                    "start": 66.59,
+                    "text": "wins "
+                },
+                {
+                    "probability": 0.5385742,
+                    "end": 67.43,
+                    "start": 67.05,
+                    "text": "wins "
+                },
+                {
+                    "probability": 0.56921387,
+                    "end": 68.15,
+                    "start": 67.43,
+                    "text": "wins "
+                },
+                {
+                    "probability": 0.572937,
+                    "end": 68.25,
+                    "start": 68.15,
+                    "text": "wins "
+                },
+                {
+                    "probability": 0.3605957,
+                    "end": 68.45,
+                    "start": 68.25,
+                    "text": "all "
+                },
+                {
+                    "probability": 0.75390625,
+                    "end": 68.61,
+                    "start": 68.45,
+                    "text": "I "
+                },
+                {
+                    "probability": 0.8251953,
+                    "end": 68.87,
+                    "start": 68.61,
+                    "text": "know"
+                }
+            ],
+            "noSpeechProb": 0.008842468,
+            "text": "Rock star lifestyle certified wins wins wins wins wins wins all I know",
+            "avgLogProb": -0.71533203,
+            "end": 68.87,
+            "start": 62.03
+        },
+        {
+            "words": [
+                {
+                    "probability": 0.41967773,
+                    "end": 69.59,
+                    "start": 68.87,
+                    "text": "We "
+                },
+                {
+                    "probability": 0.2434082,
+                    "end": 69.83,
+                    "start": 69.59,
+                    "text": "go "
+                },
+                {
+                    "probability": 0.1850586,
+                    "end": 70.07,
+                    "start": 69.83,
+                    "text": "hit "
+                },
+                {
+                    "probability": 0.22607422,
+                    "end": 70.25,
+                    "start": 70.07,
+                    "text": "it "
+                },
+                {
+                    "probability": 0.24731445,
+                    "end": 70.63,
+                    "start": 70.25,
+                    "text": "go "
+                },
+                {
+                    "probability": 0.19567871,
+                    "end": 70.93,
+                    "start": 70.63,
+                    "text": "total. "
+                },
+                {
+                    "probability": 0.6269531,
+                    "end": 71.32,
+                    "start": 71.27,
+                    "text": "So "
+                },
+                {
+                    "probability": 0.80322266,
+                    "end": 71.55,
+                    "start": 71.32,
+                    "text": "let's "
+                },
+                {
+                    "probability": 0.79833984,
+                    "end": 71.71,
+                    "start": 71.55,
+                    "text": "see "
+                },
+                {
+                    "probability": 0.8125,
+                    "end": 71.89,
+                    "start": 71.71,
+                    "text": "who "
+                },
+                {
+                    "probability": 0.8300781,
+                    "end": 72.33,
+                    "start": 71.89,
+                    "text": "wins "
+                },
+                {
+                    "probability": 0.58496094,
+                    "end": 72.87,
+                    "start": 72.33,
+                    "text": "wins "
+                },
+                {
+                    "probability": 0.77685547,
+                    "end": 73.43,
+                    "start": 72.87,
+                    "text": "wins "
+                },
+                {
+                    "probability": 0.7861328,
+                    "end": 74.01,
+                    "start": 73.43,
+                    "text": "wins "
+                },
+                {
+                    "probability": 0.74560547,
+                    "end": 74.45,
+                    "start": 74.01,
+                    "text": "wins "
+                },
+                {
+                    "probability": 0.5439453,
+                    "end": 74.81,
+                    "start": 74.45,
+                    "text": "wins "
+                },
+                {
+                    "probability": 0.5439453,
+                    "end": 75.05,
+                    "start": 74.81,
+                    "text": "all "
+                },
+                {
+                    "probability": 0.9790039,
+                    "end": 75.23,
+                    "start": 75.05,
+                    "text": "I "
+                },
+                {
+                    "probability": 0.8251953,
+                    "end": 75.47,
+                    "start": 75.23,
+                    "text": "know"
+                }
+            ],
+            "noSpeechProb": 0.008842468,
+            "text": "We go hit it go total. So let's see who wins wins wins wins wins wins all I know",
+            "avgLogProb": -0.71533203,
+            "end": 75.47,
+            "start": 68.87
+        },
+        {
+            "words": [
+                {
+                    "probability": 0.20654297,
+                    "end": 76.37,
+                    "start": 75.47,
+                    "text": "You "
+                },
+                {
+                    "probability": 0.3996582,
+                    "end": 76.79,
+                    "start": 76.37,
+                    "text": "looking "
+                },
+                {
+                    "probability": 0.89208984,
+                    "end": 77.09,
+                    "start": 76.79,
+                    "text": "at "
+                },
+                {
+                    "probability": 0.8120117,
+                    "end": 77.25,
+                    "start": 77.09,
+                    "text": "the "
+                },
+                {
+                    "probability": 0.15515137,
+                    "end": 77.47,
+                    "start": 77.25,
+                    "text": "go "
+                },
+                {
+                    "probability": 0.39526367,
+                    "end": 77.73,
+                    "start": 77.47,
+                    "text": "for "
+                },
+                {
+                    "probability": 0.82421875,
+                    "end": 77.93,
+                    "start": 77.73,
+                    "text": "real "
+                },
+                {
+                    "probability": 0.15820312,
+                    "end": 78.91,
+                    "start": 77.93,
+                    "text": "wins "
+                },
+                {
+                    "probability": 0.22143555,
+                    "end": 79.67,
+                    "start": 78.91,
+                    "text": "wins "
+                },
+                {
+                    "probability": 0.47705078,
+                    "end": 80.31,
+                    "start": 79.67,
+                    "text": "wins "
+                },
+                {
+                    "probability": 0.44873047,
+                    "end": 80.91,
+                    "start": 80.31,
+                    "text": "wins "
+                },
+                {
+                    "probability": 0.3154297,
+                    "end": 81.33,
+                    "start": 80.91,
+                    "text": "wins "
+                },
+                {
+                    "probability": 0.26171875,
+                    "end": 81.61,
+                    "start": 81.33,
+                    "text": "all "
+                },
+                {
+                    "probability": 0.89453125,
+                    "end": 81.77,
+                    "start": 81.61,
+                    "text": "I "
+                },
+                {
+                    "probability": 0.8076172,
+                    "end": 82.03,
+                    "start": 81.77,
+                    "text": "know"
+                }
+            ],
+            "noSpeechProb": 0.037200928,
+            "text": "You looking at the go for real wins wins wins wins wins all I know",
+            "avgLogProb": -0.4495968,
+            "end": 82.03,
+            "start": 75.47
+        },
+        {
+            "words": [
+                {
+                    "start": 82.03,
+                    "probability": 0.31982422,
+                    "text": "We ",
+                    "end": 82.75
+                },
+                {
+                    "start": 82.75,
+                    "probability": 0.38110352,
+                    "text": "go ",
+                    "end": 82.97
+                },
+                {
+                    "start": 82.97,
+                    "probability": 0.36132812,
+                    "text": "hit ",
+                    "end": 83.23
+                },
+                {
+                    "start": 83.23,
+                    "probability": 0.19055176,
+                    "text": "it ",
+                    "end": 83.41
+                },
+                {
+                    "start": 83.41,
+                    "probability": 0.28955078,
+                    "text": "go ",
+                    "end": 83.77
+                },
+                {
+                    "start": 83.77,
+                    "probability": 0.089904785,
+                    "text": "total. ",
+                    "end": 84.09
+                },
+                {
+                    "start": 84.43,
+                    "probability": 0.6777344,
+                    "text": "So ",
+                    "end": 84.48
+                },
+                {
+                    "start": 84.48,
+                    "probability": 0.8239746,
+                    "text": "let's ",
+                    "end": 84.71
+                },
+                {
+                    "start": 84.71,
+                    "probability": 0.79833984,
+                    "text": "see ",
+                    "end": 84.85
+                },
+                {
+                    "start": 84.85,
+                    "probability": 0.7915039,
+                    "text": "who ",
+                    "end": 85.05
+                },
+                {
+                    "start": 85.05,
+                    "probability": 0.7006836,
+                    "text": "wins ",
+                    "end": 85.47
+                },
+                {
+                    "start": 85.47,
+                    "probability": 0.42016602,
+                    "text": "wins ",
+                    "end": 86.03
+                },
+                {
+                    "start": 86.03,
+                    "probability": 0.72509766,
+                    "text": "wins ",
+                    "end": 86.71
+                },
+                {
+                    "start": 86.71,
+                    "probability": 0.7426758,
+                    "text": "wins ",
+                    "end": 87.35
+                },
+                {
+                    "start": 87.35,
+                    "probability": 0.64746094,
+                    "text": "wins ",
+                    "end": 87.87
+                },
+                {
+                    "start": 87.87,
+                    "probability": 0.34448242,
+                    "text": "all ",
+                    "end": 88.19
+                },
+                {
+                    "start": 88.19,
+                    "probability": 0.99365234,
+                    "text": "I ",
+                    "end": 88.37
+                },
+                {
+                    "start": 88.37,
+                    "probability": 0.8154297,
+                    "text": "know",
+                    "end": 88.63
+                }
+            ],
+            "noSpeechProb": 0.037200928,
+            "text": "We go hit it go total. So let's see who wins wins wins wins wins all I know",
+            "avgLogProb": -0.4495968,
+            "end": 88.63,
+            "start": 82.03
+        },
+        {
+            "words": [
+                {
+                    "start": 88.63,
+                    "probability": 0.8154297,
+                    "text": "You ",
+                    "end": 89.55
+                },
+                {
+                    "start": 89.55,
+                    "probability": 0.7451172,
+                    "text": "looking ",
+                    "end": 89.93
+                },
+                {
+                    "start": 89.93,
+                    "probability": 0.91503906,
+                    "text": "at ",
+                    "end": 90.23
+                },
+                {
+                    "start": 90.23,
+                    "probability": 0.81591797,
+                    "text": "the ",
+                    "end": 90.39
+                },
+                {
+                    "start": 90.39,
+                    "probability": 0.8100586,
+                    "text": "go ",
+                    "end": 90.65
+                },
+                {
+                    "start": 90.65,
+                    "probability": 0.7734375,
+                    "text": "for ",
+                    "end": 90.89
+                },
+                {
+                    "start": 90.89,
+                    "probability": 0.89697266,
+                    "text": "real ",
+                    "end": 91.09
+                },
+                {
+                    "start": 91.09,
+                    "probability": 0.24279785,
+                    "text": "wins ",
+                    "end": 92.03
+                },
+                {
+                    "start": 92.03,
+                    "probability": 0.38623047,
+                    "text": "whole ",
+                    "end": 92.49
+                },
+                {
+                    "start": 92.49,
+                    "probability": 0.5371094,
+                    "text": "lot ",
+                    "end": 92.63
+                },
+                {
+                    "start": 92.63,
+                    "probability": 0.77978516,
+                    "text": "of ",
+                    "end": 92.75
+                },
+                {
+                    "start": 92.75,
+                    "probability": 0.6567383,
+                    "text": "kinetic. ",
+                    "end": 93.11
+                },
+                {
+                    "start": 93.33,
+                    "probability": 0.8901367,
+                    "text": "I've ",
+                    "end": 93.39
+                },
+                {
+                    "start": 93.39,
+                    "probability": 0.85058594,
+                    "text": "been ",
+                    "end": 93.55
+                },
+                {
+                    "start": 93.55,
+                    "probability": 0.6074219,
+                    "text": "in ",
+                    "end": 93.75
+                },
+                {
+                    "start": 93.75,
+                    "probability": 0.87060547,
+                    "text": "motion ",
+                    "end": 94.11
+                },
+                {
+                    "start": 94.11,
+                    "probability": 0.3701172,
+                    "text": "a ",
+                    "end": 94.29
+                },
+                {
+                    "start": 94.29,
+                    "probability": 0.7626953,
+                    "text": "lot ",
+                    "end": 94.41
+                },
+                {
+                    "start": 94.41,
+                    "probability": 0.88671875,
+                    "text": "of ",
+                    "end": 94.55
+                },
+                {
+                    "start": 94.55,
+                    "probability": 0.5805664,
+                    "text": "wins",
+                    "end": 94.81
+                }
+            ],
+            "noSpeechProb": 0.037200928,
+            "text": "You looking at the go for real wins whole lot of kinetic. I've been in motion a lot of wins",
+            "avgLogProb": -0.4495968,
+            "end": 94.81,
+            "start": 88.63
+        },
+        {
+            "words": [
+                {
+                    "start": 94.81,
+                    "probability": 0.8967285,
+                    "text": "I've ",
+                    "end": 95.01
+                },
+                {
+                    "start": 95.01,
+                    "probability": 0.83740234,
+                    "text": "been ",
+                    "end": 95.17
+                },
+                {
+                    "start": 95.17,
+                    "probability": 0.85302734,
+                    "text": "in ",
+                    "end": 95.35
+                },
+                {
+                    "start": 95.35,
+                    "probability": 0.7504883,
+                    "text": "focus ",
+                    "end": 95.75
+                },
+                {
+                    "start": 95.75,
+                    "probability": 0.2541504,
+                    "text": "a ",
+                    "end": 95.97
+                },
+                {
+                    "start": 95.97,
+                    "probability": 0.828125,
+                    "text": "lot ",
+                    "end": 96.03
+                },
+                {
+                    "start": 96.03,
+                    "probability": 0.640625,
+                    "text": "of ",
+                    "end": 96.19
+                },
+                {
+                    "start": 96.19,
+                    "probability": 0.34301758,
+                    "text": "hey, ",
+                    "end": 96.43
+                },
+                {
+                    "start": 96.49,
+                    "probability": 0.5629883,
+                    "text": "they ",
+                    "end": 96.59
+                },
+                {
+                    "start": 96.59,
+                    "probability": 0.46923828,
+                    "text": "I ",
+                    "end": 96.73
+                },
+                {
+                    "start": 96.73,
+                    "probability": 0.4543457,
+                    "text": "want ",
+                    "end": 96.87
+                },
+                {
+                    "start": 96.87,
+                    "probability": 0.84814453,
+                    "text": "to ",
+                    "end": 97.03
+                },
+                {
+                    "start": 97.03,
+                    "probability": 0.49169922,
+                    "text": "doubt ",
+                    "end": 97.27
+                },
+                {
+                    "start": 97.27,
+                    "probability": 0.6582031,
+                    "text": "the ",
+                    "end": 97.47
+                },
+                {
+                    "start": 97.47,
+                    "probability": 0.59472656,
+                    "text": "boy, ",
+                    "end": 97.63
+                },
+                {
+                    "start": 97.77,
+                    "probability": 0.9140625,
+                    "text": "but ",
+                    "end": 97.85
+                },
+                {
+                    "start": 97.85,
+                    "probability": 0.51171875,
+                    "text": "now ",
+                    "end": 98.03
+                },
+                {
+                    "start": 98.03,
+                    "probability": 0.55029297,
+                    "text": "I ",
+                    "end": 98.15
+                },
+                {
+                    "start": 98.15,
+                    "probability": 0.6333008,
+                    "text": "gotta ",
+                    "end": 98.43
+                },
+                {
+                    "start": 98.43,
+                    "probability": 0.8979492,
+                    "text": "be ",
+                    "end": 98.65
+                },
+                {
+                    "start": 98.65,
+                    "probability": 0.7661133,
+                    "text": "joking",
+                    "end": 99.05
+                }
+            ],
+            "noSpeechProb": 0.037200928,
+            "text": "I've been in focus a lot of hey, they I want to doubt the boy, but now I gotta be joking",
+            "avgLogProb": -0.4495968,
+            "end": 99.05,
+            "start": 94.81
+        },
+        {
+            "words": [
+                {
+                    "start": 99.05,
+                    "probability": 0.30273438,
+                    "text": "Oh, ",
+                    "end": 99.23
+                },
+                {
+                    "start": 99.25,
+                    "probability": 0.890625,
+                    "text": "you ",
+                    "end": 99.33
+                },
+                {
+                    "start": 99.33,
+                    "probability": 0.48608398,
+                    "text": "seen ",
+                    "end": 99.51
+                },
+                {
+                    "start": 99.51,
+                    "probability": 0.5722656,
+                    "text": "him ",
+                    "end": 99.63
+                },
+                {
+                    "start": 99.63,
+                    "probability": 0.86279297,
+                    "text": "on ",
+                    "end": 99.77
+                },
+                {
+                    "start": 99.77,
+                    "probability": 0.35058594,
+                    "text": "the ",
+                    "end": 99.93
+                },
+                {
+                    "start": 99.93,
+                    "probability": 0.60058594,
+                    "text": "rise. ",
+                    "end": 100.21
+                },
+                {
+                    "start": 100.39,
+                    "probability": 0.5732422,
+                    "text": "No, ",
+                    "end": 100.79
+                },
+                {
+                    "start": 100.81,
+                    "probability": 0.8964844,
+                    "text": "you ",
+                    "end": 100.93
+                },
+                {
+                    "start": 100.93,
+                    "probability": 0.66845703,
+                    "text": "seen ",
+                    "end": 101.11
+                },
+                {
+                    "start": 101.11,
+                    "probability": 0.82470703,
+                    "text": "him ",
+                    "end": 101.23
+                },
+                {
+                    "start": 101.23,
+                    "probability": 0.87890625,
+                    "text": "on ",
+                    "end": 101.37
+                },
+                {
+                    "start": 101.37,
+                    "probability": 0.4831543,
+                    "text": "a ",
+                    "end": 101.55
+                },
+                {
+                    "start": 101.55,
+                    "probability": 0.50683594,
+                    "text": "sign.",
+                    "end": 101.85
+                }
+            ],
+            "noSpeechProb": 0.037200928,
+            "text": "Oh, you seen him on the rise. No, you seen him on a sign.",
+            "avgLogProb": -0.4495968,
+            "end": 101.85,
+            "start": 99.05
+        },
+        {
+            "words": [
+                {
+                    "start": 102.07,
+                    "probability": 0.94555664,
+                    "text": "It's ",
+                    "end": 102.53
+                },
+                {
+                    "start": 102.53,
+                    "probability": 0.9794922,
+                    "text": "a ",
+                    "end": 102.65
+                },
+                {
+                    "start": 102.65,
+                    "probability": 0.8769531,
+                    "text": "movie ",
+                    "end": 102.85
+                },
+                {
+                    "start": 102.85,
+                    "probability": 0.6923828,
+                    "text": "in ",
+                    "end": 103.15
+                },
+                {
+                    "start": 103.15,
+                    "probability": 0.86572266,
+                    "text": "real ",
+                    "end": 103.41
+                },
+                {
+                    "start": 103.41,
+                    "probability": 0.8125,
+                    "text": "life. ",
+                    "end": 103.75
+                },
+                {
+                    "start": 103.81,
+                    "probability": 0.92333984,
+                    "text": "It's ",
+                    "end": 103.99
+                },
+                {
+                    "start": 103.99,
+                    "probability": 0.82128906,
+                    "text": "real ",
+                    "end": 104.25
+                },
+                {
+                    "start": 104.25,
+                    "probability": 0.59375,
+                    "text": "life ",
+                    "end": 104.49
+                },
+                {
+                    "start": 104.49,
+                    "probability": 0.6682129,
+                    "text": "televised",
+                    "end": 105.15
+                }
+            ],
+            "noSpeechProb": 0.037200928,
+            "text": "It's a movie in real life. It's real life televised",
+            "avgLogProb": -0.4495968,
+            "end": 105.15,
+            "start": 102.07
+        },
+        {
+            "words": [
+                {
+                    "start": 105.47,
+                    "probability": 0.18566895,
+                    "text": "Check ",
+                    "end": 105.77
+                },
+                {
+                    "start": 105.77,
+                    "probability": 0.76708984,
+                    "text": "the ",
+                    "end": 106.05
+                },
+                {
+                    "start": 106.05,
+                    "probability": 0.5830078,
+                    "text": "wrist",
+                    "end": 106.37
+                }
+            ],
+            "noSpeechProb": 0.0020179749,
+            "text": "Check the wrist",
+            "avgLogProb": -0.48325893,
+            "end": 106.37,
+            "start": 105.47
+        },
+        {
+            "words": [
+                {
+                    "start": 106.37,
+                    "probability": 0.05908203,
+                    "text": "Big ",
+                    "end": 107.51
+                },
+                {
+                    "start": 107.51,
+                    "probability": 0.75146484,
+                    "text": "time",
+                    "end": 108.05
+                }
+            ],
+            "noSpeechProb": 0.0020179749,
+            "text": "Big time",
+            "avgLogProb": -0.48325893,
+            "end": 108.05,
+            "start": 106.37
+        },
+        {
+            "words": [
+                {
+                    "start": 108.05,
+                    "probability": 0.27148438,
+                    "text": "Big ",
+                    "end": 109.13
+                },
+                {
+                    "start": 109.13,
+                    "probability": 0.6977539,
+                    "text": "play ",
+                    "end": 109.59
+                },
+                {
+                    "start": 109.59,
+                    "probability": 0.53466797,
+                    "text": "gotta ",
+                    "end": 109.95
+                },
+                {
+                    "start": 109.95,
+                    "probability": 0.90234375,
+                    "text": "hit ",
+                    "end": 110.29
+                },
+                {
+                    "start": 110.29,
+                    "probability": 0.7988281,
+                    "text": "the ",
+                    "end": 110.51
+                },
+                {
+                    "start": 110.51,
+                    "probability": 0.8364258,
+                    "text": "rewind",
+                    "end": 111.25
+                }
+            ],
+            "noSpeechProb": 0.0020179749,
+            "text": "Big play gotta hit the rewind",
+            "avgLogProb": -0.48325893,
+            "end": 111.25,
+            "start": 108.05
+        },
+        {
+            "words": [
+                {
+                    "start": 111.25,
+                    "probability": 0.6142578,
+                    "text": "Who ",
+                    "end": 112.33
+                },
+                {
+                    "start": 112.33,
+                    "probability": 0.85839844,
+                    "text": "you ",
+                    "end": 112.55
+                },
+                {
+                    "start": 112.55,
+                    "probability": 0.91552734,
+                    "text": "got?",
+                    "end": 113.25
+                }
+            ],
+            "noSpeechProb": 0.0020179749,
+            "text": "Who you got?",
+            "avgLogProb": -0.48325893,
+            "end": 113.25,
+            "start": 111.25
+        },
+        {
+            "words": [
+                {
+                    "start": 113.85,
+                    "probability": 0.74121094,
+                    "text": "Pick ",
+                    "end": 114.05
+                },
+                {
+                    "start": 114.05,
+                    "probability": 0.9863281,
+                    "text": "a ",
+                    "end": 114.27
+                },
+                {
+                    "start": 114.27,
+                    "probability": 0.22827148,
+                    "text": "size",
+                    "end": 114.65
+                }
+            ],
+            "noSpeechProb": 0.0020179749,
+            "text": "Pick a size",
+            "avgLogProb": -0.48325893,
+            "end": 114.65,
+            "start": 113.85
+        },
+        {
+            "words": [
+                {
+                    "start": 114.65,
+                    "probability": 0.63134766,
+                    "text": "Rock ",
+                    "end": 115.77
+                },
+                {
+                    "start": 115.77,
+                    "probability": 0.1270752,
+                    "text": "star ",
+                    "end": 116.19
+                },
+                {
+                    "start": 116.19,
+                    "probability": 0.5839844,
+                    "text": "lifestyle ",
+                    "end": 116.75
+                },
+                {
+                    "start": 116.75,
+                    "probability": 0.7529297,
+                    "text": "certified ",
+                    "end": 117.81
+                },
+                {
+                    "start": 117.81,
+                    "probability": 0.058441162,
+                    "text": "wins ",
+                    "end": 118.33
+                },
+                {
+                    "start": 118.33,
+                    "probability": 0.17333984,
+                    "text": "wins ",
+                    "end": 119.09
+                },
+                {
+                    "start": 119.09,
+                    "probability": 0.55126953,
+                    "text": "wins ",
+                    "end": 119.65
+                },
+                {
+                    "start": 119.65,
+                    "probability": 0.5546875,
+                    "text": "wins ",
+                    "end": 120.07
+                },
+                {
+                    "start": 120.07,
+                    "probability": 0.515625,
+                    "text": "wins ",
+                    "end": 120.47
+                },
+                {
+                    "start": 120.47,
+                    "probability": 0.13623047,
+                    "text": "all ",
+                    "end": 121.05
+                },
+                {
+                    "start": 121.05,
+                    "probability": 0.7558594,
+                    "text": "I ",
+                    "end": 121.23
+                },
+                {
+                    "start": 121.23,
+                    "probability": 0.82373047,
+                    "text": "know",
+                    "end": 121.47
+                }
+            ],
+            "noSpeechProb": 0.0020179749,
+            "text": "Rock star lifestyle certified wins wins wins wins wins all I know",
+            "avgLogProb": -0.48325893,
+            "end": 121.47,
+            "start": 114.65
+        },
+        {
+            "words": [
+                {
+                    "start": 121.47,
+                    "probability": 0.45214844,
+                    "text": "We ",
+                    "end": 122.21
+                },
+                {
+                    "start": 122.21,
+                    "probability": 0.052947998,
+                    "text": "go ",
+                    "end": 122.43
+                },
+                {
+                    "start": 122.43,
+                    "probability": 0.035614014,
+                    "text": "hit ",
+                    "end": 122.67
+                },
+                {
+                    "start": 122.67,
+                    "probability": 0.20666504,
+                    "text": "it ",
+                    "end": 122.85
+                },
+                {
+                    "start": 122.85,
+                    "probability": 0.0859375,
+                    "text": "go ",
+                    "end": 123.19
+                },
+                {
+                    "start": 123.19,
+                    "probability": 0.005519867,
+                    "text": "total. ",
+                    "end": 123.53
+                },
+                {
+                    "start": 123.89,
+                    "probability": 0.31396484,
+                    "text": "So ",
+                    "end": 123.94
+                },
+                {
+                    "start": 123.94,
+                    "probability": 0.8718262,
+                    "text": "let's ",
+                    "end": 124.15
+                },
+                {
+                    "start": 124.15,
+                    "probability": 0.7939453,
+                    "text": "see ",
+                    "end": 124.31
+                },
+                {
+                    "start": 124.31,
+                    "probability": 0.8173828,
+                    "text": "who ",
+                    "end": 124.51
+                },
+                {
+                    "start": 124.51,
+                    "probability": 0.8535156,
+                    "text": "wins ",
+                    "end": 124.93
+                },
+                {
+                    "start": 124.93,
+                    "probability": 0.5913086,
+                    "text": "wins ",
+                    "end": 125.45
+                },
+                {
+                    "start": 125.45,
+                    "probability": 0.7636719,
+                    "text": "wins ",
+                    "end": 126.07
+                },
+                {
+                    "start": 126.07,
+                    "probability": 0.7763672,
+                    "text": "wins ",
+                    "end": 126.61
+                },
+                {
+                    "start": 126.61,
+                    "probability": 0.7446289,
+                    "text": "wins ",
+                    "end": 127.05
+                },
+                {
+                    "start": 127.05,
+                    "probability": 0.14172363,
+                    "text": "all ",
+                    "end": 127.63
+                },
+                {
+                    "start": 127.63,
+                    "probability": 0.9682617,
+                    "text": "I ",
+                    "end": 127.83
+                },
+                {
+                    "start": 127.83,
+                    "probability": 0.8232422,
+                    "text": "know",
+                    "end": 128.09
+                }
+            ],
+            "noSpeechProb": 0.0020179749,
+            "text": "We go hit it go total. So let's see who wins wins wins wins wins all I know",
+            "avgLogProb": -0.48325893,
+            "end": 128.09,
+            "start": 121.47
+        },
+        {
+            "words": [
+                {
+                    "start": 128.09,
+                    "probability": 0.6743164,
+                    "text": "You ",
+                    "end": 128.97
+                },
+                {
+                    "start": 128.97,
+                    "probability": 0.64501953,
+                    "text": "looking ",
+                    "end": 129.35
+                },
+                {
+                    "start": 129.35,
+                    "probability": 0.9199219,
+                    "text": "at ",
+                    "end": 129.69
+                },
+                {
+                    "start": 129.69,
+                    "probability": 0.8144531,
+                    "text": "the ",
+                    "end": 129.85
+                },
+                {
+                    "start": 129.85,
+                    "probability": 0.33129883,
+                    "text": "go ",
+                    "end": 130.09
+                },
+                {
+                    "start": 130.09,
+                    "probability": 0.55371094,
+                    "text": "for ",
+                    "end": 130.33
+                },
+                {
+                    "start": 130.33,
+                    "probability": 0.85253906,
+                    "text": "real ",
+                    "end": 130.51
+                },
+                {
+                    "start": 130.51,
+                    "probability": 0.43237305,
+                    "text": "wins ",
+                    "end": 131.51
+                },
+                {
+                    "start": 131.51,
+                    "probability": 0.66064453,
+                    "text": "wins ",
+                    "end": 132.01
+                },
+                {
+                    "start": 132.01,
+                    "probability": 0.7714844,
+                    "text": "wins ",
+                    "end": 132.61
+                },
+                {
+                    "start": 132.61,
+                    "probability": 0.7963867,
+                    "text": "wins ",
+                    "end": 133.17
+                },
+                {
+                    "start": 133.17,
+                    "probability": 0.7270508,
+                    "text": "wins ",
+                    "end": 133.61
+                },
+                {
+                    "start": 133.61,
+                    "probability": 0.38720703,
+                    "text": "wins ",
+                    "end": 133.97
+                },
+                {
+                    "start": 133.97,
+                    "probability": 0.7001953,
+                    "text": "all ",
+                    "end": 134.21
+                },
+                {
+                    "start": 134.21,
+                    "probability": 0.9716797,
+                    "text": "I ",
+                    "end": 134.39
+                },
+                {
+                    "start": 134.39,
+                    "probability": 0.81689453,
+                    "text": "know",
+                    "end": 134.63
+                }
+            ],
+            "noSpeechProb": 0.0020179749,
+            "text": "You looking at the go for real wins wins wins wins wins wins all I know",
+            "avgLogProb": -0.48325893,
+            "end": 134.63,
+            "start": 128.09
+        },
+        {
+            "words": [
+                {
+                    "start": 134.63,
+                    "text": "We ",
+                    "end": 135.33,
+                    "probability": 0.19592285
+                },
+                {
+                    "start": 135.33,
+                    "text": "go ",
+                    "end": 135.59,
+                    "probability": 0.03213501
+                },
+                {
+                    "start": 135.59,
+                    "text": "hit ",
+                    "end": 135.83,
+                    "probability": 0.08972168
+                },
+                {
+                    "start": 135.83,
+                    "text": "it ",
+                    "end": 136.03,
+                    "probability": 0.32666016
+                },
+                {
+                    "start": 136.03,
+                    "text": "go ",
+                    "end": 136.35,
+                    "probability": 0.09411621
+                },
+                {
+                    "start": 136.35,
+                    "text": "total ",
+                    "end": 136.71,
+                    "probability": 0.03326416
+                },
+                {
+                    "start": 136.71,
+                    "text": "so ",
+                    "end": 137.03,
+                    "probability": 0.04031372
+                },
+                {
+                    "start": 137.03,
+                    "text": "let's ",
+                    "end": 137.31,
+                    "probability": 0.89819336
+                },
+                {
+                    "start": 137.31,
+                    "text": "see ",
+                    "end": 137.47,
+                    "probability": 0.7895508
+                },
+                {
+                    "start": 137.47,
+                    "text": "who ",
+                    "end": 137.67,
+                    "probability": 0.7939453
+                },
+                {
+                    "start": 137.67,
+                    "text": "wins ",
+                    "end": 138.07,
+                    "probability": 0.7128906
+                },
+                {
+                    "start": 138.07,
+                    "text": "wins ",
+                    "end": 138.91,
+                    "probability": 0.32080078
+                },
+                {
+                    "start": 138.91,
+                    "text": "wins ",
+                    "end": 139.71,
+                    "probability": 0.6430664
+                },
+                {
+                    "start": 139.71,
+                    "text": "wins ",
+                    "end": 140.49,
+                    "probability": 0.51416016
+                },
+                {
+                    "start": 140.49,
+                    "text": "wins ",
+                    "end": 140.57,
+                    "probability": 0.18896484
+                },
+                {
+                    "start": 140.57,
+                    "text": "all ",
+                    "end": 140.79,
+                    "probability": 0.46142578
+                },
+                {
+                    "start": 140.79,
+                    "text": "I ",
+                    "end": 140.99,
+                    "probability": 0.9511719
+                },
+                {
+                    "start": 140.99,
+                    "text": "know",
+                    "end": 141.25,
+                    "probability": 0.81884766
+                }
+            ],
+            "noSpeechProb": 0.022628784,
+            "text": "We go hit it go total so let's see who wins wins wins wins wins all I know",
+            "avgLogProb": -0.40246212,
+            "end": 141.25,
+            "start": 134.63
+        },
+        {
+            "words": [
+                {
+                    "start": 141.25,
+                    "text": "You ",
+                    "end": 142.15,
+                    "probability": 0.40307617
+                },
+                {
+                    "start": 142.15,
+                    "text": "looking ",
+                    "end": 142.55,
+                    "probability": 0.6826172
+                },
+                {
+                    "start": 142.55,
+                    "text": "at ",
+                    "end": 142.83,
+                    "probability": 0.9194336
+                },
+                {
+                    "start": 142.83,
+                    "text": "the ",
+                    "end": 142.99,
+                    "probability": 0.8100586
+                },
+                {
+                    "start": 142.99,
+                    "text": "go ",
+                    "end": 143.25,
+                    "probability": 0.45922852
+                },
+                {
+                    "start": 143.25,
+                    "text": "for ",
+                    "end": 143.49,
+                    "probability": 0.48168945
+                },
+                {
+                    "start": 143.49,
+                    "text": "real ",
+                    "end": 143.71,
+                    "probability": 0.68310547
+                },
+                {
+                    "start": 143.71,
+                    "text": "wins ",
+                    "end": 144.65,
+                    "probability": 0.14282227
+                },
+                {
+                    "start": 144.65,
+                    "text": "wins",
+                    "end": 145.65,
+                    "probability": 0.5908203
+                }
+            ],
+            "noSpeechProb": 0.022628784,
+            "text": "You looking at the go for real wins wins",
+            "avgLogProb": -0.40246212,
+            "end": 157.78,
+            "start": 141.25
+        }
+    ],
+    "match": true,
+    "version": "1.0.0_rc9",
+    "language": "english"
+}
