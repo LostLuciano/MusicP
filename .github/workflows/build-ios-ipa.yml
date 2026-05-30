@@ -1,99 +1,91 @@
-name: Build iOS IPA (Unsigned)
+name: Build iOS IPA
 
 on:
   push:
-    branches: [ main, master ]
-  pull_request:
-    branches: [ main, master ]
-  workflow_dispatch:       # Allows manual trigger from GitHub UI
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build-ios-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  FLUTTER_PROJECT_DIR: flutter_app
+  IPA_NAME: MusicP.ipa
 
 jobs:
   build-ios:
-    name: Build Unsigned IPA
+    name: Build iOS App Unsigned
     runs-on: macos-latest
+    timeout-minutes: 60
 
     steps:
-      # ── 1. Checkout ──────────────────────────────────────────────────────
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          lfs: true        # Pull Git LFS files (models, audio assets)
 
-      # ── 2. Java (needed by Flutter/Gradle toolchain) ─────────────────────
-      - name: Set up Java 17
-        uses: actions/setup-java@v4
-        with:
-          java-version: '17'
-          distribution: 'temurin'
-
-      # ── 3. Flutter SDK ───────────────────────────────────────────────────
-      #   Local dev uses Flutter 3.41.6 / Dart 3.11.4
-      #   pubspec.yaml sdk constraint: ^3.11.4
-      - name: Set up Flutter
+      - name: Setup Flutter SDK
         uses: subosito/flutter-action@v2
         with:
-          channel: 'stable'           # Always latest stable (no version pin)
+          channel: stable
           cache: true
 
-      - name: Print Flutter & Dart version
+      - name: Show Flutter Version
         run: flutter --version
 
-      # ── 4. Install Dart/Flutter dependencies ─────────────────────────────
-      - name: flutter pub get
-        working-directory: flutter_app
-        run: flutter pub get
-
-      # ── 5. Run Dart Analyzer (non-fatal warnings OK) ─────────────────────
-      - name: flutter analyze
-        working-directory: flutter_app
-        run: flutter analyze --no-fatal-infos || true
-
-      # ── 6. Install CocoaPods ─────────────────────────────────────────────
-      - name: Install CocoaPods & pod install
-        working-directory: flutter_app/ios
+      - name: Install Flutter Dependencies
+        working-directory: ${{ env.FLUTTER_PROJECT_DIR }}
         run: |
+          flutter pub get
+          flutter precache --ios
+
+      - name: Install iOS Pods
+        working-directory: ${{ env.FLUTTER_PROJECT_DIR }}
+        run: |
+          # Generate the Podfile and Xcode workspace settings using Flutter config-only build
+          flutter build ios --config-only
+          
+          # Install CocoaPods & run pod install
           gem install cocoapods --no-document
+          cd ios
           pod install --repo-update
 
-      # ── 7. Build iOS release (no code signing) ───────────────────────────
-      #   flutter build ios --no-codesign produces a Release .app in
-      #   flutter_app/build/ios/iphoneos/Runner.app
-      - name: Build iOS archive (unsigned)
-        working-directory: flutter_app
+      - name: Build iOS App Release No Codesign
+        working-directory: ${{ env.FLUTTER_PROJECT_DIR }}
         run: |
-          flutter build ios \
-            --release \
-            --no-codesign \
-            --dart-define=FLUTTER_BUILD_NAME=1.0.0 \
-            --dart-define=FLUTTER_BUILD_NUMBER=${{ github.run_number }}
+          flutter build ios --release --no-codesign
 
-      # ── 8. Package .app → .ipa (Payload zip method) ──────────────────────
-      - name: Package unsigned IPA
-        shell: bash
+      - name: Package Runner.app into IPA
         run: |
           set -e
-          APP_PATH="flutter_app/build/ios/iphoneos/Runner.app"
-          IPA_NAME="MusicStemStudio_unsigned_build${{ github.run_number }}.ipa"
 
-          mkdir -p Payload
-          cp -r "$APP_PATH" Payload/
-          zip -r "$IPA_NAME" Payload/
-          echo "IPA_NAME=$IPA_NAME" >> $GITHUB_ENV
-          echo "✅ IPA created: $IPA_NAME ($(du -sh "$IPA_NAME" | cut -f1))"
+          APP_PATH="${{ env.FLUTTER_PROJECT_DIR }}/build/ios/iphoneos/Runner.app"
+          IPA_PATH="${{ github.workspace }}/${{ env.FLUTTER_PROJECT_DIR }}/${{ env.IPA_NAME }}"
+          PACKAGE_DIR="${RUNNER_TEMP}/ipa_package"
 
-      # ── 9. Upload IPA as downloadable artifact ────────────────────────────
-      - name: Upload IPA artifact
+          if [ ! -d "$APP_PATH" ]; then
+            echo "Runner.app not found at: $APP_PATH"
+            exit 1
+          fi
+
+          rm -rf "$PACKAGE_DIR"
+          mkdir -p "$PACKAGE_DIR/Payload"
+
+          cp -R "$APP_PATH" "$PACKAGE_DIR/Payload/"
+
+          cd "$PACKAGE_DIR"
+          zip -r "$IPA_PATH" Payload
+
+          echo "IPA created:"
+          ls -lh "$IPA_PATH"
+
+      - name: Upload IPA Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: MusicStemStudio-IPA-unsigned-build${{ github.run_number }}
-          path: ${{ env.IPA_NAME }}
+          name: MusicP-iOS-IPA
+          path: ${{ env.FLUTTER_PROJECT_DIR }}/${{ env.IPA_NAME }}
           retention-days: 30
-
-      # ── 10. Upload dSYMs for crash symbolication (optional) ──────────────
-      - name: Upload dSYMs artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: MusicStemStudio-dSYMs-build${{ github.run_number }}
-          path: flutter_app/build/ios/iphoneos/**/*.dSYM
-          retention-days: 14
-          if-no-files-found: ignore
