@@ -72,6 +72,8 @@
 	<string>Aplikasi membutuhkan kamera untuk merekam video saat bermain musik.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Aplikasi membutuhkan akses galeri untuk memilih media dan video.</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Aplikasi membutuhkan akses ke galeri musik/media untuk mengimpor file lagu.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>Aplikasi membutuhkan akses untuk menyimpan hasil rekaman ke galeri.</string>
 	<key>NSDocumentsFolderUsageDescription</key>
