@@ -20,13 +20,18 @@ jobs:
           echo "$GITHUB_WORKSPACE/flutter/bin" >> $GITHUB_PATH
 
       - name: Install Dependencies
-        run: flutter pub get
+        run: |
+          cd flutter_app
+          flutter pub get
 
       - name: Build Release iOS App (No Codesign)
-        run: flutter build ios --no-codesign --release
+        run: |
+          cd flutter_app
+          flutter build ios --no-codesign --release
 
       - name: Package into IPA (Unsigned)
         run: |
+          cd flutter_app
           mkdir -p Payload
           mv build/ios/iphoneos/Runner.app Payload/
           zip -r MoneyAssist.ipa Payload
@@ -35,4 +40,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: money-assist-ios-ipa
-          path: MoneyAssist.ipa
+          path: flutter_app/MoneyAssist.ipa
