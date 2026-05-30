@@ -43,16 +43,6 @@ jobs:
           flutter pub get
           flutter precache --ios
 
-      - name: Install iOS Pods
-        working-directory: ${{ env.FLUTTER_PROJECT_DIR }}
-        run: |
-          # Generate the Podfile and Xcode workspace settings using Flutter config-only build
-          flutter build ios --config-only --no-codesign
-          
-          # Install CocoaPods & run pod install
-          gem install cocoapods --no-document
-          cd ios
-          pod install --repo-update
 
       - name: Build iOS App Release No Codesign
         working-directory: ${{ env.FLUTTER_PROJECT_DIR }}
