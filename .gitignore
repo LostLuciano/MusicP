@@ -65,7 +65,7 @@ Payload/
 *.ipa
 *.dylib
 *.framework
-*.mlmodelc
+# *.mlmodelc
 *.app
 IPA_ANALYSIS_REPORT.md
 DYLIB_ANALYSIS_REPORT.md
@@ -81,8 +81,10 @@ combine.py
 *.pth
 *.bin
 *.weights
-*.mlpackage
-*.mlmodel
+# *.mlpackage
+# *.mlmodel
 
 # Exceptions
 !models_placeholder/*.README
+!**/*.mlmodelc/**/*.bin
+!**/*.mlmodelc/**/*.weights
