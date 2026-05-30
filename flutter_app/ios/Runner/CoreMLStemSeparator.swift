@@ -65,8 +65,18 @@ public class CoreMLStemSeparator {
                     outputDictionary[stem] = stemURL
                 }
             } else {
-                print("Warning: Bundle resource \(resourceName).m4a not found!")
-                outputDictionary[stem] = stemURL
+                print("Warning: Bundle resource \(resourceName).m4a not found! Falling back to original mixture.")
+                if FileManager.default.fileExists(atPath: stemURL.path) {
+                    try? FileManager.default.removeItem(at: stemURL)
+                }
+                do {
+                    try FileManager.default.copyItem(at: audioURL, to: stemURL)
+                    outputDictionary[stem] = stemURL
+                    print("Copied original mixture as fallback for \(stem) -> \(stemURL.lastPathComponent)")
+                } catch {
+                    print("Error copying original mixture as fallback: \(error.localizedDescription)")
+                    outputDictionary[stem] = stemURL
+                }
             }
         }
         

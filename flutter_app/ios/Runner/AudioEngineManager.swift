@@ -16,7 +16,19 @@ public class AudioEngineManager {
     private let stemNames = ["vocals", "drums", "bass", "guitar", "piano", "other"]
     
     public init() {
+        configureAudioSession()
         setupAudioEngine()
+    }
+    
+    private func configureAudioSession() {
+        let audioSession = AVAudioSession.sharedInstance()
+        do {
+            try audioSession.setCategory(.playback, mode: .default, options: [])
+            try audioSession.setActive(true)
+            print("AVAudioSession: Configured category to .playback for background audio.")
+        } catch {
+            print("AVAudioSession: Failed to set category: \(error.localizedDescription)")
+        }
     }
     
     /// Initializes player nodes, attaches them to the audio engine graph, and configures mixer routing.

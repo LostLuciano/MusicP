@@ -162,6 +162,34 @@ class ChordSegment {
   }
 }
 
+class LyricLine {
+  final String id;
+  final int timeMs;
+  final String text;
+
+  const LyricLine({
+    required this.id,
+    required this.timeMs,
+    required this.text,
+  });
+
+  factory LyricLine.fromJson(Map<String, dynamic> json) {
+    return LyricLine(
+      id: json['id'] as String? ?? '',
+      timeMs: json['timeMs'] as int,
+      text: json['text'] as String,
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'timeMs': timeMs,
+      'text': text,
+    };
+  }
+}
+
 class AudioProject {
   final String id;
   final String title;
@@ -178,6 +206,9 @@ class AudioProject {
   final StemFiles? stemFiles;
   final List<RecordingTake> recordings;
   final List<ChordSegment> chordSegments;
+  final String? plainLyrics;
+  final String? syncedLyrics;
+  final List<LyricLine> lyricLines;
 
   const AudioProject({
     required this.id,
@@ -195,6 +226,9 @@ class AudioProject {
     this.stemFiles,
     this.recordings = const [],
     this.chordSegments = const [],
+    this.plainLyrics,
+    this.syncedLyrics,
+    this.lyricLines = const [],
   });
 
   factory AudioProject.fromJson(Map<String, dynamic> json) {
@@ -234,6 +268,12 @@ class AudioProject {
               ?.map((item) => ChordSegment.fromJson(item as Map<String, dynamic>))
               .toList() ??
           [],
+      plainLyrics: json['plainLyrics'] as String?,
+      syncedLyrics: json['syncedLyrics'] as String?,
+      lyricLines: (json['lyricLines'] as List<dynamic>?)
+              ?.map((item) => LyricLine.fromJson(item as Map<String, dynamic>))
+              .toList() ??
+          [],
     );
   }
 
@@ -254,6 +294,9 @@ class AudioProject {
       'stemFiles': stemFiles?.toJson(),
       'recordings': recordings.map((item) => item.toJson()).toList(),
       'chordSegments': chordSegments.map((item) => item.toJson()).toList(),
+      'plainLyrics': plainLyrics,
+      'syncedLyrics': syncedLyrics,
+      'lyricLines': lyricLines.map((item) => item.toJson()).toList(),
     };
   }
 
@@ -271,6 +314,9 @@ class AudioProject {
     StemFiles? stemFiles,
     List<RecordingTake>? recordings,
     List<ChordSegment>? chordSegments,
+    String? plainLyrics,
+    String? syncedLyrics,
+    List<LyricLine>? lyricLines,
   }) {
     return AudioProject(
       id: id,
@@ -288,6 +334,9 @@ class AudioProject {
       stemFiles: stemFiles ?? this.stemFiles,
       recordings: recordings ?? this.recordings,
       chordSegments: chordSegments ?? this.chordSegments,
+      plainLyrics: plainLyrics ?? this.plainLyrics,
+      syncedLyrics: syncedLyrics ?? this.syncedLyrics,
+      lyricLines: lyricLines ?? this.lyricLines,
     );
   }
 }

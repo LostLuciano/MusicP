@@ -8,6 +8,7 @@ import '../services/audio_player_service.dart';
 import '../services/audio_recorder_service.dart';
 import '../services/camera_recording_service.dart';
 import '../services/native_ios_audio_service.dart';
+import '../services/lyrics_service.dart';
 
 class ProjectController with ChangeNotifier {
   final ProjectRepository _repository = ProjectRepository();
@@ -15,12 +16,14 @@ class ProjectController with ChangeNotifier {
   final AudioPlayerService _playerService = AudioPlayerService();
   final AudioRecorderService _recorderService = AudioRecorderService();
   final CameraRecordingService _cameraService = CameraRecordingService();
+  final LyricsService _lyricsService = LyricsService();
   final Uuid _uuid = const Uuid();
 
   List<AudioProject> _projects = [];
   AudioProject? _activeProject;
   bool _isLoading = false;
   bool _isRecording = false;
+  bool _isSearchingLyrics = false;
   String? _recordingPath;
 
   ChordSegment? _activeChordSegment;
@@ -29,12 +32,14 @@ class ProjectController with ChangeNotifier {
   AudioProject? get activeProject => _activeProject;
   bool get isLoading => _isLoading;
   bool get isRecording => _isRecording;
+  bool get isSearchingLyrics => _isSearchingLyrics;
   String? get recordingPath => _recordingPath;
   ChordSegment? get activeChordSegment => _activeChordSegment;
 
   AudioPlayerService get playerService => _playerService;
   AudioRecorderService get recorderService => _recorderService;
   CameraRecordingService get cameraService => _cameraService;
+  LyricsService get lyricsService => _lyricsService;
 
   Future<void> init() async {
     _isLoading = true;
@@ -345,6 +350,38 @@ class ProjectController with ChangeNotifier {
         }
       }
 
+      // 4. Auto-fetch lyrics from LRCLIB
+      String? plainLyrics;
+      String? syncedLyrics;
+      List<LyricLine> lyricLines = [];
+      try {
+        final query = project.title;
+        final list = await _lyricsService.searchLyrics(query);
+        if (list.isNotEmpty) {
+          final matched = list.firstWhere(
+            (item) => item['syncedLyrics'] != null && (item['syncedLyrics'] as String).isNotEmpty,
+            orElse: () => list.first,
+          );
+          plainLyrics = matched['plainLyrics'] as String?;
+          syncedLyrics = matched['syncedLyrics'] as String?;
+          
+          if (syncedLyrics != null && syncedLyrics.isNotEmpty) {
+            lyricLines = _lyricsService.parseLrc(syncedLyrics);
+          } else if (plainLyrics != null && plainLyrics.isNotEmpty) {
+            final splitLines = plainLyrics.split('\n');
+            for (int i = 0; i < splitLines.length; i++) {
+              lyricLines.add(LyricLine(
+                id: _uuid.v4(),
+                timeMs: 0,
+                text: splitLines[i].trim(),
+              ));
+            }
+          }
+        }
+      } catch (le) {
+        debugPrint('Auto lyric fetch failed: $le');
+      }
+
       _activeProject = _activeProject!.copyWith(
         stemStatus: AnalysisStatus.ready,
         chordStatus: AnalysisStatus.ready,
@@ -355,6 +392,9 @@ class ProjectController with ChangeNotifier {
         keySignature: keySig,
         timeSignature: '4/4',
         status: ProjectStatus.ready,
+        plainLyrics: plainLyrics,
+        syncedLyrics: syncedLyrics,
+        lyricLines: lyricLines,
         updatedAt: DateTime.now(),
       );
 
@@ -385,6 +425,57 @@ class ProjectController with ChangeNotifier {
       return keys[keyIndex];
     }
     return 'C';
+  }
+
+  Future<List<Map<String, dynamic>>> searchLyrics(String query) async {
+    _isSearchingLyrics = true;
+    notifyListeners();
+    try {
+      final results = await _lyricsService.searchLyrics(query);
+      _isSearchingLyrics = false;
+      notifyListeners();
+      return results;
+    } catch (_) {
+      _isSearchingLyrics = false;
+      notifyListeners();
+      return [];
+    }
+  }
+
+  Future<void> applyLyricsToProject(String projectId, Map<String, dynamic> lyricData) async {
+    final projectIndex = _projects.indexWhere((p) => p.id == projectId);
+    if (projectIndex == -1) return;
+
+    final project = _projects[projectIndex];
+    final String? plain = lyricData['plainLyrics'] as String?;
+    final String? synced = lyricData['syncedLyrics'] as String?;
+    
+    List<LyricLine> lines = [];
+    if (synced != null && synced.isNotEmpty) {
+      lines = _lyricsService.parseLrc(synced);
+    } else if (plain != null && plain.isNotEmpty) {
+      final splitLines = plain.split('\n');
+      for (int i = 0; i < splitLines.length; i++) {
+        lines.add(LyricLine(
+          id: _uuid.v4(),
+          timeMs: 0,
+          text: splitLines[i].trim(),
+        ));
+      }
+    }
+
+    final updated = project.copyWith(
+      plainLyrics: plain,
+      syncedLyrics: synced,
+      lyricLines: lines,
+    );
+
+    _projects[projectIndex] = updated;
+    if (_activeProject?.id == projectId) {
+      _activeProject = updated;
+    }
+    await _repository.updateProject(updated);
+    notifyListeners();
   }
 
   @override

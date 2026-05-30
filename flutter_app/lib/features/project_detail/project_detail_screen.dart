@@ -8,6 +8,8 @@ import '../stem_mixer/stem_mixer_screen.dart';
 import '../stem_setup/stem_setup_screen.dart';
 import '../chord_viewer/chord_viewer_screen.dart';
 import '../record_setup/record_setup_screen.dart';
+import '../../services/native_ios_audio_service.dart';
+import '../../widgets/video_player_screen.dart';
 
 class ProjectDetailScreen extends StatefulWidget {
   final String title;
@@ -422,7 +424,13 @@ class _ProjectDetailScreenState extends State<ProjectDetailScreen> {
                     ),
                   ),
                 ),
-              const SizedBox(height: 20),
+              const SizedBox(height: 24),
+
+              // ── Lyrics Section ──────────────────────────────────────────
+              _sectionLabel('LIRIK LAGU'),
+              const SizedBox(height: 10),
+              _buildLyricsSection(context, project, controller),
+              const SizedBox(height: 24),
 
               // ── Saved Takes ─────────────────────────────────────────────
               _sectionLabel('REKAMAN TERSIMPAN'),
@@ -641,16 +649,42 @@ class _ProjectDetailScreenState extends State<ProjectDetailScreen> {
             ),
           ),
           IconButton(
-            icon: const Icon(Icons.play_circle_outline_rounded,
-                color: Colors.white70, size: 24),
+            icon: const Icon(Icons.ios_share_rounded,
+                color: Colors.white70, size: 20),
             onPressed: () async {
               try {
-                await controller.playerService.loadFile(take.filePath);
-                await controller.playerService.play();
+                await NativeIosAudioService().shareFile(take.filePath);
               } catch (e) {
                 if (context.mounted) {
                   ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(content: Text('Gagal memutar: $e')));
+                      SnackBar(content: Text('Gagal membagikan: $e')));
+                }
+              }
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.play_circle_outline_rounded,
+                color: Colors.white70, size: 24),
+            onPressed: () async {
+              if (take.type == RecordingType.video) {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => VideoPlayerScreen(
+                      filePath: take.filePath,
+                      title: take.title,
+                    ),
+                  ),
+                );
+              } else {
+                try {
+                  await controller.playerService.loadFile(take.filePath);
+                  await controller.playerService.play();
+                } catch (e) {
+                  if (context.mounted) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(content: Text('Gagal memutar: $e')));
+                  }
                 }
               }
             },
@@ -686,6 +720,368 @@ class _ProjectDetailScreenState extends State<ProjectDetailScreen> {
           ),
         ],
       ),
+    );
+  }
+
+  Widget _buildLyricsSection(BuildContext context, AudioProject project, ProjectController controller) {
+    final hasLyrics = project.lyricLines.isNotEmpty;
+    final isSynced = project.syncedLyrics != null && project.syncedLyrics!.isNotEmpty;
+
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: const Color(0xFF131022),
+        borderRadius: BorderRadius.circular(18),
+        border: Border.all(color: Colors.white.withValues(alpha: 0.05)),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Row(
+                children: [
+                  const Icon(Icons.lyrics_rounded, color: Color(0xFFFF2E93), size: 18),
+                  const SizedBox(width: 8),
+                  Text(
+                    hasLyrics ? (isSynced ? 'Lirik Tersinkronisasi' : 'Lirik Polos') : 'Belum Ada Lirik',
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 13,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
+              ),
+              if (hasLyrics)
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+                  decoration: BoxDecoration(
+                    color: isSynced
+                        ? const Color(0xFFFF2E93).withValues(alpha: 0.15)
+                        : Colors.white.withValues(alpha: 0.08),
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  child: Text(
+                    isSynced ? 'Synced LRC' : 'Plain Text',
+                    style: TextStyle(
+                      color: isSynced ? const Color(0xFFFF2E93) : Colors.white60,
+                      fontSize: 10,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+            ],
+          ),
+          const SizedBox(height: 12),
+          if (hasLyrics) ...[
+            Text(
+              project.lyricLines.take(2).map((l) => l.text).join('\n'),
+              maxLines: 2,
+              overflow: TextOverflow.ellipsis,
+              style: const TextStyle(color: Colors.white54, fontSize: 13, fontStyle: FontStyle.italic),
+            ),
+            if (project.lyricLines.length > 2) ...[
+              const SizedBox(height: 2),
+              Text(
+                '... (+${project.lyricLines.length - 2} baris lainnya)',
+                style: const TextStyle(color: Colors.white30, fontSize: 11),
+              ),
+            ],
+            const SizedBox(height: 14),
+            Row(
+              children: [
+                Expanded(
+                  child: TextButton.icon(
+                    style: TextButton.styleFrom(
+                      backgroundColor: Colors.white.withValues(alpha: 0.05),
+                      foregroundColor: Colors.white,
+                      padding: const EdgeInsets.symmetric(vertical: 10),
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                    ),
+                    onPressed: () => _showFullLyricsDialog(context, project),
+                    icon: const Icon(Icons.chrome_reader_mode_rounded, size: 16),
+                    label: const Text('Lihat', style: TextStyle(fontSize: 12)),
+                  ),
+                ),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: TextButton.icon(
+                    style: TextButton.styleFrom(
+                      backgroundColor: const Color(0xFFFF2E93).withValues(alpha: 0.1),
+                      foregroundColor: const Color(0xFFFF2E93),
+                      padding: const EdgeInsets.symmetric(vertical: 10),
+                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                    ),
+                    onPressed: () => _showLyricsSearchDialog(context, project, controller),
+                    icon: const Icon(Icons.search_rounded, size: 16),
+                    label: const Text('Cari Lirik', style: TextStyle(fontSize: 12)),
+                  ),
+                ),
+              ],
+            ),
+          ] else ...[
+            const Text(
+              'Lirik lagu ini belum diunduh. Anda bisa mencarinya secara gratis dari database LRCLIB.',
+              style: TextStyle(color: Colors.white30, fontSize: 12),
+            ),
+            const SizedBox(height: 14),
+            SizedBox(
+              width: double.infinity,
+              child: ElevatedButton.icon(
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: const Color(0xFFFF2E93),
+                  foregroundColor: Colors.white,
+                  padding: const EdgeInsets.symmetric(vertical: 12),
+                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                ),
+                onPressed: () => _showLyricsSearchDialog(context, project, controller),
+                icon: const Icon(Icons.cloud_download_rounded, size: 16),
+                label: const Text('Cari Lirik Online', style: TextStyle(fontSize: 13, fontWeight: FontWeight.bold)),
+              ),
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+
+  void _showFullLyricsDialog(BuildContext context, AudioProject project) {
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: const Color(0xFF131022),
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+      ),
+      builder: (context) {
+        return Container(
+          padding: const EdgeInsets.all(24),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  const Text(
+                    'Seluruh Lirik',
+                    style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  IconButton(
+                    icon: const Icon(Icons.close_rounded, color: Colors.white54),
+                    onPressed: () => Navigator.pop(context),
+                  ),
+                ],
+              ),
+              const Divider(color: Colors.white10),
+              Expanded(
+                child: ListView.builder(
+                  itemCount: project.lyricLines.length,
+                  itemBuilder: (context, index) {
+                    final line = project.lyricLines[index];
+                    final String timeLabel = project.syncedLyrics != null && project.syncedLyrics!.isNotEmpty
+                        ? '[${_fmt(Duration(milliseconds: line.timeMs))}] '
+                        : '';
+                    return Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 6.0),
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          if (timeLabel.isNotEmpty)
+                            Text(
+                              timeLabel,
+                              style: const TextStyle(color: Color(0xFFFF2E93), fontSize: 12, fontFamily: 'monospace'),
+                            ),
+                          Expanded(
+                            child: Text(
+                              line.text,
+                              style: const TextStyle(color: Colors.white, fontSize: 14),
+                            ),
+                          ),
+                        ],
+                      ),
+                    );
+                  },
+                ),
+              ),
+            ],
+          ),
+        );
+      },
+    );
+  }
+
+  void _showLyricsSearchDialog(
+      BuildContext context, AudioProject project, ProjectController controller) {
+    final searchCtrl = TextEditingController(text: project.title);
+    List<Map<String, dynamic>> results = [];
+    bool loading = false;
+
+    showModalBottomSheet(
+      context: context,
+      isScrollControlled: true,
+      backgroundColor: const Color(0xFF131022),
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+      ),
+      builder: (context) {
+        return StatefulBuilder(
+          builder: (context, setModalState) {
+            Future<void> performSearch() async {
+              if (searchCtrl.text.trim().isEmpty) return;
+              setModalState(() => loading = true);
+              final list = await controller.searchLyrics(searchCtrl.text.trim());
+              setModalState(() {
+                results = list;
+                loading = false;
+              });
+            }
+
+            return Padding(
+              padding: EdgeInsets.only(
+                bottom: MediaQuery.of(context).viewInsets.bottom,
+                top: 24,
+                left: 20,
+                right: 20,
+              ),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      const Text(
+                        'Cari Lirik di LRCLIB',
+                        style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
+                      ),
+                      IconButton(
+                        icon: const Icon(Icons.close_rounded, color: Colors.white54),
+                        onPressed: () => Navigator.pop(context),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 10),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: TextField(
+                          controller: searchCtrl,
+                          style: const TextStyle(color: Colors.white),
+                          decoration: InputDecoration(
+                            hintText: 'Masukkan judul lagu / artis...',
+                            hintStyle: const TextStyle(color: Colors.white30),
+                            fillColor: Colors.white.withValues(alpha: 0.05),
+                            filled: true,
+                            contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                            border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(12),
+                              borderSide: BorderSide.none,
+                            ),
+                          ),
+                          onSubmitted: (_) => performSearch(),
+                        ),
+                      ),
+                      const SizedBox(width: 10),
+                      ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: const Color(0xFFFF2E93),
+                          foregroundColor: Colors.white,
+                          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 14),
+                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                        ),
+                        onPressed: performSearch,
+                        child: const Icon(Icons.search_rounded),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 16),
+                  const Divider(color: Colors.white10),
+                  const SizedBox(height: 8),
+                  SizedBox(
+                    height: 300,
+                    child: loading
+                        ? const Center(
+                            child: CircularProgressIndicator(color: Color(0xFFFF2E93)),
+                          )
+                        : results.isEmpty
+                            ? const Center(
+                                child: Text(
+                                  'Tidak ada hasil. Silakan cari dengan kata kunci lain.',
+                                  style: TextStyle(color: Colors.white38, fontSize: 13),
+                                ),
+                              )
+                            : ListView.builder(
+                                itemCount: results.length,
+                                itemBuilder: (context, index) {
+                                  final item = results[index];
+                                  final String title = item['trackName'] ?? 'Tanpa Judul';
+                                  final String artist = item['artistName'] ?? 'Artis Tidak Diketahui';
+                                  final String album = item['albumName'] ?? '';
+                                  final bool hasLrc = item['syncedLyrics'] != null &&
+                                      (item['syncedLyrics'] as String).isNotEmpty;
+
+                                  return Container(
+                                    margin: const EdgeInsets.only(bottom: 8),
+                                    decoration: BoxDecoration(
+                                      color: Colors.white.withValues(alpha: 0.03),
+                                      borderRadius: BorderRadius.circular(12),
+                                      border: Border.all(color: Colors.white.withValues(alpha: 0.05)),
+                                    ),
+                                    child: ListTile(
+                                      contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 6),
+                                      title: Text(
+                                        title,
+                                        style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 14),
+                                      ),
+                                      subtitle: Text(
+                                        '$artist ${album.isNotEmpty ? "• $album" : ""}',
+                                        maxLines: 1,
+                                        overflow: TextOverflow.ellipsis,
+                                        style: const TextStyle(color: Colors.white54, fontSize: 12),
+                                      ),
+                                      trailing: Container(
+                                        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                        decoration: BoxDecoration(
+                                          color: hasLrc
+                                              ? const Color(0xFFFF2E93).withValues(alpha: 0.15)
+                                              : Colors.white10,
+                                          borderRadius: BorderRadius.circular(8),
+                                        ),
+                                        child: Text(
+                                          hasLrc ? 'Synced' : 'Plain',
+                                          style: TextStyle(
+                                            color: hasLrc ? const Color(0xFFFF2E93) : Colors.white38,
+                                            fontSize: 10,
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                      ),
+                                      onTap: () async {
+                                        Navigator.pop(context);
+                                        ScaffoldMessenger.of(context).showSnackBar(
+                                          const SnackBar(content: Text('Mengunduh dan menerapkan lirik...')),
+                                        );
+                                        await controller.applyLyricsToProject(project.id, item);
+                                        if (context.mounted) {
+                                          ScaffoldMessenger.of(context).showSnackBar(
+                                            const SnackBar(content: Text('Lirik berhasil diterapkan!')),
+                                          );
+                                        }
+                                      },
+                                    ),
+                                  );
+                                },
+                              ),
+                  ),
+                  const SizedBox(height: 16),
+                ],
+              ),
+            );
+          },
+        );
+      },
     );
   }
 }

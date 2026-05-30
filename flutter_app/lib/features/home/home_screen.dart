@@ -13,6 +13,7 @@ import '../beat_tempo/beat_tempo_screen.dart';
 import '../project_library/project_library_screen.dart';
 import '../record_setup/record_setup_screen.dart';
 import '../project_detail/project_detail_screen.dart';
+import '../profile/profile_sub_screens.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -563,21 +564,37 @@ class _HomeScreenState extends State<HomeScreen> {
               Icons.music_video_rounded,
               'Analisis Proyek',
               '$count trek terindeks',
+              () => Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const ProjectAnalysisScreen()),
+              ),
             ),
             _buildProfileTile(
               Icons.mic_none_rounded,
               'Rekaman Tersimpan',
               '${controller.projects.expand((p) => p.recordings).length} hasil rekaman',
+              () => Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const SavedRecordingsScreen()),
+              ),
             ),
             _buildProfileTile(
               Icons.settings_outlined,
               'Pengaturan Studio',
               'Hardware, buffer rate',
+              () => Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const StudioSettingsScreen()),
+              ),
             ),
             _buildProfileTile(
               Icons.info_outline_rounded,
               'Tentang Aplikasi',
               'V1.0.0 Stable',
+              () => Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const AboutAppScreen()),
+              ),
             ),
           ],
         ),
@@ -585,45 +602,48 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  Widget _buildProfileTile(IconData icon, String title, String subtitle) {
-    return Container(
-      margin: const EdgeInsets.only(bottom: 16),
-      padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: const Color(0xFF131022),
-        borderRadius: BorderRadius.circular(16),
-        border: Border.all(color: Colors.white.withValues(alpha: 0.05)),
-      ),
-      child: Row(
-        children: [
-          Icon(icon, color: const Color(0xFFFF2E93)),
-          const SizedBox(width: 16),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  title,
-                  style: const TextStyle(
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 14,
+  Widget _buildProfileTile(IconData icon, String title, String subtitle, VoidCallback onTap) {
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        margin: const EdgeInsets.only(bottom: 16),
+        padding: const EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          color: const Color(0xFF131022),
+          borderRadius: BorderRadius.circular(16),
+          border: Border.all(color: Colors.white.withValues(alpha: 0.05)),
+        ),
+        child: Row(
+          children: [
+            Icon(icon, color: const Color(0xFFFF2E93)),
+            const SizedBox(width: 16),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    title,
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 14,
+                    ),
                   ),
-                ),
-                const SizedBox(height: 2),
-                Text(
-                  subtitle,
-                  style: const TextStyle(color: Colors.white38, fontSize: 11),
-                ),
-              ],
+                  const SizedBox(height: 2),
+                  Text(
+                    subtitle,
+                    style: const TextStyle(color: Colors.white38, fontSize: 11),
+                  ),
+                ],
+              ),
             ),
-          ),
-          const Icon(
-            Icons.arrow_forward_ios_rounded,
-            color: Colors.white24,
-            size: 14,
-          ),
-        ],
+            const Icon(
+              Icons.arrow_forward_ios_rounded,
+              color: Colors.white24,
+              size: 14,
+            ),
+          ],
+        ),
       ),
     );
   }
