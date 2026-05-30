@@ -201,8 +201,7 @@ public class AudioFeatureExtractor {
 
         for (realFrame, imagFrame) in zip(realFrames, imagFrames) {
             // Power spectrum: |real|^2 + |imag|^2
-            var power = [Float](repeating: 0, count: halfN)
-            vDSP_distancesq(realFrame, 1, imagFrame, 1, &power, 1, vDSP_Length(halfN))
+            let power = zip(realFrame, imagFrame).map { $0 * $0 + $1 * $1 }
 
             // Apply mel filterbank
             var melEnergies = [Float](repeating: 0, count: nMels)
@@ -264,8 +263,7 @@ public class AudioFeatureExtractor {
         var chromaFrames: [[Float]] = []
 
         for (realFrame, imagFrame) in zip(realFrames, imagFrames) {
-            var power = [Float](repeating: 0, count: halfN)
-            vDSP_distancesq(realFrame, 1, imagFrame, 1, &power, 1, vDSP_Length(halfN))
+            let power = zip(realFrame, imagFrame).map { $0 * $0 + $1 * $1 }
 
             var chroma = [Float](repeating: 0, count: 12)
             let binWidth = sampleRate / Float(nFFT)
