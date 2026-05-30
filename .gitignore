@@ -1,0 +1,88 @@
+# Dart / Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+*.lock.tmp
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Android
+flutter_app/android/.gradle/
+flutter_app/android/local.properties
+flutter_app/android/key.properties
+*.jks
+*.keystore
+
+# iOS / macOS
+flutter_app/ios/Pods/
+flutter_app/ios/.symlinks/
+flutter_app/ios/Flutter/Flutter.framework
+flutter_app/ios/Flutter/Flutter.podspec
+flutter_app/ios/Flutter/Generated.xcconfig
+flutter_app/ios/Flutter/flutter_export_environment.sh
+flutter_app/ios/Flutter/ephemeral/
+flutter_app/ios/Runner.xcworkspace/xcuserdata/
+flutter_app/ios/Runner.xcodeproj/xcuserdata/
+flutter_app/macos/Pods/
+flutter_app/macos/Flutter/ephemeral/
+*.xcuserstate
+*.xcuserdata
+DerivedData/
+
+# Build output
+*.apk
+*.aab
+*.ipa
+*.app
+*.xcarchive
+build/
+
+# Secrets / env
+.env
+.env.*
+*.pem
+*.p8
+*.p12
+*.mobileprovision
+GoogleService-Info.plist
+google-services.json
+
+# Proprietary / reverse engineering / extracted app files
+_private_notes/
+Payload/
+*.ipa
+*.dylib
+*.framework
+*.mlmodelc
+*.app
+IPA_ANALYSIS_REPORT.md
+DYLIB_ANALYSIS_REPORT.md
+docs/reverse_engineering_notes.md
+reverse_engineering_notes.md
+project_files_content.md
+combine.py
+
+# Large model files
+*.onnx
+*.tflite
+*.pt
+*.pth
+*.bin
+*.weights
+*.mlpackage
+*.mlmodel
+
+# Exceptions
+!models_placeholder/*.README

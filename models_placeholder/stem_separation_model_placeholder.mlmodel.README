@@ -1,0 +1,14 @@
+# CoreML Model: Stem Separator Placeholder
+
+Deploy your compiled stem separation model (.mlmodel or .mlpackage) in this folder.
+
+### Expected Model Signatures:
+* **Model Class**: `StemSeparator`
+* **Input Tensor**:
+  * Name: `mixture`
+  * Data Type: `Float32` / `Float16`
+  * Dimensions: `[1, 4, SequenceFrames, FreqBins]` (Stereo complex spectrogram)
+* **Output Tensors**:
+  * Names: `vocals`, `drums`, `bass`, `guitar`, `piano`, `other`
+  * Data Type: `Float32` / `Float16`
+  * Dimensions: `[1, 4, SequenceFrames, FreqBins]` (Separated complex spectrograms or masks)

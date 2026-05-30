@@ -1,0 +1,17 @@
+# CoreML Model: Beat & Tempo Detector Placeholder
+
+Deploy your compiled beat tracking and tempo estimation model (.mlmodel or .mlpackage) in this folder.
+
+### Expected Model Signatures:
+* **Model Class**: `BeatTempoDetector`
+* **Input Tensor**:
+  * Name: `logmel`
+  * Data Type: `Float32` / `Float16`
+  * Dimensions: `[1, 1, TimeFrames, 128]` (Log-mel spectrogram)
+* **Output Tensors**:
+  * Name: `beats`
+    * Dimensions: `[1, TimeFrames, 1]` (Beat onset probability)
+  * Name: `downbeats`
+    * Dimensions: `[1, TimeFrames, 1]` (Downbeat onset probability)
+  * Name: `tempo`
+    * Dimensions: `[300]` (Tempo classification vector)

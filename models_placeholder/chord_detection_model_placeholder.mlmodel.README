@@ -1,0 +1,14 @@
+# CoreML Model: Chord Detector Placeholder
+
+Deploy your compiled chord detection model (.mlmodel or .mlpackage) in this folder.
+
+### Expected Model Signatures:
+* **Model Class**: `ChordDetector`
+* **Input Tensor**:
+  * Name: `bothchroma`
+  * Data Type: `Float32`
+  * Dimensions: `[1, TimeSlices, 24]` (Stacked pitch profile chromagrams)
+* **Output Tensors**:
+  * Name: `logits`
+  * Data Type: `Float32`
+  * Dimensions: `[1, TimeSlices, 170]` (Probability distribution across 170 chord types)
