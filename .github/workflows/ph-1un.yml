@@ -20,18 +20,13 @@ jobs:
           echo "$GITHUB_WORKSPACE/flutter/bin" >> $GITHUB_PATH
 
       - name: Install Dependencies
-        run: |
-          cd flutter_app
-          flutter pub get
+        run: flutter pub get
 
       - name: Build Release iOS App (No Codesign)
-        run: |
-          cd flutter_app
-          flutter build ios --no-codesign --release
+        run: flutter build ios --no-codesign --release
 
       - name: Package into IPA (Unsigned)
         run: |
-          cd flutter_app
           mkdir -p Payload
           mv build/ios/iphoneos/Runner.app Payload/
           zip -r MusicStemStudio.ipa Payload
@@ -40,4 +35,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: music-stem-studio-ios-ipa
-          path: flutter_app/MusicStemStudio.ipa
+          path: MusicStemStudio.ipa
