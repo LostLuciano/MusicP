@@ -2,42 +2,84 @@ name: Build iOS IPA
 
 on:
   push:
-    branches: [ main, master ]
-  workflow_dispatch: # Memungkinkan trigger build secara manual dari tab Actions GitHub
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build-ios-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  FLUTTER_PROJECT_DIR: flutter_app
+  IPA_NAME: MusicP.ipa
 
 jobs:
   build-ios:
-    name: Build iOS App
+    name: Build iOS App Unsigned
     runs-on: macos-latest
-    
+    timeout-minutes: 60
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Clone Flutter SDK
-        run: |
-          git clone https://github.com/flutter/flutter.git -b stable --depth 1
-          echo "$GITHUB_WORKSPACE/flutter/bin" >> $GITHUB_PATH
+      - name: Setup Flutter SDK
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
 
-      - name: Install Dependencies
+      - name: Show Flutter Version
+        run: flutter --version
+
+      - name: Install Flutter Dependencies
+        working-directory: ${{ env.FLUTTER_PROJECT_DIR }}
         run: |
-          cd flutter_app
           flutter pub get
+          flutter precache --ios
 
-      - name: Build Release iOS App (No Codesign)
+      - name: Install iOS Pods
+        working-directory: ${{ env.FLUTTER_PROJECT_DIR }}/ios
         run: |
-          cd flutter_app
-          flutter build ios --no-codesign --release
+          pod install --repo-update
 
-      - name: Package into IPA (Unsigned)
+      - name: Build iOS App Release No Codesign
+        working-directory: ${{ env.FLUTTER_PROJECT_DIR }}
         run: |
-          cd flutter_app
-          mkdir -p Payload
-          mv build/ios/iphoneos/Runner.app Payload/
-          zip -r MoneyAssist.ipa Payload
+          flutter build ios --release --no-codesign
+
+      - name: Package Runner.app into IPA
+        run: |
+          set -e
+
+          APP_PATH="${{ env.FLUTTER_PROJECT_DIR }}/build/ios/iphoneos/Runner.app"
+          IPA_PATH="${{ github.workspace }}/${{ env.FLUTTER_PROJECT_DIR }}/${{ env.IPA_NAME }}"
+          PACKAGE_DIR="${RUNNER_TEMP}/ipa_package"
+
+          if [ ! -d "$APP_PATH" ]; then
+            echo "Runner.app not found at: $APP_PATH"
+            exit 1
+          fi
+
+          rm -rf "$PACKAGE_DIR"
+          mkdir -p "$PACKAGE_DIR/Payload"
+
+          cp -R "$APP_PATH" "$PACKAGE_DIR/Payload/"
+
+          cd "$PACKAGE_DIR"
+          zip -r "$IPA_PATH" Payload
+
+          echo "IPA created:"
+          ls -lh "$IPA_PATH"
 
       - name: Upload IPA Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: money-assist-ios-ipa
-          path: flutter_app/MoneyAssist.ipa
+          name: MusicP-iOS-IPA
+          path: ${{ env.FLUTTER_PROJECT_DIR }}/${{ env.IPA_NAME }}
+          retention-days: 30
